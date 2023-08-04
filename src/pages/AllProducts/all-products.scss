@@ -1,0 +1,34 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.all-products-container {
+  padding: 150px 0;
+  background: rgb(253, 243, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(253, 243, 231, 1) 7%,
+    rgba(237, 232, 247, 1) 48%,
+    rgba(252, 234, 238, 1) 78%
+  );
+  button {
+    @include get-started-button;
+    margin: 30px 10px;
+  }
+  .sign-up {
+    background: #0098da;
+    &:hover {
+      background: #005b83;
+      transition: 0.5s ease;
+    }
+  }
+  .contact {
+    background: #ffffff;
+    color: #414244;
+    border-color: #e7e7e7;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+      border-color: #cecfd0;
+    }
+  }
+}

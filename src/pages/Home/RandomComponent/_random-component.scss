@@ -1,0 +1,18 @@
+.random-container {
+  img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .heading {
+    display: flex;
+    h3 {
+      font-family: recoMedium;
+    }
+  }
+  p {
+    font-size: 16px;
+    margin-top: 0 !important;
+    font-family: rebondBook;
+  }
+}

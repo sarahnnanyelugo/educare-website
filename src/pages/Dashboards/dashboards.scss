@@ -1,0 +1,71 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.dashboards-nav-div {
+  background: rgb(227, 244, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 244, 251, 1) 47%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.dashboards-container {
+  background: #f8f8f8;
+  padding: 150px 0 300px 0;
+}
+.dashboards-div {
+  h1 {
+    margin: 30px 0;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #7da0c3;
+    margin-left: 10px;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+}
+.grey-dashedbs {
+  background: #f8f8f8;
+  padding: 60px 0;
+}
+.dashboards-views {
+  h3 {
+    margin: 60px 0 20px 0;
+  }
+}
+
+.dashboard-get-started {
+  height: 220px;
+  background: rgb(128, 204, 237);
+  background: linear-gradient(
+    180deg,
+    rgba(128, 204, 237, 1) 26%,
+    rgba(222, 242, 251, 1) 95%
+  );
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  @media screen and (max-width: 620px) {
+    padding: 30px 10px;
+    height: fit-content;
+    text-align: center;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #161617;
+    margin-left: 5px;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}

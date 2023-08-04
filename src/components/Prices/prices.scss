@@ -1,0 +1,67 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.prices {
+  padding: 60px 40px;
+  border: solid 1px #e7e7e7;
+  box-shadow: 0 0 1px 1px #a1a4aa;
+  height: 356px;
+  background: #fff;
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
+  }
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: recoAltMedium;
+    font-size: 44px !important;
+  }
+  button {
+    color: #fff;
+    border-radius: 35px;
+    border: solid 1px #414244;
+    height: 54px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: rebondG;
+    width: 100%;
+    margin-bottom: 60px;
+    &:hover {
+      background: #8c510b;
+      transition: 0.5s ease;
+    }
+  }
+  h3 {
+    font-family: rebondG-Medium;
+  }
+  p {
+    line-height: 10px;
+  }
+  span {
+    font-size: 30px;
+  }
+}
+.recommended {
+  border: solid 2px #ed2f59 !important;
+}
+.recommended2 {
+  border: solid 2px #0b2ff7 !important;
+}
+.recommended3 {
+  border: solid 2px #ce456d !important;
+}
+
+.recommended-container {
+  margin-top: -30px;
+  @media screen and (max-width: 620px) {
+  }
+}
+
+.curve {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#curve2 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

@@ -1,0 +1,97 @@
+.reports-tab {
+  background: rgb(185, 224, 240);
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-top: 40px;
+  .bid-ball-rad {
+    height: 314px;
+    width: 306px;
+    border-radius: 100%;
+    background: rgb(237, 206, 176);
+    background: linear-gradient(
+      90deg,
+      rgba(237, 206, 176, 1) 35%,
+      rgba(245, 188, 194, 1) 80%
+    );
+    margin-top: -200px;
+    @media screen and (max-width: 620px) {
+      height: 120px;
+      width: 120px;
+      margin-top: -60px;
+    }
+  }
+  h5 {
+    font-family: rebondG-Medium;
+    color: #414244;
+    margin-top: 150px;
+    @media screen and (max-width: 620px) {
+      margin-top: 50px;
+    }
+  }
+  p {
+    color: #414244;
+    margin-top: 20px;
+  }
+
+  .panel {
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    height: fit-content;
+    background: rgb(185, 224, 240);
+    @media screen and (max-width: 620px) {
+      padding: 50px 0px 10px 10px !important;
+    }
+    p {
+      line-height: 27px;
+    }
+  }
+  img {
+    border-radius: 10px;
+  }
+}
+
+.reports-tab .tabs {
+  display: flex;
+  border: solid 1px #707070;
+  // box-shadow: 0 0 1px 1px #aea1a1;
+  border-radius: 10px;
+  font-family: AgrandirBold;
+  width: 90%;
+  margin-left: 0;
+  padding: 10px;
+  margin-top: 60px;
+  left: 5%;
+  @media screen and (max-width: 620px) {
+    display: block;
+  }
+}
+
+.reports-tab .tab {
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 10px 0px;
+  color: black;
+  background: rgb(185, 224, 240);
+  font-size: 16px;
+  font-family: rebondBook;
+}
+
+.reports-tab .tab.active2 {
+  background: #ed4e86;
+  color: #fff;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 620px) {
+  .reports-tab .panel {
+    padding: 0px;
+  }
+}
+
+.reports-tab .panel.active2 {
+  display: block;
+}

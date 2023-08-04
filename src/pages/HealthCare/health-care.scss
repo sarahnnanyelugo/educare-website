@@ -1,0 +1,76 @@
+.healthcare-div {
+  padding: 150px 0;
+  background-size: cover;
+
+  background-image: url("../../assets/images/scope.png");
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+  small {
+    color: #ace5fe;
+    font-size: 16px;
+  }
+}
+.healthcare-partners {
+  padding: 100px 0;
+  p {
+    color: grey;
+    font-size: 19px;
+  }
+  img {
+    margin: 0 20px;
+    filter: grayscale(100%);
+  }
+}
+.md-records {
+  background: #cef0ff45;
+  padding: 80px 0;
+  border-radius: 20px;
+  h2 {
+    margin-bottom: 30px;
+    color: #2c2c2d;
+  }
+  p {
+    color: #414244;
+  }
+}
+.hc-advantages {
+  padding: 80px 0;
+  h2 {
+    font-size: 36px;
+    color: #414244;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #57585a;
+    margin-bottom: 40px;
+  }
+}
+.md-report {
+  background: #fef5f7;
+  padding-top: 80px;
+  border-radius: 20px;
+
+  h2 {
+    margin-bottom: 30px;
+    color: #2c2c2d;
+  }
+  p {
+    color: #414244;
+  }
+}
+.md-rep {
+  @media screen and (max-width: 620px) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  h2 {
+    // margin-top: 0px;
+  }
+  p {
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,107 @@
+@import "../../variables";
+@import "../../shared-styles";
+.lesson-planner-nav {
+  background: rgb(217, 240, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 240, 233, 1) 22%,
+    rgba(255, 255, 255, 1) 86%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.lesson-dashboard {
+  margin-top: -80px;
+}
+.lesson-planner {
+  padding: 50px 0 60px 0;
+  background: rgb(251, 234, 205);
+  background: linear-gradient(
+    180deg,
+    rgba(251, 234, 205, 1) 63%,
+    rgba(255, 255, 255, 1) 96%
+  );
+  p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+  }
+  h1 {
+    color: black;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 620px) {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.lesson-planner-plans {
+  background: #cdfaec98;
+
+  height: fit-content;
+  padding: 50px 0;
+  margin-bottom: 90px;
+  h3 {
+    margin-bottom: 30px;
+    font-family: recoAltMedium;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 90px;
+  }
+  button {
+    @include get-started-button;
+    background: #11a377;
+    color: #fff;
+    // margin-top: 60px;
+    &:hover {
+      background: #0a6247;
+      transition: 0.5s ease;
+    }
+  }
+  .recomendF button {
+    background: #cdfaec;
+    color: #11a377;
+    border: none;
+  }
+}
+.trial-div {
+  height: 250px;
+  background: rgb(253, 239, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 239, 218, 1) 44%,
+    rgba(255, 250, 244, 1) 83%
+  );
+  margin-bottom: 80px;
+  padding-top: 50px;
+  border-radius: 30px;
+  button {
+    @include get-started-button;
+    margin: 10px;
+  }
+  .started {
+    background: #11a377;
+    &:hover {
+      background: #0a6247;
+      transition: 0.5s ease;
+    }
+  }
+  .demo {
+    background: transparent;
+    border: solid 1px #7da0c3;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+}
+.gsmlp {
+  &:hover {
+    background: #0a6247 !important;
+    transition: 0.5s ease;
+  }
+}

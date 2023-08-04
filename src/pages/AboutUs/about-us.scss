@@ -1,0 +1,89 @@
+.about-landing {
+  // padding: 250px 0;
+  background: #fcdce348;
+  position: relative;
+  h1 {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.missions-and-vissions {
+  .img-div {
+    // height: 568px;
+
+    border-radius: 20px;
+  }
+  h1 {
+    margin-top: 120px;
+    font-size: 60px;
+  }
+  p {
+    color: #57585a;
+    line-height: 35px;
+  }
+}
+.partners-container2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  @media screen and (max-width: 620px) {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  img {
+    opacity: 0.6;
+  }
+  h1 {
+    margin-top: 50px;
+    line-height: 60px;
+    @media screen and (max-width: 620px) {
+      text-align: center;
+    }
+  }
+  .apen {
+    height: 42px;
+    width: 118px;
+    @media screen and (max-width: 620px) {
+      height: 20px;
+    }
+  }
+  .aisa {
+    height: 68px;
+    width: 90px;
+  }
+  .standard {
+    height: 77px;
+    width: 146px;
+  }
+  .ms {
+    height: 32px;
+    width: 153px;
+  }
+  .flutter {
+    width: 216px;
+    height: 42px;
+  }
+  .pay {
+    height: 33px;
+    width: 189px;
+  }
+  img {
+    margin: 10px 30px;
+
+    filter: grayscale(100%);
+    @media screen and (max-width: 620px) {
+      height: 20px;
+      width: 80px;
+      margin-top: 20px;
+    }
+  }
+}

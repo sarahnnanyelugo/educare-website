@@ -1,0 +1,107 @@
+.sch-container {
+  padding: 280px 0;
+  background: url("../../assets/images/schools-bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 620px) {
+    background-size: cover;
+  }
+  color: #fff;
+  small {
+    color: #ace6ff;
+    font-size: 16px;
+    font-family: rebondG-Medium;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+.govt-divs {
+  h1 {
+    color: #414244;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    @media screen and (max-width: 620px) {
+      text-align: center !important;
+    }
+  }
+  p {
+    color: #57585a;
+    @media screen and (max-width: 620px) {
+      text-align: center !important;
+    }
+  }
+}
+.govt-map {
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 10px;
+}
+.govt-cal {
+  background: #f5f5f5;
+  border-radius: 20px;
+  height: 400px;
+  //   padding-left: 50px;
+  img {
+    width: 60%;
+  }
+  @media screen and (max-width: 620px) {
+    img {
+      width: 100%;
+    }
+  }
+}
+.eclass-img {
+  //   background: url("../../assets/images/school5.png");
+}
+.schs-partners {
+  img {
+    margin: 40px 35px 0 10px;
+
+    filter: grayscale(100%) !important;
+    opacity: 0.7;
+    @media screen and (max-width: 620px) {
+      height: 20px;
+      width: 100%;
+      margin: 20px 0 0 0;
+    }
+  }
+  .meadow {
+    height: 49px;
+    width: 206px;
+  }
+  .lagoon {
+    height: 49px;
+    width: 242px;
+  }
+  .grange {
+    height: 41px;
+    width: 178px;
+  }
+  .lbs {
+    height: 41px;
+    width: 170px;
+  }
+  .charlse {
+    height: 50px;
+    width: 169px;
+  }
+  .spring {
+    height: 53px;
+    width: 239px;
+  }
+  .wellspring {
+    height: 51px;
+    width: 149px;
+  }
+  .bereton {
+    height: 48px;
+    width: 92px;
+  }
+}

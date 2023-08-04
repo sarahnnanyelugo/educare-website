@@ -1,0 +1,120 @@
+@import "../../variables";
+@import "../../shared-styles";
+.support-div {
+  height: 630px;
+  padding-bottom: 140px;
+  background-image: url("../../assets/images/support-bg.svg");
+  overflow: hidden;
+  @media screen and (max-width: 620px) {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    height: fit-content;
+  }
+  .support-intro {
+    margin-top: 130px;
+    background: #fff;
+    padding: 40px 60px 20px 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: -260px;
+    height: 444px;
+    position: relative;
+    z-index: 2;
+    // height: 360px;
+    margin-bottom: 100px;
+    @media screen and (max-width: 620px) {
+      margin: 0;
+      margin-bottom: 160px;
+      padding: 30px 10px;
+      border-radius: 20px;
+      text-align: center;
+      height: fit-content;
+    }
+    h1 {
+      margin: 30px 0;
+    }
+  }
+  .support-img {
+    // background: #00bfff;
+    margin-top: 50px;
+    @media screen and (max-width: 620px) {
+      margin: -200px;
+    }
+  }
+}
+.support-need {
+  background: rgb(243, 250, 253);
+  background: linear-gradient(
+    180deg,
+    rgba(243, 250, 253, 1) 55%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  padding: 150px 0;
+}
+.plans {
+  padding: 40px;
+  h4 {
+    color: #0098da;
+    margin-bottom: 8px;
+  }
+  h6 {
+    font-family: rebondG-Semi-Bold;
+    margin-top: 40px;
+  }
+}
+.plans1 {
+  border-right: solid 5px #0098da;
+  @media screen and (max-width: 620px) {
+    border-left: solid 5px #0098da;
+  }
+}
+.ready-support {
+  padding: 70px 0;
+  background: #0098da45;
+  color: #161617;
+  margin-bottom: 120px;
+  @media screen and (max-width: 620px) {
+    padding: 70px 10px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+  }
+  button {
+    @include get-started-button;
+    margin: 100px 10px;
+  }
+  .started {
+    background: #0098da;
+    &:hover {
+      background: #005b83;
+    }
+  }
+  .demo {
+    background: transparent;
+    color: #161617;
+    border-color: #7da0c3;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}
+.mic-cont {
+  overflow: hidden;
+  .blue-div-empy {
+    background: #0098da45;
+    height: 602px;
+    margin-top: 100px;
+    border-bottom-left-radius: 20px;
+    margin-left: -135px;
+    position: relative;
+    z-index: -1;
+  }
+}
+.gsmsp {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+  }
+}

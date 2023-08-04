@@ -1,0 +1,30 @@
+.products-tab {
+  height: fit-content !important;
+  background: #b1a7a0;
+}
+
+.product-content {
+  position: relative;
+  height: fit-content !important;
+  color: black;
+  padding: 0px 0 250px 0;
+  overflow: hidden;
+}
+.filter-triggers {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  border-bottom: solid 1px #e7e7e7;
+  padding-bottom: 20px;
+  span {
+    margin: 20px 20px 0px 0;
+    font-family: rebondG-Medium;
+    cursor: pointer;
+    @media screen and (max-width: 620px) {
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+  .prd-active {
+    font-family: rebondG-Bold;
+  }
+}

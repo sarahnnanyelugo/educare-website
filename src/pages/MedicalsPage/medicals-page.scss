@@ -1,0 +1,119 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.medicals-nav {
+  background: rgb(241, 243, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 243, 255, 1) 51%,
+    rgba(255, 255, 255, 1) 89%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+
+.services-container {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  .health-services {
+    padding-top: 150px;
+    h1 {
+      // font-size: 35px;
+      @media screen and (max-width: 620px) {
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 18px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      @media screen and (max-width: 620px) {
+        text-align: center;
+      }
+    }
+    @media screen and (max-width: 620px) {
+      padding-top: 50px !important;
+    }
+  }
+  .heading-container {
+    @media screen and (max-width: 620px) {
+      margin-left: 20%;
+    }
+  }
+  .started {
+    @include get-started-button;
+    background: #0b2ff7;
+    margin-right: 20px;
+    &:hover {
+      background: #051b96;
+      transition: 0.5s ease;
+    }
+    @media screen and (max-width: 620px) {
+      margin-left: 10%;
+    }
+  }
+  .demo {
+    @include get-started-button;
+    background: inherit;
+    color: #292d32;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+.tools-management {
+  height: 392px;
+  padding-top: 100px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background: url("../../assets/images/tools-bg.svg"),
+    linear-gradient(
+      90deg,
+      rgba(185, 184, 243, 1) 17%,
+      rgba(239, 219, 235, 1) 89%
+    );
+  background-size: cover !important;
+  h2 {
+    margin-top: 15px;
+    font-family: recoAltMedium;
+  }
+  p {
+    font-family: recoAltRegular;
+  }
+  img {
+    height: 62px;
+    width: 166px;
+  }
+  button {
+    @include get-started-button;
+    background: #0b2ff7;
+    margin-top: 40px;
+    &:hover {
+      background: #051b96;
+      transition: 0.5s ease;
+    }
+  }
+  p {
+    font-size: 19px;
+  }
+}
+.grad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 4%,
+    rgba(240, 240, 240, 1) 32%,
+    rgba(255, 255, 255, 1) 70%
+  );
+}
+.gsmmed {
+  &:hover {
+    background: #051b96 !important;
+    transition: 0.5s ease;
+  }
+}

@@ -1,0 +1,24 @@
+@import "../../variables";
+@import "../../shared-styles";
+.stories-div {
+  padding: 180px 0;
+  background: url("../../assets/images/stories-bg.png");
+  background-size: cover;
+  background-position: center;
+  h1 {
+    margin: 30px 0;
+  }
+}
+.stories-holder {
+  button {
+    @include get-started-button;
+    margin-bottom: 60px;
+    color: #414244;
+    background: #ffffff;
+    border-color: #cecfd0;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}

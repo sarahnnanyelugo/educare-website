@@ -1,0 +1,25 @@
+.login-container {
+  background-image: url("../../assets/images/bird-bg.svg");
+  padding-bottom: 30px;
+  background-position: center;
+  p {
+    margin-top: 25px;
+    font-size: 12px;
+  }
+  .login {
+    color: #0098da;
+    font-size: 12px;
+    font-family: rebondG-Semi-Bold;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      transition: 0.5s ease !important;
+    }
+  }
+  .form-holder {
+    margin-left: 64px;
+    @media screen and (max-width: 620px) {
+      margin: 0;
+    }
+  }
+}

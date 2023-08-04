@@ -1,0 +1,27 @@
+.job-container {
+  padding: 25px 25px;
+  border-radius: 10px;
+  border: solid 1px #cecfd0;
+  h4 {
+    margin-bottom: 13px;
+    flex-grow: 1;
+  }
+  .view-job {
+    color: #0098da;
+    font-size: 16px;
+    font-family: rebondBook;
+    margin-left: 15px;
+    @media screen and (max-width: 620px) {
+      margin-left: 0;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  p {
+    color: #57585a;
+  }
+  @media screen and (max-width: 620px) {
+    padding: 10px 5px;
+  }
+}

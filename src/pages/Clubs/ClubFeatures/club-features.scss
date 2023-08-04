@@ -1,0 +1,22 @@
+.club-features-container {
+  // background: #f7f5fb;
+  // backdrop-filter: brightness(115%);
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  height: 338px;
+  border-radius: 10px;
+  border: solid 1px #ed2f597c;
+  // box-shadow: -8px 14px 0px 0px rgba(244, 244, 244, 0.75);
+  // -webkit-box-shadow: -8px 14px 0px 0px rgba(244, 244, 244, 0.75);
+  // -moz-box-shadow: -8px 14px 0px 0px rgba(244, 244, 244, 0.75);
+  img {
+    height: 45px;
+    width: 45px;
+  }
+  h4 {
+    margin: 20px 0;
+  }
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.efficiency-container {
+  img {
+    height: 48px;
+    width: 58px;
+    margin-bottom: 40px;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 10px;
+    }
+  }
+  h3 {
+  }
+  h6 {
+    color: grey;
+    margin-top: -8px;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 620px) {
+    p {
+      margin-bottom: 80px;
+    }
+  }
+}

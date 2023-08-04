@@ -1,0 +1,60 @@
+.energy-container {
+  padding: 280px 0;
+  background: url("../../assets/images/energy-dp.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  small {
+    color: #ace6ff;
+    font-size: 16px;
+    font-family: rebondG-Medium;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+.govt-divs {
+  h1 {
+    color: #414244;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #57585a;
+  }
+}
+.energy-dashboard {
+  background: #f5f5f5;
+  border-radius: 20px;
+  // padding: 30px 40px;
+}
+.govt-cal {
+  background: #f5f5f5;
+  border-radius: 20px;
+  height: 400px;
+  //   padding-left: 50px;
+  img {
+    width: 60%;
+  }
+  @media screen and (max-width: 620px) {
+    img {
+      width: 100%;
+    }
+  }
+}
+.inform-bg {
+  background: url("../../assets/images/energy-bg.png");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 30px;
+  padding-top: 0;
+}
+.div-one-energy {
+  background: #f7fdff;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}

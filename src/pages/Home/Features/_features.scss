@@ -1,0 +1,25 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.features {
+  padding-left: 30px;
+  padding-right: 32px;
+  height: fit-content;
+  padding-bottom: 20px;
+  background: #fff;
+  img {
+    height: 60px;
+    margin-left: 0 !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    @include login-or-signup-button;
+    // margin-bottom: 50px;
+  }
+  p {
+    font-size: 13px;
+    margin: 10px 0;
+  }
+}

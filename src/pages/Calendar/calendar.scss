@@ -1,0 +1,98 @@
+@import "../../variables";
+@import "../../shared-styles";
+.calendar-nav-div {
+  background: #def5ff;
+  position: fixed !important;
+  z-index: 40;
+}
+.calendar-div {
+  background: #def5ff;
+  padding: 60px 0;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+
+  h1 {
+    font-family: recoAltMedium;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #161617;
+    border: solid 1px #7da0c3;
+    &:hover {
+      background: transparent;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+}
+.form-divvv {
+  @media screen and (max-width: 620px) {
+    margin-top: 100px !important;
+  }
+}
+.cal-management {
+  .wallet {
+    padding: 60px 40px;
+    height: 402px;
+    border-radius: 20px;
+    border: solid 1px #7aa397;
+    background: #fff;
+    @media screen and (max-width: 620px) {
+      margin-top: 20px !important;
+    }
+    h4 {
+      font-family: recoAltMedium;
+      margin: 30px 0;
+    }
+  }
+  img {
+    height: 83px;
+    width: 83px;
+  }
+}
+.prefooterCal {
+  background: #161617;
+  padding-top: 80px;
+  margin-top: 60px;
+  margin-top: 180px;
+  .prefooterCal-inner {
+    // background: url("../../assets/images/prefooter-bg.svg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+    color: #fff;
+    button {
+      @include get-started-button;
+      margin: 40px 10px;
+    }
+    .started {
+      background: #0098da;
+      &:hover {
+        background: #005b83;
+        transition: 0.5s ease;
+      }
+    }
+    .demo {
+      background: transparent;
+      border-color: #ffffff;
+      color: #fff;
+      &:hover {
+        background: #e7e7e7;
+        color: #414244;
+        transition: 0.5s ease;
+      }
+    }
+  }
+}
+.gsmcal {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+  }
+}

@@ -1,0 +1,33 @@
+.retail-container {
+  padding: 280px 0;
+  background: url("../../assets/images/retaildp.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  small {
+    color: #ace6ff;
+    font-size: 16px;
+    font-family: rebondG-Medium;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+.retail-divs {
+  h1 {
+    color: #414244;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #57585a;
+  }
+  .img-div {
+    height: 354px;
+    border: solid 1px #e7e7e7;
+    border-radius: 10px;
+  }
+}

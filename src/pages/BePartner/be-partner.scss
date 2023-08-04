@@ -1,0 +1,232 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.be-partner-container {
+  padding: 200px 0;
+  background: rgb(242, 250, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 250, 253, 1) 40%,
+    rgba(255, 255, 255, 1) 58%
+  );
+
+  @media screen and (max-width: 620px) {
+    background-size: cover;
+  }
+  small {
+    color: #ace6ff;
+    font-size: 16px;
+    font-family: rebondG-Medium;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+.partner-shadow {
+  padding-top: 100px;
+  //   padding-bottom: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 7%,
+    rgba(230, 225, 225, 1) 58%,
+    rgba(255, 255, 255, 1) 96%
+  );
+}
+
+.edu-partnr {
+  margin-top: 50px;
+  padding: 80px 0;
+  border-radius: 20px;
+  background: #cef0ff;
+  border: solid 1px #0098da;
+  margin-bottom: 20px;
+}
+.partner-gains {
+  height: 511px;
+  padding: 40px 40px;
+  border-radius: 20px;
+  background: #fff;
+  border: solid 1px #e7e7e7;
+  transition: 0.5s ease;
+  @media screen and (max-width: 620px) {
+    margin-top: 20px;
+  }
+  img {
+    height: 78px;
+    width: 78px;
+  }
+  h2 {
+    margin: 25px 0;
+  }
+}
+.partnrs-innovation {
+  //   &:hover {
+  border: solid 1px #ea8713;
+  background: #fcebd780;
+}
+// }
+.partnrs-reach {
+  //   &:hover {
+  border: solid 1px #ed2f59;
+  background: #ed2f591a;
+  //   }
+}
+.partnrs-growth {
+  //   &:hover {
+  border: solid 1px #4a13b2;
+  background: #4a13b21a;
+  //   }
+}
+.partners-immgs2 {
+  img {
+    margin: 25px 0px;
+    height: 50px;
+    @media screen and (max-width: 620px) {
+      height: 20px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  .standard {
+    width: 176px;
+    height: 93px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .microsoft {
+    height: 38px;
+    width: 179px;
+  }
+  .cobis {
+    width: 292px;
+    height: 65px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .flutterwave {
+    width: 189px;
+    height: 33px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .aisa {
+    width: 95px;
+    height: 63px;
+    @media screen and (max-width: 620px) {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  .grange {
+    width: 178px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .lbs {
+    width: 166px;
+    height: 52px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+
+  .paystack {
+    width: 189px;
+    height: 33px;
+    @media screen and (max-width: 620px) {
+      width: 70%;
+      height: 70%;
+    }
+  }
+}
+.partnrz-divs3 {
+  background: #f8fdff;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  @media screen and (max-width: 620px) {
+    padding-top: 0;
+  }
+  .pt-div {
+    border-right: dashed 2px #e7e7e7;
+  }
+}
+.partner-benefits-1 {
+  padding: 130px 0;
+  h6 {
+    color: #0098da;
+  }
+  h1 {
+    margin: 20px 0;
+  }
+  .bene {
+    height: 300px;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 50px;
+    box-shadow: 0 0 1px 1px rgb(247, 242, 242);
+    background: #fff !important;
+    p {
+      color: #414244;
+    }
+    h4 {
+      color: #161617;
+      margin: 15px 0;
+    }
+    img {
+      height: 45px;
+      width: 45px;
+      margin-top: 20px;
+    }
+  }
+  .beneft1 {
+    border: solid 1px #d1ecf8 !important;
+  }
+  .beneft2 {
+    border: solid 1px #fae9d4 !important;
+  }
+  .beneft3 {
+    border: solid 1px #f9c6d2 !important;
+  }
+  .beneft4 {
+    border: solid 1px #ded4f1 !important;
+  }
+}
+.become-partner {
+  background: #f8f9fa;
+  margin-bottom: 100px;
+  padding: 70px 60px;
+  border-radius: 20px;
+  @media screen and (max-width: 620px) {
+    padding: 70px 30px;
+  }
+  h6 {
+    color: #0098da;
+    font-family: rebondG-Medium;
+  }
+  h1 {
+    margin: 25px 0;
+  }
+  button {
+    @include get-started-button;
+    background: #0098da;
+    margin-top: 20px;
+    &:hover {
+      background: #005b83;
+    }
+  }
+}

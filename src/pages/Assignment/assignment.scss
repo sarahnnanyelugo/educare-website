@@ -1,0 +1,98 @@
+@import "../../variables";
+@import "../../shared-styles";
+.assignment-nav-div {
+  background: rgb(211, 238, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 238, 248, 1) 25%,
+    rgba(255, 255, 255, 1) 91%
+  );
+
+  position: fixed !important;
+  z-index: 40;
+}
+.assignment-div {
+  padding: 150px 0;
+  background: #f0fbff;
+  h1 {
+    margin: 20px 0;
+  }
+  .demo {
+    @include get-started-button;
+    margin-left: 10px;
+    border-color: #7da0c3;
+    background: transparent;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+      border-color: #414244;
+    }
+  }
+  p {
+    margin: 30px 0;
+  }
+}
+.assignment-dashboard {
+  color: #fff;
+  background: #052431;
+  padding-bottom: 150px;
+  img {
+    margin-top: -100px;
+  }
+  h2 {
+    margin-top: 30px ;
+    
+  }
+  h6{
+    margin-bottom:30px
+  }
+  h4 {
+    margin: 30px 0 15px 0;
+  }
+}
+.ass-feats {
+  margin-right: -45px;
+  @media screen and(max-width:620px) {
+    margin-right: 0px;
+  }
+  h5 {
+    @media screen and(max-width:620px) {
+      font-size: 15px;
+      //   margin-left: -7px;
+    }
+  }
+}
+.assign-get-started {
+  height: fit-content;
+  background: url("../../assets/images/ass-start-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  //   color: #fff;
+  h2 {
+    line-height: 50px;
+    @media screen and (max-width: 620px) {
+      line-height: 35px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    padding-left: 10px;
+    height: fit-content;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #161617;
+    margin-left: 5px;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}

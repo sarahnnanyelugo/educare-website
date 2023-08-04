@@ -1,0 +1,113 @@
+@import "../../variables";
+@import "../../shared-styles";
+.facility-nav-div {
+  background: rgb(254, 245, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 245, 247, 1) 58%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.facility-div {
+  background: #fcdce348;
+  padding-bottom: 60px;
+  //   color: #fff;
+  @media screen and (max-width: 620px) {
+    padding-top: 40px;
+    text-align: center;
+  }
+  h1 {
+    font-family: recoAltMedium;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 65px;
+  }
+  .formmy-dive {
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .img2 {
+    margin-left: -65px;
+    z-index: -1;
+    position: relative;
+    @media screen and (max-width: 620px) {
+      margin: 0;
+      width: 100%;
+    }
+    img {
+      @media screen and (max-width: 620px) {
+        width: 100%;
+      }
+    }
+  }
+  .img1 {
+    margin-top: 270px;
+    @media screen and (max-width: 620px) {
+      margin: 0;
+    }
+    img {
+      @media screen and (max-width: 620px) {
+        width: 100%;
+      }
+    }
+  }
+  button {
+    @include get-started-button;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #161617;
+    border: solid 1px #7da0c3;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+}
+.asset-management {
+  padding: 40px 40px 20px 40px;
+  border-radius: 20px;
+  background: #051b96;
+  margin-bottom: 100px;
+  color: #fff;
+  @media screen and (max-width: 620px) {
+    padding: 10px 5px;
+  }
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+.asset-management2 {
+  padding: 40px 0px;
+
+  margin-bottom: 100px;
+  @media screen and (max-width: 620px) {
+    padding: 10px 5px;
+  }
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+.fac-settings {
+  ul li {
+    line-height: 60px;
+    @media screen and (max-width: 620px) {
+      line-height: 30px;
+      font-size: 15px;
+    }
+  }
+  img {
+    margin-right: 30px;
+    @media screen and (max-width: 620px) {
+      margin-right: 10px;
+    }
+  }
+}

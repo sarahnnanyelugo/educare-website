@@ -1,0 +1,188 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.nav-two-voting {
+  background: rgb(217, 240, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 240, 250, 1) 52%,
+    rgba(255, 255, 255, 1) 86%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.voting-div {
+  padding: 80px 0;
+  h1 {
+    font-family: recoAltMedium;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .voting-btns {
+    button {
+      @include get-started-button;
+    }
+    .started {
+      background: #0098da;
+      margin-right: 5px;
+      &:hover {
+        background: #005b83;
+      }
+    }
+    .demo {
+      background: #fff;
+      color: #161617;
+      border: solid 1px #7da0c3;
+      margin-left: 5px;
+      &:hover {
+        background: #e7e7e7;
+      }
+    }
+  }
+}
+.dashboard {
+  padding: 80px 0;
+  background-image: url("../../assets/images/dashboard-bg.svg");
+  background-color: #fdf3f5;
+  background-size: cover;
+  // backdrop-filter: blur(5px);
+
+  background-repeat: no-repeat;
+  p {
+    font-family: recoAltMedium;
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
+}
+
+.rating {
+  height: 504px;
+
+  padding: 70px 70px;
+  border-radius: 10px;
+  @media screen and (max-width: 620px) {
+    padding: 30px 10px;
+    height: fit-content;
+    text-align: center;
+
+    margin-top: 30px;
+  }
+  h5 {
+    margin-bottom: 20px;
+    font-family: recoAltMedium;
+  }
+}
+.engagement {
+  background: #f2ecfd;
+}
+.assessment {
+  background: #fef7ee;
+}
+.accessibility {
+  padding: 70px 70px;
+  border-radius: 10px;
+  height: 308px;
+  background: rgb(252, 240, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 240, 242, 1) 11%,
+    rgba(254, 248, 240, 1) 66%,
+    rgba(242, 236, 253, 1) 93%
+  );
+  margin-top: 20px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 620px) {
+    padding: 30px 10px;
+    height: fit-content;
+    text-align: center;
+  }
+}
+.rating-heading {
+  margin-top: 110px;
+  margin-bottom: 70px;
+  font-family: recoAltMedium;
+}
+.participation {
+  padding: 70px;
+  border-radius: 20px;
+  height: 303px;
+  margin-bottom: 150px;
+  margin-top: 20px;
+  background: rgb(237, 248, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(237, 248, 255, 1) 11%,
+    rgba(242, 236, 253, 1) 45%,
+    rgba(254, 246, 238, 1) 74%,
+    rgba(252, 240, 241, 1) 87%
+  );
+  @media screen and (max-width: 620px) {
+    padding: 40px 20px;
+  }
+  button {
+    @include get-started-button;
+    margin-top: 30px;
+  }
+  .started {
+    background: #0098da;
+    margin-right: 5px;
+    margin-left: 12%;
+    &:hover {
+      background: #005b83;
+    }
+  }
+  .demo {
+    background: #fff;
+    border: solid 1px #7da0c3;
+    color: #161617;
+    margin-left: 5px;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+}
+.voting-plans {
+  background: #cef0ff;
+  height: fit-content;
+  padding: 50px 0;
+  margin-bottom: 90px;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+  h3 {
+    margin-bottom: 30px;
+    font-family: recoAltMedium;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 90px;
+  }
+  button {
+    @include get-started-button;
+    background: #0098da;
+    color: #fff;
+    // margin-top: 60px;
+    &:hover {
+      background: #005b83;
+      transition: 0.5s ease;
+    }
+  }
+  .recomend {
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 2;
+    button {
+      background: #cef0ff !important;
+      color: #0098da !important;
+      border: none !important;
+      font-size: 14px;
+      margin-left: 90px;
+    }
+  }
+}
+.gsmvs {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+  }
+}

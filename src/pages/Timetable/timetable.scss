@@ -1,0 +1,132 @@
+@import "../../variables";
+@import "../../shared-styles";
+.timetable-nav {
+  background: rgb(231, 224, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 224, 244, 1) 30%,
+    rgba(255, 255, 255, 1) 86%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+
+.timetable-container {
+  background: #f8f8f8;
+  .timetable-div {
+    padding: 100px 0;
+    @media screen and (max-width: 620px) {
+      padding: 50px;
+    }
+    h1 {
+      margin: 30px 0 50px 0;
+    }
+
+    .started {
+      background: #4a13b2;
+      color: #fff;
+      &:hover {
+        background: #2c0b6b;
+        transition: 0.5em;
+      }
+    }
+
+    .btns {
+      button {
+        margin: 40px 10px;
+        @include get-started-button;
+        @media screen and (max-width: 620px) {
+          margin: 40px 0px;
+        }
+      }
+    }
+    .demo {
+      background: transparent;
+      color: #161617 !important;
+      &:hover {
+        background: #e7e7e7;
+        transition: 0.5em;
+      }
+    }
+  }
+}
+.features-divd {
+  margin-top: 40px;
+}
+.features-main {
+  margin-top: 220px;
+  @media screen and (max-width: 620px) {
+    margin-top: 40px;
+  }
+}
+.one {
+  margin-top: -120px;
+  @media screen and (max-width: 620px) {
+    margin-top: 0;
+  }
+}
+.shadowed {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 7%,
+    rgba(240, 240, 240, 1) 33%,
+    rgba(255, 255, 255, 1) 83%
+  );
+}
+.last-row {
+  margin-bottom: 180px;
+  padding-left: 20px;
+  @media screen and (max-width: 620px) {
+    padding-left: 0;
+  }
+}
+.timetable-schedule {
+  height: 220px;
+  background-image: url("../../assets/images/curlely-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 60px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    padding: 20px 10px;
+  }
+  .schedule-header {
+    flex-grow: 1;
+    h2 {
+      color: #fff;
+    }
+  }
+  button {
+    @include get-started-button;
+    margin: 30px 10px;
+  }
+  .started {
+    background: #ed2f59;
+    color: #fff;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  .demo {
+    background: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+      color: black;
+    }
+  }
+}
+.gsmtime {
+  &:hover {
+    background: #2c0b6b !important;
+    transition: 0.5s ease;
+  }
+}

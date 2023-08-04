@@ -1,0 +1,281 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.packages-first-heading {
+  background: rgb(242, 250, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 250, 253, 1) 72%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  height: 320px;
+  @media screen and (max-width: 620px) {
+    margin-bottom: 130px !important;
+  }
+  h1 {
+    margin-top: 50px;
+    font-size: 44px !important;
+    @media screen and (max-width: 620px) {
+      font-size: 34px !important;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.business-pricing-tab {
+  .tabs {
+    display: flex;
+    margin-left: 10%;
+    // border-radius: 35px;
+    // border: solid 2px #cef0ff;
+    width: 10%;
+    padding: 5px;
+    margin-top: -30px;
+    font-family: rebondG-Bold;
+    @media screen and (max-width: 620px) {
+      width: 40%;
+      margin-top: -30%;
+      margin-left: 0%;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .tabs {
+      button {
+        margin-left: 10px;
+      }
+    }
+  }
+  .tabs2 {
+    display: flex;
+    margin-left: 0%;
+    border-radius: 35px;
+    border: solid 2px #cef0ff;
+    width: 17%;
+    padding: 5px;
+    // margin-top: -20px;
+    font-family: rebondG-Bold;
+    @media screen and (max-width: 620px) {
+      width: 40%;
+      // margin-left: 30%;
+      margin-top: 60px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .tabs2 {
+    }
+  }
+
+  .tab {
+    width: 90%;
+    background: transparent;
+    padding: 0px 0;
+    border: none;
+    color: grey;
+    border-radius: 0 !important;
+    font-size: 16px;
+    @media screen and (max-width: 620px) {
+      width: 100%;
+    }
+  }
+  .tab2 {
+    width: 90%;
+    background: #fff;
+    padding: 0px 0;
+    border: none;
+    color: black;
+    border-radius: 35px;
+    font-size: 14px;
+    @media screen and (max-width: 620px) {
+      width: 100%;
+    }
+  }
+
+  button.active2 {
+    font-weight: bold;
+
+    color: #000;
+    border-bottom: solid 3px #0098da;
+  }
+  button.active3 {
+    font-weight: bold;
+    background: #0098da;
+    color: #fff;
+  }
+  .panel {
+    display: none;
+    color: #161617;
+    font-family: rebondG;
+    line-height: 40px;
+    padding-top: 150px;
+    background: #fff;
+    .standard {
+      border: solid 2px #0098da;
+      border-radius: 10px;
+      padding: 30px;
+      position: relative !important;
+      z-index: 2;
+      margin-top: -20px;
+      background: #cef0ff;
+      @media screen and (max-width: 620px) {
+        margin-top: 40px;
+      }
+    }
+    h3 {
+      margin-bottom: 40px;
+      font-family: rebondG-Medium;
+    }
+    h6 {
+      margin-left: 10px;
+      font-size: 15px;
+      font-family: rebondBook;
+    }
+    .left-cards {
+      padding: 30px;
+      border-top: solid 1px #e6e6e6;
+      border-left: solid 1px #e6e6e6;
+      border-bottom: solid 1px #e6e6e6;
+      border-bottom-left-radius: 10px;
+      box-shadow: 0 0 1px 1px #9a9999;
+      border-top-left-radius: 10px;
+      height: fit-content;
+      background: #fff;
+      @media screen and (max-width: 620px) {
+        border: solid 1px #e6e6e6;
+        border-radius: 10px;
+      }
+    }
+    .right-cards2 {
+      border: solid 1px #e6e6e6;
+      border-radius: 10px;
+      padding: 30px;
+      height: fit-content;
+      box-shadow: 0 0 1px 1px #9a9999;
+
+      @media screen and (max-width: 620px) {
+        border: solid 1px #e6e6e6;
+        border-radius: 10px;
+      }
+    }
+
+    .enterprise {
+      margin-top: 56px;
+    }
+    .basic {
+      // margin-left: -40px;
+      background: #fff;
+      @media screen and (max-width: 620px) {
+        margin-left: 0px;
+      }
+    }
+    .e-learning {
+      margin-top: 50px;
+    }
+    ul li {
+      border-top: solid 1px #e7e7e7;
+      padding: 10px 0;
+      img {
+        margin-right: 12px;
+      }
+    }
+    .premium-button {
+      background: #fff;
+      color: #0098da;
+      border: solid 1px #0098da;
+      border-radius: 35px;
+      padding: 0px 25px;
+      font-size: 14px;
+      font-family: rebondG-Medium;
+      margin-left: 30px;
+      position: relative;
+      z-index: 4;
+      @media screen and (max-width: 620px) {
+        display: none;
+      }
+    }
+    .price-button {
+      @include get-started-button;
+      background: #0098da;
+      width: 100% !important;
+      margin: 40px 0 40px 0;
+      border: solid 1px #414244;
+      &:hover {
+        background: #cef0ff;
+        transition: 0.5s ease;
+        color: #414244;
+      }
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .panel {
+      padding: 0px;
+    }
+  }
+  .panel.active2 {
+    display: block;
+  }
+  .upcoming {
+    height: 300px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(240, 240, 240, 1) 47%,
+      rgba(255, 255, 255, 1) 74%
+    );
+  }
+  .monthly-container {
+    padding-left: 150px;
+    @media screen and (max-width: 620px) {
+      padding: 0;
+    }
+  }
+
+  .faq-container {
+    margin-top: 100px;
+    h1 {
+      margin-top: 100px;
+    }
+  }
+  .currency-buttons {
+    margin-top: -50px;
+
+    button {
+      // padding-bottom: 40px;
+      border: none;
+      font-family: rebondG-Semi-Bold !important;
+      font-size: 16px;
+      color: #161617;
+      background: transparent;
+      height: 30px;
+      border-bottom: solid 1px #a2d8f9;
+    }
+    @media screen and (max-width: 620px) {
+      // margin-left: 5% !important;
+      margin-top: 0px !important;
+      // margin-right: -0px;
+      // margin-bottom: 30px;
+    }
+  }
+}
+.more-details-container {
+  height: fit-content;
+  background: rgb(246, 245, 249);
+  background: linear-gradient(
+    180deg,
+    rgba(246, 245, 249, 1) 40%,
+    rgba(255, 255, 255, 1) 84%
+  );
+  padding-top: 500px;
+  margin-top: -400px;
+  .onboarding {
+    p {
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  }
+}
+.curr-active {
+  border-bottom: solid 5px #0098da !important;
+  transition: width 0.5s width;
+  // padding-bottom: 40px;
+}

@@ -1,0 +1,16 @@
+.overview-video {
+  img {
+    height: 24px;
+    width: 24px;
+  }
+  @media screen and (max-width: 620px) {
+    margin-left: 100px !important;
+  }
+}
+.over-con {
+  h6 {
+    @media screen and (max-width: 620px) {
+      text-align: center !important;
+    }
+  }
+}

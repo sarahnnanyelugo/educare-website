@@ -1,0 +1,132 @@
+@import "../../variables";
+@import "../../shared-styles";
+.report-nav-div {
+  background: rgb(223, 242, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(223, 242, 250, 1) 35%,
+    rgba(255, 255, 255, 1) 80%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.report-div {
+  background: #005b83;
+  padding-bottom: 60px;
+  color: #fff;
+  @media screen and (max-width: 620px) {
+    padding-top: 40px;
+    text-align: center;
+  }
+  h1 {
+    font-family: recoAltMedium;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .formmy-dive {
+    background: url("../../assets/images/form-bg.png");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.reports-journey {
+  height: 374px;
+  border: solid 2px #2eb4ef;
+  border-radius: 20px;
+  margin-top: 150px;
+  color: #fff;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+  }
+  .div-1 {
+    background: #007aae;
+    padding: 30px 0;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    @media screen and (max-width: 620px) {
+      border-radius: 20px;
+    }
+    h1 {
+      font-family: recoAltMedium;
+    }
+  }
+  .stat {
+    margin-top: 60px;
+    h1 {
+      font-family: recoAltMedium;
+    }
+  }
+}
+.reports-feats {
+  background: rgb(246, 246, 246);
+  border-radius: 10px;
+  height: 338px;
+  margin-top: 100px;
+  padding: 40px 40px;
+  h6 {
+    margin: 20px 0;
+    font-family: recoAltMedium;
+  }
+  img {
+    margin-bottom: 30px;
+  }
+}
+.v-learning {
+  padding: 10px 0;
+  border: solid 1px #707070;
+  border-radius: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+  h1 {
+    font-family: recoAltMedium;
+    color: #57585a;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    @media screen and (max-width: 620px) {
+      margin-top: 30px;
+    }
+  }
+  p {
+    color: #57585a;
+  }
+}
+.report-get-started {
+  height: 220px;
+  background: url("../../assets/images/repot-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  color: #fff;
+  @media screen and (max-width: 620px) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    height: fit-content;
+  }
+  button {
+    @include get-started-button;
+    background: transparent;
+    // border-color: #fff;
+    margin-left: 5px;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}
+
+.gsmrep {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+    color: #fff !important;
+  }
+}

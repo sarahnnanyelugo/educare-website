@@ -1,0 +1,52 @@
+.partners-container {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  @media screen and (max-width: 620px) {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  h1 {
+    margin-top: 50px;
+    line-height: 60px;
+    @media screen and (max-width: 620px) {
+      text-align: center;
+    }
+  }
+  .apen {
+    height: 52px;
+    width: 166px;
+    @media screen and (max-width: 620px) {
+      height: 20px;
+    }
+  }
+  .aisa {
+    height: 78px;
+    width: 119px;
+  }
+  .standard {
+    height: 77px;
+    width: 146px;
+  }
+  .ms {
+    height: 32px;
+    width: 153px;
+  }
+  .flutter {
+    width: 216px;
+    height: 42px;
+  }
+  .pay {
+    height: 33px;
+    width: 189px;
+  }
+  img {
+    margin: 10px;
+
+    filter: grayscale(100%);
+    @media screen and (max-width: 620px) {
+      height: 20px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}

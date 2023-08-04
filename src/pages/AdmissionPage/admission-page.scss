@@ -1,0 +1,141 @@
+@import "../../variables";
+@import "../../shared-styles";
+.admission-nav-div {
+  background: #def5ff;
+
+  position: fixed !important;
+  z-index: 40;
+}
+.admissions-div {
+  background: #def5ff;
+  padding-top: 150px;
+  height: 700px;
+  button {
+    @include get-started-button;
+    margin: 30px 10px;
+  }
+  h2 {
+    margin-bottom: 30px;
+    font-size: 38px;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #161617;
+    border: solid 1px #7da0c3;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+  .started {
+    background: #0098da;
+    &:hover {
+      background: #005b83;
+      transition: 0.5s ease;
+    }
+  }
+}
+.admission-steps {
+  background: #075a7e;
+
+  height: 700px;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .dashboard1 {
+    margin-top: -200px;
+    margin-bottom: 60px;
+    @media screen and (max-width: 620px) {
+      margin-top: 0;
+    }
+  }
+  .steps {
+    height: 78px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: left;
+    &:hover {
+      border-bottom: solid 6px #e7af5f;
+      transition: 0.5s ease;
+    }
+    @media screen and (max-width: 620px) {
+      margin-bottom: 10px;
+      height: 100px;
+      padding-top: 30px;
+    }
+    img {
+      height: 33px;
+      width: 33px;
+      margin-right: 15px;
+    }
+  }
+}
+.admission-dashboards {
+  h4 {
+    color: #007aae;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  img {
+    margin-top: 30px;
+  }
+}
+.admission-dashboards2 {
+  background: #001e2c;
+  padding-bottom: 100px;
+  color: #fff;
+  padding-top: 100px;
+  h4 {
+    color: #f5c388;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+.admin-simple-prices {
+  background: #fcebd762;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  margin-top: 80px;
+}
+.admin-process {
+  padding: 50px 0;
+  button {
+    @include get-started-button;
+    margin: 30px 10px;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #161617;
+    border: solid 1px #7da0c3;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+      transition: 0.5s ease;
+      border: solid 1px #414244;
+    }
+  }
+  .started {
+    background: #0098da;
+    &:hover {
+      background: #005b83;
+      transition: 0.5s ease;
+    }
+  }
+}
+.gsmadm {
+  &:hover {
+    background: #005b83 !important;
+    transition: 0.5s ease;
+  }
+}
+.dir {
+  &:hover {
+    color: #000;
+  }
+}

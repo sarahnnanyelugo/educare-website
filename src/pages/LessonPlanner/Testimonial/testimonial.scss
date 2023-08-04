@@ -1,0 +1,32 @@
+.testimonial-carousel {
+  margin-bottom: 100px;
+  .carousel-control-next-icon {
+    background-image: url("../../../assets/images/right2.png");
+    margin-left: 150px !important;
+    position: relative !important;
+    margin-top: -60px !important;
+  }
+  .carousel-control-prev-icon {
+    background-image: url("../../../assets/images/left2.png");
+    margin-right: 150px !important;
+    margin-top: -60px !important;
+  }
+  .carousel-indicators button {
+    background: #11a377 !important;
+    border: solid 1px #707070 !important;
+    border-radius: 50% !important;
+    height: 7px !important;
+    width: 7px !important;
+    margin-top: 400px !important;
+  }
+  .carousel-indicators {
+    bottom: -35px !important;
+  }
+  small {
+    font-size: 12px;
+    color: grey;
+  }
+  h6 {
+    color: #11a377;
+  }
+}

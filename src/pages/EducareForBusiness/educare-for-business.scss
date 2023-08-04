@@ -1,0 +1,144 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.introduction-container {
+  .gs-button {
+    background: $purple;
+    @include get-started-button;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 30px;
+    }
+  }
+  .demo-button {
+    @include login-or-signup-button;
+    margin-left: 5px;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 30px;
+    }
+  }
+  padding-top: 50px;
+  .educare-for-business {
+    background: #ded0fa;
+    color: #3b0f8e;
+
+    border-radius: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2px !important;
+    height: 35px;
+    padding-top: 5px;
+  }
+  h1 {
+    font-size: 45px !important;
+    margin: 20px 0;
+    line-height: 60px !important;
+    @media screen and (max-width: 620px) {
+      font-size: 30px !important;
+      line-height: 40px !important;
+    }
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 18px;
+    margin-bottom: 40px;
+    font-family: rebondBook !important;
+    color: #161617;
+  }
+}
+
+.overview-video {
+  margin-top: 40px;
+  h6 {
+    margin-top: 7px;
+    margin-left: 7px;
+    font-weight: 900 !important;
+  }
+}
+.finance-container {
+  margin-top: 120px;
+  .finance-heading {
+    background: #ded0fa;
+    color: #5044b2;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+.hr-container {
+  margin-top: 150px;
+  .hr-header {
+    background: #fcebd7;
+    color: #c17720;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    @media screen and (max-width: 620px) {
+      margin-top: 20px;
+    }
+  }
+  h3 {
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+.mail-heading {
+  color: #a04cab;
+  background: #f5dcf8;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.facility-management {
+  .facility-heading {
+    color: #2a4ecf;
+    background: #d6dcfe;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    @media screen and (max-width: 620px) {
+      margin-top: 20px;
+    }
+  }
+  p {
+    margin-top: 20px;
+  }
+  h3 {
+    margin-top: 40px;
+  }
+}
+.nav-two-business {
+  height: fit-content;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: fixed !important;
+  z-index: 40;
+  background: rgb(243, 246, 250);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 246, 250, 1) 60%,
+    rgba(255, 255, 255, 1) 90%
+  );
+  @media screen and (max-width: 620px) {
+    background: rgb(245, 244, 249);
+  }
+}

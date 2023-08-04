@@ -1,0 +1,119 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.pastoral-nav {
+  background: rgb(254, 245, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 245, 247, 1) 65%,
+    rgba(255, 255, 255, 1) 81%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.wellbeing {
+  padding: 150px 0 100px 0;
+  background: rgb(250, 218, 182);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 218, 182, 1) 66%,
+    rgba(252, 224, 222, 1) 98%
+  );
+  p {
+    font-size: 18px !important;
+    margin-bottom: 35px;
+  }
+  .started {
+    @include get-started-button;
+    background: #ed2f59;
+    color: #ffffff;
+    margin-right: 4px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    color: #292d32;
+    margin-left: 4px;
+  }
+}
+.empty-bg {
+  height: 170px;
+  background-color: #fce0de;
+  //   filter: blur(8px);
+  //   -webkit-filter: blur(8px);
+
+  background-image: url("../../assets/images/stripe-bg2.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.efficient {
+  padding: 120px 0;
+  h1 {
+    color: #000000;
+  }
+}
+.pastoral-management {
+  height: 363px;
+  padding-top: 100px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+
+  background-image: url("../../assets/images/pastoral-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 620px) {
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  h2 {
+    margin-top: 15px;
+  }
+  img {
+    height: 62px;
+    width: 166px;
+  }
+  button {
+    @include get-started-button;
+    background: #ed2f59;
+    margin-top: 40px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+}
+
+.rad {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(240, 240, 240, 1) 39%,
+    rgba(255, 255, 255, 1) 80%
+  );
+}
+.pdash {
+  img {
+    margin-top: -180px;
+  }
+}
+.reco-badge {
+  @media screen and (max-width: 620px) {
+    margin-bottom: -30px;
+    margin-top: 50px;
+  }
+}
+.gsmpst {
+  &:hover {
+    background: #9d0e2d !important;
+    transition: 0.5s ease;
+  }
+}

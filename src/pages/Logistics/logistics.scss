@@ -1,0 +1,61 @@
+.logistics-div {
+  background: #161617ad;
+  padding: 250px 0 100px 0;
+  color: #fff;
+  h1 {
+    margin: 30px 0;
+    line-height: 55px;
+    color: #fff;
+  }
+  small {
+    color: #ace5fe;
+    font-size: 16px;
+  }
+  .truck-div {
+    padding: 0 30px;
+  }
+  @media screen and (max-width: 620px) {
+    padding-top: 120px;
+    text-align: center;
+  }
+}
+.ease-finance {
+  h2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #57585a;
+  }
+}
+
+.actionable {
+  padding-top: 80px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 2%,
+    rgba(240, 240, 240, 1) 14%,
+    rgba(255, 255, 255, 1) 69%
+  );
+  h1 {
+    font-size: 36px;
+    color: #414244;
+    margin: 40px 0;
+  }
+  p {
+    color: #57585a;
+  }
+}
+
+.enhanced {
+  padding: 80px 0;
+
+  h1 {
+    color: #414244;
+    margin: 40px 0;
+  }
+  p {
+    color: #57585a;
+  }
+}

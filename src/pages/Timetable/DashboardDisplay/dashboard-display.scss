@@ -1,0 +1,110 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.timetable-dasboard-display-carousel {
+  background: #ded0fa34;
+  padding: 50px 0;
+  margin-bottom: 150px;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+  .carousel {
+    position: relative;
+    z-index: 0;
+  }
+  .wing-imgs {
+    max-height: 410px;
+    width: 700px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: -400px;
+    img {
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .center-dashboard {
+    margin-left: 70px;
+    @media screen and (max-width: 620px) {
+      margin-left: 0px;
+    }
+  }
+  .wing-imgs2 {
+    max-height: 410px;
+    width: 330px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 0px;
+    img {
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+
+    padding-top: 0px !important;
+
+    h2 {
+      margin-top: 140px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .imgCaro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../../../assets/images/p-arrow-right.png");
+    height: 46px;
+    width: 46px;
+    margin-top: -290%;
+    right: 350px !important;
+    position: relative !important;
+    @media screen and (max-width: 620px) {
+      margin-top: -450%;
+      left: 0px !important;
+    }
+  }
+  .carousel-control-prev-icon {
+    background-image: url("../../../assets/images/p-arrow-left.png");
+    height: 46px;
+    width: 46px;
+    margin-top: -290%;
+    left: 520px !important;
+    position: relative !important;
+    @media screen and (max-width: 620px) {
+      margin-top: -450%;
+      left: 0px !important;
+    }
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control-prev {
+    left: 10% !important;
+  }
+  .carousel-control-next {
+    right: 10% !important;
+  }
+  .dashboard-description {
+    margin-top: 30px;
+    margin-bottom: 130px;
+  }
+  span {
+    color: #4a13b2;
+  }
+  h1 {
+    font-family: recoAltMedium;
+  }
+}

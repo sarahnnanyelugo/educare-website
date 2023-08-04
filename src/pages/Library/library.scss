@@ -1,0 +1,158 @@
+@import "../../variables";
+@import "../../shared-styles";
+.library-nav {
+  background: rgb(249, 218, 225);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 218, 225, 1) 22%,
+    rgba(255, 255, 255, 1) 82%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.library-container {
+  padding: 100px 0 50px 0;
+  background: #f6f2fe;
+  @media screen and (max-width: 620px) {
+    text-align: center;
+  }
+  h1 {
+    margin: 20px 0 40px 0;
+    font-family: recoAltMedium !important;
+  }
+  p {
+    line-height: 18px;
+  }
+  button {
+    @include get-started-button;
+    margin: 20px 10px 0 0;
+  }
+  .started {
+    background: #ed2f59;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+    @media screen and (max-width: 620px) {
+      margin-left: 15%;
+    }
+  }
+  .demo {
+    border: solid 1px #7da0c3;
+    background: transparent;
+    color: black;
+    &:hover {
+      background: #e7e7e7;
+      border: solid 1px #414244;
+      transition: 0.5s ease;
+    }
+  }
+  .lottie-divs {
+    background-image: url("../../assets/images/wave-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: fit-content;
+    .book-animations {
+      background: #fff;
+      // margin-left: 10px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+  }
+}
+.graded {
+  padding-bottom: 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 52%,
+    rgba(240, 240, 240, 1) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.library-plans {
+  // background: #cdfaec98;
+
+  height: fit-content;
+  padding: 50px 0;
+  margin-bottom: 90px;
+  h3 {
+    margin-bottom: 30px;
+    font-family: recoAltMedium;
+  }
+  .paragraph {
+    font-size: 18px;
+    margin-bottom: 90px;
+  }
+  button {
+    @include get-started-button;
+    background: #ed2f59;
+    color: #fff;
+    // margin-top: 60px;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+  .recomendF button {
+    background: #fcdce3;
+    color: #ed2f59;
+    border: none;
+  }
+}
+.lib-get-started {
+  margin-bottom: 50px;
+  height: 300px;
+  padding: 80px 60px;
+  background: #7e001c;
+  color: #fff;
+  border-radius: 20px;
+  @media screen and (max-width: 620px) {
+    padding: 20px;
+    height: fit-content;
+  }
+  button {
+    @include get-started-button;
+    margin-top: 50px !important;
+    margin: 10px;
+  }
+  .started-div {
+    flex-grow: 1;
+    h2 {
+      margin: 20px 0;
+    }
+  }
+  .demo {
+    background: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    &:hover {
+      background: #e7e7e7;
+      transition: 0.5s ease;
+      color: black;
+    }
+  }
+  .started {
+    background: #ed2f59;
+    color: #fff;
+    &:hover {
+      background: #9d0e2d;
+      transition: 0.5s ease;
+    }
+  }
+}
+.gsmlib {
+  &:hover {
+    background: #9d0e2d !important;
+    transition: 0.5s ease;
+  }
+}
+.lib-btns {
+  @media screen and (max-width: 620px) {
+    margin-left: 50px;
+  }
+}
+.lib-feats {
+  margin-left: 50px !important;
+}

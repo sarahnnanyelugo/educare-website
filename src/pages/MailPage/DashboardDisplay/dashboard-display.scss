@@ -1,0 +1,109 @@
+@import "../../../variables";
+@import "../../../shared-styles";
+
+.mailbox-display-carousel {
+  // background-image: url("../../../assets/images/dashboard-bg.svg");
+  background: #f0cbf5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // padding: 50px 0;
+
+  .carousel {
+    position: relative;
+    z-index: 0;
+  }
+  .wing-imgs {
+    max-height: 480px;
+    width: 220px;
+    overflow: hidden;
+    margin-top: 30px;
+
+    img {
+      margin-left: -600px;
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .center-dashboard {
+    margin-left: 130px;
+    @media screen and (max-width: 620px) {
+      margin-left: 0px;
+    }
+  }
+  .wing-imgs2 {
+    max-height: 480px;
+    width: 280px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 130px;
+    img {
+      height: 90%;
+    }
+    @media screen and (max-width: 620px) {
+      display: none !important;
+    }
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+
+    padding-top: 0px !important;
+
+    h2 {
+      margin-top: 140px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .imgCaro {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../../../assets/images/right.png");
+  }
+  .carousel-control-prev-icon {
+    background-image: url("../../../assets/images/left.png");
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control-prev {
+    left: 10% !important;
+  }
+  .carousel-control-next {
+    right: 10% !important;
+  }
+}
+
+.emptiedd {
+  height: 100px;
+
+  background: rgb(240, 203, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 203, 245, 1) 94%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  margin-top: 130px;
+}
+
+.emptiedd2 {
+  margin-top: -60px !important;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(240, 203, 245, 1) 6%
+  );
+  height: 80px;
+  position: relative;
+  // z-index: 33333;
+}

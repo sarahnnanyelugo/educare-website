@@ -1,0 +1,45 @@
+@import "../../variables";
+@import "../../shared-styles";
+.prefooter-div {
+  background: #161617;
+  padding-top: 100px;
+
+  margin: 0 !important;
+  @media screen and (max-width: 620px) {
+    padding-left: 20px;
+  }
+  .prefooter-heading {
+    // flex-grow: 1;
+    h3 {
+      color: #fff;
+      font-family: recoAltMedium;
+    }
+    h2 {
+      color: #fff;
+      font-family: recoAltMedium;
+    }
+    h4 {
+      color: #fff;
+      font-family: recoAltMedium;
+    }
+    p {
+      color: #fff;
+    }
+  }
+  button {
+    font-family: rebondG-Semi-Bold;
+    @include get-started-button;
+    background: #fff;
+    color: #414244;
+    &:hover {
+      background: #e7e7e7;
+    }
+    @media screen and (max-width: 620px) {
+      margin-top: 40px;
+    }
+  }
+  .prefooter-inner {
+    border-bottom: solid 2px rgb(187, 185, 185);
+    padding-bottom: 100px;
+  }
+}

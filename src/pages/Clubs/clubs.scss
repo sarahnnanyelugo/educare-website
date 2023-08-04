@@ -1,0 +1,124 @@
+@import "../../variables";
+@import "../../shared-styles";
+.clubs-nav-div {
+  background: rgb(251, 234, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 234, 204, 1) 25%,
+    rgba(255, 255, 255, 1) 91%
+  );
+
+  position: fixed !important;
+  z-index: 40;
+}
+.club-container {
+  background: #f8f8f8;
+  padding: 150px 0 300px 0;
+}
+.club-div {
+  h1 {
+    margin: 30px 0;
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #7da0c3;
+    margin-left: 10px;
+    color: #161617;
+    &:hover {
+      background: #e7e7e7;
+    }
+  }
+}
+.gsmclub {
+  &:hover {
+    background: #8c510b !important;
+    transition: 0.5s ease;
+  }
+}
+.club-dashboard {
+  margin-top: -230px;
+}
+
+.features-divd {
+  margin-top: 40px;
+}
+.club-features-main22 {
+  background: #f8f5fe !important;
+  @media screen and (max-width: 620px) {
+    margin-top: 40px;
+  }
+}
+.one {
+  margin-top: -200px;
+  @media screen and (max-width: 620px) {
+    margin-top: 0px;
+  }
+}
+.oneb {
+  //   margin-top: -30px;
+  @media screen and (max-width: 620px) {
+    margin-top: 0;
+  }
+}
+.shadowed {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 7%,
+    rgba(240, 240, 240, 1) 33%,
+    rgba(255, 255, 255, 1) 83%
+  );
+}
+.last-row {
+  margin-bottom: 180px;
+  padding-left: 20px;
+  @media screen and (max-width: 620px) {
+    padding-left: 0;
+  }
+}
+.club-title {
+  margin-top: 120px;
+  margin-bottom: 0 !important;
+  background: #f8f5fe !important;
+  padding: 150px 0 200px 0;
+  span {
+    color: #ea8713;
+  }
+}
+
+.club-get-started {
+  height: fit-content;
+  background: url("../../assets/images/club-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  border-radius: 30px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: #fff;
+
+  @media screen and (max-width: 620px) {
+    padding-left: 10px;
+    height: fit-content;
+  }
+  h2 {
+    margin-top: 30px;
+    @media screen and (max-width: 620px) {
+      text-align: center;
+    }
+  }
+  .demo {
+    @include get-started-button;
+    background: transparent;
+    border-color: #fff;
+    margin-left: 10px;
+    color: #fff;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+    }
+  }
+}

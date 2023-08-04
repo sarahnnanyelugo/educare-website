@@ -1,0 +1,156 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.e-classroom-nav {
+  background: rgb(250, 209, 209);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 209, 209, 1) 4%,
+    rgba(254, 251, 248, 1) 97%
+  );
+  position: fixed !important;
+  z-index: 40;
+}
+.e-classroom {
+  // padding: 50px 0 60px 0;
+  // background: rgb(102, 0, 55);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(102, 0, 55, 1) 42%,
+  //   rgba(128, 38, 76, 1) 61%,
+  //   rgba(123, 31, 73, 1) 88%
+  // );
+  p {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #fff;
+  }
+  h1 {
+    font-family: recoAltSemiBold;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 37px;
+  }
+  button {
+    @include get-started-button;
+    background: transparent;
+    border: solid 1px #fff !important;
+    @media screen and (max-width: 620px) {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+.eclassroom-form {
+  background: rgb(126, 37, 76);
+  background: radial-gradient(
+    circle,
+    rgba(126, 37, 76, 1) 45%,
+    rgba(103, 31, 55, 1) 78%
+  );
+  padding: 50px 0 60px 0;
+}
+.right-section {
+  background: rgb(103, 31, 55);
+  padding: 180px 0 60px 0;
+}
+.why-eclassroom {
+  border: solid 1px #70707072;
+  background: #fcebd79b;
+  padding: 60px 30px;
+  border-radius: 10px;
+}
+.teams {
+  img {
+    filter: grayscale(100%);
+    margin: 30px;
+    @media screen and (max-width: 620px) {
+      margin: 30px 10px;
+    }
+  }
+  .aisa {
+    height: 78.82px;
+    // width: 119.11px;
+  }
+  .ms {
+    height: 32.78px;
+    // width: 153.47px;
+  }
+  .flutter {
+    height: 42.79px;
+    // width: 216.74px;
+  }
+}
+.on-d-go {
+  h3 {
+    font-family: recoAltMedium;
+  }
+  p {
+    margin-top: 20px;
+  }
+}
+.privacy-container {
+  background: #b7437f;
+  padding-top: 1px !important;
+  border-radius: 20px;
+  margin-top: 100px;
+  // margin-bottom: 100px;
+  color: #fff;
+
+  @media screen and (max-width: 620px) {
+    padding-bottom: 40px;
+  }
+}
+.empty-cream {
+  background: #fdf4ea;
+  height: 150px;
+  margin-top: -140px;
+  position: relative;
+  z-index: -1;
+}
+
+.trial-sign-up {
+  background: url("../../assets/images/e-classroom.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 150px;
+  background-position: center;
+
+  button {
+    @include get-started-button;
+    background: #cc006e;
+    font-size: 17px;
+    margin-top: 335px;
+  }
+}
+.lotie-quotes {
+  margin-bottom: 180px;
+  h3 {
+    margin-top: 100px;
+    line-height: 55px;
+    color: #414244;
+    font-family: rebondMI;
+    margin-left: 50px;
+    @media screen and (max-width: 620px) {
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+  }
+  .lquote {
+    transform: rotate(180deg);
+    margin-top: 250px;
+    @media screen and (max-width: 620px) {
+      margin-top: 20px;
+    }
+  }
+}
+// .sign-btn-eclass {
+//   background: green;
+//   height: 50px;
+//   width: 450px !important;
+//   margin-top: -400px;
+// }

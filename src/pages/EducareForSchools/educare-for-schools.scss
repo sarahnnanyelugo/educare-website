@@ -1,0 +1,189 @@
+@import "../../variables";
+@import "../../shared-styles";
+.for-schools-container {
+  // background: rgb(0, 152, 218);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(0, 152, 218, 1) 34%,
+  //   rgba(255, 255, 255, 1) 91%
+  // );
+
+  background-image: url("../../assets/images/curly-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  padding: 50px 0 80px 0px;
+  .educare-for-schools {
+    background: #cef0fe;
+
+    border-radius: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 35px;
+    padding-top: 6px;
+  }
+  h1 {
+    font-size: 40px !important;
+    color: #fff;
+    line-height: 55px !important;
+    margin-bottom: 25px;
+    font-family: recoAltSemiBold;
+
+    @media screen and (max-width: 620px) {
+      font-size: 40px !important;
+      line-height: 50px !important;
+    }
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  .for-schs-button {
+    @include login-or-signup-button;
+    &:hover {
+      background: #005b83 !important;
+      color: #fff !important;
+      transition: 0.5s ease;
+    }
+  }
+  .demo-button {
+    @include get-started-button;
+    background: transparent;
+    border: solid 1px #fff !important;
+    margin-left: 10px;
+    &:hover {
+      background: #e7e7e7;
+      color: #414244;
+      border: solid 1px #414244;
+      transition: 0.5s ease;
+    }
+  }
+  .formyy {
+    @media screen and (max-width: 620px) {
+      margin-top: 30px;
+    }
+  }
+}
+.reports-container {
+  padding-top: 120px;
+  button {
+    background: #cef0ff;
+    color: #0098da;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    border-radius: 35px;
+  }
+  p {
+    font-size: 15px !important;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 18px;
+  }
+}
+.pastoral-container {
+  margin-top: 170px;
+  @media screen and (max-width: 620px) {
+    margin-top: 70px;
+  }
+  button {
+    background: #fcdce3;
+    color: #ed2f59;
+    border: none;
+    padding: 7px 25px;
+    font-family: rebondG-Medium;
+    margin-bottom: 35px;
+    margin-top: 120px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 17px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+  }
+}
+.cbt-container {
+  padding-bottom: 50px;
+  button {
+    margin-bottom: 35px;
+    margin-top: 130px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+}
+.eclassroom-container {
+  margin-top: 170px;
+  @media screen and (max-width: 620px) {
+    margin-top: 50px;
+  }
+  button {
+    padding: 7px 25px;
+
+    margin-bottom: 35px;
+    margin-top: 130px;
+
+    border-radius: 35px;
+  }
+  p {
+    color: #414244;
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: rebondG;
+    line-height: 22px;
+    margin-bottom: 80px;
+  }
+}
+.nav-two-for-schs {
+  height: fit-content;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: fixed !important;
+  z-index: 40;
+  background: rgb(248, 253, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 253, 254, 1) 64%,
+    rgba(255, 255, 255, 1) 68%
+  );
+}
+.shadow {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(240, 240, 240, 1) 53%,
+    rgba(255, 255, 255, 1) 70%
+  );
+}
+.overview-container {
+  margin-left: 100px !important;
+}
+.empty-grad {
+  margin-top: -40px;
+  height: 70px;
+  // position: relative;
+  // z-index: -1;
+  background: rgb(216, 239, 249);
+  background: linear-gradient(
+    180deg,
+    rgba(216, 239, 249, 1) 5%,
+    rgba(255, 255, 255, 1) 81%
+  );
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+}

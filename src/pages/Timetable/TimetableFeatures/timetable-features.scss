@@ -1,0 +1,23 @@
+.timetable-features-container {
+  background: #fff;
+  padding: 30px;
+  height: 338px;
+  border-radius: 10px;
+  box-shadow: -1px 11px 5px 0px rgba(250, 250, 250, 0.75);
+  -webkit-box-shadow: -1px 11px 5px 0px rgba(250, 250, 250, 0.75);
+  -moz-box-shadow: -1px 11px 5px 0px rgba(250, 250, 250, 0.75);
+  -moz-box-shadow: -2px 16px 5px 0px rgba(247, 245, 245, 0.75);
+  img {
+    height: 45px;
+    width: 45px;
+  }
+  p {
+    font-size: 15px;
+  }
+  h4 {
+    margin: 20px 0;
+  }
+  @media screen and (max-width: 620px) {
+    margin-top: 30px;
+  }
+}

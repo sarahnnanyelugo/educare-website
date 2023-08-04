@@ -1,0 +1,25 @@
+.lib-features-container {
+  border: solid 1px #f9aabb7c;
+  padding: 30px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px #16161715;
+  img {
+    height: 45px;
+  }
+  h6 {
+    margin-top: -7px !important;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 13px;
+  }
+  h5 {
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 620px) {
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 23px;
+  }
+}
