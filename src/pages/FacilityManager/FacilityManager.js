@@ -34,11 +34,12 @@ function FacilityManager() {
       <div className="facility-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-5 mtt  no-m">
-            <h1>Ensure Smooth Operations with Proactive Maintenance</h1>
+            <h1>Facility Management Reimagined: Trust in Educare's Vision!</h1>
             <p className="col-md-10 flexy flexyM">
-              Gain actionable insights from comprehensive reporting and
-              analytics, empowering you to optimize resources, improve
-              efficiency, and enhance facility performance
+              Embrace the brilliance of our software, as chaos transforms into
+              control, and your facilities reach their fullest potential.
+              Elevate your spaces, redefine facility management, and experience
+              the magic of Educare today!
             </p>
             <button className="demo">Request for demo</button>
           </div>
@@ -52,7 +53,7 @@ function FacilityManager() {
                 bg="#0B2FF7"
                 text="Get started"
                 body="#fff"
-                formHeading="Sign up and onboard your school in seconds"
+                formHeading="Sign up and onboard your business in seconds"
               />
             </div>
             <div className="col-md-3 img2">
@@ -66,7 +67,8 @@ function FacilityManager() {
       <div id="features" />
       <center>
         <h1 className="col-md-5 mt">
-          Who says managing your facility has to be tedious?
+          Reclaim Facility Management:
+          <br /> Effortlessly, Seamlessly, Triumphantly!
         </h1>
         <div className="col-md-8 mt7">
           {" "}
@@ -80,22 +82,39 @@ function FacilityManager() {
         <div className="flexy">
           <div className="col-md-6">
             <div className="col-md-10">
-              <h4>Centralized asset database</h4>
+              <h4>
+                Unleash the Power of Possessions: Embrace Educare's Asset
+                Management Module!
+              </h4>
               <p>
-                A module allows for the creation of a centralized repository to
-                manage and track all facility assets, including equipment,
-                furniture, and infrastructure.
+                With Educare's Facility Management Module, asset management
+                becomes a transformative experience for both schools and
+                businesses. Our platform provides a centralized asset database,
+                a comprehensive repository that empowers you to track and manage
+                all assets effortlessly.
               </p>
-              <h4>Preventive maintenance</h4>
+              <h4>
+                Seize the Future: Elevate Facility Efficiency with Preventive
+                Maintenance!
+              </h4>
               <p>
-                The module enables the scheduling and management of preventive
-                maintenance tasks to minimize downtime and extend asset
-                lifespan.
+                At Educare, we believe in proactive care that drives reliability
+                and excellence. Our Facility Management Module enables
+                preventive maintenance, empowering you to stay ahead of
+                potential issues and minimize downtime. Embrace a culture of
+                efficiency and consistency, as you nurture assets for peak
+                performance and long-term value. .
               </p>
-              <h4>Asset lifecycle management</h4>
+              <h4>
+                Beyond Possession, Unlock Value: Embrace Asset Lifecycle
+                Management with Educare!
+              </h4>
               <p>
-                It facilitates monitoring asset conditions, tracking maintenance
-                schedules, and managing repair and replacement processes.
+                Assets have their own journey, and Educare's Facility Management
+                Module ensures they thrive at every stage. From acquisition to
+                disposal, optimize asset performance and utilization with
+                comprehensive lifecycle management. Embrace the power of value
+                creation, where assets become key players in your success story.
               </p>
             </div>
           </div>
@@ -115,23 +134,27 @@ function FacilityManager() {
           </div>
           <div className="col-md-5 offset-md-1 mt4">
             <div className="col-md-10">
-              <h4>Work order management</h4>
+              <h4>Empowered Task Control</h4>
               <p>
-                We help streamline the process of creating, assigning, and
-                tracking work orders for maintenance, repairs, or service
-                requests.
+                Embrace work order management that empowers you to prioritize
+                tasks, streamline workflows, and achieve optimal efficiency.
+                From routine inspections to urgent repairs, unlock the true
+                potential of your facility with Educare's innovative solutions.
               </p>
-              <h4>Asset maintenance history</h4>
+              <h4>Unveiling Asset Maintenance History</h4>
               <p>
-                It maintains a detailed record of maintenance activities
-                performed on assets, facilitating historical analysis and
-                informed decision-making.
+                Informed decisions become the cornerstone of successful facility
+                management. With Educare, access comprehensive asset maintenance
+                history for every possession. Track maintenance schedules, past
+                repairs, and service records to ensure optimal performance and
+                value retention.
               </p>
-              <h4>Staff management</h4>
+              <h4>Embrace Staff Management with Educare!</h4>
               <p>
-                The management of contracts, service agreements, and performance
-                tracking to ensure efficient and quality service delivery can be
-                enabled on the educare facility management module.
+                Behind every well-maintained facility stands a team of dedicated
+                staff members. Educare's Facility Management Module empowers you
+                to efficiently manage your staff, ensuring the right skills and
+                resources are allocated to maintenance and repair tasks.
               </p>
             </div>
           </div>
@@ -146,15 +169,16 @@ function FacilityManager() {
             <div className="col-md-10">
               <h4>Customizable reports</h4>
               <p>
-                It allows for generating customizable reports on various
-                facility management aspects, such as asset utilization,
-                maintenance history, and costs.
+                With Educare's Facility Management Module, reporting and
+                analytics become your strategic compass. Our platform offers
+                customizable reports that cater to your unique needs, providing
+                valuable insights into facility operations.
               </p>
               <h4>Data-driven decision-making</h4>
               <p>
-                The module provides insights and analytics based on facility
-                data, supporting data-driven decision-making for optimizing
-                resources, reducing costs, and improving operational efficiency.
+                Embrace data-driven decision-making, where every action is
+                propelled by knowledge and every outcome is a testament to
+                efficiency.
               </p>
             </div>
           </div>
@@ -165,11 +189,16 @@ function FacilityManager() {
       </div>
       <center>
         <div className="col-md-6 mt">
-          <h2>Efficiently Manage Your Facilities with Ease</h2>
+          <h2>
+            Your Facility Management Partner: Embrace a Seamless Journey with
+            Us!
+          </h2>
           <p>
-            We understand how managing facility can be like and that is why we
-            are here to cater to all your facility management needs without
-            worry
+            Embarking on the complex journey of facility management can be a
+            daunting task, fraught with challenges and complexities. However,
+            rest assured, for we stand ready as your unwavering ally, catering
+            to all your facility management needs with utmost dedication and
+            expertise.
           </p>
         </div>
       </center>
@@ -183,27 +212,32 @@ function FacilityManager() {
             <li>
               {" "}
               <img className="" src={Tick} alt="Scholar" width="5%" />
-              Efficient operations and streamlined processes
+              Efficient operations and streamlined processes.
             </li>{" "}
             <li>
               {" "}
               <img className="" src={Tick} alt="Scholar" width="5%" />
-              Cost savings through optimized resource allocation
+              Effective Resource Utilization.
             </li>{" "}
             <li>
               {" "}
               <img className="" src={Tick} alt="Scholar" width="5%" />
-              Increased productivity and employee satisfaction
+              Enhanced Facility Security.
             </li>{" "}
             <li>
               {" "}
               <img className="" src={Tick} alt="Scholar" width="5%" />
-              Ensures regulatory compliance
+              Utmost adherence to regulatory compliance.
             </li>{" "}
             <li>
               {" "}
               <img className="" src={Tick} alt="Scholar" width="5%" />
-              Data-driven decision-making and insights
+              Data-driven decision-making and insights.
+            </li>
+            <li>
+              {" "}
+              <img className="" src={Tick} alt="Scholar" width="5%" />
+              Reliable Support and Training.
             </li>
           </ul>
         </div>
@@ -294,9 +328,7 @@ function FacilityManager() {
       </div> */}
       <center>
         <div className="col-md-5 admin-process">
-          <h3>
-            Streamline Your Admission Process with educare admissions today!
-          </h3>
+          <h3>Empowerment Through Expert Facility Management!</h3>
           <center>
             <GetStartedForm
               text=" Get started"

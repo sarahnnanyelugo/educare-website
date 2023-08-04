@@ -35,7 +35,7 @@ function AdmissionPage() {
           <div className="col-md-5">
             <h2>
               Unlock a World of Potential: <br />
-              Seamlessly Admit Students with Ease!
+              Admit Students with Ease!
             </h2>
             <p className="col-md-10">
               Seize Control of Admissions: Empower Staff with Effortless Student
