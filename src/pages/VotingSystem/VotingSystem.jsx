@@ -35,10 +35,13 @@ function VotingSystem() {
             color="#0098DA"
             boda="#CEF0FF"
           />
-          <h1>Engage your staff and students in an interesting way</h1>
-          <p>
-            Streamline various processes and promote greater participation and
-            engagement from students and staff alike.
+          <h1>
+            Vote, Influence, Decide: <br />
+            Experience the Impact of Educare's Voting Module!
+          </h1>
+          <p className="col-md-11">
+            Embrace transparency, inclusivity, and the power of choice, as you
+            make every vote count with Educare's Voting Module.
           </p>
           <div className="flexy flexyM offset-md-4 mt4 voting-btns offset-2">
             <GetStartedForm
@@ -58,8 +61,9 @@ function VotingSystem() {
         <center>
           <div className="col-md-5">
             <p>
-              Educare voting system thrives in creating a fair form of learning
-              that helps improve performance for teachers
+              With Educare's Voting Module, you unlock a world of democratic
+              participation, empowering teachers and students to vote for
+              important school decisions and elections.
             </p>
           </div>
         </center>
@@ -73,16 +77,18 @@ function VotingSystem() {
       </div>
       <center>
         <h3 className="rating-heading ">
-          A platform to run fair forms of voting and rating
+          Empower Your Voice: Unleash the Power of Educare's Voting Module!
         </h3>
       </center>
       <div className="col-md-10 offset-md-1 flexy ">
         <div className="col-md-6">
           <div className="col-md-11 engagement rating">
-            <h5>Engagement</h5>
+            <h5>Elevate Engagement</h5>
             <p>
-              Student engagement can be increased by making learning more
-              interactive and participatory.
+              With Educare's Voting Module, participation is no longer a mere
+              act but a fiery expression of student and teacher engagement.
+              Embrace the spirit of collaboration, as every vote becomes a
+              catalyst for positive change and collective growth.
             </p>
             <div className="col-md-8 offset-md-4">
               <Lottie loop animationData={Engagement} play className="l" />
@@ -91,11 +97,12 @@ function VotingSystem() {
         </div>
         <div className="col-md-6">
           <div className="col-md-12 assessment rating">
-            <h5>Assessment</h5>
+            <h5>Assessment with Impact</h5>
             <p>
-              The system can be used as a form of formative or summative
-              assessment, providing teachers with valuable feedback on student
-              understanding.
+              Go beyond mere voting; assess and refine your school's initiatives
+              with Educare's powerful Voting Module. Teachers and students can
+              cast their votes, offering valuable insights into preferences, and
+              priorities.
             </p>
             <div className="col-md-12 offset-md-2">
               <Lottie loop animationData={Assessment} play className="l" />
@@ -106,12 +113,13 @@ function VotingSystem() {
       <div className="col-md-10 offset-md-1 accessibility flexy ">
         <div className="col-md-6">
           {" "}
-          <h5>Accessibility</h5>
+          <h5>Vote Anywhere, Anytime</h5>
           <p>
-            Activities can be accessed remotely, allowing for distance learning
-            and providing students with more flexibility in how they participate
-            <br />
-            in class.
+            Empower your school community with the freedom of choice through
+            Educare's Voting Module. Accessibility becomes the norm, as teachers
+            and students can cast their votes seamlessly, anywhere and anytime.
+            Embrace the convenience, knowing that every voice matters,
+            regardless of location or time constraints.
           </p>
         </div>
         <div className="col-md-6">
@@ -127,11 +135,14 @@ function VotingSystem() {
       <div className="col-md-10 offset-md-1 flexy">
         <div className="col-md-6">
           <div className="col-md-11 engagement rating">
-            <h5>Data Collection</h5>
+            <h5>Data-Driven Decision-Making</h5>
             <p>
-              Collect and analyze data on student performance and participation,
-              providing teachers with insights into student needs and areas for
-              improvement.
+              With Educare's Voting Module, data becomes the cornerstone of
+              informed decision-making. Our platform collects valuable insights
+              through voting, enabling schools to access comprehensive data for
+              analysis. Embrace the power of data-driven choices, as your
+              institution takes confident strides towards continuous improvement
+              and excellence.
             </p>
             <div className="col-md-12 offset-md-">
               <Lottie loop animationData={Data} play className="l" />
@@ -140,11 +151,14 @@ function VotingSystem() {
         </div>
         <div className="col-md-6">
           <div className="col-md-12 assessment rating">
-            <h5>Reduced Bias</h5>
+            <h5>Fairness and Integrity</h5>
             <p>
-              Bias can be reduced in the classroom by giving all students an
-              equal opportunity to participate and share their thoughts and
-              ideas.
+              Fairness is at the core of Educare's Voting Module, ensuring
+              reduced bias and promoting a level playing field for all
+              participants. By removing the potential for favoritism and
+              ensuring anonymity in the voting process, our platform maintains
+              integrity and builds trust, creating an environment where merit
+              and competence triumph.
             </p>
             <div className="col-md-8 offset-md-4 ">
               <Lottie

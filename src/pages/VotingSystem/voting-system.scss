@@ -14,6 +14,7 @@
 .voting-div {
   padding: 80px 0;
   h1 {
+    // font-size:37px;
     font-family: recoAltMedium;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -56,9 +57,9 @@
 }
 
 .rating {
-  height: 504px;
+  height: 550px;
 
-  padding: 70px 70px;
+  padding: 50px 50px;
   border-radius: 10px;
   @media screen and (max-width: 620px) {
     padding: 30px 10px;
