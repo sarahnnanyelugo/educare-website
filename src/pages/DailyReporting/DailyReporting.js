@@ -26,8 +26,11 @@ function DailyReporting() {
             />
             <h1 className="col-md-10 ">Unlock productivity and efficiency</h1>
             <p>
-              Centralize daily updates for improved collaboration and informed
-              decision-making.
+              With Educare's Daily Reporting Module, productivity reaches new
+              heights. Empower your staff to input their daily tasks with ease,
+              ensuring accountability and streamlined work hours. Embrace
+              data-driven excellence, as each staff member's productivity
+              becomes the heartbeat of your establishment.
             </p>
           </div>
           <div className="col-md-4 offset-md-3">
@@ -37,7 +40,7 @@ function DailyReporting() {
                 bg="#ED2F59"
                 text="Get started"
                 body="#fff"
-                formHeading="Sign up and onboard your school in seconds"
+                formHeading="Sign up and onboard your business in seconds"
               />
             </div>
           </div>
@@ -50,10 +53,11 @@ function DailyReporting() {
             <center>
               <h4>Real-Time Data Capture</h4>
               <p>
-                Users can input data and updates directly into the software
-                module, capturing real-time information related to tasks,
-                activities, and accomplishments. This ensures that daily reports
-                reflect the most current and accurate information.
+                Make every moment count with Educare's Daily Reporting Module.
+                Capture your daily tasks in real-time, ensuring accuracy and
+                immediate visibility. Empower yourself to stay on top of your
+                responsibilities, as you record achievements and progress with
+                each passing moment.
               </p>
             </center>
           </div>
@@ -62,22 +66,21 @@ function DailyReporting() {
           <div className="daily-report-feature itemm2">
             <h4>Centralized Report Repository</h4>
             <p>
-              The module acts as a central repository for all daily reports,
-              making it easy for supervisors, managers, or other stakeholders to
-              access and review the reports whenever necessary. This
-              centralization streamlines communication and enhances
-              collaboration.
+              At Educare, we believe in bringing all your accomplishments under
+              one roof. Our Daily Reporting Module provides a centralized report
+              repository, streamlining your work records and achievements. Unify
+              Your Success with Educare's Daily Reporting and experience the
+              ease of accessing your daily reports in one place,
             </p>
           </div>
         </div>
         <div className="col">
           <div className="daily-report-feature itemm3">
-            <h4>Notifications and Reminders</h4>
+            <h4>Never Miss a Beat: Stay Informed !</h4>
             <p>
-              Automated notifications and reminders are sent to users to ensure
-              timely submission of daily reports. This feature helps maintain
-              accountability and keeps everyone on track with their reporting
-              responsibilities.
+              Never miss a beat with Educare's Daily Reporting Module. Our
+              platform sends timely notifications and reminders, ensuring staff
+              members stay on track with their daily tasks.
             </p>
           </div>
         </div>
@@ -103,47 +106,52 @@ function DailyReporting() {
         <div className="col dpf no-m">
           <div className="daily-report-feature itemm4">
             <center>
-              <h4>No backdating Report</h4>
+              <h4>Forward-Moving Accountability</h4>
               <p>
-                This upholds transparency and data integrity within the
-                organization. It prohibits the backdating of any reports or
-                entries, ensuring that all information reflects real-time and
-                accurate data.
+                Accountability is the cornerstone of success, and Educare's
+                Daily Reporting Module ensures it's maintained with integrity.
+                Our platform enforces a no-backdating policy, promoting accurate
+                and honest reporting. Embrace a culture of forward-moving
+                progress, where each report stands as a testament to the
+                commitment of your staff.
               </p>
             </center>
           </div>
         </div>
         <div className="col dpf no-m">
           <div className="daily-report-feature itemm5">
-            <h4>Communication and Collaboration</h4>
+            <h4>Collaborate, Elevate</h4>
             <p>
-              The module often includes communication features such as
-              discussion boards or messaging systems. This fosters collaboration
-              among students or team members, allowing them to seek
-              clarification, discuss the report, or exchange ideas.
+              Communication and collaboration become a breeze with Educare's
+              Daily Reporting Module. Staff members can seamlessly communicate
+              within the platform, sharing updates, progress, and insights.
+              Embrace the power of teamwork, as collaboration elevates your
+              productivity and fosters a supportive work environment.
             </p>
           </div>
         </div>
         <div className="col dpf no-m">
           <div className="daily-report-feature itemm6">
-            <h4>Data Security</h4>
+            <h4>Data Shielded, Trust Secured</h4>
             <p>
-              We prioritize data security, ensuring that sensitive information
-              is protected. It allows administrators to set permissions,
-              granting access to specific users or teams while maintaining data
-              confidentiality.
+              At Educare, we take data security seriously. Our Daily Reporting
+              Module ensures robust data protection, safeguarding confidential
+              information from unauthorized access. Rest easy knowing that your
+              staff's data is handled with utmost care, enabling your business
+              to thrive in a secure digital environment.
             </p>
           </div>
         </div>
       </div>
 
       <div className="col-md-10 offset-md-1 daily-get-started flexy">
-        <div className="col-md-5 offset-md-1">
-          <h2>
-            Harness the power of data analytics to drive productivity and growth
-          </h2>
+        <div className="col-md-6 offset-md-1">
+          <h3>
+            Embrace the power of efficiency, transparency, and security today,
+            and unlock your staff's daily potential with Educare!
+          </h3>
         </div>
-        <div className="offset-md-2 mt2 offset-1">
+        <div className="offset-md-1 mt2 offset-1">
           <GetStartedForm
             text=" Get started"
             bg="#ED2F59"

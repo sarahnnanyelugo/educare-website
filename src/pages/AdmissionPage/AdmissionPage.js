@@ -136,23 +136,32 @@ function AdmissionPage() {
         </center>
         <div className="col-md-11 offset-md-1 flexy mt5">
           <div className="col-md-5">
-            <h4>Creation and Customization of Application Forms</h4>
+            <h4>Elevate Admissions: Craft and Customize Application Forms.</h4>
             <p>
-              The module allows organizations to design and customize
-              application forms according to their specific requirements. This
-              includes adding relevant fields, specifying validation rules, and
-              capturing the necessary applicant information.
+              With Educare's Admission Module, the path to academic excellence
+              begins with seamless application management. Create and customize
+              application forms tailored to your school's unique requirements,
+              offering a user-friendly experience for prospective students.
             </p>{" "}
-            <h4>Online Application Submission</h4>
+            <h4>
+              Accelerate Admissions: Embrace Online Application Submission.
+            </h4>
             <p>
-              Applicants can conveniently submit their applications online
-              through a user-friendly interface. This eliminates the need for
-              paper-based applications and allows for efficient data collection.
+              Embrace the power of digital transformation with Educare's
+              Admission Module. Our platform enables online application
+              submission, eliminating paperwork and streamlining the admissions
+              process. Say goodbye to time-consuming manual submissions, and
+              embrace the efficiency of online applications that accelerate the
+              admission process.
             </p>{" "}
-            <h4>Application Fee Processing</h4>
+            <h4>Fees Made Simple: Effortless Application Fee Processing</h4>
             <p>
-              The software may offer functionality to process application fees
-              securely, allowing applicants to make payments online.
+              At Educare, we believe in simplifying the admissions journey for
+              both students and administrators. Our Admission Module facilitates
+              secure and seamless application fee processing. Enable applicants
+              to pay their fees online, ensuring a hassle-free experience and
+              minimizing administrative burden. Embrace a convenient, cashless
+              approach to application fee management.
             </p>
           </div>
           <div className="col-md-6 offset-md-1">
@@ -192,23 +201,37 @@ function AdmissionPage() {
             />
           </div>
           <div className="col-md-5  offset-md-1">
-            <h4>Scoring or Rating of Applicants</h4>
+            <h4>
+              Discover Brilliance: Unravel the Power of Educare's Applicant
+              Evaluation & Review!
+            </h4>
             <p>
-              This enables administrators to define evaluation criteria and
-              assign scores or ratings to applicants. This helps in objectively
-              assessing applicants and comparing them to predefined benchmarks.
+              With Educare's Admission Module, brilliance takes center stage as
+              applicants are scored and rated to identify the brightest minds.
+              Our platform simplifies the evaluation process, enabling
+              administrators to objectively assess each applicant's potential,
+              skills, and qualifications.
             </p>{" "}
-            <h4>Reviewing and Assessing Applicant Documents:</h4>
+            <h4>
+              Powerful Insights, Confident Decisions: Review and Assess
+              Applicant Documents with Educare!
+            </h4>
             <p>
-              Admission staff can access and review applicant documents directly
-              within the module. This feature streamlines the evaluation process
-              and ensures all necessary materials are considered.
+              In the pursuit of excellence, fairness is paramount. Educare's
+              Applicant Evaluation & Review feature allows administrators to
+              thoroughly review and assess applicant documents, ensuring every
+              candidate is given an equal opportunity.
             </p>{" "}
-            <h4>Comparison and Ranking of Applicants</h4>
+            <h4>
+              The Quest for Greatness: Compare and Rank Applicants with Educare!
+            </h4>
             <p>
-              The module provides tools to compare and rank applicants based on
-              evaluation scores, allowing administrators to identify the most
-              qualified candidates.
+              Educare's Admission Module offers a powerful comparison and
+              ranking tool, enabling administrators to identify standout
+              applicants. Embrace the efficiency of data-driven comparison,
+              where each candidate's strengths and achievements are evaluated,
+              leading to a curated list of top candidates who align perfectly
+              with your school's vision and values.
             </p>
           </div>
         </div>
@@ -231,24 +254,35 @@ function AdmissionPage() {
         </center>
         <div className="col-md-11 offset-md-1 flexy mt5">
           <div className="col-md-5">
-            <h4>Automated Notifications</h4>
+            <h4>
+              Stay Informed with Educare's Automated Notifications Feature.
+            </h4>
             <p>
-              Send automated notifications to applicants at various stages of
-              the admission process. These notifications may include application
-              received confirmation, document submission reminders, interview
-              scheduling, or final decision notifications.
+              With Educare's Admission Module, communication becomes the
+              heartbeat of your admissions process. Stay connected with
+              prospective students and their families through automated
+              notifications that keep them informed at every step of their
+              application journey.
             </p>{" "}
-            <h4>Customizable Email Templates</h4>
+            <h4>Personalize with Customizable Email Templates!</h4>
             <p>
-              Administrators can create and customize email templates for
-              communication with applicants. This ensures consistent messaging
-              and saves time by automating routine communication.
+              At Educare, we believe in the power of personalization. Our
+              Communication and Notifications feature offers customizable email
+              templates, allowing you to convey your institution's unique
+              personality and message. Embrace the freedom to create tailored
+              communications that resonate with your applicants, nurturing a
+              lasting connection that sets your institution apart.
             </p>{" "}
-            <h4>Applicant Portal</h4>
+            <h4>
+              The Gateway to Success: Empower Applicants with the Educare
+              Applicant Portal!
+            </h4>
             <p>
-              Individuals can log in to view their application status, update
-              contact information, submit additional documents, or communicate
-              with the admissions team on an applicant portal.
+              With Educare's Applicant Portal, empower applicants to take
+              control of their admission journey. This user-friendly platform
+              becomes the gateway to success, offering a centralized hub for
+              applicants to access updates, important documents, and real-time
+              notifications.
             </p>
           </div>
           <div className="col-md-6 offset-md-1">
@@ -289,24 +323,31 @@ function AdmissionPage() {
             />
           </div>
           <div className="col-md-5  offset-md-1">
-            <h4>Centralized Platform for Decision-making</h4>
+            <h4>Centralize your Decision-making Platform</h4>
             <p>
-              A centralized platform where administrators can access applicant
-              profiles, evaluation scores, and other relevant data to facilitate
-              informed decision-making.
+              With Educare's Admission Module, the future of your institution
+              lies in redefined decisions. Embrace the power of a centralized
+              platform for decision-making, where your team can collaborate
+              seamlessly and make well-informed choices.
             </p>{" "}
-            <h4>Decision-making Tools and Workflows</h4>
+            <h4>Embrace Decision-making Tools and Workflows with Educare!</h4>
             <p>
-              Offers workflows or decision-making tools to guide administrators
-              through the selection process. This includes setting decision
-              criteria, defining acceptance thresholds, and managing waitlists.
+              Educare's Redefined Decisions feature puts the power in your
+              team's hands. Our platform offers robust decision-making tools and
+              workflows, optimizing the evaluation process and ensuring no
+              detail is overlooked. .
             </p>{" "}
-            <h4>Generation of Acceptance/Rejection Letters</h4>
+            <h4>
+              Seal Your Legacy: Elevate Acceptance and Rejection Letters with
+              Educare!
+            </h4>
             <p>
-              Be able to generate acceptance, rejection, or waitlist letters
-              automatically. This simplifies the process of notifying applicants
-              about their admission status and ensures consistent and timely
-              communication.
+              The legacy of your institution begins with acceptance and
+              rejection letters that inspire and uplift. With Educare's
+              Redefined Decisions, generate impactful acceptance and rejection
+              letters that celebrate achievements and encourage growth. Embrace
+              a compassionate and empowering approach to decision-making,
+              shaping futures with every letter.
             </p>
           </div>
         </div>
@@ -328,18 +369,25 @@ function AdmissionPage() {
         </center>
         <div className="col-md-11 offset-md-1 flexy mt5">
           <div className="col-md-5">
-            <h4>Handling Large Application Volumes</h4>
+            <h4>Scale to Success with Educare's Admission Module!</h4>
             <p>
-              Our software is designed to handle large volumes of applications
-              efficiently without compromising performance. It can handle high
-              traffic and accommodate spikes in application submissions during
-              peak admission periods..
+              With Educare's Scalability and Performance, your institution is
+              ready to embrace growth with unwavering confidence. Our Admission
+              Module is engineered to handle large application volumes
+              seamlessly, empowering you to welcome applicants from all corners
+              with open arms. Embrace the power of scalability, where success
+              knows no bounds.
             </p>{" "}
-            <h4>High Availability</h4>
+            <h4>
+              Always Ready, Always Thriving: Experience High Availability with
+              Educare!
+            </h4>
             <p>
-              We ensure high availability and reliability, minimizing downtime
-              and ensuring uninterrupted access to critical admission data and
-              functionalities.
+              At Educare, we believe in providing an admission module that never
+              misses a beat. High availability is the backbone of our platform,
+              ensuring it remains accessible and reliable at all times. Embrace
+              the peace of mind that comes with a system that thrives with you,
+              empowering your institution to reach new heights of excellence.
             </p>{" "}
           </div>
           <div className="col-md-6 offset-md-1">
