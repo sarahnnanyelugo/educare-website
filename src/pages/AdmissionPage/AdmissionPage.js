@@ -136,7 +136,9 @@ function AdmissionPage() {
         </center>
         <div className="col-md-11 offset-md-1 flexy mt5">
           <div className="col-md-5">
-            <h4>Elevate Admissions: Craft and Customize Application Forms.</h4>
+            <h4>
+              Elevate Admissions: Craft and Customize Your Application Forms.
+            </h4>
             <p>
               With Educare's Admission Module, the path to academic excellence
               begins with seamless application management. Create and customize
@@ -201,10 +203,7 @@ function AdmissionPage() {
             />
           </div>
           <div className="col-md-5  offset-md-1">
-            <h4>
-              Discover Brilliance: Unravel the Power of Educare's Applicant
-              Evaluation & Review!
-            </h4>
+            <h4>Ingenious Applicant's Evaluation & Review!</h4>
             <p>
               With Educare's Admission Module, brilliance takes center stage as
               applicants are scored and rated to identify the brightest minds.
@@ -371,12 +370,12 @@ function AdmissionPage() {
           <div className="col-md-5">
             <h4>Scale to Success with Educare's Admission Module!</h4>
             <p>
-              With Educare's Scalability and Performance, your institution is
-              ready to embrace growth with unwavering confidence. Our Admission
-              Module is engineered to handle large application volumes
-              seamlessly, empowering you to welcome applicants from all corners
-              with open arms. Embrace the power of scalability, where success
-              knows no bounds.
+              With Educare's cloud-based service, your institution is ready to
+              embrace growth with unwavering confidence. Our Admission Module is
+              engineered to handle large application volumes seamlessly,
+              empowering you to welcome applicants from all corners with open
+              arms. Embrace the power of scalability, where success knows no
+              bounds.
             </p>{" "}
             <h4>
               Always Ready, Always Thriving: Experience High Availability with
