@@ -31,6 +31,9 @@ function DashboardDisplay() {
                     alt="Scholar"
                     width="100%"
                   />
+                  <center className="mt2">
+                    <h3>Streamlined payroll accounting</h3>
+                  </center>
                 </div>
               </div>
               <div className="col-md-2 wing-imgs2">
@@ -54,6 +57,9 @@ function DashboardDisplay() {
                     alt="Scholar"
                     width="100%"
                   />
+                  <center className="mt2">
+                    <h3>Incisive Requisition Management</h3>
+                  </center>
                 </div>
               </div>
               <div className="col-md-2 wing-imgs2">
@@ -76,6 +82,9 @@ function DashboardDisplay() {
                     alt="Scholar"
                     width="100%"
                   />
+                  <center className="mt2">
+                    <h3>Concise income summary</h3>
+                  </center>
                 </div>
               </div>
               <div className="col-md-2 wing-imgs2">
@@ -98,6 +107,9 @@ function DashboardDisplay() {
                     alt="Scholar"
                     width="100%"
                   />
+                  <center className="mt2">
+                    <h3>Inventory control solution</h3>
+                  </center>
                 </div>
               </div>
               <div className="col-md-2 wing-imgs2">
@@ -106,9 +118,6 @@ function DashboardDisplay() {
             </div>
           </Carousel.Item>
         </Carousel>
-        <center>
-          <h3>Streamlined payroll accounting</h3>
-        </center>
       </div>
       <div className="col-md-12 emptied2 flexy flexyM">
         <div className="innerW2 col-md-2 col-2"></div>

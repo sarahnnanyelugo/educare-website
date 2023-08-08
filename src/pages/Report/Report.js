@@ -47,8 +47,8 @@ function Report() {
                 style={{ marginLeft: "-5px" }}
               />
               Educare's Report Module simplifies and streamlines report card
-              management, allowing schools to bid farewell to the headaches and
-              challenges associated with traditional grading processes.
+              management by letting you create, customize, develop, and
+              distribute report cards with great ease and accuracy.
             </p>
             <img className="offset-md-9 mt5" src={Dot3} alt="Scholar" />
             <img className="offset-md-3 mt7" src={Dot4} alt="Scholar" />
@@ -179,7 +179,6 @@ function Report() {
       <div id="features" />
       <center>
         <h1 className="mtt  col-md-8 ">
-          Accelerate Achievement: <br />
           Enjoy the Benefits of Educare Reports!
         </h1>
       </center>
@@ -285,11 +284,8 @@ function Report() {
         </p>
       </center> */}
       <div className="col-md-10 offset-md-1 report-get-started flexy">
-        <div className="col-md-6 offset-md-1">
-          <h2>
-            Embrace the report card revolution and catapult yourself towards
-            excellence with Educare Reports by your side.
-          </h2>
+        <div className="col-md-6 offset-md-1 mt4">
+          <h2>Say goodbye to report card headache!</h2>
         </div>
         <div className="offset-md-2 mt2 offset-1">
           <GetStartedForm

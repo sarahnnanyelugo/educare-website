@@ -39,16 +39,14 @@ export const FinancePage = () => {
             boda="#DED0FA"
           />
           <h1>
-            Efficiency Meets Simplicity: Discover the All-Inclusive Educare
-            Finance Solution
+            Introducing the All-Inclusive Educare Finance Solution Made for your
+            Business
           </h1>
           <p className="col-md-11">
-            Step into a future of financial empowerment with Educare Finance.
-            Effortlessly manage invoicing, expenditures, and online payments.
-            Gain full control over budgets and payroll, making strategic
-            decisions with confidence. Experience stability, security, and
-            unprecedented growth as Educare Finance becomes your unwavering
-            ally.
+            From invoicing to order management to accounting, educare Finance
+            has all the tools you need to streamline all of your back office
+            operations. Gain insight into your financial performance and make
+            informed decisions to help your business thrive.
           </p>
           <div className="flexy flexyM offset-md-4 mt4 finance-btns offset-1">
             <GetStartedForm
@@ -78,27 +76,27 @@ export const FinancePage = () => {
           <div className="col-md-4">
             <div className="col-md-10">
               <Efficiency
-                title="Optimize your business operations with efficiency"
+                title="Optimized Business Operations "
                 icon={Setting}
-                paragraph="By automating essential financial processes, this powerhouse solution streamlines your operations, freeing up valuable time and resources. From invoicing to expense management, every aspect is seamlessly synchronized, paving the way for unrivaled productivity and growth. Take charge of your business like never before with Educare Finance Manager - the catalyst for a new era of success!"
+                paragraph="By automating essential financial processes, educare finance module  streamlines your business operations, through simplifying purchase and inventory management, order tracking, and fulfillment. Maximize sales potential by adding more selling channels while efficiently managing multiple warehouses. Improve order processing times to enhance customer satisfaction."
               />
             </div>
           </div>{" "}
           <div className="col-md-4">
             <div className="col-md-10">
               <Efficiency
-                title="Empower Your Decisions, Elevate Your Business"
+                title="Smarter Business Decisions"
                 icon={Track}
-                paragraph="Elevate your decision-making game with Educare Finance Manager. Gain deep insights into your business's financial health, and make informed choices that steer your company towards prosperity. With real-time data at your fingertips, you'll gain the power to steer your business towards the future with confidence and clarity."
+                paragraph="By connecting all back-office applications, data integration becomes automated, eliminating the need for manual data linking across various sources. This integration ensures that information flows in real-time between the applications, providing you with up-to-date and accurate information. As a result, you can make better-informed business decisions."
               />
             </div>
           </div>{" "}
           <div className="col-md-4">
             <div className="col-md-10">
               <Efficiency
-                title="Simplify and Conquer: Automated Financial Management with Educare!"
+                title="Automated Processes and Tools"
                 icon={Storage}
-                paragraph="The key to overcoming complex financial challenges lies in simplicity. Educare Finance Manager simplifies your financial management through cutting-edge automation tools.  Let our Finance Manager be your trusted ally in conquering financial complexities, allowing you to focus on what you do best - propelling your business to new heights."
+                paragraph="Effortlessly manage your finances and maintain cash flow with automated tools that allow you to track receivables and payables. Seamlessly import bank feeds to ensure accuracy and compliance with sales tax, VAT, and GST."
               />
             </div>
           </div>
@@ -108,18 +106,19 @@ export const FinancePage = () => {
           <div className="col-md-6">
             <div className="col-md-11">
               <Efficiency
-                title="Effortless Payroll Mastery: Educare Finance Manager Takes the Lead!"
+                title="Streamlined payroll accounting"
                 icon={Support}
-                paragraph="Managing payroll doesn't have to be a daunting task. With Educare Finance Manager, payroll accounting becomes a breeze. Say goodbye to manual calculations and paperwork, and say hello to streamlined payroll processing."
+                paragraph="Educare  Finance Module enables you to automate salary payments through secure integrations with partner banks, distribute payslips and payroll forms online, effortlessly organize and download crucial payroll documents all from one place, and seamlessly  submit online , your Tax saving investment declarations ."
               />
             </div>
           </div>{" "}
           <div className="col-md-6 offset-md-1 ml5 no-m">
             <div className="col-md-11">
               <Efficiency
-                title="Payroll Power at Your Fingertips: Access Data on Demand with Educare!"
+                title="Payroll data on demand
+"
                 icon={Together}
-                paragraph="Instant access to crucial payroll data can make all the difference in business operations.  With Educare Finance Manager, never again let payroll become a hindrance to your business's smooth functioning; instead, turn it into a powerful asset that drives growth and success."
+                paragraph="Instant access to crucial payroll data can make all the difference in business operations.  With Educare Finance Manager, you can download ready-to-share payroll reports that paint a complete picture about your organization’s payroll costs."
               />
             </div>
           </div>

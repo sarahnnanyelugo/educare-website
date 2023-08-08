@@ -24,7 +24,7 @@ function ReportTable() {
             className={`tab ${checkActive(2, "active2")}`}
             onClick={() => handleClick(2)}
           >
-            Result Analysis
+            Analyze Results
           </button>
           <button
             className={`tab ${checkActive(3, "active2")}`}
@@ -58,13 +58,12 @@ function ReportTable() {
               <div className="col-md-4">
                 <div className="col-md-11">
                   {" "}
-                  <h5>Instant Results with Educare's Report Module!</h5>
+                  <h5>Generate Instant Results </h5>
                   <p>
-                    With Educare's Report Module, say goodbye to waiting for
-                    report cards. Instantly generate comprehensive results that
-                    reflect students' academic progress and achievements.
-                    Empower educators with timely data, enabling them to make
-                    informed decisions and provide personalized support.
+                    Be able to provide thorough findings, streamlining the
+                    procedure with our user-friendly platform, converting data
+                    into meaningful reports, saving time, ensuring accuracy, and
+                    providing instructors with in-depth performance analysis.
                   </p>
                 </div>
               </div>
@@ -88,16 +87,13 @@ function ReportTable() {
               <div className="col-md-4">
                 <div className="col-md-11">
                   {" "}
-                  <h5>
-                    Data-Driven Growth: Unlock Student Analysis at Your
-                    Fingertips!
-                  </h5>
+                  <h5>Analyze Results </h5>
                   <p>
-                    Embrace the power of data analytics with Educare's Student
-                    Analysis feature. Dive deep into individual student
-                    performance, identifying strengths, weaknesses, and growth
-                    areas. Equip teachers with valuable insights to tailor their
-                    instruction and nurture each student's full potential.
+                    With Educare Report Module, you are enabled to dive deep
+                    into individual student performance, identifying strengths,
+                    weaknesses, and growth areas. It equips teachers with
+                    valuable insights to tailor their instruction and nurture
+                    each student's full potential.
                   </p>
                 </div>
               </div>
@@ -122,7 +118,7 @@ function ReportTable() {
               <div className="col-md-4">
                 <div className="col-md-11">
                   {" "}
-                  <h5>Impactful Feedback, Meaningful Growth</h5>
+                  <h5>Impactful Feedback</h5>
                   <p>
                     Educare's Report Module enables teachers to provide
                     impactful feedback through Teachers' Remark. Personalized
@@ -152,17 +148,14 @@ function ReportTable() {
               <div className="col-md-4">
                 <div className="col-md-11">
                   {" "}
-                  <h5>
-                    Transcript Excellence: Elevate Your School's Academic
-                    Record!
-                  </h5>
+                  <h5>Transcript Accessibility</h5>
                   <p>
-                    Experience academic excellence with Educare's Transcript
-                    feature. Create comprehensive and professional-grade
-                    transcripts that showcase students' accomplishments
-                    throughout their academic journey. Embrace a holistic view
-                    of a student's academic journey, showcasing their full
-                    potential to colleges and universities.
+                    In Educare's Report Module is embedded transcript feature
+                    that lets educators create comprehensive grade transcripts
+                    that showcase students' accomplishments throughout their
+                    academic journey this gives way to a holistic view of a
+                    student's academic journey, showcasing their full potential
+                    to colleges and universities.
                   </p>
                 </div>
               </div>
