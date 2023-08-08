@@ -36,7 +36,7 @@ function Report() {
           <div className="col-md-6 mtt  no-m">
             <img className="offset-md-8" src={Dot1} alt="Scholar" />
             <h1 className="col-md-">
-              Effortless Evaluation: <br />
+              Accurate Evaluation: <br />
               Your School's Report Card Solution - Educare!
             </h1>
             <p className="col-md-10 flexy flexyM">

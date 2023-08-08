@@ -150,12 +150,12 @@ function ReportTable() {
                   {" "}
                   <h5>Transcript Accessibility</h5>
                   <p>
-                    In Educare's Report Module is embedded transcript feature
+                    Embedded in Educare's Report Module is transcript feature
                     that lets educators create comprehensive grade transcripts
                     that showcase students' accomplishments throughout their
                     academic journey this gives way to a holistic view of a
-                    student's academic journey, showcasing their full potential
-                    to colleges and universities.
+                    student's academic performance, showcasing their full
+                    potential to colleges and universities.
                   </p>
                 </div>
               </div>
