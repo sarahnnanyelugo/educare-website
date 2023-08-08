@@ -58,12 +58,13 @@ function ReportTable() {
               <div className="col-md-4">
                 <div className="col-md-11">
                   {" "}
-                  <h5>Generate Instant Results </h5>
+                  <h5>Automated Result Generation </h5>
                   <p>
-                    Be able to provide thorough findings, streamlining the
-                    procedure with our user-friendly platform, converting data
-                    into meaningful reports, saving time, ensuring accuracy, and
-                    providing instructors with in-depth performance analysis.
+                    By converting data into meaningful reports, our
+                    user-friendly platform ensures the process of generating
+                    results is streamlined and automated, thereby saving time,
+                    ensuring correctness, and providing instructors with
+                    thorough performance analysis.{" "}
                   </p>
                 </div>
               </div>
@@ -89,11 +90,11 @@ function ReportTable() {
                   {" "}
                   <h5>Analyze Results </h5>
                   <p>
-                    With Educare Report Module, you are enabled to dive deep
-                    into individual student performance, identifying strengths,
-                    weaknesses, and growth areas. It equips teachers with
-                    valuable insights to tailor their instruction and nurture
-                    each student's full potential.
+                    With Educare powerful student analysis tools , you can
+                    confidently dive deep into individual student performance,
+                    identifying strengths, weaknesses, and growth areas. It
+                    equips teachers with valuable insights to tailor their
+                    instruction and nurture each student's full potential.
                   </p>
                 </div>
               </div>
