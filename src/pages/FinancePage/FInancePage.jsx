@@ -108,7 +108,7 @@ export const FinancePage = () => {
               <Efficiency
                 title="Streamlined payroll accounting"
                 icon={Support}
-                paragraph="Educare  Finance Module enables you to automate salary payments through secure integrations with partner banks, distribute payslips and payroll forms online, effortlessly organize and download  payroll documents all from one place, and seamlessly  submit online , your Tax saving investment declarations ."
+                paragraph="Educare  Finance Module enables you to automate salary payments through secure integrations with partner banks, distribute payslips and payroll forms online, effortlessly organize and download  payroll documents all from one place, and seamlessly  submit online, your Tax saving investment declarations ."
               />
             </div>
           </div>{" "}
