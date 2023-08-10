@@ -33,15 +33,12 @@ function AdmissionPage() {
       <div className="col-md-12 admissions-div">
         <center>
           <div className="col-md-5">
-            <h2>
-              Unlock a World of Potential: <br />
-              Admit Students with Ease!
-            </h2>
+            <h1>Admit Students with Ease!</h1>
             <p className="col-md-10">
-              Seize Control of Admissions: Empower Staff with Effortless Student
-              Profile Creation. Streamline Administrative Tasks with Confidence
-              and Ease. Elevate Admissions Efficiency: Welcome Students with
-              Simplified, Powerful Tools.
+              Automate Your Admission Process: Empower Staff with Effortless
+              Student Profile Creation. Streamline Administrative Tasks with
+              Confidence and Ease. Elevate Admissions Efficiency: Welcome
+              Students with Simplified, Powerful Tools.
             </p>
             <center>
               <GetStartedForm
