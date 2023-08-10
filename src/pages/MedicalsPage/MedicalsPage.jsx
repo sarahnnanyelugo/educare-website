@@ -34,12 +34,8 @@ function MedicalsPage() {
             Health Services with a Difference.
           </h1>
           <p>
-            At Educare Medical, we go beyond records – we nurture a culture of
-            care.Our meticulous clinic documentation includes visit details and
-            personalized nurse interventions. Our dedication to providing
-            authorized persons with access to these records reflects our
-            unwavering commitment to medical excellence and nurturing a caring
-            community.
+            Capturing Health Incidence as well as Reporting and Analytics for
+            Tracking Health Trends.
           </p>
           <div className="flexy flexyM ">
             <GetStartedForm

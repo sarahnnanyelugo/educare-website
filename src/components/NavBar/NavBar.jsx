@@ -206,13 +206,12 @@ function NavBar() {
 
   return (
     <>
-      <div className="col-md-12 fixed-nav col-12">
+      <div className="col-md-12 fixed-nav col-12" id="nav">
         {" "}
         <div
           className={`navbar-container offset-md-1 col-md-10 ${
             showNav ? "" : "hide"
           } ${stick ? "" : "sticky"}`}
-          id="nav"
         >
           <div className="logo-holder  col-md-2 flexy ">
             {" "}

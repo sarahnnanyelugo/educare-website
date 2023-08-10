@@ -45,7 +45,7 @@ function Timetable() {
               boda="solid 1px #4A13B2"
               text="Introducing Timetable"
             />
-            <h1>Get more done in less time!</h1>
+            <h1>Generate and Distribute Timetable with Ease</h1>
             <p>
               Crafting the perfect timetable is an art, and Educare Timetable is
               your masterful assistant. With its intuitive options for period
@@ -145,7 +145,7 @@ function Timetable() {
           <div className="col-md-11">
             <TimetableFeatures
               icon={Support}
-              title="Rely on Educare's Stellar Customer Support!"
+              title="Rely on Educare's Prompt Customer Support!"
               paragraph="Your success is our priority, and that's why Educare goes the extra mile to offer top-notch customer support. Every step of the way, our dedicated team is always ready to lend a helping hand. Experience the confidence of knowing you have a reliable partner by your side."
             />
           </div>
