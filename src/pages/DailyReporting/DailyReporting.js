@@ -51,13 +51,12 @@ function DailyReporting() {
         <div className="col">
           <div className="daily-report-feature itemm1">
             <center>
-              <h4>Real-Time Data Capture</h4>
+              <h4>No backdating Report</h4>
               <p>
-                Make every moment count with Educare's Daily Reporting Module.
-                Capture your daily tasks in real-time, ensuring accuracy and
-                immediate visibility. Empower yourself to stay on top of your
-                responsibilities, as you record achievements and progress with
-                each passing moment.
+                Educare Weekly Report upholds transparency and data integrity
+                within the organization. It prohibits the backdating of any
+                reports or entries, ensuring that all information reflects
+                real-time and accurate data.
               </p>
             </center>
           </div>
