@@ -289,9 +289,7 @@ function WalletManager() {
           <Lottie loop animationData={Player1} play className="lottieee" />
         </div>
         <div className="col-md-7 offset-md-">
-          <h3>
-            Enjoy secure virtual learning with educare’s Privacy and Protection
-          </h3>
+          <h3>Data Security, Privacy and Protection</h3>
           <p>
             educare ensures data privacy by implementing advanced security
             measures, including encryption and secure communication channels. We
