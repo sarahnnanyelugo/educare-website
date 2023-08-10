@@ -199,9 +199,13 @@ function EClassroomPage() {
             <center>
               {" "}
               <h3>
-                “This is a very useful meeting tools, as we use educare to
-                conduct classes even during the COVID pandemic, it was an easy
-                choice to use educare eclassroom. “
+                {/* “This is a very useful meeting tool, as it enhanced our learning
+                during COVID pandemic, it was an easy choice to use educare
+                eclassroom. “ */}
+                "Educare eClassroom Module is a tool that has tremendously
+                improved our learning experience. It's ability to ensure steady
+                learning anytime anywhere was made more evident during the COVID
+                pandemic in 2020. I recommend educare eClassroom."
               </h3>
             </center>
           </div>
