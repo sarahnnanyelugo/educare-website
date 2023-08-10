@@ -34,7 +34,7 @@ function FacilityManager() {
       <div className="facility-div col-md-12">
         <div className="col-md-11 offset-md-1 flexy">
           <div className="col-md-5 mtt  no-m">
-            <h1>Facility Management Reimagined: Trust in Educare's Vision!</h1>
+            <h1>Ensure Smooth Operations with Proactive Maintenance.</h1>
             <p className="col-md-10 flexy flexyM">
               Embrace the brilliance of our software, as chaos transforms into
               control, and your facilities reach their fullest potential.
