@@ -31,7 +31,7 @@ const DashboardAccordion = () => {
               </Accordion.Header>
               <Accordion.Body>
                 <p>
-                  Streamline time and attendance tracking with our HRM <br />
+                  Streamline time and track attendance with our HRM <br />
                   efficient system. Accurately monitor work hours, manage time
                   <br /> off requests, and access error-free reports, all while
                   freeing <br />

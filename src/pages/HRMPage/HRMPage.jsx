@@ -37,7 +37,8 @@ export const HRMPage = () => {
               boda="#FCEBD7"
             />
             <h1>
-              Empower, Engage, Excel: Harness the Power of Educare HRM Today!
+              Empower, Engage, Excel: Safe Time, Increase Productivity with
+              Educare HRM
             </h1>
             <p className="col-md-9">
               Step into the future of HR management with Educare HRM, the
