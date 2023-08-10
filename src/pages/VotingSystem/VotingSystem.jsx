@@ -77,7 +77,7 @@ function VotingSystem() {
       </div>
       <center>
         <h3 className="rating-heading ">
-          Empower Your Voice: Unleash the Power of Educare's Voting Module!
+          A platform to run fair forms of voting and rating
         </h3>
       </center>
       <div className="col-md-10 offset-md-1 flexy ">

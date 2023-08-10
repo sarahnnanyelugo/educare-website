@@ -31,15 +31,13 @@ function Assignment() {
             boda="solid 1px #2F99DA"
             color="#2F99DA"
           />
-          <h1>
-            Seamless Assignment Management: Experience the Educare Advantage!
-          </h1>
+          <h1>Seamless Assignment Module: Experience the Educare Advantage!</h1>
           <p className="col-md-11">
             Unlock the pathway to academic success with Educare's Assignment
             Module. Our powerful platform allows subject teachers to create and
             manage assignments, while students can easily download, attempt, and
             submit their work within set deadlines. Elevate your school's
-            learning experience with efficient assignment management that drives
+            learning experience with efficient assignment module that drives
             results.
           </p>
           <div className="flexy flexyM">
