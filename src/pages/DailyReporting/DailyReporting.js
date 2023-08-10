@@ -66,11 +66,11 @@ function DailyReporting() {
           <div className="daily-report-feature itemm2">
             <h4>Centralized Report Repository</h4>
             <p>
-              At Educare, we believe in bringing all your accomplishments under
-              one roof. Our Daily Reporting Module provides a centralized report
-              repository, streamlining your work records and achievements. Unify
-              Your Success with Educare's Daily Reporting and experience the
-              ease of accessing your daily reports in one place,
+              The module acts as a central repository for all daily reports,
+              making it easy for supervisors, managers, or other stakeholders to
+              access and review the reports whenever necessary. This
+              centralization streamlines communication and enhances
+              collaboration.
             </p>
           </div>
         </div>
@@ -111,9 +111,7 @@ function DailyReporting() {
                 Accountability is the cornerstone of success, and Educare's
                 Daily Reporting Module ensures it's maintained with integrity.
                 Our platform enforces a no-backdating policy, promoting accurate
-                and honest reporting. Embrace a culture of forward-moving
-                progress, where each report stands as a testament to the
-                commitment of your staff.
+                and honest reporting.
               </p>
             </center>
           </div>
@@ -125,8 +123,6 @@ function DailyReporting() {
               Communication and collaboration become a breeze with Educare's
               Daily Reporting Module. Staff members can seamlessly communicate
               within the platform, sharing updates, progress, and insights.
-              Embrace the power of teamwork, as collaboration elevates your
-              productivity and fosters a supportive work environment.
             </p>
           </div>
         </div>
