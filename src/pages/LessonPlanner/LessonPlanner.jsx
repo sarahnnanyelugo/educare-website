@@ -31,10 +31,10 @@ function LessonPlanner() {
               text="Introducing Lesson Planner"
               boda="#D4E8C3"
             />
-            <h1>Empower Educators, Elevate Learning.</h1>
+            <h1>Simplify Your lesson Planning With educare Lesson Planner</h1>
             <p>
-              Unlock educational excellence with Educare Lesson Planner - a
-              powerful tool for unparalleled teaching and learning experiences.
+              Create, schedule, and manage your lessons with a powerful tool for
+              unparalleled teaching and learning experiences.
             </p>
           </div>
           <div className="col-md-4 offset-md-2">
