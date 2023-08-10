@@ -52,9 +52,8 @@ function Calendar() {
       </div>
       <div id="features" />
       <center>
-        <h1 className="reco-alt mt col-md-9">
-          For Your Business's Efficiency: Embrace the Elegance of Educare
-          Calendar!
+        <h1 className="reco-alt mt">
+          Seamless Scheduling Made Simple with educare Calendar
         </h1>
       </center>
       <div className="col-md-10 flexy cal-management offset-md-1 mt7">
@@ -62,12 +61,11 @@ function Calendar() {
           <div className="col-md-11 wallet">
             <img className="" src={Wallet3} alt="Scholar" />
 
-            <h4>Create Anytime, Anywhere!</h4>
+            <h4>Create events anytime</h4>
             <p>
-              Our intuitive platform ensures seamless event setup, fostering a
-              dynamic business calendar that enhances engagement and
-              collaboration. With Educare's Calendar Module, event creation
-              becomes a breeze.
+              Be able to create new events by specifying the title, date, time,
+              duration, location, and any additional details or notes. It is
+              that easy and straight to the point.
             </p>
           </div>
         </div>{" "}
@@ -75,12 +73,11 @@ function Calendar() {
           <div className="col-md-11 wallet">
             <img className="" src={Icon} alt="Scholar" />
 
-            <h4>Manage Events with Ease!</h4>
+            <h4>Manage events seamlessly</h4>
             <p>
-              Efficiently manage all your business events with Educare's
-              Calendar Module. Stay organized and in control as you track
-              upcoming activities, set reminders, and avoid scheduling
-              conflicts.
+              You can view, edit, and delete existing events. You can also set
+              reminders or notifications for upcoming events so you never miss
+              all that goes on.
             </p>
           </div>
         </div>{" "}
@@ -88,11 +85,10 @@ function Calendar() {
           <div className="col-md-11 wallet">
             <img className="" src={Icon2} alt="Scholar" />
 
-            <h4>Time, Ticked and Tackled: Schedule Events Like a Pro!</h4>
+            <h4>Schedule Events</h4>
             <p>
-              Time management meets precision with Educare's Calendar Module.
-              Seamlessly schedule events, class sessions, and important business
-              occasions to maximize productivity and minimize disruptions.
+              Users are assisted in finding available time slots for scheduling
+              events, taking into account existing appointments and conflicts.
             </p>
           </div>
         </div>
@@ -103,11 +99,11 @@ function Calendar() {
             <div className="col-md-11 wallet">
               <img className="" src={Icon4} alt="Scholar" />
 
-              <h4>Collaboration Unleashed: Share and Shine Together!</h4>
+              <h4>Collaboration and Sharing</h4>
               <p>
-                Educare's Calendar Module promotes collaboration and engagement.
-                Share event details with staff, students, and parents, fostering
-                a vibrant learning community.
+                Users can share calendars with others, allowing for
+                collaborative scheduling and coordination. This feature is
+                particularly useful in team environments.
               </p>
             </div>
           </div>{" "}
@@ -115,12 +111,11 @@ function Calendar() {
             <div className="col-md-11 wallet">
               <img className="" src={Icon3} alt="Scholar" />
 
-              <h4>Calendar Views: See the Big Picture, Take Charge!</h4>
+              <h4>Calendar Views</h4>
               <p>
-                Gain invaluable insights with Educare's multiple Calendar Views,
-                whether it's daily, weekly, or monthly. Get a concise overview
-                of events, allowing you to plan strategically and manage your
-                schedule efficiently.
+                The module provides various views to display events, including
+                daily, weekly, monthly, and agenda views. These views allow
+                users to easily navigate and visualize their schedules.
               </p>
             </div>
           </div>{" "}
@@ -128,12 +123,11 @@ function Calendar() {
             <div className="col-md-11 wallet">
               <img className="" src={Icon5} alt="Scholar" />
 
-              <h4>Recurring Efficiency!</h4>
+              <h4>Recurring Events</h4>
               <p>
-                Embrace recurring efficiency with Educare's Calendar Module.
-                Easily schedule and manage events that repeat, saving time and
-                effort. Whether it's weekly meetings or monthly activities, our
-                platform ensures you can plan ahead with confidence.
+                Support for recurring events is crucial, allowing users to
+                create events that repeat daily, weekly, monthly, or on custom
+                schedules.
               </p>
             </div>
           </div>
