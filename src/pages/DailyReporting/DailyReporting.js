@@ -132,9 +132,7 @@ function DailyReporting() {
             <p>
               At Educare, we take data security seriously. Our Daily Reporting
               Module ensures robust data protection, safeguarding confidential
-              information from unauthorized access. Rest easy knowing that your
-              staff's data is handled with utmost care, enabling your business
-              to thrive in a secure digital environment.
+              information from unauthorized access.
             </p>
           </div>
         </div>
