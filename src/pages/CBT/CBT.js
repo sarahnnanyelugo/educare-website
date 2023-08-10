@@ -62,7 +62,7 @@ function CBT() {
                 color="#11A377"
               />
               <h2 className=" reco-alt">
-                Testing Reinvented: Explore Educare's Ultramodern Testing
+                Testing Reinvented: Explore Educare's Computer-Based Testing
                 Technology for Schools
               </h2>
               <p className="col-md-9">
