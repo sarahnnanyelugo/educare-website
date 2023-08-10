@@ -17,11 +17,11 @@ function WhyEClassroom() {
           <ul className="list-unstyled col-md-10">
             <li className="flexy flexyM ">
               <img className="" src={Tick2} alt="Scholar" />
-              Time and Cost Savings
+              Access to learning anytime, anywhere
             </li>{" "}
             <li className="flexy flexyM mt2">
               <img className="" src={Tick2} alt="Scholar" />
-              Global Reach
+              Makes learning interesting through blended approach
             </li>{" "}
             <li className="flexy flexyM mt2">
               <img
@@ -31,17 +31,15 @@ function WhyEClassroom() {
                 width="7%"
                 height="7%"
               />
-              Seamless Interaction
-            </li>
-            <li className="flexy flexyM mt2">
-              <img
-                className=""
-                src={Tick2}
-                alt="Scholar"
-                width="7%"
-                height="7%"
-              />
-              Improved Access to Resources
+              Improved access to learning resources
+            </li>{" "}
+          </ul>{" "}
+        </div>
+        <div className="col-md-4">
+          <ul className="list-unstyled col-md-12">
+            <li className=" ">
+              <img className="" src={Tick2} alt="Scholar" />
+              Easy to use
             </li>{" "}
             <li className="flexy flexyM mt2">
               <img
@@ -53,30 +51,14 @@ function WhyEClassroom() {
               />
               Technology Integration Skills
             </li>
-          </ul>{" "}
-        </div>
-        <div className="col-md-4">
-          <ul className="list-unstyled col-md-12">
-            <li className=" ">
-              <img className="" src={Tick2} alt="Scholar" />
-              Simple to use and easily scalable
-            </li>{" "}
             <li className=" ">
               <img className="" src={Tick2} alt="Scholar" />
               Enhanced Teacher-Student Relationships
             </li>{" "}
             <li className=" ">
               <img className="" src={Tick2} alt="Scholar" />
-              Enhanced Learning Flexibility
-            </li>{" "}
-            <li className=" ">
-              <img className="" src={Tick2} alt="Scholar" />
               Continuous Learning Opportunities
             </li>{" "}
-            <li className=" ">
-              <img className="" src={Tick2} alt="Scholar" />
-              Environmental Impact
-            </li>
           </ul>
         </div>
       </div>
