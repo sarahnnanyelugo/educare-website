@@ -45,10 +45,10 @@ function Library() {
             <Heading
               bg="#FCDCE3"
               color="#ED2F59"
-              text="Introducing Lesson planner"
+              text="Introducing Library"
               boda="solid 1px #FCDCE3"
             />
-            <h1>Innovate, Educate, Excel</h1>
+            <h1>Reading Made Easy!</h1>
             <p>
               Empower your school's growth with Educare's library automation –
               the driving force behind achieving ambitious targets, for both
