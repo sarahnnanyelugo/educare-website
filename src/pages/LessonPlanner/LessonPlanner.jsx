@@ -58,14 +58,13 @@ function LessonPlanner() {
       </center>
       <div className="col-md-10 offset-md-1 flexy mt5">
         <div className="col-md-4 mt">
-          <h3>Ignite Educational Excellence</h3>
+          <h3>Lesson Planning</h3>
           <p>
-            Experience the epitome of lesson planning with Educare's
-            cutting-edge Lesson Planner. Prepare to embark on an educational
-            journey like never before, where creativity meets structure and
-            innovation meets efficiency. With Educare Lesson Planner, teachers
-            become architects of inspiration, empowering a new generation of
-            learners to excel and succeed.
+            educare Lesson Planner makes it easy to create custom lesson plans
+            with just a few clicks. Our intuitive interface allows you to add
+            lesson objectives, learning outcomes, resources, and activities in
+            minutes. You can also save and reuse your favorite lesson plans to
+            save time and ensure consistency in your teaching.
           </p>
         </div>
         <div className="col-md-7 offset-md-1">
@@ -80,12 +79,10 @@ function LessonPlanner() {
         <div className="col-md-4 mt offset-md-1 no-m">
           <h3 className="dn">Seamless Scheduling</h3>
           <p>
-            No more juggling endless calendars or struggling to keep track of
-            classes and activities. Embrace a revolutionary approach to time
-            management that ensures optimal use of valuable teaching hours. With
-            Educare Lesson Planner, you become the maestro of your daily agenda,
-            orchestrating a symphony of efficient scheduling that sets the stage
-            for unparalleled productivity and achievement.
+            Easily schedule classes, assignments, and assessments. Our
+            drag-and-drop calendar interface allows you to quickly schedule
+            classes and other events, and you can set reminders for upcoming
+            deadlines or events.
           </p>
         </div>
       </div>
