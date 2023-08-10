@@ -127,7 +127,7 @@ function AdmissionPage() {
               module. Seamlessly manage applications from start to finish,
               saving time and resources while ensuring a smooth, organized
               process. From initial submissions to final decisions, experience
-              the pinnacle of admission management efficiency.
+              the process of admission management efficiency.
             </p>
           </div>
         </center>
@@ -178,11 +178,11 @@ function AdmissionPage() {
         {" "}
         <center>
           <div className="col-md-6">
-            <h1>Applicant Evaluation & Review</h1>
+            <h1>Applicant Evaluation & Assessment</h1>
             <p>
               Educare's Admission Module goes beyond applications; it empowers
               institutions with tools for comprehensive applicant evaluation and
-              review. Effortlessly assess candidates based on customizable
+              assessment. Effortlessly assess candidates based on customizable
               criteria, enabling confident decisions that lead to the best-fit
               students for your school.
             </p>
@@ -200,7 +200,7 @@ function AdmissionPage() {
             />
           </div>
           <div className="col-md-5  offset-md-1">
-            <h4>Ingenious Applicant's Evaluation & Review!</h4>
+            <h4>Ingenious Applicant's Evaluation & Assessment!</h4>
             <p>
               With Educare's Admission Module, brilliance takes center stage as
               applicants are scored and rated to identify the brightest minds.
