@@ -32,14 +32,10 @@ function Calendar() {
       <div className="calendar-div col-md-12">
         <div className="col-md-10 offset-md-1 flexy">
           <div className="col-md-6 mt6">
-            <h1>
-              Your Time Navigator: <br />
-              Unlock the Power of Educare Calendar!
-            </h1>
+            <h1>Never Miss an Important Date</h1>
             <p>
-              Welcome the future of time scheduling with Educare's empowering
-              Calendar Module. Mark key dates, plan engaging events, and stay
-              ahead of your business's journey.
+              Stay up to date with events / schedules, mark key dates, plan
+              engaging events, and stay ahead of your business's journey.
             </p>
             <button className="demo">Request for demo</button>
           </div>
