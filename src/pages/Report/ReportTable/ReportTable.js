@@ -63,8 +63,8 @@ function ReportTable() {
                     By converting data into meaningful reports, our
                     user-friendly platform ensures the process of generating
                     results is streamlined and automated, thereby saving time,
-                    ensuring correctness, and providing instructors with
-                    thorough performance analysis.{" "}
+                    ensuring accuracy, and providing instructors with thorough
+                    performance analysis.{" "}
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ function ReportTable() {
                     Embedded in Educare's Report Module is transcript feature
                     that lets educators create comprehensive grade transcripts
                     that showcase students' accomplishments throughout their
-                    academic journey this gives way to a holistic view of a
+                    academic journey. This gives way to a holistic view of a
                     student's academic performance, showcasing their full
                     potential to colleges and universities.
                   </p>

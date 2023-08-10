@@ -111,10 +111,10 @@
     padding-left: 10px;
     height: fit-content;
   }
-  button {
+  .demo {
     @include get-started-button;
     background: transparent;
-    // border-color: #fff;
+    border-color: #fff;
     margin-left: 5px;
     &:hover {
       background: #e7e7e7;

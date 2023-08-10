@@ -37,15 +37,16 @@ export const HRMPage = () => {
               boda="#FCEBD7"
             />
             <h1>
-              Empower, Engage, Excel: Safe Time, Increase Productivity with
-              Educare HRM
+              Empower, Engage, Excel: Save Time and Increase Productivity with
+              Educare HRM.
             </h1>
             <p className="col-md-9">
               Step into the future of HR management with Educare HRM, the
               ultimate all-in-one solution that covers every aspect from "Hire"
               to "Retire" for your business's most crucial asset – your
               employees. Leave behind outdated, time-consuming processes and
-              embrace the power of efficiency and effectiveness with Educare HRM
+              embrace the power of efficiency and effectiveness with Educare
+              .HRM.
             </p>
           </div>
           <div className="col-md-4 offset-md-2">
@@ -58,6 +59,7 @@ export const HRMPage = () => {
                 formHeading="Sign up and deploy your business in seconds"
               />
             </div>
+            .
           </div>
         </div>
       </div>{" "}
