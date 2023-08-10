@@ -150,10 +150,9 @@ function FacilityManager() {
               </p>
               <h4>Embrace Staff Management with Educare!</h4>
               <p>
-                Behind every well-maintained facility stands a team of dedicated
-                staff members. Educare's Facility Management Module empowers you
-                to efficiently manage your staff, ensuring the right skills and
-                resources are allocated to maintenance and repair tasks.
+                Educare Facility Management Module oversees contracts, service
+                agreements, and performance tracking to ensure efficient and
+                quality service delivery.
               </p>
             </div>
           </div>
@@ -168,16 +167,15 @@ function FacilityManager() {
             <div className="col-md-10">
               <h4>Customizable reports</h4>
               <p>
-                With Educare's Facility Management Module, reporting and
-                analytics become your strategic compass. Our platform offers
-                customizable reports that cater to your unique needs, providing
-                valuable insights into facility operations.
+                This allows for generating customizable reports on various
+                facility management aspects, such as asset utilization,
+                maintenance history, and costs.
               </p>
               <h4>Data-driven decision-making</h4>
               <p>
-                Embrace data-driven decision-making, where every action is
-                propelled by knowledge and every outcome is a testament to
-                efficiency.
+                This module provides insights and analytics based on facility
+                data, supporting data-driven decision-making for optimizing
+                resources, reducing costs, and improving operational efficiency.
               </p>
             </div>
           </div>

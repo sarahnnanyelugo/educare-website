@@ -46,10 +46,11 @@ function WeeklyRemarks() {
                 Accelerate Success, Supercharge your productivity
               </h1>
               <p>
-                Empower your quest for success with Educare's Weekly Remarks
-                Module. Maximize productivity, achieve your targets, and
-                maintain a healthy work-life balance. Let weekly remarks be your
-                ultimate success accelerator.
+                Experience enhanced efficiency and goal attainment with Weekly
+                Remarks. This powerful tool offers effective task management and
+                time tracking, providing numerous benefits to boost
+                productivity, reduce stress, and drive success in both personal
+                and professional pursuits.
               </p>
               <center>
                 <GetStartedForm
