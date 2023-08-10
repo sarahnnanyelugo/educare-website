@@ -29,14 +29,14 @@ function Pastoral(props) {
         <center>
           <div className="col-md-5">
             {" "}
-            <h2>The Path to Responsible Leadership</h2>
+            <h2>Monitoring & Enhancing Student Well-Being</h2>
             <p>
               From behavior monitoring to impactful disciplinary measures, every
               aspect is meticulously handled, leaving no room for surprises.
               With Educare Pastoral Module, unlock the potential to shape future
               leaders, nurture personal growth, and create an atmosphere where
               students thrive, ultimately setting the stage for a brighter and
-              more successful academic journey.
+              successful academic journey.
             </p>
             <GetStartedForm
               text=" Get started"
