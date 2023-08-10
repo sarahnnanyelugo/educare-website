@@ -35,7 +35,7 @@ function AdmissionPage() {
           <div className="col-md-5">
             <h1>Admit Students with Ease!</h1>
             <p className="col-md-10">
-              Automate Your Admission Process: Empower Staff with Effortless
+              Automate Your Admission Process. Empower Staff with Effortless
               Student Profile Creation. Elevate Admissions Efficiency and
               Welcome Students with Simplified, Powerful Tools.
             </p>
