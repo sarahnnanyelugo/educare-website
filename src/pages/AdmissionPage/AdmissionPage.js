@@ -36,9 +36,8 @@ function AdmissionPage() {
             <h1>Admit Students with Ease!</h1>
             <p className="col-md-10">
               Automate Your Admission Process: Empower Staff with Effortless
-              Student Profile Creation. Streamline Administrative Tasks with
-              Confidence and Ease. Elevate Admissions Efficiency: Welcome
-              Students with Simplified, Powerful Tools.
+              Student Profile Creation. Elevate Admissions Efficiency and
+              Welcome Students with Simplified, Powerful Tools.
             </p>
             <center>
               <GetStartedForm
