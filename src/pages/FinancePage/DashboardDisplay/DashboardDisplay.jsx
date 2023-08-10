@@ -1,11 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import Profile from "../../../assets/images/med-profile.png";
-import Dashboard from "../../../assets/images/finance-dash.png";
+import Dashboard from "../../../assets/images/paroll.gif";
 import Diagnosis from "../../../assets/images/diagnosis.png";
 import Report from "../../../assets/images/latest-report.png";
-import Requisition from "../../../assets/images/requisition.png";
-import Statement from "../../../assets/images/statement.png";
-import Inventory from "../../../assets/images/store-inventory.png";
+import Requisition from "../../../assets/images/income-statement.gif";
+import Statement from "../../../assets/images/sales-invoices.gif";
+import Inventory from "../../../assets/images/store-inventory.gif";
 import "./dashboard-display.scss";
 function DashboardDisplay() {
   return (
@@ -32,7 +32,7 @@ function DashboardDisplay() {
                     width="100%"
                   />
                   <center className="mt2">
-                    <h3>Streamlined payroll accounting</h3>
+                    <h3>Streamlined Payroll Accounting</h3>
                   </center>
                 </div>
               </div>
@@ -58,7 +58,7 @@ function DashboardDisplay() {
                     width="100%"
                   />
                   <center className="mt2">
-                    <h3>Incisive Requisition Management</h3>
+                    <h3>Incisive Income Statement</h3>
                   </center>
                 </div>
               </div>
@@ -83,7 +83,7 @@ function DashboardDisplay() {
                     width="100%"
                   />
                   <center className="mt2">
-                    <h3>Concise income summary</h3>
+                    <h3>Concise Income Summary</h3>
                   </center>
                 </div>
               </div>
@@ -108,7 +108,7 @@ function DashboardDisplay() {
                     width="100%"
                   />
                   <center className="mt2">
-                    <h3>Inventory control solution</h3>
+                    <h3>Inventory Control Solution</h3>
                   </center>
                 </div>
               </div>

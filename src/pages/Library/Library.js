@@ -50,10 +50,11 @@ function Library() {
             />
             <h1>Reading Made Easy!</h1>
             <p>
-              Enhance your students reading ability with Educare Library Module.
-              With a vast collection of resources and intuitive features, we
-              make learning easy and accessible. Discover your gateway to
-              knowledge today.
+              Educare library software seamlessly manages both digital and
+              physical books, offering a unified catalog for easy search and
+              borrowing. Users can access eBooks and physical copies through the
+              platform, simplifying the borrowing process and enhancing the
+              overall library experience.
             </p>
             <div className="flexy flexyM lib-btns">
               <GetStartedForm
@@ -160,7 +161,7 @@ function Library() {
             <LibFeatures
               title="Library Account Management"
               subtitle="Unlock a World of Learning Possibilities!"
-              paragraph="Elevate your school's library experience with Educare's unparalleled Library Management system. With  seamless Personalized book recommendations and effortless resource tracking, our Library Management takes learning to new heights."
+              paragraph="Students and teachers can manage their library accounts easily. This includes checking out and returning materials, managing their borrowing history, placing holds, and receiving notifications for due dates and overdue materials."
               icon={Management}
             />
           </div>
@@ -175,10 +176,10 @@ function Library() {
 
           <div className="col try">
             <LibFeatures
-              title="User Interface"
-              paragraph="Experience a User Interface that sets the standard for excellence in library automation. Educare's intuitive search and interactive displays, ignite curiosity, and inspire a love for learning."
+              title="Book Management & Tracking"
+              paragraph="Educare Library Module enhances book management with unique barcodes for both digital and physical books. These barcodes enable seamless tracking, ensuring book organization and safe keeping."
               icon={User}
-              subtitle=" Intuitive, Innovative, and Inspiring!"
+              subtitle="Facilitate Efficient Book Tracking!"
             />
           </div>
         </div>
@@ -189,7 +190,7 @@ function Library() {
           <div className="col try">
             <LibFeatures
               title="Accessibility"
-              paragraph="Knowledge knows no bounds, and neither should your access to it. With Educare's Accessibility feature, we break down barriers to learning, ensuring inclusivity for all. Empower every learner to thrive, regardless of their physical location."
+              paragraph="Our library system is accessible to all students and teachers, including those with disabilities. This includes ensuring that the user interface and all resources and services are accessible to users with visual or auditory impairments, as well as those who use assistive technologies such as screen readers."
               icon={Accessibility}
               subtitle="Knowledge Without Boundaries!"
             />
