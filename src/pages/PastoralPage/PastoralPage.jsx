@@ -29,7 +29,10 @@ function Pastoral(props) {
         <center>
           <div className="col-md-5">
             {" "}
-            <h2>Monitoring & Enhancing Student Well-Being</h2>
+            <h2>
+              Monitoring & Enhancing Student <br />
+              Well-Being
+            </h2>
             <p>
               From behavior monitoring to impactful disciplinary measures, every
               aspect is meticulously handled, leaving no room for surprises.
