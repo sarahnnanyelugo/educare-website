@@ -50,10 +50,10 @@ function Library() {
             />
             <h1>Reading Made Easy!</h1>
             <p>
-              Empower your school's growth with Educare's library automation –
-              the driving force behind achieving ambitious targets, for both
-              students and teachers. Harness the power of technology for
-              unparalleled success.
+              Enhance your students reading ability with Educare Library Module.
+              With a vast collection of resources and intuitive features, we
+              make learning easy and accessible. Discover your gateway to
+              knowledge today.
             </p>
             <div className="flexy flexyM lib-btns">
               <GetStartedForm
