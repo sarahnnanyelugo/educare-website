@@ -111,10 +111,10 @@ function FacilityManager() {
               </h4>
               <p>
                 Assets have their own journey, and Educare's Facility Management
-                Module ensures they thrive at every stage. From acquisition to
-                disposal, optimize asset performance and utilization with
-                comprehensive lifecycle management. Embrace the power of value
-                creation, where assets become key players in your success story.
+                Module ensures they thrive at every stage. Asset lifecycle
+                management facilitates monitoring asset conditions, tracking
+                maintenance schedules, and managing repair and replacement
+                processes.
               </p>
             </div>
           </div>
@@ -134,12 +134,11 @@ function FacilityManager() {
           </div>
           <div className="col-md-5 offset-md-1 mt4">
             <div className="col-md-10">
-              <h4>Empowered Task Control</h4>
+              <h4>Work order management</h4>
               <p>
-                Embrace work order management that empowers you to prioritize
-                tasks, streamline workflows, and achieve optimal efficiency.
-                From routine inspections to urgent repairs, unlock the true
-                potential of your facility with Educare's innovative solutions.
+                Educare Facility Module helps streamline the process of
+                creating, assigning, and tracking work orders for maintenance,
+                repairs, or service reques
               </p>
               <h4>Unveiling Asset Maintenance History</h4>
               <p>
