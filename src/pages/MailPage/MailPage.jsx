@@ -44,10 +44,10 @@ function MailPage() {
               Intelligent Mailbox.
             </h2>
             <p>
-              Stand out from traditional email service providers and harness the
-              full potential of Educare Mailbox to enhance your communications
-              and achieve new levels of success. Empower your email experience
-              and embrace the future of intelligent emailing today!
+              With Educare intelligient Mailbox, You can Create and Send
+              Personalised Bulk Emails and Track Delivery Status. Experience the
+              Security, Encryption, Privacy, and Ad-free Environment your
+              Business Email Deserves.
             </p>
           </div>
           <div className="col-md-5 offset-md-1">
