@@ -10,38 +10,35 @@ const MailboxFAQ = () => {
       <Accordion defaultActiveKey="">
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <p>What is business email?</p>
+            <p>How do I send personalised bulk emails?</p>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Business email refers to an email service that is specifically
-              designed for professional communication within an organization. It
-              is a means of electronic communication that allows employees,
-              departments, and teams to exchange messages, collaborate on
-              projects, and share information related to their work.
+              Personalization is key to making your recipients feel valued. With
+              educare mailbox, Use merge tags or dynamic content features to
+              insert personalized information such as the recipient's name,
+              location, or recent interactions with your brand.
             </p>
-            {/* <button className="accord-get-started">Get started</button> */}
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <p>How is business email different from personal email?</p>
+            <p>How do I track mail delivery status?</p>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Personal email is used for one-to-one exchanges with friends and
-              family, as well as personal services and social media. Business
-              email is designed for managing professional communication, with
-              features like group aliases, higher storage, and business-specific
-              integrations. It ensures professionalism and efficient business
-              correspondence.
+              Email delivery status is tracked automatically in Educare. To see
+              the status of a particular mail sent you can simply click on the
+              "Sync" button beside the recipient mail and it shows the current
+              status of the mail. or you can simply select all and "Sync all" to
+              see the current status of all sent mail
             </p>
           </Accordion.Body>
         </Accordion.Item>
 
-        <Accordion.Item eventKey="2">
+        {/* <Accordion.Item eventKey="2">
           <Accordion.Header>
-            <p>What is email hosting?</p>
+            <p>How long does it take to onboard?</p>
           </Accordion.Header>
           <Accordion.Body>
             <p>
@@ -54,9 +51,9 @@ const MailboxFAQ = () => {
               yourname@yourdomain.com).
             </p>
           </Accordion.Body>
-        </Accordion.Item>
+        </Accordion.Item> */}
 
-        <Accordion.Item eventKey="3">
+        {/* <Accordion.Item eventKey="3">
           <Accordion.Header>
             <p>How can I migrate from my existing provider?</p>
           </Accordion.Header>
@@ -70,9 +67,9 @@ const MailboxFAQ = () => {
               tools and expert assistance make the transition process
               hassle-free and efficient.
             </p>
-            {/* <button className="accord-get-started">Get started</button> */}
+         
           </Accordion.Body>
-        </Accordion.Item>
+        </Accordion.Item> */}
       </Accordion>
     </div>
   );

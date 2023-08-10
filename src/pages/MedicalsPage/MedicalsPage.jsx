@@ -30,8 +30,8 @@ function MedicalsPage() {
               boda="#D6DCFE"
             />
           </div>
-          <h1 style={{ marginTop: "10px" }}>
-            Experience the Empowerment of Educare Medical Records!
+          <h1 style={{ marginTop: "10px" }} className="mt4">
+            Health Services with a Difference.
           </h1>
           <p>
             At Educare Medical, we go beyond records – we nurture a culture of
