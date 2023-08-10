@@ -24,14 +24,17 @@ function Assignment() {
       </div>
       <div style={{ height: "120px" }} />
       <div className="container-fluid flexy assignment-div">
-        <div className="col-md-5 offset-md-1 mt6 no-m">
+        <div className="col-md-6 offset-md-1 mt6 no-m">
           <Heading
             text="Introducing Assignments"
             bg="transparent"
             boda="solid 1px #2F99DA"
             color="#2F99DA"
           />
-          <h1>Seamless Assignment Module: Experience the Educare Advantage!</h1>
+          <h1>
+            Seamless Assignment Management: <br />
+            Experience the Educare Advantage!
+          </h1>
           <p className="col-md-11">
             Unlock the pathway to academic success with Educare's Assignment
             Module. Our powerful platform allows subject teachers to create and
@@ -51,7 +54,7 @@ function Assignment() {
             <button className="demo">Request for demo</button>
           </div>
         </div>
-        <div className="col-md-4 offset-md-1">
+        <div className="col-md-4 offset-md-">
           <img
             className="col-md-12 dashboard1"
             src={Teacher}
@@ -85,21 +88,18 @@ function Assignment() {
             <div className="col-md-8">
               <h4>Create Assignments!</h4>
               <p>
-                Educare's Assignment Module puts the power of impactful
-                assignments in the hands of educators. Effortlessly design
-                assignments that inspire and challenge students, fostering a
-                passion for learning and encouraging critical thinking.
+                This allows instructors or managers to create assignments with
+                clear instructions, deadlines, and associated resources.
               </p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="col-md-8">
-              <h4>Seamless Submission</h4>
+              <h4>Submission Management</h4>
               <p>
-                Say goodbye to assignment chaos with Educare's Submission
-                Management. Our platform streamlines the process, allowing
-                students to submit their work with ease, ensuring no assignment
-                goes unnoticed.
+                Students or team members can submit their completed assignments
+                through the software. The module provides various submission
+                options, such as file uploads or text submissions.
               </p>
             </div>
           </div>
@@ -107,10 +107,10 @@ function Assignment() {
             <div className="col-md-9">
               <h4>Elevate Learning Grading and Feedback</h4>
               <p>
-                Empower students with valuable feedback through Educare's
-                Grading and Feedback feature. Nurture continuous growth by
-                providing personalized insights, encouraging improvement, and
-                celebrating achievements.
+                Instructors or supervisors can review and grade assignments
+                directly within the software module. They can provide feedback,
+                comments, and assessment scores, and the system automatically
+                records the grades for each submission.
               </p>
             </div>
           </div>
@@ -144,11 +144,10 @@ function Assignment() {
               {" "}
               <h4>Stay On Track with Deadline and Reminders!</h4>
               <p>
-                Never miss a deadline with Educare's Deadline and Reminders
-                feature. Empower teachers and students alike with clear
-                timelines, ensuring assignments are submitted on time. Stay
-                focused and organized, making the most of every academic
-                opportunity.
+                The module sends automated reminders to students or team members
+                about upcoming assignment deadlines. These reminders help
+                individuals stay on track and submit their work on time,
+                promoting accountability and time management.
               </p>
             </div>
           </div>
