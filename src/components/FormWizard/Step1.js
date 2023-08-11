@@ -12,6 +12,7 @@ function Step1(props) {
       <select name="cars" id="cars" placeholder="eeee">
         <option value="volvo">Select type of organisation *</option>
         <option value="School">Business</option>
+        <option value="School">School</option>
         <option value="audi">Government</option>
         <option value="audi">Others</option>
       </select>
