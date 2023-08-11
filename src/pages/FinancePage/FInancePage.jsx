@@ -53,7 +53,10 @@ export const FinancePage = () => {
               bgbtn="#4A13B2"
               backdropbg="modal-backdrop-purple"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </div>
         </div>
       </center>

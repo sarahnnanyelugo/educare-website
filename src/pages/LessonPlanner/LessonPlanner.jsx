@@ -192,7 +192,9 @@ function LessonPlanner() {
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-green"
           />
-          <button className="demo">Request for demo</button>
+          <Link to={"/contact-us"}>
+            <button className="demo">Request for demo</button>
+          </Link>
         </center>
       </div>
     </>

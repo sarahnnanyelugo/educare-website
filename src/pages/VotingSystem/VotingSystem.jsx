@@ -51,7 +51,9 @@ function VotingSystem() {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-blue"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              <button className="demo">Request for demo</button>
+            </Link>
           </div>
         </div>
       </center>
@@ -256,7 +258,9 @@ function VotingSystem() {
                 bgbtn="#0098DA"
                 backdropbg="modal-backdrop-blue"
               />
-              <button className="demo">Request for demo</button>
+              <Link to={"/contact-us"}>
+                <button className="demo">Request for demo</button>
+              </Link>
             </div>
           </div>
         </center>

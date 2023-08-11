@@ -48,7 +48,9 @@ function Pastoral(props) {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-dark"
             />
-            <button className="demo">Request for a demo</button>
+            <Link to={"/contact-us"}>
+              <button className="demo">Request for a demo</button>
+            </Link>
           </div>
         </center>{" "}
       </div>

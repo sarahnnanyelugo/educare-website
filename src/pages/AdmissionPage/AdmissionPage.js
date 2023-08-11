@@ -48,7 +48,9 @@ function AdmissionPage() {
                 bgbtn="#0098DA"
                 backdropbg="modal-backdrop-blue"
               />
-              <button className="demo">Request for demo</button>
+              <Link to={"/contact-us"}>
+                <button className="demo">Request for demo</button>
+              </Link>
             </center>
           </div>
         </center>

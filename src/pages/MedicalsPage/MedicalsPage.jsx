@@ -45,9 +45,11 @@ function MedicalsPage() {
               bgbtn="#0B2FF7"
               backdropbg="modal-backdrop-purple"
             />
-            <button className="demo" style={{ marginLeft: "5px" }}>
-              Request for Demo
-            </button>
+            <Link to={"/contact-us"}>
+              <button className="demo" style={{ marginLeft: "5px" }}>
+                Request for Demo
+              </button>
+            </Link>
           </div>
         </div>
         <div className="col-md-6 offset-md-1">

@@ -110,7 +110,7 @@ export const Home = () => {
             </Link>
 
             <Link to={"/contact-us"}>
-              <button className="request-button">Contact Us</button>
+              <button className="request-button">Request for Demo</button>
             </Link>
           </div>
         </center>
