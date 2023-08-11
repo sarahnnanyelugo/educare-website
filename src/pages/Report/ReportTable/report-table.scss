@@ -59,10 +59,9 @@
   border-radius: 10px;
   font-family: AgrandirBold;
   width: 90%;
-  margin-left: 0;
   padding: 10px;
   margin-top: 60px;
-  left: 5%;
+  margin-left: 5% !important;
   @media screen and (max-width: 620px) {
     display: block;
   }
@@ -71,13 +70,14 @@
 .reports-tab .tab {
   justify-content: center;
   align-items: center;
-
+  width: 100%;
   border-radius: 10px;
   padding: 10px 0px;
   color: black;
   background: rgb(185, 224, 240);
   font-size: 16px;
   font-family: rebondBook;
+  border: none;
 }
 
 .reports-tab .tab.active2 {

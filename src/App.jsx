@@ -16,7 +16,7 @@ import Pastoral from "./pages/PastoralPage/PastoralPage";
 import MedicalsPage from "./pages/MedicalsPage/MedicalsPage";
 import EClassroomPage from "./pages/EClassroomPage/EClassroomPage";
 import { HRMPage } from "./pages/HRMPage/HRMPage";
-import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPackages";
+// import EducareSchoolPackages from "./pages/EducareSchoolPackages/EducareSchoolPackages";
 import { FinancePage } from "./pages/FinancePage/FInancePage";
 import MailPage from "./pages/MailPage/MailPage";
 import VotingSystem from "./pages/VotingSystem/VotingSystem";
@@ -95,10 +95,10 @@ function App() {
         <Route path="educare-business" element={<EducareForBusiness />} />
         <Route path="educare-schools" element={<EducareForSchools />} />
         <Route path="educare-packages" element={<EducarePackages />} />
-        <Route
+        {/* <Route
           path="educare-school-packages"
           element={<EducareSchoolPackages />}
-        />
+        /> */}
 
         <Route path="login" element={<LoginPage />} />
         <Route path="sign-up" element={<SignUpPage />} />

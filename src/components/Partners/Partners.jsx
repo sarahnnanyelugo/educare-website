@@ -9,22 +9,23 @@ import "./partners.scss";
 export const Partners = () => {
   return (
     <>
-      {" "}
-      <div className="col-md-11 offset-md-1 mt5 partners-container flexy">
-        <h1 className="col-md- flexy">
-          Corporate membership
-          <br /> & partners
-        </h1>
-        <div className="mt5 offset-md-1 col-md-">
+      <center>
+        {" "}
+        <h1 className="mt">Trusted by leading organisations</h1>
+      </center>{" "}
+      <div className="col-md-10 offset-md-1  partners-container flexy">
+        <center>
           {" "}
-          <img className="aisa" src={Aisa} alt="Scholar" />
-          <img className="ms" src={Microsoft} alt="Scholar" />
-          <img className="flutter" src={Flutterwave} alt="Scholar" />
-          <br />
-          <img className="pay" src={Paystack} alt="Scholar" />
-          <img className="standard" src={Standard} alt="Scholar" />
-          <img className="apen" src={Apen} alt="Scholar" />
-        </div>
+          <div className="">
+            {" "}
+            <img className="aisa" src={Aisa} alt="Scholar" />
+            <img className="ms" src={Microsoft} alt="Scholar" />
+            <img className="flutter" src={Flutterwave} alt="Scholar" />
+            <img className="pay" src={Paystack} alt="Scholar" />
+            <img className="standard-logo" src={Standard} alt="Scholar" />
+            <img className="apen" src={Apen} alt="Scholar" />
+          </div>
+        </center>
       </div>
     </>
   );

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./_faq--accordion-blue.scss";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
+import GetStartedForm from "../GetStartedForm/GetStartedForm";
 
 const FAQAccordionBlue = () => {
   return (
@@ -18,19 +19,32 @@ const FAQAccordionBlue = () => {
               onboard your <br />
               school in seconds.
             </p>
-            <button className="accord-get-started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0098DA"
+              cls="gsmcal"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <p>Can One Account Manage Multi Schools ?</p>
+            <p>Can One Account Manage Multiple businesses ?</p>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Getting your school enrolled is so easy. Click on signup to
+              Getting your business enrolled is so easy. Click on signup to
               onboard your <br />
               school in seconds.
             </p>
+            <GetStartedForm
+              text=" Sign up"
+              bg="#0098DA"
+              cls="gsmcal"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
           </Accordion.Body>
         </Accordion.Item>
 
@@ -56,7 +70,13 @@ const FAQAccordionBlue = () => {
               and two factor
               <br /> authentication method.
             </p>
-            <button className="accord-get-started">Get started</button>
+            <GetStartedForm
+              text=" Get started"
+              bg="#0098DA"
+              cls="gsmcal"
+              bgbtn="#0098DA"
+              backdropbg="modal-backdrop-dark"
+            />
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

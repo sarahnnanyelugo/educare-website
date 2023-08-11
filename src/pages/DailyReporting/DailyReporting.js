@@ -140,8 +140,7 @@ function DailyReporting() {
       <div className="col-md-10 offset-md-1 daily-get-started flexy">
         <div className="col-md-6 offset-md-1">
           <h3>
-            Embrace the power of efficiency, transparency, and security today,
-            and unlock your staff's daily potential with Educare!
+            Harness the power of data analytics to drive productivity and growth
           </h3>
         </div>
         <div className="offset-md-1 mt2 offset-1">

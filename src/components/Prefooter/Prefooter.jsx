@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./prefooter.scss";
 
 export const Prefooter = (props) => {
@@ -11,10 +12,10 @@ export const Prefooter = (props) => {
             <h4>{props.textb}</h4>
             <p>{props.paragraph}</p>
           </div>
-          <div className="offset-md-6">
+          <Link to={"/login"} className="offset-md-6">
             {" "}
             <button>Get started now</button>
-          </div>
+          </Link>
         </div>
       </div>
     </>

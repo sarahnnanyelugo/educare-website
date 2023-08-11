@@ -3,14 +3,7 @@ import "./compare-features.scss";
 import Accordion from "react-bootstrap/Accordion";
 import { Link } from "react-router-dom";
 import FeaturesTable from "./FeaturesTable/FeaturesTable";
-import {
-  allTransactions,
-  accountCredits,
-  moneySpent,
-  withdrawal,
-  refund,
-  regularPayments,
-} from "../../../TestData";
+import { businessFeatures } from "../../../TestData";
 export const CompareFeatures = () => {
   return (
     <div className="compare-features-container">
@@ -23,7 +16,10 @@ export const CompareFeatures = () => {
           <Accordion.Body>
             <div className="col-md-10 offset-md-1">
               {" "}
-              <FeaturesTable data={accountCredits} tableTitle="Transactions" />
+              <FeaturesTable
+                data={businessFeatures}
+                tableTitle="Transactions"
+              />
             </div>
           </Accordion.Body>
         </Accordion.Item>

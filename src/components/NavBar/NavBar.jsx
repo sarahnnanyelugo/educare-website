@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import Logo from "../../assets/images/logo2.png";
+import Logo from "../../assets/images/new-logo.png";
 import Arrow from "../../assets/images/arrowdown.svg";
 import { Link, NavLink } from "react-router-dom";
 import "./_navbar.scss";
@@ -206,12 +206,13 @@ function NavBar() {
 
   return (
     <>
-      <div className="col-md-12 fixed-nav col-12" id="nav">
+      <div className="col-md-12 fixed-nav col-12">
         {" "}
         <div
           className={`navbar-container offset-md-1 col-md-10 ${
             showNav ? "" : "hide"
           } ${stick ? "" : "sticky"}`}
+          id="nav"
         >
           <div className="logo-holder  col-md-2 flexy ">
             {" "}

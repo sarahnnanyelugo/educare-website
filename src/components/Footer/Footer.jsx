@@ -57,11 +57,6 @@ export const Footer = () => {
                     For Businesses
                   </Link>
                 </li>{" "}
-                <li>
-                  <Link to="" className="links">
-                    Enterprise offer
-                  </Link>
-                </li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -93,23 +88,23 @@ export const Footer = () => {
                     Support Center
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={"/guides"} className="links">
                     Guides
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to={"/blog"} className="links">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/partner"} className="links">
+                  <Link to={"/be-partner"} className="links">
                     Become a Partner
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/stories"} className="links">
+                  <Link to={"/customer-stories"} className="links">
                     Customer Stories
                   </Link>
                 </li>{" "}

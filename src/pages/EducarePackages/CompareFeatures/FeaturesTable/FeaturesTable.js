@@ -57,7 +57,7 @@ const FeaturesTable = (props) => {
                     item.icon3.content
                   )}
                 </td>
-                <td>
+                {/* <td>
                   {" "}
                   {item.icon3.type === "image" ? (
                     <img
@@ -69,7 +69,7 @@ const FeaturesTable = (props) => {
                   ) : (
                     item.icon4.content
                   )}
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

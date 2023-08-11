@@ -6,7 +6,7 @@ import {
   elearningData,
   premiumData,
   basicData,
-  rates,
+  schoolRates,
   currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
@@ -15,6 +15,7 @@ import FAQAccordion from "../../components/FAQAccordion/FAQAccordion";
 import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
 import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
+import { Link } from "react-router-dom";
 
 function SchoolsPackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -27,7 +28,7 @@ function SchoolsPackages(props) {
   const [conversionRate, setConversionRate] = useState(1);
 
   const convertCurrency = () => {
-    setConversionRate(rates[toCurrency]);
+    setConversionRate(schoolRates[toCurrency]);
   };
   function setThisCurrency(curr) {
     if (curr !== toCurrency) {
@@ -52,23 +53,21 @@ function SchoolsPackages(props) {
   return (
     <>
       <div className="educare-for-school-packages">
-        <center>
-          {" "}
-          <div className="tabs2">
-            <button
-              className={`tab2 ${checkActive(1, "active3")}`}
-              onClick={() => handleClick(1)}
-            >
-              Monthly
-            </button>
-            <button
-              className={`tab2 ${checkActive(2, "active3")}`}
-              onClick={() => handleClick(2)}
-            >
-              Yearly
-            </button>
-          </div>
-        </center>
+        {" "}
+        <div className="tabs2 offset-md-1">
+          <button
+            className={`tab2 ${checkActive(1, "active3")}`}
+            onClick={() => handleClick(1)}
+          >
+            Monthly
+          </button>
+          <button
+            className={`tab2 ${checkActive(2, "active3")}`}
+            onClick={() => handleClick(2)}
+          >
+            Yearly
+          </button>
+        </div>
         <div className="currency-buttons2 flexy flexym offset-md-10">
           <button
             onClick={() => setThisCurrency("NGN")}
@@ -96,31 +95,34 @@ function SchoolsPackages(props) {
             EUR
           </button>{" "}
         </div>
-
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-4">
+            <div className="offset-md-6">
               {" "}
-              <button
-                className="premium-button"
-                style={{ marginLeft: "140px" }}
-              >
-                Recommended
-              </button>
+              <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container">
-              <div className="col-md-3 left-cards enterprise">
+            <div className="col-md-10 flexy monthly-container2">
+              <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>
+                <div className="flexy flexyM">
                   {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(basicData.monthlyAmount * conversionRate).toFixed(2)}
-                </h1>
-                <button className="price-button">Get started</button>
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {(basicData.monthlyAmount * conversionRate).toFixed(2)}
+                  </h1>
+                  <h6>
+                    Per Student <br /> (Monthly)
+                  </h6>
+                </div>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -131,8 +133,8 @@ function SchoolsPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4 ">
-                <div className="col-md-12  premium">
+              <div className="col-md-4 standard">
+                <div className="col-md-12  ">
                   <h3>{premiumData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -149,7 +151,10 @@ function SchoolsPackages(props) {
                       Per Student <br /> (Monthly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -161,7 +166,7 @@ function SchoolsPackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3 left-cards2 e-learning">
+              {/* <div className="col-md-3 left-cards2 e-learning">
                 <h3>{elearningData.heading1}</h3>
                 <div className="flexy flexyM">
                   {" "}
@@ -178,7 +183,10 @@ function SchoolsPackages(props) {
                     (Monthly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {elearningData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -188,11 +196,14 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="col-md-3 right-cards e-learning">
+              </div> */}
+              <div className="col-md-4 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
-                <h1>{enterpriseData.monthlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <h1>{enterpriseData.yearlyAmount}</h1>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -205,29 +216,34 @@ function SchoolsPackages(props) {
               </div>
             </div>
           </div>
+
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="offset-md-4">
+            <div className="offset-md-6">
               {" "}
-              <button
-                className="premium-button"
-                style={{ marginLeft: "140px" }}
-              >
-                Recommended
-              </button>
+              <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container">
-              <div className="col-md-3 left-cards enterprise">
+            <div className="col-md-10 flexy monthly-container2">
+              <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
-                <h1>
+                <div className="flexy flexyM">
                   {" "}
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: currencyChar[toCurrency],
-                    }}
-                  ></span>
-                  {(basicData.yearlyAmount * conversionRate).toFixed(2)}
-                </h1>
-                <button className="price-button">Get started</button>
+                  <h1>
+                    {" "}
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: currencyChar[toCurrency],
+                      }}
+                    ></span>
+                    {(basicData.yearlyAmount * conversionRate).toFixed(2)}
+                  </h1>
+                  <h6>
+                    Per Student <br /> (Yearly)
+                  </h6>
+                </div>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {basicData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -238,9 +254,10 @@ function SchoolsPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4 ">
-                <div className="col-md-12  premium">
+              <div className="col-md-4">
+                <div className="col-md-12  standard">
                   <h3>{premiumData.heading1}</h3>
+
                   <div className="flexy flexyM">
                     {" "}
                     <h1>
@@ -256,7 +273,10 @@ function SchoolsPackages(props) {
                       Per Student <br /> (Yearly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {premiumData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -268,7 +288,7 @@ function SchoolsPackages(props) {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-3 left-cards2 e-learning">
+              {/* <div className="col-md-3 left-cards2 e-learning">
                 <h3>{elearningData.heading1}</h3>
                 <div className="flexy flexyM">
                   <h1>
@@ -286,7 +306,10 @@ function SchoolsPackages(props) {
                     (Yearly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {elearningData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -296,11 +319,14 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="col-md-3 right-cards e-learning ">
+              </div> */}
+              <div className="col-md-4 right-cards e-learning ">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.yearlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {enterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -315,10 +341,12 @@ function SchoolsPackages(props) {
           </div>
         </div>
       </div>
-      {/* <div className="col-md-12 more-details-container">
+      <div className="col-md-12 more-details-container">
         <CompareFeatures title="Compare Features" />
-      </div> */}
-      {/* <div className="col-md-12 more-details-container">
+      </div>
+      <br />
+      <br />
+      <div className="col-md-12 more-details-container">
         <div className="col-md-12">
           <center>
             <div className="col-md-6 onboarding">
@@ -327,23 +355,25 @@ function SchoolsPackages(props) {
                 Our Onboarding Experts have extensive experience working with
                 numerous businesses worldwide. They are available to assist you
                 with setting up your dashboard improving your team’s workflow,
-                and ensuring your company fully adopts the platform. If you
+                and ensuring your company fully adopts the platform.
+                {/* If you
                 prefer, you can also select a partner from our directory to
-                receive guidance on implementation, training, and integration.
+                receive guidance on implementation, training, and integration. */}
               </p>
             </div>
           </center>
         </div>
-        <div className="col-md-10 offset-md-1 flexy faq-container">
-          <div className="col-md-3">
-            <h1>FAQs</h1>
-          </div>
-          <div className="col-md-9">
-            <FAQAccordionBlue />
-          </div>
+      </div>
+      <div className="col-md-10 offset-md-1 flexy faq-container">
+        <div className="col-md-3">
+          <h1>FAQs</h1>
         </div>
-        <Partners />
-      </div> */}
+        <div className="col-md-9">
+          <FAQAccordionBlue />
+        </div>
+      </div>
+
+      <Partners />
     </>
   );
 }

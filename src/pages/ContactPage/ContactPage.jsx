@@ -6,6 +6,7 @@ import FB from "../../assets/images/fb.svg";
 import Twitter from "../../assets/images/twitter.svg";
 import Form from "./Form/Form";
 import { Prefooter } from "../../components/Prefooter/Prefooter";
+import MasterForm from "../../components/FormWizard/MasterForm";
 function ContactPage() {
   return (
     <>
@@ -78,7 +79,8 @@ function ContactPage() {
           </div>
         </div>
         <div className="col-md-4 offset-md-1 mtt">
-          <Form text="Submit" bg="#0098DA" />
+          {/* <Form text="Submit" bg="#0098DA" /> */}
+          <MasterForm />
         </div>
       </div>
       <Prefooter text="Provide a Finance experience that will scale your business upward." />

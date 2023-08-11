@@ -1,13 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   standardData,
-  rates,
+  businessRates,
   professionalData,
   businessEnterpriseData,
   currencyChar,
 } from "../../TestData";
 import Tick from "../../assets/images/tickk2.png";
-
+import { CompareFeatures } from "./CompareFeatures/CompareFeatures";
+import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
+import { Partners } from "../../components/Partners/Partners";
+import { Link } from "react-router-dom";
 function BusinessPackage() {
   const [activeIndex2, setActiveIndex2] = useState(1);
   const handleClick = (index) => setActiveIndex2(index);
@@ -22,7 +25,7 @@ function BusinessPackage() {
   const [conversionRate, setConversionRate] = useState(1);
 
   const convertCurrency = () => {
-    setConversionRate(rates[toCurrency]);
+    setConversionRate(businessRates[toCurrency]);
   };
   function setThisCurrency(curr) {
     if (curr !== toCurrency) {
@@ -39,29 +42,29 @@ function BusinessPackage() {
       console.log(toCurrency, conversionRate);
     }, 1000);
   }, [toCurrency]);
+  const inputReference = useRef(null);
   return (
     <div>
       <div className="business-pricing-tab ">
-        <center>
-          {" "}
-          <div className="tabs2">
-            <button
-              className={`tab2 ${checkActive(1, "active3")}`}
-              onClick={() => handleClick(1)}
-            >
-              Monthly
-            </button>
-            <button
-              className={`tab2 ${checkActive(2, "active3")}`}
-              onClick={() => handleClick(2)}
-            >
-              Yearly
-            </button>
-          </div>
-        </center>
-        <div className="currency-buttons flexy flexym offset-md-10">
+        {" "}
+        <div className="tabs2 offset-md-1">
+          <button
+            className={`tab2 ${checkActive(1, "active3")}`}
+            onClick={() => handleClick(1)}
+          >
+            Monthly
+          </button>
+          <button
+            className={`tab2 ${checkActive(2, "active3")}`}
+            onClick={() => handleClick(2)}
+          >
+            Yearly
+          </button>
+        </div>
+        <div className="currency-buttons2 flexy flexym offset-md-10">
           <button
             onClick={() => setThisCurrency("NGN")}
+            ref={inputReference}
             className={` ${toCurrency === "NGN" ? "curr-active" : ""}`}
           >
             NGN
@@ -71,7 +74,7 @@ function BusinessPackage() {
             className={` ${toCurrency === "USD" ? "curr-active" : ""}`}
           >
             USD
-          </button>{" "}
+          </button>
           <button
             onClick={() => setThisCurrency("GBP")}
             className={` ${toCurrency === "GBP" ? "curr-active" : ""}`}
@@ -85,16 +88,15 @@ function BusinessPackage() {
             EUR
           </button>{" "}
         </div>
-
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-3">
+            <div className="offset-md-6">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container2 ">
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
+                <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -111,7 +113,10 @@ function BusinessPackage() {
                       Per Employee <br /> (Monthly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    <button className="price-button">Get started</button>
+                  </Link>
+
                   <ul className="list-unstyled">
                     {standardData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -123,7 +128,7 @@ function BusinessPackage() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards2 e-learning ">
+              <div className="col-md-4   standard">
                 <h3>{professionalData.heading1}</h3>
                 <div className="flexy flexyM">
                   <h1>
@@ -141,7 +146,10 @@ function BusinessPackage() {
                     Per Employee <br /> (Monthly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {professionalData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -155,7 +163,10 @@ function BusinessPackage() {
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{businessEnterpriseData.heading1}</h3>
                 <h1>{businessEnterpriseData.monthlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {businessEnterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -169,13 +180,13 @@ function BusinessPackage() {
             </div>
           </div>
           <div className={`panel ${checkActive(2, "active2")}`}>
-            <div className="offset-md-3">
+            <div className="offset-md-6">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-9 flexy monthly-container offset-md-1">
+            <div className="col-md-10 flexy monthly-container2">
               <div className="col-md-4 ">
-                <div className="col-md-12 standard">
+                <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
                   <div className="flexy flexyM">
                     {" "}
@@ -192,7 +203,10 @@ function BusinessPackage() {
                       Per Employee <br /> (Yearly)
                     </h6>
                   </div>
-                  <button className="price-button">Get started</button>
+                  <Link to={"/login"}>
+                    {" "}
+                    <button className="price-button">Get started</button>
+                  </Link>
                   <ul className="list-unstyled">
                     {standardData.packages.map((items, index) => (
                       <li key={items.id}>
@@ -204,7 +218,7 @@ function BusinessPackage() {
                   </ul>
                 </div>
               </div>
-              <div className="col-md-4 right-cards e-learning ">
+              <div className="col-md-4 standard ">
                 <h3>{professionalData.heading1}</h3>
                 <div className="flexy flexyM">
                   <h1>
@@ -222,7 +236,10 @@ function BusinessPackage() {
                     Per Employee <br /> (Yearly)
                   </h6>
                 </div>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {professionalData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -236,7 +253,10 @@ function BusinessPackage() {
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{businessEnterpriseData.heading1}</h3>
                 <h1>{businessEnterpriseData.yearlyAmount}</h1>
-                <button className="price-button">Get started</button>
+                <Link to={"/login"}>
+                  <button className="price-button">Get started</button>
+                </Link>
+
                 <ul className="list-unstyled">
                   {businessEnterpriseData.packages.map((items, index) => (
                     <li key={items.id}>
@@ -251,6 +271,38 @@ function BusinessPackage() {
           </div>
         </div>
       </div>
+      <div className="col-md-12 more-details-container">
+        <CompareFeatures title="Compare Features" />
+      </div>
+      <br />
+      <br />
+      <div className="col-md-12 more-details-container">
+        <div className="col-md-12">
+          <center>
+            <div className="col-md-6 onboarding">
+              <h1>Onboarding</h1>
+              <p>
+                Our Onboarding Experts have extensive experience working with
+                numerous businesses worldwide. They are available to assist you
+                with setting up your dashboard improving your team’s workflow,
+                and ensuring your company fully adopts the platform.
+                {/* If you
+                prefer, you can also select a partner from our directory to
+                receive guidance on implementation, training, and integration. */}
+              </p>
+            </div>
+          </center>
+        </div>
+      </div>
+      <div className="col-md-10 offset-md-1 flexy faq-container">
+        <div className="col-md-3">
+          <h1>FAQs</h1>
+        </div>
+        <div className="col-md-9">
+          <FAQAccordionBlue />
+        </div>
+      </div>
+      <Partners />
     </div>
   );
 }

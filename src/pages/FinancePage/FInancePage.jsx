@@ -38,10 +38,7 @@ export const FinancePage = () => {
             bg="#DED0FA"
             boda="#DED0FA"
           />
-          <h1>
-            Simplify your business with our powerful finance module made Just
-            for them.
-          </h1>
+          <h1>Simplify your Business with Educare Powerful Finance Module.</h1>
           <p className="col-md-11">
             From invoicing to order management to accounting, educare Finance
             has all the tools you need to streamline all of your back office

@@ -60,7 +60,6 @@ import Recruitment from "../../assets/images/recruitment.svg";
 import Access from "../../assets/images/control.svg";
 import Striped from "../../assets/images/stripe-bg.png";
 import { Link, NavLink } from "react-router-dom";
-import { Partners } from "../../components/Partners/Partners";
 import { LatestBlogIndex } from "../../TestData";
 import MiniBlog from "../Blog/BlogPost/MiniBlog";
 import LatestBlog from "./LatetestBlog";
@@ -70,7 +69,6 @@ import Prin2 from "../../assets/images/prin2.png";
 import Prin3 from "../../assets/images/prin3.png";
 import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
-import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 
 import Invoicing from "../../assets/images/invoice.svg";
 import Budgeting from "../../assets/images/budgeting.svg";
@@ -89,6 +87,7 @@ import Mentor from "../../assets/images/mentor.svg";
 import Behavior from "../../assets/images/behave.svg";
 import EYFS from "../../assets/images/eyfs.svg";
 import Dashboard from "../../assets/images/dashicon.svg";
+import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
 export const Home = () => {
   return (
