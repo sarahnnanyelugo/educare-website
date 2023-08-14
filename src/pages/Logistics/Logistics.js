@@ -4,7 +4,7 @@ import "./logistics.scss";
 import Waybill from "../../assets/images/waybill.png";
 import Facility from "../../assets/images/manage-finance.png";
 import Action from "../../assets/images/actionable.png";
-import Enhanced from "../../assets/images/ecc.png";
+import Enhanced from "../../assets/images/daily-dashboard.png";
 
 function Logistics() {
   return (
@@ -95,15 +95,13 @@ function Logistics() {
       </div>
       <center>
         <div className="col-md-5  enhanced">
-          <h1 className="col-md-9">Enhanced Communication and Collaboration</h1>
+          <h1 className="col-md-9"> Consice Daily Reporting Module </h1>
           <p>
-            Effective communication is the backbone of successful distributions
-            and logistics operations. Our module provides a centralized Mailbox
-            feature, facilitating seamless and secure communication between
-            suppliers, distributors, and logistics providers. Stay connected,
-            exchange vital information, resolve issues promptly, and foster
-            strong relationships for streamlined operations and optimized supply
-            chain performance.
+            With Educare's Daily Reporting Module, productivity reaches new
+            heights. Empower your staff to input their daily tasks with ease,
+            ensuring accountability and streamlined work hours. Embrace
+            data-driven excellence, as each staff member's productivity becomes
+            the heartbeat of your establishment.
           </p>
           <img className=" " src={Enhanced} alt="Scholar" width="100%" />
         </div>

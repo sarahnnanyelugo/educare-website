@@ -21,11 +21,12 @@ function School() {
         <center>
           <div className="col-md-5">
             <small>School</small>
-            <h1>Streamline, Communicate, and Empower for Academic Success</h1>
+            <h1>Powerful School Operational Tools All in a Single Platform.</h1>
             <p className="col-md-10">
-              In order to provide a top-notch educational experience, our school
-              recognises the value of efficiency, good communication, and
-              empowerment.
+              In order to provide a top-notch educational experience, use
+              educare to automate all facets of schools operations, from
+              academics down to administration. Discover a better experience for
+              your school.
             </p>
             <GetStartedForm
               text=" Get started"
@@ -53,15 +54,17 @@ function School() {
           </center>
         </div>
       </center>
-      <div className="col-md-10 offset-md-1 flexy govt-divs mt">
+      <center className="mtt">
+        <h2> Some of Educare's Operational Tools for Schools</h2>
+      </center>
+      <div className="col-md-10 offset-md-1 flexy govt-divs mt6">
         <div className="col-md-5 ">
-          <h1 className="col-md-10 mt3">Comprehensive Pastoral Support</h1>
+          <h1 className="col-md-10 mt3">Integrated Finance Suite</h1>
           <p className="col-md-10">
-            Promote student well-being and provide pastoral care support with
-            our dedicated Pastoral feature. Foster a positive and nurturing
-            school environment by addressing student needs, supporting
-            social-emotional development, and facilitating effective
-            communication between students, parents, and school staff.
+            From invoicing to order management to accounting, educare Finance
+            has all the tools you need to streamline all of your back office
+            operations. Gain insight into your financial performance and make
+            informed decisions to help your business thrive.
           </p>
         </div>
         <div className="col-md-6 offset-md-1  govt-map">
@@ -129,8 +132,8 @@ function School() {
         <div className="col-md-7 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Transform the way you serve your constituents by empowering your
-            government operations with our Government module
+            Discover a better experience for your school with educare powerful
+            tools.
           </p>
         </div>
         <div className="offset-md-2 mt3">

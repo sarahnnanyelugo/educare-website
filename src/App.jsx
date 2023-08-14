@@ -145,7 +145,7 @@ function App() {
         <Route path="dashboards" element={<Dashboards />} />
       </Routes>
       <Footer />
-      <div
+      {/* <div
         className={`top col-md-1 offset-md-11  ${
           (scrollPosition >= 400 && scrollDirection < 0) || scrollPosition == 0
             ? "hide"
@@ -157,7 +157,7 @@ function App() {
           {" "}
           <img src={Top} alt="Scholar" />
         </a>
-      </div>
+      </div> */}
     </>
   );
 }

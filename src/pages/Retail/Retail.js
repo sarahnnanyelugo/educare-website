@@ -36,12 +36,11 @@ function Retail() {
         <div className="col-md-5">
           <h1>Effortless Financial Management</h1>
           <p>
-            Easily take charge of your retail finances. You may effectively
-            manage financial transactions, track sales, and keep precise
-            inventory records with the help of our retail module. To ensure
-            ideal stock levels and reduce expenses, gain insights into your
-            financial data, keep an eye on revenue sources, and streamline
-            inventory management.
+            Easily take charge of your retail finances. Effectively manage
+            financial transactions, track sales, and keep precise inventory
+            records with the help of our retail module. To ensure ideal stock
+            levels and reduce expenses, gain insights into your financial data,
+            keep an eye on revenue sources, and streamline inventory management.
           </p>
         </div>
         <div className="col-md-5 offset-md-2">
@@ -61,14 +60,13 @@ function Retail() {
         <div className="col-md-10 offset-md-1 flexy mt retail-divs">
           <div className="col-md-6 img-div mt"></div>
           <div className="col-md-5 offset-md-1 mt">
-            <h1>Effective Customer Communication</h1>
+            <h1>Automated Requisition Processes</h1>
             <p>
-              Facilitate seamless communication between customers, store
-              managers, and customer support with our integrated Mailbox
-              feature. Enable personalized interactions, address customer
-              inquiries, and provide timely support. Build strong customer
-              relationships and enhance customer satisfaction through effective
-              and efficient communication channels.
+              Streamline and elevate your requisition processes with Educare's
+              advanced Requisition Feature. Say goodbye to manual paperwork and
+              lengthy approval chains. Our cutting-edge automation empowers your
+              team to initiate requisitions seamlessly, while built-in workflows
+              ensure swift and accurate approvals.
             </p>
           </div>
         </div>
