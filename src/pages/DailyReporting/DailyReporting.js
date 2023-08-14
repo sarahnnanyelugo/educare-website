@@ -5,6 +5,7 @@ import { NavTwo } from "../../components/NavTwo/NavTwo";
 import "./daily-reporting.scss";
 import Dashboard from "../../assets/images/daily-dashboard.png";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
+import { Link } from "react-router-dom";
 
 function DailyReporting() {
   return (
@@ -151,7 +152,9 @@ function DailyReporting() {
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-dark"
           />
-          <button className="demo">Request for demo</button>
+          <Link to={"/contact-us"}>
+            <button className="demo">Request for demo</button>
+          </Link>
         </div>
       </div>
     </>

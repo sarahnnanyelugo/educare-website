@@ -41,7 +41,9 @@ function FacilityManager() {
               Elevate your spaces, redefine facility management, and experience
               the magic of Educare today!
             </p>
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              <button className="demo">Request for demo</button>
+            </Link>
           </div>
           <div className="col-md-7 formmy-dive flexy">
             <div className="col-md-3 img1">
@@ -334,7 +336,10 @@ function FacilityManager() {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-dark"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </center>
         </div>
       </center>

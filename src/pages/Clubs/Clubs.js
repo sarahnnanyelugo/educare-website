@@ -15,6 +15,7 @@ import Sync2 from "../../assets/images/sync_faded.png";
 import Conflict from "../../assets/images/thief.png";
 import Calender from "../../assets/images/views.png";
 import Calender2 from "../../assets/images/views2.png";
+import { Link } from "react-router-dom";
 function Clubs() {
   return (
     <>
@@ -54,7 +55,9 @@ function Clubs() {
                 bg="#EA8713"
                 backdropbg="modal-backdrop-purple"
               />
-              <button className="demo">Request for demo</button>
+              <Link to={"/contact-us"}>
+                <button className="demo">Request for demo</button>
+              </Link>
             </center>
           </div>
         </center>
@@ -138,7 +141,10 @@ function Clubs() {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-dark"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </center>
         </div>
       </div>

@@ -64,7 +64,9 @@ function Library() {
                 bgbtn="#ED2F59"
                 backdropbg="modal-backdrop-pink"
               />
-              <button className="demo">Request a demo</button>
+              <Link to={"/contact-us"}>
+                <button className="demo">Request a demo</button>
+              </Link>
             </div>
           </div>
           <div className="lottie-divs col-md-7">
@@ -290,7 +292,9 @@ function Library() {
             bgbtn="#0098DA"
             backdropbg="modal-backdrop-dark"
           />
-          <button className="demo">Request for demo</button>
+          <Link to={"/contact-us"}>
+            <button className="demo">Request for demo</button>
+          </Link>
         </center>
       </div>
       {/* <div className="col-md-8 offset-md-2 mt">

@@ -37,7 +37,10 @@ function Calendar() {
               Stay up to date with events / schedules, mark key dates, plan
               engaging events, and stay ahead of your business's journey.
             </p>
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </div>
           <div className="col-md-4 offset-md-2 form-divvv">
             {" "}
@@ -239,7 +242,10 @@ function Calendar() {
                   bgbtn="#0098DA"
                   backdropbg="modal-backdrop-dark"
                 />
-                <button className="demo">Request for demo</button>
+                <Link to={"/contact-us"}>
+                  {" "}
+                  <button className="demo">Request for demo</button>
+                </Link>
               </center>
             </div>
           </center>

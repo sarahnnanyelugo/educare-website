@@ -10,6 +10,7 @@ import Learn from "../../assets/images/grade.png";
 import Dashed1 from "../../assets/images/dashed_line_11.png";
 import Dashed2 from "../../assets/images/dashed_line_22.png";
 import Teacher from "../../assets/images/ass-teacher.png";
+import { Link } from "react-router-dom";
 function Assignment() {
   return (
     <>
@@ -51,7 +52,10 @@ function Assignment() {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-blue"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </div>
         </div>
         <div className="col-md-4 offset-md-">
@@ -182,7 +186,10 @@ function Assignment() {
                 bgbtn="#0098DA"
                 backdropbg="modal-backdrop-dark"
               />
-              <button className="demo">Request for demo</button>
+              <Link to={"/contact-us"}>
+                {" "}
+                <button className="demo">Request for demo</button>
+              </Link>
             </center>
           </div>
         </center>

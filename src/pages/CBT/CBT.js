@@ -79,7 +79,10 @@ function CBT() {
                   bgbtn="#11A377"
                   backdropbg="modal-backdrop-green"
                 />
-                <button className="demo">Request for demo</button>
+                <Link to={"/contact-us"}>
+                  {" "}
+                  <button className="demo">Request for demo</button>
+                </Link>
               </center>
             </div>
           </div>

@@ -50,7 +50,10 @@ function EClassroomPage() {
                 offers a robust eClassroom module, empowering educators and
                 students to connect, collaborate, and learn in a digital realm.
               </p>
-              <button>Request for demo</button>
+              <Link to={"/contact-us"}>
+                {" "}
+                <button>Request for demo</button>
+              </Link>
             </div>
           </div>
           <div className="col-md-6  eclassroom-form">
