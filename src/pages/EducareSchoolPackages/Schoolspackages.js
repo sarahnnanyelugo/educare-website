@@ -97,11 +97,11 @@ function SchoolsPackages(props) {
         </div>
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-6">
+            <div className="offset-md-5 offset-lg-6">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container2">
+            <div className="col-md-12 col-lg-8 flexy monthly-container2 offset-lg-2 ">
               <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
                 <div className="flexy flexyM">
@@ -134,53 +134,20 @@ function SchoolsPackages(props) {
                 </ul>
               </div>{" "}
               <div className="col-md-4 standard">
-                <div className="col-md-12  ">
-                  <h3>{premiumData.heading1}</h3>
-                  <div className="flexy flexyM">
-                    {" "}
-                    <h1>
-                      {" "}
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: currencyChar[toCurrency],
-                        }}
-                      ></span>
-                      {(premiumData.monthlyAmount * conversionRate).toFixed(2)}
-                    </h1>
-                    <h6>
-                      Per Student <br /> (Monthly)
-                    </h6>
-                  </div>
-                  <Link to={"/login"}>
-                    <button className="price-button">Get started</button>
-                  </Link>
-
-                  <ul className="list-unstyled">
-                    {premiumData.packages.map((items, index) => (
-                      <li key={items.id}>
-                        {" "}
-                        <img className="" src={Tick} alt="Scholar" width="4%" />
-                        {items.value}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              {/* <div className="col-md-3 left-cards2 e-learning">
-                <h3>{elearningData.heading1}</h3>
+                <h3>{premiumData.heading1}</h3>
                 <div className="flexy flexyM">
                   {" "}
                   <h1>
+                    {" "}
                     <span
                       dangerouslySetInnerHTML={{
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {(elearningData.monthlyAmount * conversionRate).toFixed(2)}
+                    {(premiumData.monthlyAmount * conversionRate).toFixed(2)}
                   </h1>
                   <h6>
-                    Per Student <br />
-                    (Monthly)
+                    Per Student <br /> (Monthly)
                   </h6>
                 </div>
                 <Link to={"/login"}>
@@ -188,7 +155,7 @@ function SchoolsPackages(props) {
                 </Link>
 
                 <ul className="list-unstyled">
-                  {elearningData.packages.map((items, index) => (
+                  {premiumData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -196,7 +163,7 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
               <div className="col-md-4 right-cards e-learning">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.yearlyAmount}</h1>
@@ -222,7 +189,7 @@ function SchoolsPackages(props) {
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container2">
+            <div className="col-md-12 col-lg-8 flexy monthly-container2 offset-lg-2 ">
               <div className="col-md-4 left-cards enterprise">
                 <h3>{basicData.heading1}</h3>
                 <div className="flexy flexyM">
@@ -254,43 +221,11 @@ function SchoolsPackages(props) {
                   ))}
                 </ul>
               </div>{" "}
-              <div className="col-md-4">
-                <div className="col-md-12  standard">
-                  <h3>{premiumData.heading1}</h3>
+              <div className="col-md-4 standard">
+                <h3>{premiumData.heading1}</h3>
 
-                  <div className="flexy flexyM">
-                    {" "}
-                    <h1>
-                      {" "}
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: currencyChar[toCurrency],
-                        }}
-                      ></span>
-                      {(premiumData.yearlyAmount * conversionRate).toFixed(2)}
-                    </h1>
-                    <h6>
-                      Per Student <br /> (Yearly)
-                    </h6>
-                  </div>
-                  <Link to={"/login"}>
-                    <button className="price-button">Get started</button>
-                  </Link>
-
-                  <ul className="list-unstyled">
-                    {premiumData.packages.map((items, index) => (
-                      <li key={items.id}>
-                        {" "}
-                        <img className="" src={Tick} alt="Scholar" width="4%" />
-                        {items.value}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-              {/* <div className="col-md-3 left-cards2 e-learning">
-                <h3>{elearningData.heading1}</h3>
                 <div className="flexy flexyM">
+                  {" "}
                   <h1>
                     {" "}
                     <span
@@ -298,12 +233,10 @@ function SchoolsPackages(props) {
                         __html: currencyChar[toCurrency],
                       }}
                     ></span>
-                    {(elearningData.yearlyAmount * conversionRate).toFixed(2)}
+                    {(premiumData.yearlyAmount * conversionRate).toFixed(2)}
                   </h1>
-
                   <h6>
-                    Per Student <br />
-                    (Yearly)
+                    Per Student <br /> (Yearly)
                   </h6>
                 </div>
                 <Link to={"/login"}>
@@ -311,7 +244,7 @@ function SchoolsPackages(props) {
                 </Link>
 
                 <ul className="list-unstyled">
-                  {elearningData.packages.map((items, index) => (
+                  {premiumData.packages.map((items, index) => (
                     <li key={items.id}>
                       {" "}
                       <img className="" src={Tick} alt="Scholar" width="4%" />
@@ -319,7 +252,7 @@ function SchoolsPackages(props) {
                     </li>
                   ))}
                 </ul>
-              </div> */}
+              </div>
               <div className="col-md-4 right-cards e-learning ">
                 <h3>{enterpriseData.heading1}</h3>
                 <h1>{enterpriseData.yearlyAmount}</h1>

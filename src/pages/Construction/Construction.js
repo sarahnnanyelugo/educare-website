@@ -12,7 +12,7 @@ function Construction() {
             <small>Construction</small>
             <h1>Optimize, Track, and Collaborate</h1>
             <p className="col-md-11">
-              Empower construction teams with our comprehensive Operational
+              Empower construction teams with our comprehensive operational
               Tools. Revolutionize project execution by efficiently managing
               resources, tracking progress, and enhancing collaboration. Our
               intuitive interface and robust features streamline construction
@@ -33,10 +33,10 @@ function Construction() {
           <div className="col-md-4  construction-div">
             <h1>Efficient HR Management</h1>
             <p className="col-md-11">
-              Effortlessly manage your construction team’s human resources. Our
-              Construction module streamlines HR processes, tracking
-              performance, and payroll management. Empower your team to focus on
-              project success with ease and accuracy.
+              Effortlessly manage your construction team. Our Construction
+              module streamlines HR processes, tracking performance, and payroll
+              management. Empower your team to focus on project success with
+              ease and accuracy.
             </p>
           </div>
           <div className="col-md-7 mt6">
@@ -98,10 +98,9 @@ function Construction() {
         <div className="col-md-7 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Join the community of successful financial service providers who
-            rely on our platform to automate workflows, produce precise
-            financial data, and offer first-rate customer experiences in the
-            market of today..
+            Join the community of successful educare subscribers who rely on our
+            platform to automate workflows, produce precise financial data, and
+            offer first-rate customer experiences in the market of today..
           </p>
         </div>
         <div className="offset-md-2 mt3">

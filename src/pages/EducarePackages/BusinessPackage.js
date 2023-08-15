@@ -61,7 +61,7 @@ function BusinessPackage() {
             Yearly
           </button>
         </div>
-        <div className="currency-buttons2 flexy flexym offset-md-10">
+        <div className="currency-buttons2 flexy flexym offset-md-9">
           <button
             onClick={() => setThisCurrency("NGN")}
             ref={inputReference}
@@ -90,11 +90,11 @@ function BusinessPackage() {
         </div>
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="offset-md-6">
+            <div className="offset-lg-6 offset-md-5">
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container2 ">
+            <div className="col-md-12 col-lg-8 flexy monthly-container2 offset-lg-2 ">
               <div className="col-md-4 ">
                 <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>
@@ -184,7 +184,7 @@ function BusinessPackage() {
               {" "}
               <button className="premium-button">Recommended</button>
             </div>
-            <div className="col-md-10 flexy monthly-container2">
+            <div className="col-md-12 col-lg-8 flexy monthly-container2 offset-lg-2 ">
               <div className="col-md-4 ">
                 <div className="col-md-12 e-learning right-cards2">
                   <h3>{standardData.heading1}</h3>

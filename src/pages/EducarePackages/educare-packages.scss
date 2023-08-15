@@ -105,7 +105,7 @@
     line-height: 40px;
     padding-top: 65px;
     background: #fff;
-
+margin-right:0 !important;
     .standard {
       border: solid 2px #0098da;
       border-radius: 10px;
@@ -209,7 +209,7 @@
   }
   .monthly-container {
     padding-left: 150px;
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 850px) {
       padding: 0;
     }
   }
@@ -309,11 +309,8 @@
 }
 
 .monthly-container2 {
-  padding-left: 250px !important;
-  @media screen and (max-width: 620px) {
-    padding: 0 !important;
-  }
-  @media screen and (max-width: 620px) {
+  // padding-left: 250px !important;
+  @media screen and (max-width: 850px) {
     padding: 0 !important;
   }
 }

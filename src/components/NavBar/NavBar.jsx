@@ -209,7 +209,7 @@ function NavBar() {
       <div className="col-md-12 fixed-nav col-12">
         {" "}
         <div
-          className={`navbar-container offset-md-1 col-md-10 ${
+          className={`navbar-container offset-lg-1 col-lg-10 col-md-12 ${
             showNav ? "" : "hide"
           } ${stick ? "" : "sticky"}`}
           id="nav"
