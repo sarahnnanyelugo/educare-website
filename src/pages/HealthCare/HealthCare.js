@@ -14,16 +14,13 @@ function HealthCare() {
       <div className="col-md-12 healthcare-div">
         <center>
           <div className="col-md-6  enhanced">
-            <small>Healthcare</small>
-            <h1 className="col-md-9">Empowering Seamless Medical Management</h1>
+            <h1>Healthcare</h1>
+
             <p className="col-md-10">
-              In the fast-paced world of healthcare, efficient and streamlined
-              management is vital. Our healthcare module brings together a
-              comprehensive suite of features designed to empower medical
-              professionals and enhance patient care. With our user-friendly
-              interface and robust functionalities, healthcare providers can
-              focus on what truly matters – delivering exceptional medical
-              services.
+              Educare has elevated Healthcare Establishments through
+              comprehensive solutions. Our versatile software suite has
+              empowered thousands of healthcare establishments to navigate their
+              complex operations with finesse and ease.
             </p>
             <GetStartedForm
               text=" Get started"
@@ -38,9 +35,6 @@ function HealthCare() {
       {/* <center> */}
       <div className="col-md-4 healthcare-partners flexy flexyM offset-md-4">
         {" "}
-        {/* <img className="apen" src={Aisa} alt="Scholar" />
-          <img className="apen" src={Microsoft} alt="Scholar" />
-          <img className="apen" src={Flutterwave} alt="Scholar" /> */}
         <h5 style={{ flexGrow: 1 }}>We are trusted by</h5>
         <p>Upsillon Care Hospital</p>
       </div>
@@ -130,17 +124,17 @@ function HealthCare() {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 report-get-started flexy md-rep">
-        <div className="col-md-4 offset-md-1">
+        <div className="col-md-6 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Experience the power of our healthcare module and unlock a new era
-            of medical management efficiency. Join the growing community of
+            Experience the power of our medicals module and unlock a new era of
+            medical management efficiency. Join the growing community of
             healthcare professionals who trust our platform to deliver
             exceptional care, streamline operations, and prioritize patient
             well-being.
           </p>
         </div>
-        <div className="offset-md-4 mt2">
+        <div className="offset-md-2 mt2">
           <GetStartedForm
             text=" Get started"
             bg="#0098DA"

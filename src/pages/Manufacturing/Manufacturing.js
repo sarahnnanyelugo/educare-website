@@ -8,14 +8,13 @@ function Manufacturing() {
     <>
       <div className="col-md-12 manufacturing-container">
         <div className="col-md-5 offset-md-1">
-          <small>Manufacturing</small>
-          <h1>Streamline, Optimize, and Accelerate Your Production Process</h1>
+          <h1>Manufacturing</h1>
+
           <p className="col-md-10">
-            Efficiency, precision, and agility are crucial in the competitive
-            realm of manufacturing. Our all-inclusive Manufacturing module is
-            specifically crafted to equip your business with state-of-the-art
-            tools and capabilities, transforming your production process and
-            propelling you towards operational excellence.
+            EduCare emerges as a game-changing solution tailored to meet the
+            unique needs of production facilities. Our comprehensive software
+            suite has empowered manufacturing establishments to navigate their
+            intricate operations seamlessly.
           </p>
           <GetStartedForm
             text=" Get started"
@@ -34,11 +33,12 @@ function Manufacturing() {
         <div className="col-md-4 manu-divs">
           <h1>Efficient Facility Management</h1>
           <p>
-            Manage your production facilities, equipment maintenance, and
-            resource allocation efficiently with our Facility Management
-            feature. Streamline facility operations, track equipment maintenance
-            schedules, and allocate resources effectively. Ensure optimal
-            utilization of your manufacturing assets and enhance operational
+            With our Facility Management Module, we have taken the production
+            industry to a whole new level where equipments are properly managed
+            and maintained. We have successfully Streamlined facility
+            operations, track equipment maintenance schedules, and allocate
+            resources effectively. Educare has taken charge of optimal
+            utilization of all manufacturing assets and enhanced operational
             efficiency, resulting in improved productivity and reduced downtime.
           </p>
         </div>
@@ -48,24 +48,20 @@ function Manufacturing() {
           <div className="col-md-5 mt">
             <h1>Seamless Financial Management</h1>
             <p className="col-md-11">
-              Take control of your financial processes with ease. Our
-              Manufacturing module enables you to handle financial transactions,
-              budgeting, and cost management specific to your manufacturing
-              operations. Gain full visibility into your financial data, track
-              expenses, manage budgets, and accurately allocate costs, ensuring
-              financial stability and profitability in your manufacturing
-              journey.
+              At educare we have handed manufacturing parastatals the ablity to
+              take control of their financial processes with ease. This we
+              achieved through our Finance module equiped to handle financial
+              transactions, budgeting, and cost management.
             </p>
           </div>
           <div className="col-md-5 offset-md-2 mt">
             <h1 className="col-md-11">Insightful Reports and Analytics</h1>
             <p className="col-md-11">
-              Unlock the power of data with our advanced Reporting feature.
-              Generate detailed production reports, quality control metrics, and
-              operational analytics. Gain valuable insights into key performance
-              indicators, identify areas for improvement, and make data-driven
-              decisions to enhance overall manufacturing efficiency, quality,
-              and output.
+              Our Insightful Reports and Analytics feature has given
+              manufacturing companies the key to Unlock the power of data. This
+              has empowered these establishments the ability to generate
+              detailed production reports, quality control metrics, and
+              operational analytics.
             </p>
           </div>
         </div>
@@ -75,24 +71,20 @@ function Manufacturing() {
           <div className="col-md-5 mtt">
             <h1>Streamlined Production Scheduling</h1>
             <p className="col-md-11">
-              Efficiently schedule production processes, machine maintenance,
-              and work shifts with our intuitive Calendar feature. Seamlessly
-              plan and manage production timelines, allocate resources, and
-              streamline workflows. Optimize production capacity, meet customer
-              demands, and ensure timely delivery of high-quality products.
+              With educare calendar module, manufacturing companies are able to
+              efficiently schedule production processes, machine maintenance,
+              and work shifts. With this feature, they seamlessly plan and
+              manage production timelines, allocate resources, streamline
+              workflows, optimize production capacity, meet customer demands,
+              and ensure timely delivery of high-quality products.
             </p>
           </div>
           <div className="col-md-5 offset-md-2 mtt">
-            <h1 className="col-md-11">
-              Enhanced Communication and Collaboration
-            </h1>
+            <h1 className="col-md-11">Professional HR Management</h1>
             <p className="col-md-11">
-              Enable seamless communication between different departments,
-              managers, and production teams with our integrated Mailbox
-              feature. Foster collaboration, exchange critical information, and
-              address production-related challenges in real-time. Facilitate
-              effective communication channels, ensuring everyone is on the same
-              page, resulting in improved coordination and productivity.
+              With our HRM module, factories are able to optimize workforce
+              management, ensuring skilled staff are allocated appropriately for
+              seamless production cycles.
             </p>
           </div>
         </div>

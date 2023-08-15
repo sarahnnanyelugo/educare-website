@@ -13,16 +13,15 @@ function Energy() {
       <div className="col-md-12 energy-container ">
         <center>
           <div className="col-md-5 ">
-            <small>Energy & Utilities</small>
-            <h1>
-              Effortless Financial Management, Reporting, and Collaboration
-            </h1>
+            <h1>Energy & Utilities</h1>
+
             <p className="col-md-10">
-              Revolutionize your consulting services with our comprehensive
-              module. Seamlessly manage finances, generate insightful reports,
-              and foster effective collaboration. Our intuitive interface and
-              robust features empower consultants and clients for exceptional
-              project experiences.
+              At Educare, we understand the dynamic landscape of energy and
+              utility companies, where efficient operations are paramount. We
+              take pride in the fact that educare ERP has proven to be an
+              invaluable asset for such enterprises, streamlining their complex
+              workflows and ensuring optimal staffing levels for the critical
+              tasks that keep the lights on.
             </p>
             <GetStartedForm
               text=" Get started"
@@ -37,11 +36,11 @@ function Energy() {
       <div className="col-md-12 div-one-energy">
         <div className="col-md-10 offset-md-1 flexy govt-divs">
           <div className="col-md-5 ">
-            <h1 className="col-md-10 mt7">Easily manage your finances</h1>
+            <h1 className="col-md-10 mt7"> We easily manage your finances</h1>
             <p className="col-md-10">
-              Take dominion of your energy and utility finances with ease. Our
-              Energy & Utilities module enables you to manage financial
-              transactions, billing, and payments efficiently.
+              The Finance module simplifies financial tracking, enabling
+              accurate budgeting and expense management, essential in the highly
+              regulated energy sector.
             </p>
           </div>
           <div className="col-md-7  mt ">
@@ -54,10 +53,13 @@ function Energy() {
           <img className=" " src={Img5} alt="Scholar" width="100%" />
         </div>
         <div className="col-md-6 mt offset-md-1">
-          <h1 className="col-md-6 mt">Smoother facility management</h1>
+          <h1 className="col-md-9 mt">
+            We ensure Smoother facility management
+          </h1>
           <p className="col-md-10">
-            Enhance operational efficiency, minimize downtime, and maximize the
-            performance of your energy infrastructure.
+            Our Facility Management module aids in maintaining and optimizing
+            the vast infrastructure that powers communities, ensuring smooth
+            operations and minimizing downtime.
           </p>
         </div>
       </div>
@@ -65,10 +67,9 @@ function Energy() {
         <div className="col-md-5 mt">
           <h1 className="col-md-10 mt7">Be on time for activities</h1>
           <p className="col-md-11">
-            Schedule maintenance activities, energy audits, and equipment
-            inspections effortlessly. Coordinate resources, plan maintenance
-            schedules effectively, and ensure optimal performance of your energy
-            infrastructure.
+            Our Calendar module keeps teams synchronized and organized, vital
+            for time-sensitive tasks such as maintenance scheduling and outage
+            management.
           </p>
         </div>
         <div className="col-md-6 offset-md-1 mt govt-cal">
@@ -94,10 +95,8 @@ function Energy() {
         <div className="col-md-5 mt">
           <h1 className="col-md-10 mt">Informative Reporting</h1>
           <p className="col-md-11">
-            Leverage powerful analytics capabilities to gain valuable insights
-            into energy usage patterns, identify areas for optimization, and
-            track sustainability goals. Communicate your environmental impact
-            and showcase your commitment to sustainability.
+            Daily Reporting ensures that vital operational data is captured and
+            shared seamlessly, facilitating quick decision-making.
           </p>
         </div>
         <div className="col-md-6  mt   offset-md-1 inform-bg">

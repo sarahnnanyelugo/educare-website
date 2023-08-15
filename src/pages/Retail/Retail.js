@@ -102,11 +102,10 @@ function Retail() {
         <div className="col-md-7 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Transform your retail business by utilising the strength of our
-            Retail module. Join the community of prosperous merchants who rely
-            on our platform to improve store operations, optimise financial
-            procedures, and provide excellent customer experiences in the
-            dynamic retail environment.
+            Join the community of prosperous merchants who rely on our platform
+            to improve store operations, optimise financial procedures, and
+            provide excellent customer experiences in the dynamic retail
+            environment.
           </p>
         </div>
         <div className="offset-md-2 mt3">
