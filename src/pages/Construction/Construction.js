@@ -12,7 +12,7 @@ function Construction() {
             <small>Construction</small>
             <h1>Optimize, Track, and Collaborate</h1>
             <p className="col-md-11">
-              Empower construction teams with our comprehensive operational
+              Empower your construction team with our comprehensive operational
               Tools. Revolutionize project execution by efficiently managing
               resources, tracking progress, and enhancing collaboration. Our
               intuitive interface and robust features streamline construction

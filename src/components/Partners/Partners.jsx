@@ -4,6 +4,7 @@ import Microsoft from "../../assets/images/microsoft.svg";
 import Flutterwave from "../../assets/images/flutterwave.svg";
 import Aisa from "../../assets/images/aisa.svg";
 import Apen from "../../assets/images/apen.png";
+import Cobis from "../../assets/images/cobis2.jpeg";
 
 import "./partners.scss";
 export const Partners = () => {
@@ -24,6 +25,7 @@ export const Partners = () => {
             <img className="pay" src={Paystack} alt="Scholar" />
             <img className="standard-logo" src={Standard} alt="Scholar" />
             <img className="apen" src={Apen} alt="Scholar" />
+            <img className="aisa" src={Cobis} alt="Scholar" />
           </div>
         </center>
       </div>

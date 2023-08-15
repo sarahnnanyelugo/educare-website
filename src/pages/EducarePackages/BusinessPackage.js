@@ -61,7 +61,7 @@ function BusinessPackage() {
             Yearly
           </button>
         </div>
-        <div className="currency-buttons2 flexy flexym offset-md-9">
+        <div className="currency-buttons2 flexy flexym offset-md-9 offset-lg-10">
           <button
             onClick={() => setThisCurrency("NGN")}
             ref={inputReference}

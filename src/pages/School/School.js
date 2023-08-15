@@ -23,10 +23,10 @@ function School() {
             <small>School</small>
             <h1>Powerful School Operational Tools All in a Single Platform.</h1>
             <p className="col-md-10">
-              In order to provide a top-notch educational experience, use
-              educare to automate all facets of schools operations, from
-              academics down to administration. Discover a better experience for
-              your school.
+              Currently, schools across the globe use educare ERP in automating
+              all facets of schools operations, from academics down to
+              administration and this has led to providing a top-notch
+              educational experience.
             </p>
             <GetStartedForm
               text=" Get started"

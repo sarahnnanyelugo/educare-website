@@ -13,7 +13,7 @@ function Energy() {
       <div className="col-md-12 energy-container ">
         <center>
           <div className="col-md-5 ">
-            <small>Energy & Utilitiest</small>
+            <small>Energy & Utilities</small>
             <h1>
               Effortless Financial Management, Reporting, and Collaboration
             </h1>

@@ -12,16 +12,14 @@ function Logistics() {
       <div className="col-md-12 logistics-div">
         <div className="col-md-11 offset-md-1 flexy ">
           <div className="col-md-5">
-            <small>Distribution & Logistics</small>
-            <h1>Revolutionize Your Supply Chain Management</h1>
+            <h1>Distribution & Logistics</h1>
+            {/* <h1>Revolutionize Your Supply Chain Management</h1> */}
             <p>
               In the fast-paced world of distributions and logistics, optimizing
-              your supply chain is key to gaining a competitive edge. Our
-              comprehensive Distributions & Logistics module is designed to
-              streamline your operations, enhance efficiency, and deliver
-              exceptional customer service. With our robust features and
-              user-friendly interface, you can take control of your supply chain
-              like never before.
+              your supply chain is key to gaining a competitive edge. Thousands
+              of distribution and logistics company around the globe depend on
+              educare ERP daily in streamlining their operations, enhancing
+              efficiency and in delivering exceptional customer service.
             </p>
             <GetStartedForm
               text=" Get started"

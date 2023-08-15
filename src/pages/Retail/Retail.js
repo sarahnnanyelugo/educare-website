@@ -9,10 +9,10 @@ function Retail() {
       <div className="col-md-12 retail-container">
         <center>
           <div className="col-md-5">
-            <small>Retail</small>
-            <h1 className="col-md-11">
+            <h1>Retail</h1>
+            {/* <h1 className="col-md-11">
               Elevate Your Retail Business to New Heights
-            </h1>
+            </h1> */}
             <p>
               Optimize your retail business with our advanced Retail module.
               Designed to enhance customer experiences and drive competitive
