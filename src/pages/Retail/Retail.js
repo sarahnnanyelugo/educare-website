@@ -14,13 +14,9 @@ function Retail() {
               Elevate Your Retail Business to New Heights
             </h1> */}
             <p>
-              Optimize your retail business with our advanced Retail module.
-              Designed to enhance customer experiences and drive competitive
-              advantage, our feature-rich platform revolutionizes your
-              operations. Streamline processes, boost customer satisfaction, and
-              achieve business growth with ease. Experience the power of our
-              user-friendly interface and cutting-edge tools for success in the
-              dynamic retail landscape.
+              Progressive retail businesses around the globe depend on educare
+              ERP daily in streamlining their operations, enhancing efficiency
+              and in delivering exceptional customer service.
             </p>
             <GetStartedForm
               text=" Get started"
