@@ -116,7 +116,7 @@ function CBT() {
                 <div className="col-md-10 col-9">
                   <h2>Ignite Your Potential with Effortless Testing!</h2>
                   <p className="mt4">
-                    Experience the future of testing with Educare's cutting-edge
+                    Experience the future of testing with educare's cutting-edge
                     computer-based technology. From intuitive navigation to
                     smooth question transitions, every aspect of our testing
                     platform is designed to empower learners and unleash their
@@ -132,7 +132,7 @@ function CBT() {
                   <h2>Unlock Your Success in the Blink of an Eye!:</h2>
                   <p className="mt4">
                     No more waiting in suspense for your exam scores. With
-                    Educare's computer-based testing, results are generated
+                    educare's computer-based testing, results are generated
                     instantly, offering immediate insights into your
                     performance.
                   </p>
@@ -152,7 +152,7 @@ function CBT() {
                 <div className="col-md-10 col-9">
                   <h2>Tailored to Empower Your Unique Abilities!</h2>
                   <p className="mt4">
-                    At Educare, we believe in catering to every individual's
+                    At educare, we believe in catering to every individual's
                     strengths. Our adaptive testing feature dynamically adjusts
                     the difficulty level of questions based on each test-taker's
                     responses. This personalized approach not only boosts
@@ -176,7 +176,7 @@ function CBT() {
                 <div className="col-md-10 col-9">
                   <h2>Fortress of Security: Your Data, Our Priority!</h2>
                   <p className="mt4">
-                    At Educare, we prioritize the security and privacy of your
+                    At educare, we prioritize the security and privacy of your
                     data. Our computer-based testing technology employs
                     state-of-the-art encryption and multi-layered security
                     measures to safeguard sensitive information. Rest assured
@@ -193,7 +193,7 @@ function CBT() {
                   <h2>Empowering Insights for Growth!</h2>
                   <p className="mt4">
                     The power of data-driven decision-making cannot be
-                    underestimated, and Educare's computer-based testing offers
+                    underestimated, and educare's computer-based testing offers
                     comprehensive reporting to unlock valuable insights. Armed
                     with these insights, educators can fine-tune their teaching
                     strategies, implement targeted interventions, and guide
