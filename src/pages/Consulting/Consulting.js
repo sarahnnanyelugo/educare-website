@@ -115,12 +115,14 @@ function Consulting() {
           <div className="col-md-5 mt5">
             <h1 className="col-md-10">Effortless Financial Management</h1>
             <p className="col-md-11">
-              Take control of your consulting finances with ease. Our Consulting
-              Services module enables you to manage financial transactions,
-              project billing, and client invoicing efficiently. Streamline
-              financial processes, accurately track project expenses, and ensure
-              prompt client invoicing, empowering your consultants to focus on
-              delivering exceptional services.
+              The need to take control of your finances in your business can
+              never be over emphasized. This, educare has brought forward to
+              Consulting Services around the world. Our smart, intuitive and
+              user-friendly finance module has empowered Consultants to manage
+              financial transactions, project billing, and client invoicing
+              efficiently. This has successfully streamlined financial
+              processes, and ensured prompt client invoicing, empowering
+              consultants to focus on delivering exceptional services.
             </p>
           </div>
           <div className="col-md-6 offset-md-1">
