@@ -109,7 +109,7 @@ function Energy() {
         <div className="col-md-7 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Experience the power of our Energy & Utilities module, and deliver
+            Experience the power of our operational tools, and deliver
             exceptional service in the ever-evolving energy and utilities
             landscape.
           </p>

@@ -14,7 +14,7 @@ function Construction() {
             <p className="col-md-11">
               Within our clientele are construction companies who have empowered
               their team, executed projects, and revolutionized their operations
-              with educare comprehensive operational Tools.
+              with educare comprehensive operational tools.
             </p>
             <GetStartedForm
               text=" Get started"

@@ -66,10 +66,10 @@ function CBT() {
               </h2>
               <p className="col-md-9">
                 Discover the power of Educare's testing tool - effortless
-                creation of online exams with advanced settings for time limits,
-                public/private access, and random question options. Rest easy
-                with robust security features while seamlessly synchronizing
-                results on our secure portal.
+                creation of online & offline exams with advanced settings for
+                time limits, public/private access, and random question options.
+                Rest easy with robust security features while seamlessly
+                synchronizing results on our secure portal.
               </p>
               <center>
                 <GetStartedForm

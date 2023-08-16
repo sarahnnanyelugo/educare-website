@@ -11,7 +11,7 @@ function Manufacturing() {
           <h1>Manufacturing</h1>
 
           <p className="col-md-10">
-            EduCare emerges as a game-changing solution tailored to meet the
+            Educare emerges as a game-changing solution tailored to meet the
             unique needs of production facilities. Our comprehensive software
             suite has empowered manufacturing establishments to navigate their
             intricate operations seamlessly.
@@ -95,10 +95,7 @@ function Manufacturing() {
       <div className="col-md-10 offset-md-1 report-get-started flexy">
         <div className="col-md-5 offset-md-1">
           <h2>Get started with us</h2>
-          <p>
-            Experience the power of our Distributions & Logistics module and
-            unlock the true potential of your operations.
-          </p>
+          <p>Get ready to discover a better experience.</p>
         </div>
         <div className="offset-md-4 mt3">
           <GetStartedForm

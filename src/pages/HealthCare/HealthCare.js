@@ -127,8 +127,8 @@ function HealthCare() {
         <div className="col-md-6 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Experience the power of our medicals module and unlock a new era of
-            medical management efficiency. Join the growing community of
+            Experience the power of our operational tools and unlock a new era
+            of medical management efficiency. Join the growing community of
             healthcare professionals who trust our platform to deliver
             exceptional care, streamline operations, and prioritize patient
             well-being.
