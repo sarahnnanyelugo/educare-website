@@ -48,23 +48,21 @@ function Construction() {
           <div className="col-md-5">
             <h1 className="col-md-10">Seamless Facility Management</h1>
             <p className="col-md-11">
-              Effortlessly track and manage construction sites, equipment
-              allocation, and resource planning with our Facility Management
-              feature. Gain real-time insights into construction site
-              activities, optimize resource allocation, and ensure smooth
-              operations. Enhance efficiency, minimize downtime, and maximize
-              productivity with streamlined facility management.
+              Tracking and managing construction sites, equipment allocation,
+              and resource planning have become immensely seamless with our
+              Facility Management feature. This has eqipped Constructors to gain
+              real-time insights into construction site activities inorder to
+              ensure smooth operations.
             </p>
           </div>
           <div className="col-md-5 offset-md-2">
             <h1 className="col-md-10">Insightful Project Reporting</h1>
             <p className="col-md-11">
-              Generate comprehensive project progress reports, cost estimates,
-              and safety compliance documentation with our advanced Reporting
-              feature. Leverage real-time data to monitor project milestones,
-              track costs, and ensure compliance with safety regulations. Gain
-              valuable insights into project performance, make informed
-              decisions, and communicate project status effectively.
+              Our advanced Reporting feature enables Construction Engineers to
+              generate comprehensive project progress reports, cost estimates,
+              and safety compliance documentation. It avails them an avenue to
+              leverage real-time data to monitor project milestones, track
+              costs, and ensure compliance with safety regulations.
             </p>
           </div>
         </div>{" "}
@@ -72,22 +70,20 @@ function Construction() {
           <div className="col-md-5">
             <h1>Enhanced Project Communication</h1>
             <p className="col-md-11">
-              Use our integrated Mailbox function to provide seamless
-              communication between project managers, architects, and
-              contractors. Facilitate effective teamwork, provide project
-              updates, and quickly resolve problems. Create efficient
-              communication routes to keep all parties informed and in alignment
-              throughout the project’s lifecycle.
+              Construction Engineers around the world trusts our integrated
+              Mailbox function to provide seamless communication between project
+              managers and architects. This facilitates effective teamwork,
+              provides project updates, and quickly resolve problems in the
+              construction enterprise.
             </p>
           </div>
           <div className="col-md-5 offset-md-2">
             <h1 className="col-md-10">Efficient Calendar Management</h1>
             <p className="col-md">
-              Utilise our logical Calendar function to maintain organisation and
-              keep projects moving forward. Project milestones, timetables, and
-              cooperation with subcontractors should all flow smoothly. For
-              efficient project execution, manage project timelines, monitor
-              activities, and ensure good subcontractor communication.
+              Our smart and efficient Calendar feature maintains organisation
+              and keeps projects moving forward in Construction Companies.
+              Project milestones, timetables, and cooperation with
+              subcontractors should all flow smoothly with our powerful tool.
             </p>
           </div>
         </div>
