@@ -13,7 +13,7 @@ function Construction() {
 
             <p className="col-md-11">
               Within our clientele are construction companies who have empowered
-              their team, executed projects, and revolutionize their operations
+              their team, executed projects, and revolutionized their operations
               with educare comprehensive operational Tools.
             </p>
             <GetStartedForm
@@ -31,10 +31,10 @@ function Construction() {
           <div className="col-md-4  construction-div">
             <h1>Efficient HR Management</h1>
             <p className="col-md-11">
-              Effortlessly manage your construction team. Our Construction
-              module streamlines HR processes, tracking performance, and payroll
-              management. Empower your team to focus on project success with
-              ease and accuracy.
+              HR Management in construction establishments has taken a paradigm
+              shift as they effortlessly manage their construction team,
+              streamline HR processes, track performance, manage payroll using
+              Educare HRM Module.
             </p>
           </div>
           <div className="col-md-7 mt6">

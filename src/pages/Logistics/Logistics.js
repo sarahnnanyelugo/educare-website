@@ -54,9 +54,9 @@ function Logistics() {
             Enterprises are enabled to track, monitor, and optimize their
             inventory, warehouses, and logistics facilities. From stock levels
             and storage locations to resource allocation and equipment
-            maintenance, our module now offeres them real-time insights,
-            empowering them to make informed decisions, improve operational
-            efficiency, and reduce costs.
+            maintenance, our module now offeres real-time insights, empowering
+            them to make informed decisions, improve operational efficiency, and
+            reduce costs.
           </p>
         </div>
         <div className="col-md-8">
@@ -73,22 +73,23 @@ function Logistics() {
           <div className="col-md-5 offset-md-1">
             <h1 className="col-md-10">Actionable Reports and Analytics</h1>
             <p>
-              Generate comprehensive reports on distribution and logistics
-              performance, inventory levels, and supply chain analytics with our
-              advanced Reporting feature. Leverage powerful data visualization
-              tools and gain valuable insights into key metrics and performance
-              indicators. Identify bottlenecks, make data-driven decisions, and
-              optimize your supply chain for maximum productivity and
-              profitability.
+              Generating comprehensive reports analytics on distribution and
+              logistics performance, inventory levels, and supply chain is very
+              crucial for business growth. Logistics and Distribution
+              Enterprises around the world unwaveringly entrusts this important
+              responsibility to educare. With our advanced Reporting feature,
+              distributors now have access to valuable insights into key data
+              visualization metrics and performance indicators.
             </p>
             <h1 className="col-md-10">Seamless Calendar Integration</h1>
             <p>
-              Effortlessly schedule delivery routes, shipments, and
-              transportation logistics with our intuitive Calendar feature. Plan
-              and allocate resources effectively, optimize delivery routes, and
-              ensure timely deliveries. Collaborate with your team, synchronize
-              schedules, and streamline operations for enhanced productivity and
-              customer satisfaction.
+              Using our smart Calendar Module, Logistics Businesses no longer
+              see scheduling as a haculean task. With this feature, they are
+              able to effortlessly schedule delivery routes, shipments, and
+              transportation logistics. Moreso, they are harnessing the power of
+              this tool to allocate resources effectively, optimize delivery
+              routes, and ensure timely deliveries. This is indeed a great
+              innovation to logistics around the world.
             </p>
           </div>
         </div>
@@ -97,11 +98,10 @@ function Logistics() {
         <div className="col-md-5  enhanced">
           <h1 className="col-md-9"> Consice Daily Reporting Module </h1>
           <p>
-            With Educare's Daily Reporting Module, productivity reaches new
-            heights. Empower your staff to input their daily tasks with ease,
-            ensuring accountability and streamlined work hours. Embrace
-            data-driven excellence, as each staff member's productivity becomes
-            the heartbeat of your establishment.
+            With Educare's Daily Reporting Module, productivity has reached new
+            heights in Logistics Enterprise. This feature has empowered their
+            staff to input their daily tasks with ease, ensuring accountability
+            and streamlined work hours.
           </p>
           <img className=" " src={Enhanced} alt="Scholar" width="100%" />
         </div>
