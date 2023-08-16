@@ -38,10 +38,10 @@ function Consulting() {
               Informative Reporting and Deliverables
             </h1>
             <p className="col-md-11">
-              Leverage powerful analytics to provide valuable insights, showcase
-              expertise, and drive client satisfaction. Generate comprehensive
-              reports, deliverables, and metrics with our advanced Reporting
-              feature.
+              Consultants now leverage on powerful analytics to provide valuable
+              insights, showcase expertise, and drive client satisfaction.
+              Generate comprehensive reports, deliverables, and metrics with our
+              advanced Reporting feature.
             </p>
           </div>
           <div className="col-md-7">
@@ -61,11 +61,11 @@ function Consulting() {
           <div className="col-md-5 ">
             <h1 className="col-md-10">Seamless Communication</h1>
             <p className="col-md-11">
-              Leverage on our integrated Mailbox service to provide easy
-              communication between consultants and clients. Encourage
-              collaboration, provide project changes, and provide immediate
-              client support. Establish a safe and effective communication
-              channel to promote effective teamwork and customer satisfaction.
+              Our integrated Mailbox services has efficiently fostered easy
+              communication between consultants and clients. This has encouraged
+              collaboration, and ensured immediate client support as well as
+              established a safe and effective communication channel to promote
+              effective teamwork and customer satisfaction.
             </p>
           </div>
         </div>
@@ -75,12 +75,13 @@ function Consulting() {
           <div className="col-md-5 ">
             <h1 className="col-md-10">Progress Updates and Recommendations</h1>
             <p className="col-md-11">
-              Enable consultants to provide progress updates and recommendations
-              to clients through our Weekly Remarks feature. Empower your
-              consultants to share valuable insights, project updates, and
-              recommendations for enhanced project outcomes. Foster strong
-              client relationships and deliver exceptional consulting services
-              with regular progress updates.
+              We have equally enabled consultants to provide progress updates
+              and recommendations to clients through our Weekly Remarks feature.
+              With this powerful too, Consultants can share valuable insights,
+              project updates, and recommendations for enhanced project
+              outcomes. This has fostered strong client relationships and
+              delivered exceptional consulting services with regular progress
+              updates.
             </p>
           </div>
           <div className="col-md-7">&nbsp;</div>
@@ -100,11 +101,11 @@ function Consulting() {
           <div className="col-md-5 offset-md-1 mt6">
             <h1 className="col-md-10">Efficient Calendar Management</h1>
             <p className="col-md-11">
-              Stay organized and manage consulting engagements effectively with
-              our intuitive Calendar feature. Schedule client meetings, project
-              milestones, and consulting engagements effortlessly. Coordinate
-              activities, track project timelines, and ensure seamless
-              communication between consultants and clients.
+              Organizing work schedules and appointments have never had it
+              better. Educare Calendar Module has redefined consulting
+              engagements paving way to proper scheduling of client meetings,
+              coordinated activities, seamless communication between consultants
+              and clients and accurate tracking of project timelines.
             </p>
           </div>
         </div>
