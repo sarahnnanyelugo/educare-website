@@ -12,11 +12,16 @@ function Government() {
       <div className="col-md-12 govt-container ">
         <center>
           <div className="col-md-5">
-            <small>Government</small>
-            <h1>Empower Your Government Operations with educare</h1>
+            <h1>Government</h1>
+
             <p className="col-md-10">
-              good communication, streamlined HR procedures, and good financial
-              management are essential in the world of government operations.
+              In public service and governance, efficiency, transparency, and
+              precision are paramount, and Educare emerges as a transformative
+              solution tailored to meet the unique needs of government entities.
+              With our versatile software suite, we have gained trust of
+              numerouse governments across the various states in the country and
+              therefore has empowered them to navigate their multifaceted
+              responsibilities with finesse and ease.
             </p>
             <GetStartedForm
               text=" Get started"
@@ -32,11 +37,10 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10">Streamlined HR Management</h1>
           <p className="col-md-10">
-            Efficiently manage employee records, payroll, and benefits for
-            government employees with our HR feature. Streamline HR processes,
-            maintain accurate employee records, and ensure timely payroll
-            management, fostering employee satisfaction and compliance with
-            government regulations.
+            With our HRM module, government agencies now optimize staffing and
+            workforce management, ensuring that qualified personnel are
+            strategically assigned to critical tasks that serve the public
+            interest.
           </p>
         </div>
         <div className="col-md-6 offset-md-1  govt-map">
@@ -50,10 +54,9 @@ function Government() {
         <div className="col-md-6 offset-md-1">
           <h1 className="col-md-10 mt3">Facility Tracking</h1>
           <p className="col-md-10">
-            You can easily track and manage government facilities, maintenance
-            schedules, and resource allocation. Improve maintenance procedures,
-            get real-time insights into facility operations, and allocate
-            resources effectively.
+            Our Facility Management feature has ensured utmost consistency and
+            efficiency in maintaining public infrastructure, ensuring it's
+            safety and functionality for citizens.
           </p>
         </div>
       </div>
@@ -61,9 +64,8 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10 mt3">No hiccups with your finances</h1>
           <p className="col-md-10">
-            Enable effective resource allocation and responsible financial
-            management by streamlining financial procedures, monitoring budgets,
-            and ensuring accurate expenditure management.
+            Through our Finance module, governments can manage budgets, allocate
+            resources wisely, and maintain accountability to taxpayers.
           </p>
         </div>
         <div className="col-md-6 offset-md-1 govt-map">
@@ -77,9 +79,9 @@ function Government() {
         <div className="col-md-6 offset-md-1">
           <h1 className="col-md-10 mt3">Enlightening reports</h1>
           <p className="col-md-9">
-            With our sophisticated Reporting function, you can create detailed
-            reports on government operations, public services, and performance
-            measures.
+            The Daily Reporting and Analytics tools facilitate real-time
+            insights, enabling data-driven decision-making for enhanced citizen
+            services and operational efficiency.
           </p>
         </div>
       </div>
@@ -87,9 +89,9 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10">Efficient Calendar Management</h1>
           <p className="col-md-10">
-            Stay organized and manage government events, meetings, and public
-            hearings effectively with our intuitive Calendar feature. Schedule
-            events, coordinate meetings, and plan public hearings seamlessly.
+            The government agencies have also been empowered with Educare
+            Calendar Module which ensures organized scheduling for public
+            events, meetings, and citizen engagements.
           </p>
         </div>
         <div className="col-md-6 offset-md-1 govt-cal">
@@ -105,9 +107,9 @@ function Government() {
         <div className="col-md-6  offset-md-1">
           <h1 className="col-md-10 mt">Better communications</h1>
           <p className="col-md-9">
-            With the help of our integrated Mailbox feature, you can promote
-            seamless communication between departments of the government,
-            representatives, and citizens.
+            With the help of our integrated Mailbox feature, there is now an
+            improved and seamless communication between departments of the
+            government, representatives, and citizens.
           </p>
         </div>
       </div>
@@ -115,8 +117,8 @@ function Government() {
         <div className="col-md-7 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Transform the way you serve your constituents by empowering your
-            government operations with our Government module
+            Transform the way you serve your constituents by equipping
+            government operations with educare powerful operational tools
           </p>
         </div>
         <div className="offset-md-2 mt3">
