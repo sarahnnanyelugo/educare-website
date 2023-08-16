@@ -11,16 +11,15 @@ function Consulting() {
       <div className="col-md-12 consulting-container ">
         <center>
           <div className="col-md-5">
-            <small>Consulting</small>
-            <h1>
-              Effortless Financial Management, Reporting, and Collaboration
-            </h1>
+            <h1>Consulting</h1>
+
             <p className="col-md-10">
-              Revolutionize your consulting services with our comprehensive
-              module. Seamlessly manage finances, generate insightful reports,
-              and foster effective collaboration. Our intuitive interface and
-              robust features empower consultants and clients for exceptional
-              project experiences.
+              Currently, Consulting Services around the world have keyed into
+              the educare advantage. From seamlessly managing finances,
+              generating insightful reports to fostering effective
+              collaboration, Educare has revolutionized the entire workflow.
+              With our intuitive interface and robust features consultants have
+              been empowered to take consulting services to new heights.
             </p>
             <GetStartedForm
               text=" Get started"
