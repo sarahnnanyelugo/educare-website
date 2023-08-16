@@ -39,21 +39,23 @@ function Logistics() {
         <div className="col-md-4 mt">
           <h2>Manage Finances with Ease</h2>
           <p>
-            Say goodbye to the complexities of financial management. Our
-            Distributions & Logistics module provides you with the tools to
+            Logistics and Distribution Enterprises around the world are
+            massively elevating their financial managements with Educare Finance
+            Module. This feature has provided them with the tools to
             effortlessly handle financial transactions, invoices, and payments
-            specific to your distribution and logistics operations. Gain full
-            visibility into your financial data, track expenses, generate
-            accurate invoices, and efficiently manage payments, ensuring smooth
-            cash flow and financial stability.
+            specific to their distribution and logistics operations, thereby
+            gainning full visibility into their financial data, tracking
+            expenses, generating accurate invoices, and efficiently managing
+            payments.
           </p>
           <h2>Efficient Facility Management</h2>
           <p>
-            Track, monitor, and optimize your inventory, warehouses, and
-            logistics facilities with our powerful Facility Management feature.
-            From stock levels and storage locations to resource allocation and
-            equipment maintenance, our module offers real-time insights,
-            empowering you to make informed decisions, improve operational
+            With Educare Facility Management Module, Logistics and Distribution
+            Enterprises are enabled to track, monitor, and optimize their
+            inventory, warehouses, and logistics facilities. From stock levels
+            and storage locations to resource allocation and equipment
+            maintenance, our module now offeres them real-time insights,
+            empowering them to make informed decisions, improve operational
             efficiency, and reduce costs.
           </p>
         </div>

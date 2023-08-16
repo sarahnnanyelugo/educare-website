@@ -20,8 +20,8 @@ function School() {
       <div className="col-md-12 sch-container ">
         <center>
           <div className="col-md-5">
-            <small>School</small>
-            <h1>Powerful School Operational Tools All in a Single Platform.</h1>
+            <h1>School</h1>
+            {/* <h1>Powerful School Operational Tools All in a Single Platform.</h1> */}
             <p className="col-md-10">
               Currently, schools across the globe use educare ERP in automating
               all facets of schools operations, from academics down to
@@ -61,10 +61,10 @@ function School() {
         <div className="col-md-5 ">
           <h1 className="col-md-10 mt3">Integrated Finance Suite</h1>
           <p className="col-md-10">
-            From invoicing to order management to accounting, educare Finance
-            has all the tools you need to streamline all of your back office
-            operations. Gain insight into your financial performance and make
-            informed decisions to help your business thrive.
+            From invoicing to order management to accounting, educare has
+            revolutionized schools finance management experience using educare
+            Finance module. This has propelled schools to gain insight into
+            their financial performance and make informed decisions.
           </p>
         </div>
         <div className="col-md-6 offset-md-1  govt-map">
@@ -78,11 +78,10 @@ function School() {
         <div className="col-md-6 offset-md-1">
           <h1 className="col-md-8 mt3">Competent HR Management</h1>
           <p className="col-md-10">
-            Effortlessly manage employee records, attendance, and payroll for
-            teachers and staff with our HR feature. Streamline administrative
-            processes, maintain accurate records, and ensure timely payroll
-            management, allowing your school to focus on providing quality
-            education.
+            Educare HR Module has empowered schools to effortlessly manage
+            employee records, attendance, and payroll for teachers and staff.
+            This has streamlined administrative processes, maintaining accurate
+            records, and ensuring timely payroll management.
           </p>
         </div>
       </div>
@@ -92,8 +91,8 @@ function School() {
             Seamless Computer-Based Testing (CBT)
           </h1>
           <p className="col-md-10">
-            Facilitate Computer-Based Testing (CBT) for assessments and
-            examinations with our dedicated CBT feature. Simplify test
+            Educare Computer-Based Testing (CBT) has facilitated assessments and
+            examinations for schools around the world. This has simplified test
             administration, grading, and result analysis, promoting fairness and
             accuracy in evaluating student performance.
           </p>
@@ -109,8 +108,9 @@ function School() {
         <div className="col-md-5   offset-md-1">
           <h1 className="col-md-10 mt3">Insightful Academic Reporting</h1>
           <p className="col-md-9">
-            Gain valuable insights into student performance, track progress, and
-            communicate academic achievements effectively.
+            With our Reports Module, schools now gain valuable insights into
+            student performance, track progress, and communicate academic
+            achievements effectively.
           </p>
         </div>
       </div>
@@ -118,9 +118,11 @@ function School() {
         <div className="col-md-5  ">
           <h1 className="col-md-10 mt3">Engaging eClassroom Experience</h1>
           <p className="col-md-10">
-            Foster student engagement, provide personalized learning
-            experiences, and ensure continuity of education beyond the
-            traditional classroom setting.
+            Fostering student engagement, providing personalized learning
+            experiences, and ensuring continuity of education beyond the
+            traditional classroom setting are some of the awesome benefits
+            educare have availed to schools around the world. This is achieved
+            through our unmatched eClassroom feature.
           </p>
         </div>
         <div className="col-md-6 eclass-img offset-md-1">
