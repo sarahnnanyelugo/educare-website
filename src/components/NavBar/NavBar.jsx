@@ -442,17 +442,17 @@ function NavBar() {
                     </li>
                     <li>
                       <NavLink
-                        to={"/documentation"}
+                        to={"/be-partner"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
                       >
                         <img
                           className="   logo"
-                          src={Img8}
+                          src={Img10}
                           alt="Scholar"
                           style={{ marginRight: "10px" }}
-                        />
-                        Documentation
+                        />{" "}
+                        Become a Partner
                       </NavLink>
                     </li>
                     <li>
@@ -475,21 +475,6 @@ function NavBar() {
                     {" "}
                     <li>
                       <NavLink
-                        to={"/be-partner"}
-                        className="menu-links list-group-item list-group-item-action"
-                        type="button"
-                      >
-                        <img
-                          className="   logo"
-                          src={Img10}
-                          alt="Scholar"
-                          style={{ marginRight: "10px" }}
-                        />{" "}
-                        Become a Partner
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink
                         to={"/customer-stories"}
                         className="menu-links list-group-item list-group-item-action"
                         type="button"
@@ -500,7 +485,7 @@ function NavBar() {
                           alt="Scholar"
                           style={{ marginRight: "10px" }}
                         />{" "}
-                        Customer Stories
+                        Testimonials
                       </NavLink>
                     </li>
                     <li>
@@ -985,7 +970,7 @@ function NavBar() {
                             alt="Scholar"
                             style={{ marginRight: "10px" }}
                           />{" "}
-                          Customer Stories
+                          Testimonials
                         </NavLink>
                       </li>{" "}
                       <li>
@@ -1023,10 +1008,6 @@ function NavBar() {
                       className="list-group-item list-group-item-action m-accord menu-navs"
                       // style={{ background: themeSet2 }}
                     >
-                      {" "}
-                      {/* <span style={{ color: themeSet }}>
-                        <i class="icofont-phone"></i>
-                      </span> */}
                       Company
                     </button>
                   </Accordion.Header>
@@ -1096,38 +1077,6 @@ function NavBar() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* <NavLink to={"/sign-up"} className="menu-navs spaze">
-                {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action"
-                  
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-                 
-                  Login
-                </button>
-              </NavLink>{" "}
-              <NavLink to={"/login"} className="menu-navs">
-                {" "}
-                <button
-                  type="button"
-                  class="list-group-item list-group-item-action"
-              
-                  onClick={() => {
-                    document
-                      .querySelector(".phone")
-                      .classList.toggle("active3");
-                  }}
-                >
-              
-                  Sign Up
-                </button>
-              </NavLink> */}
             </div>
           </div>
           <svg

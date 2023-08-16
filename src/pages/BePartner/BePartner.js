@@ -10,14 +10,9 @@ import Img5 from "../../assets/images/part2.png";
 import Img6 from "../../assets/images/part3.png";
 import Img7 from "../../assets/images/part4.png";
 import Standard from "../../assets/images/standard.png";
-import Paystack from "../../assets/images/paystack2.png";
 import Microsoft from "../../assets/images/microsoft.svg";
-import Flutterwave from "../../assets/images/flutterwave2.svg";
 import Aisa from "../../assets/images/aisa.svg";
-import Grange from "../../assets/images/grange.png";
-import LBS from "../../assets/images/lbs.png";
 import Cobis from "../../assets/images/cobis.png";
-import Apen from "../../assets/images/apen.png";
 import Shake from "../../assets/images/partner-shake.png";
 import { Link } from "react-router-dom";
 
@@ -77,8 +72,8 @@ function BePartner() {
                   latest software solutions designed specifically for
                   educational institutions and businesses. Experiment, build,
                   and deliver differentiated experiences that set you apart from
-                  the competition. Embrace the future of education with our
-                  cutting-edge tools
+                  the competition. Embrace the future with our cutting-edge
+                  tools
                 </p>
               </center>
             </div>
@@ -223,10 +218,10 @@ function BePartner() {
           <h6>Get started</h6>
           <h1>Become an educare partner</h1>
           <p className="col-md-11">
-            Join our mission to inspire students and support teachers worldwide.
-            Be part of our global community, assisting ambitious businesses with
+            Join our mission to inspire business and school owners worldwide. Be
+            part of our global community, assisting ambitious businesses with
             leading-edge payment and financial infrastructure solutions, driving
-            innovation in educational products and software.
+            innovation in business products and software.
           </p>
           <Link to={"/educare-business"}>
             {" "}

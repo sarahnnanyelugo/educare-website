@@ -19,7 +19,7 @@ function CustomersStories() {
               color="#0098DA"
               boda="#CEF0FF"
             />
-            <h1>Inspiring stories, real educare customers</h1>
+            <h1>Inspiring User-Experiences, Real Educare Customers</h1>
             <p>
               We work closely with our customers to understand their goals and
               help them drive meaningful results. Here’s what that looks like in
@@ -29,16 +29,16 @@ function CustomersStories() {
         </center>
       </div>
       <div className="col-md-10 offset-md-1 mt9 stories-holder">
-        <h3>Feature customers success stories</h3>
+        <h3>Featured customers success stories</h3>
 
         <section className="row row-cols-1 row-cols-lg-3 g-2 g-lg-4 col-md-12 mt3">
           {StoriesInfo.map((data, index) => (
             <Stories data={data} />
           ))}
         </section>
-        <center>
+        {/* <center>
           <button>Load more in Customer Stories</button>
-        </center>
+        </center> */}
       </div>
       <center>
         <div className="col-md-6">
