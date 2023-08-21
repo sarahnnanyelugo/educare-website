@@ -5,7 +5,7 @@ import "./facility-manager.scss";
 import Fac1 from "../../assets/images/fac1.svg";
 import Fac2 from "../../assets/images/fac2.svg";
 import Fac3 from "../../assets/images/facility_dash1.png";
-import Fac4 from "../../assets/images/fac4.png";
+import Fac4 from "../../assets/images/fac44.png";
 // import Fac4 from "../../assets/images/fac-img2.png";
 import Fac5 from "../../assets/images/fac-img3.png";
 import Fac6 from "../../assets/images/fac-img4.png";
@@ -84,10 +84,7 @@ function FacilityManager() {
         <div className="flexy">
           <div className="col-md-6">
             <div className="col-md-10">
-              <h4>
-                Unleash the Power of Possessions: Embrace Educare's Asset
-                Management Module!
-              </h4>
+              <h4>Embrace Educare's Asset Management Module!</h4>
               <p>
                 With Educare's Facility Management Module, asset management
                 becomes a transformative experience for both schools and
@@ -95,10 +92,7 @@ function FacilityManager() {
                 a comprehensive repository that empowers you to track and manage
                 all assets effortlessly.
               </p>
-              <h4>
-                Seize the Future: Elevate Facility Efficiency with Preventive
-                Maintenance!
-              </h4>
+              <h4>Elevate Facility Efficiency with Preventive Maintenance!</h4>
               <p>
                 At Educare, we believe in proactive care that drives reliability
                 and excellence. Our Facility Management Module enables

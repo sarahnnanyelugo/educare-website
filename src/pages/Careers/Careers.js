@@ -53,7 +53,10 @@ function Careers() {
               Join our team and help build innovative software for businesses
               and schools. Grow with us and get more from your career
             </p>
-            <button className="explore">Explore open roles</button>
+            <a href="#roles">
+              {" "}
+              <button className="explore">Explore open roles</button>
+            </a>
           </div>
         </center>
         <img className="offset-md-3" src={Dot4} alt="Scholar" />
@@ -161,7 +164,7 @@ function Careers() {
         </div>
         <h1>No opportunities right now</h1>
       </center> */}
-
+      <div id="roles" />
       <div className="col-md-12  ">
         <center>
           <h1>Opportunities to explore</h1>
