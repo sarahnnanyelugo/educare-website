@@ -36,11 +36,12 @@ function ContactPage() {
             <h2>Call us</h2>
             <p>Our friendly team is here to help</p> <br />
             <h5>NIGERIA</h5>
-            <h6>+234 909 555 2183</h6>
-            <h6> +234 904 303 8325</h6>
+            <a href="tel:+234 909 555 2183">+234 909 555 2183</a>
+            <a href="tel:+234 904 303 8325">+234 904 303 8325</a>
+            <h6> </h6>
             <br />
             <h5>UK:</h5>
-            <h6>+447932073610</h6>
+            <a href="tel:+447932073610">+447932073610</a>
             <br /> <br />
             <h4>Visit Us</h4>
             <p>Come say hello at our office</p> <br />

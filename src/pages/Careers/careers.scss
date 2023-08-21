@@ -130,3 +130,10 @@
 //     position: relative !important;
 //   }
 // }
+.job-btn {
+  @include get-started-button;
+  background: #0098da;
+
+  color: #fff;
+  margin-top: 40px;
+}
