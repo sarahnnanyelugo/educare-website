@@ -42,7 +42,7 @@
   img {
     margin: 10px;
 
-    filter: grayscale(100%);
+    filter: grayscale(160%) !important;
     @media screen and (max-width: 620px) {
       height: 20px;
       width: 100%;

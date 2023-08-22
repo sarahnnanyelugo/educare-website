@@ -2,7 +2,7 @@ import React from "react";
 import { PartnersInlineDisplay } from "../../components/PartnersInlineDisplay/PartnersInlineDisplay";
 import "./about-us.scss";
 import Standard from "../../assets/images/standard.png";
-import Paystack from "../../assets/images/paystack.svg";
+import Paystack from "../../assets/images/switch.png";
 import Microsoft from "../../assets/images/lbs.png";
 import Flutterwave from "../../assets/images/grange.png";
 import Apen from "../../assets/images/apen.png";
@@ -144,9 +144,9 @@ function AboutUs() {
               {" "}
               <img className="standard" src={Standard} alt="Scholar" />
               <img className="aisa" src={Aisa} alt="Scholar" />
+              <img className="pay" src={Paystack} alt="Scholar" />
               <img className="ms" src={Microsoft} alt="Scholar" />
               <img className="flutter" src={Flutterwave} alt="Scholar" />
-              <img className="pay" src={Paystack} alt="Scholar" />
               <img className="apen" src={Apen} alt="Scholar" />
               <img className="" src={Cobis} alt="Scholar" />
             </div>
