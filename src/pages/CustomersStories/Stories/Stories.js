@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./stories.scss";
 import Arrow from "../../../assets/images/link-arrow.svg";
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 150) : text}
+      <br />
+      <Link onClick={toggleReadMore} className="read-more">
+        {isReadMore ? "Read more " : " Show less"}
+      </Link>
+    </p>
+  );
+};
 
 function Stories({ data }) {
   const { schImg, schLogo, storyTitle, storyParagraph, storyLink } = data;
@@ -13,10 +30,12 @@ function Stories({ data }) {
         <div className="story-innerr">
           <img src={schLogo} alt="Scholar" width="30%" />
           <p className="title col-md-11">{storyTitle}</p>
-          <p>{storyParagraph}</p>
-          <Link className="read-more" to={storyLink}>
+          <p>
+            <ReadMore>{storyParagraph}</ReadMore>
+          </p>
+          {/* <Link className="read-more" to={storyLink}>
             Read more <img src={Arrow} alt="Scholar" width="10%" />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
