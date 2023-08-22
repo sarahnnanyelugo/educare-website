@@ -86,34 +86,37 @@ import Assignment from "../../assets/images/assignment.svg";
 import Mentor from "../../assets/images/mentor.svg";
 import Behavior from "../../assets/images/behave.svg";
 import EYFS from "../../assets/images/eyfs.svg";
+import LandingImg from "../../assets/images/spin-img.png";
 import Dashboard from "../../assets/images/dashicon.svg";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
+import Spin from "./Spin/Spin";
 export const Home = () => {
   return (
     <>
-      <div className="col-md-12 modern-solutions-container">
-        <center>
-          <div className="col-md-5">
-            <h1>Modern ERP solution designed for You!</h1>
-            <p>
-              Unlock Your Business’s Potential with Cutting-Edge Software
-              Solutions , whether adopting your first ERP or migrating from an
-              existing one, choose a complete, modular solution that meets every
-              business needs
-            </p>
-            <Link to={"/sign-up"}>
-              {" "}
-              <button className="gs-button">
-                Sign Up and Deploy in Seconds
-              </button>
-            </Link>
+      <div className="col-md-12 modern-solutions-container flexy">
+        <div className="col-md-5 offset-md-1 first-heading">
+          <h1 className="col-md-10">Modern ERP solution designed for You!</h1>
+          <p>
+            Unlock Your Business’s Potential with Cutting-Edge Software
+            Solutions , whether adopting your first ERP or migrating from an
+            existing one, choose a complete, modular solution that meets every
+            business need.
+          </p>
+          <Link to={"/sign-up"}>
+            {" "}
+            <button className="gs-button">Sign Up and Deploy in Seconds</button>
+          </Link>
 
-            <Link to={"/contact-us"}>
-              <button className="request-button">Request for Demo</button>
-            </Link>
-          </div>
-        </center>
+          <Link to={"/contact-us"}>
+            <button className="request-button">Request for Demo</button>
+          </Link>
+        </div>
+        <div className="col-md-5  spin-div">
+          {" "}
+          <img className="" src={LandingImg} alt="Scholar" width="100%" />
+          {/* <Spin /> */}
+        </div>
       </div>
 
       <div className="col-md-12 stripe-bg"></div>

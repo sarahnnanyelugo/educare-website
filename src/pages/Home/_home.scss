@@ -2,15 +2,15 @@
 @import "../../shared-styles";
 
 .modern-solutions-container {
-  padding-top: 209px;
+  padding-top: 110px;
   padding-bottom: 20px;
 
-  background: rgb(244, 244, 244);
-  background: linear-gradient(
-    0deg,
-    rgba(244, 244, 244, 1) 15%,
-    rgba(253, 253, 253, 1) 71%
-  );
+  // background: rgb(244, 244, 244);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(244, 244, 244, 1) 15%,
+  //   rgba(253, 253, 253, 1) 71%
+  // );
   @media screen and (max-width: 620px) {
     // padding-top: 50px;
   }
@@ -22,6 +22,9 @@
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 45px;
+  }
+  .first-heading {
+    margin-top: 170px;
   }
   .gs-button {
     background: $blue;
@@ -36,20 +39,27 @@
   }
 }
 .stripe-bg {
-  height: 140px;
+  height: 130px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(206, 240, 254, 1) 90%
+  );
+  margin-top: -150px;
   // background-color: rgb(244, 244, 244);
 
-  background-image: url("../../assets/images/stripe-bg.png"),
-    linear-gradient(
-      180deg,
-      rgba(244, 244, 244, 1) 4%,
-      rgba(247, 247, 247, 1) 12%,
-      rgba(247, 247, 247, 1) 29%,
-      rgba(244, 244, 244, 1) 46%
-    );
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  // background-image: url("../../assets/images/stripe-bg.png"),
+  //   linear-gradient(
+  //     180deg,
+  //     rgba(244, 244, 244, 1) 4%,
+  //     rgba(247, 247, 247, 1) 12%,
+  //     rgba(247, 247, 247, 1) 29%,
+  //     rgba(244, 244, 244, 1) 46%
+  //   );
+  // background-size: cover;
+  // background-position: center center;
+  // background-repeat: no-repeat;
 }
 
 .actions-container {

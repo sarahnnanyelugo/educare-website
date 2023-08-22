@@ -1,0 +1,26 @@
+.rotating-circle {
+  position: relative;
+  width: 540px;
+  height: 540px;
+  border: 2px solid rgb(218, 217, 217);
+  border-radius: 50%;
+  animation: rotate 80s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-image {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-top: 250px;
+  margin-left: 250px;
+}
