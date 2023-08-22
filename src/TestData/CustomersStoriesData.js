@@ -9,28 +9,26 @@ export const StoriesInfo = [
   {
     schImg: Grange,
     schLogo: GrangeLogo,
-    storyTitle:
-      "Grange School Redefines Deadline Management and Accountability",
+    storyTitle: "Transforming Education Management: A Partnership with Educare",
     storyParagraph:
-      "That range of content is what made April Mokwa want to work there in the first place. “We are a business publication so we get to have a pulse on everything from finance to tech, retail...",
+      "Educare has been a true partner in shaping the educational experience at Grange School. With their innovative suite of modules, our administrative tasks have become a breeze, allowing us to focus on what truly matters: educating the leaders of tomorrow. From streamlining HR management to ensuring efficient facility upkeep, Educare has exceeded our expectations. Their commitment to excellence is evident in their top-notch customer support and continuous updates. Educare truly empowers our educators to make a difference.",
     storyLink: "",
   },
   {
     schImg: Doveland,
     schLogo: DovelandLogo,
     storyTitle:
-      "Doveland International Schools Redefines Deadline Management and Accountability",
+      "Fostering Innovation: Educare's Revolution in School Management",
     storyParagraph:
-      "Doveland International Schools set out to find a partner to digitally transform the company’s global operations, and deliver world class product development systems, he stumbled upon...",
+      "Educare has transformed the way we manage our school operations. Their software has seamlessly integrated all aspects of our school, from HR to daily reporting and analytics. We can now make data-driven decisions that enhance the learning experience for our students. The calendar module has simplified scheduling, ensuring smooth coordination for events and activities. Educare's commitment to education shines through in their user-friendly interface and dedicated support team. It's not just a software solution; it's a tool that empowers us to create a brighter future for our students.",
     storyLink: "",
   },
   {
     schImg: Starvile,
     schLogo: StarvileLogo,
-    storyTitle:
-      "Starville School Redefines Deadline Management and Accountability",
+    storyTitle: "Empowering Growth: Educare's Impact on Starville School ",
     storyParagraph:
-      "Doveland International Schools set out to find a partner to digitally transform the company’s global operations, and deliver world class product development systems, he stumbled upon...",
+      "As an institution focused on nurturing innovation and creativity, Educare has been a perfect fit for us. Their software suite has revolutionized the way we manage our school, enabling us to maintain a progressive learning environment. From efficient HR management to insightful analytics, Educare has streamlined our processes, allowing us to concentrate on fostering innovation in our students. Their commitment to education and technology is truly commendable, and we're proud to have Educare as a partner in our journey.",
     storyLink: "",
   },
 ];

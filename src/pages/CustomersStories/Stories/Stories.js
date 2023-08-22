@@ -13,6 +13,7 @@ const ReadMore = ({ children }) => {
     <p className="text">
       {isReadMore ? text.slice(0, 150) : text}
       <br />
+      <br />
       <Link onClick={toggleReadMore} className="read-more">
         {isReadMore ? "Read more " : " Show less"}
       </Link>
