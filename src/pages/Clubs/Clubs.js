@@ -44,7 +44,7 @@ function Clubs() {
             <p>
               With Educare Club Module, your school's clubs become a hub of
               inspiration and growth. Embark on an exciting journey with our
-              club, where we nurture and elevate your passion to new heights
+              club module, where we nurture and elevate your passion to new heights
               through engaging events, workshops, and collaborative projects.
             </p>
             <center className="mt6">

@@ -47,6 +47,10 @@
   font-family: recoAltRegular;
   src: url(./assets/fonts/Recoleto-font/RecoletaAlt-Regular.ttf);
 }
+@font-face {
+  font-family: Mont;
+  src: url(./assets/fonts/Montserrat-SemiBold.otf);
+}
 
 h1,
 h2,
@@ -54,6 +58,7 @@ h3,
 h4,
 h5,
 h6 {
+  // font-family: Mont;
   font-family: recoAltMedium;
 }
 .reco-alt {

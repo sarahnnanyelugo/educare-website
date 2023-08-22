@@ -66,7 +66,7 @@ function MainBlog() {
           <Link to={"/blog"} className="more-link">
             {" "}
             <button className="more-blog">View all posts</button>
-            <img className="col-md-12 " src={Arrow} alt="Scholar" width="10%" />
+            {/* <img className="col-md-12 " src={Arrow} alt="Scholar" width="10%" /> */}
           </Link>
         </center>
       </div>

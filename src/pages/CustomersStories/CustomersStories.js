@@ -7,6 +7,7 @@ import { Prefooter } from "../../components/Prefooter/Prefooter";
 import Video from "../../assets/images/educare-video.mp4";
 
 function CustomersStories() {
+  
   return (
     <>
       <div className="col-md-12 stories-div">
