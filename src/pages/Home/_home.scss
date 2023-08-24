@@ -26,6 +26,23 @@
   .first-heading {
     margin-top: 170px;
   }
+  .spin-div {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 13%,
+      rgba(223, 246, 254, 1) 90%
+    );
+    height: 540px;
+    width: 540px;
+    border-radius: 50%;
+    @media screen and (max-width: 620px) {
+      width: 300px;
+      height: 300px;
+      margin-top: 50px;
+      margin-bottom: 80px;
+    }
+  }
   .gs-button {
     background: $blue;
     @include get-started-button;
@@ -39,14 +56,14 @@
   }
 }
 .stripe-bg {
-  height: 130px;
+  height: 250px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 1) 13%,
     rgba(206, 240, 254, 1) 90%
   );
-  margin-top: -150px;
+  margin-top: -200px;
   // background-color: rgb(244, 244, 244);
 
   // background-image: url("../../assets/images/stripe-bg.png"),

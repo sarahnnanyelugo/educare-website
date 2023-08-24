@@ -112,10 +112,10 @@ export const Home = () => {
             <button className="request-button">Request for Demo</button>
           </Link>
         </div>
-        <div className="col-md-5  spin-div">
+        <div className="col-md-5  spin-div offset-md-1">
           {" "}
-          <img className="" src={LandingImg} alt="Scholar" width="100%" />
-          {/* <Spin /> */}
+          {/* <img className="" src={LandingImg} alt="Scholar" width="100%" /> */}
+          <Spin />
         </div>
       </div>
 

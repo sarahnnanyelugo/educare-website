@@ -2,11 +2,26 @@
   position: relative;
   width: 540px;
   height: 540px;
-  border: 2px solid rgb(218, 217, 217);
+  border-top: 4px solid #fff9f9;
+  border-right: 4px solid #fff9f9;
+  border-left: 4px solid #fff9f9;
   border-radius: 50%;
-  animation: rotate 80s infinite linear;
+  background: url("../../../assets/images/spin-bg.png");
+  background-position: center !important;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 620px) {
+    width: 280px;
+    height: 280px;
+    padding-left: 20px;
+    background-size: 300px 300px;
+  }
+  small {
+    font-family: rebondG-Semi-Bold;
+    font-size: 10px;
+    margin-top: 5px;
+  }
 }
-
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -18,9 +33,19 @@
 
 .rotating-image {
   position: absolute;
-  width: 30px;
-  height: 30px;
+  // width: 30px;
+  // height: 30px;
   object-fit: cover;
-  margin-top: 250px;
-  margin-left: 250px;
+}
+.rotating-circle-inner {
+  margin-top: 245px;
+  object-fit: cover;
+  position: absolute;
+  margin-left: 245px;
+  text-align: center;
+  // animation: rotate 80s infinite linear;
+  @media screen and (max-width: 620px) {
+    margin-left: 150px;
+    margin-top: 125px;
+  }
 }
