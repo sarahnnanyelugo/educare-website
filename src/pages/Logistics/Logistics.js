@@ -96,7 +96,7 @@ function Logistics() {
       </div>
       <center>
         <div className="col-md-5  enhanced">
-          <h1 className="col-md-9"> Consice Daily Reporting Module </h1>
+          <h1 className="col-md-9"> Concise Daily Reporting Module </h1>
           <p>
             With Educare's Daily Reporting Module, productivity has reached new
             heights in Logistics Enterprise. This feature has empowered their
