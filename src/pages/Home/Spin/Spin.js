@@ -65,7 +65,7 @@ function Spin() {
           {" "}
           {images.map((image, index) => (
             <>
-              <Link to={link[index]}>
+              <Link to={link[index]} className="web-icons">
                 <img
                   key={index}
                   src={image}
@@ -79,6 +79,21 @@ function Spin() {
                     }deg)`,
                   }}
                 />{" "}
+              </Link>{" "}
+              <Link to={link[index]} className="mobile-icons">
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Image ${index}`}
+                  className="rotating-image"
+                  style={{
+                    transform: `rotate(${
+                      (360 / images.length) * index
+                    }deg) translate(170px) rotate(-${
+                      (360 / images.length) * index
+                    }deg)`,
+                  }}
+                />{" "}
               </Link>
             </>
           ))}
@@ -86,11 +101,23 @@ function Spin() {
           {headings.map((heading, index) => (
             <>
               <small
-                className="rotating-image"
+                className="rotating-image web-icons"
                 style={{
                   transform: `rotate(${
                     (360 / headings.length) * index
                   }deg) translate(230px) rotate(-${
+                    (360 / headings.length) * index
+                  }deg)`,
+                }}
+              >
+                {heading}
+              </small>
+              <small
+                className="rotating-image mobile-icons"
+                style={{
+                  transform: `rotate(${
+                    (360 / headings.length) * index
+                  }deg) translate(170px) rotate(-${
                     (360 / headings.length) * index
                   }deg)`,
                 }}
