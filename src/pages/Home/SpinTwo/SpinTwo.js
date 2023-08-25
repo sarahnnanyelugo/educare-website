@@ -90,7 +90,7 @@ function SpinTwo() {
                   <img key={index} src={image} alt={`Image ${index}`} />{" "}
                 </Link>{" "}
                 <br />
-                <small>{headings[index]}</small>
+                <h6>{headings[index]}</h6>
               </div>
             </>
           ))}

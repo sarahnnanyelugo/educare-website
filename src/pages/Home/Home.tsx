@@ -90,7 +90,6 @@ import LandingImg from "../../assets/images/spin-img.png";
 import Dashboard from "../../assets/images/dashicon.svg";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
-import Spin from "./Spin/Spin";
 import SpinTwo from "./SpinTwo/SpinTwo";
 export const Home = () => {
   return (
@@ -116,7 +115,6 @@ export const Home = () => {
         <div className="col-md-5  spin-div offset-md-1">
           {" "}
           {/* <img className="" src={LandingImg} alt="Scholar" width="100%" /> */}
-          {/* <Spin /> */}
           <SpinTwo />
         </div>
       </div>

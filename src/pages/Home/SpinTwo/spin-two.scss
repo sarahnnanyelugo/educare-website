@@ -16,6 +16,15 @@
     rgba(255, 255, 255, 1) 13%,
     rgba(223, 246, 254, 1) 90%
   );
+
+  @media screen and (max-width: 920px) {
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+    background-size: contain;
+    left: 400px;
+    top: 250px;
+  }
   @media screen and (max-width: 620px) {
     left: 0;
     height: 400px;
@@ -34,11 +43,11 @@
   margin: auto;
   text-align: center;
   animation: earth-revolve 80s linear infinite;
-  small {
+  h6 {
     font-family: rebondG-Semi-Bold;
     font-size: 10px;
     margin-top: 5px;
-    line-height: 0px !important;
+    line-height: -10px !important;
   }
 }
 
@@ -46,8 +55,6 @@
   display: block;
   background: black;
   border-radius: 50%;
-  height: 540px;
-  width: 540px;
   position: absolute;
   top: 0;
   left: 800px;
@@ -58,6 +65,14 @@
   background-position: center center !important;
   background-size: 400px 400px;
   background-repeat: no-repeat;
+  @media screen and (max-width: 920px) {
+    width: 280px;
+    height: 280px;
+    padding-left: 20px;
+    background-size: contain;
+    left: 400px;
+    top: -150px;
+  }
   @media screen and (max-width: 620px) {
     width: 280px;
     height: 280px;
