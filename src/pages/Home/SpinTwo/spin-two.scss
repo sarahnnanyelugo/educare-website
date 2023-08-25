@@ -1,0 +1,91 @@
+.circle {
+  height: 540px;
+  width: 540px;
+  border-radius: 50%;
+  border-top: 4px solid #fff9f9;
+  border-right: 4px solid #fff9f9;
+  border-left: 4px solid #fff9f9;
+  position: absolute;
+  top: 95px;
+  left: 800px;
+  right: 0;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 13%,
+    rgba(223, 246, 254, 1) 90%
+  );
+  @media screen and (max-width: 620px) {
+    left: 0;
+    height: 400px;
+    width: 400px;
+    top: 625px;
+  }
+}
+.earth {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  bottom: 0;
+  right: 0px;
+  margin: auto;
+  text-align: center;
+  animation: earth-revolve 80s linear infinite;
+  small {
+    font-family: rebondG-Semi-Bold;
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 0px !important;
+  }
+}
+
+.sun {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 540px;
+  width: 540px;
+  position: absolute;
+  top: 0;
+  left: 800px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: url("../../../assets/images/spin-bg.png");
+  background-position: center center !important;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  @media screen and (max-width: 620px) {
+    width: 280px;
+    height: 280px;
+    padding-left: 20px;
+    background-size: contain;
+    left: 0;
+    top: 800px;
+  }
+}
+.solar-system {
+  width: 1000px;
+  heigth: 1000px;
+}
+@keyframes earth-revolve {
+  0% {
+    transform: rotate(0deg) translateX(225px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(225px) rotate(-360deg);
+  }
+}
+@media screen and (max-width: 620px) {
+  @keyframes earth-revolve {
+    0% {
+      transform: rotate(0deg) translateX(160px) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(160px) rotate(-360deg);
+    }
+  }
+}
