@@ -15,7 +15,7 @@ function MedicalTabNav() {
             <div className="col-md-4">
               <h2>Well-organized Workflows</h2>
               <p>
-                Educare's medical module brings harmony to your healthcare
+                educare's medical module brings harmony to your healthcare
                 processes with well-organized workflows. From appointment
                 scheduling to health records management, our platform
                 streamlines every step, ensuring efficiency and precision. Say
@@ -36,7 +36,7 @@ function MedicalTabNav() {
             <div className="col-md-4">
               <h2>Safe and Sound</h2>
               <p>
-                At Educare, patient's safety is our top priority. With our
+                At educare, patient's safety is our top priority. With our
                 medical module, we create a secure environment where health
                 information is protected, and sensitive data is shielded. Our
                 robust security measures ensure that only authorized personnel
@@ -57,7 +57,7 @@ function MedicalTabNav() {
             <div className="col-md-4">
               <h2>Enhanced Health Services</h2>
               <p>
-                Elevate your business's health services with Educare's Medical
+                Elevate your business's health services with educare's Medical
                 Module, where excellence is the norm. From health assessments to
                 previous medical records, our platform empowers healthcare
                 providers to deliver personalized and timely interventions.
@@ -79,7 +79,7 @@ function MedicalTabNav() {
               <h2>Customizable and Scalable</h2>
               <p>
                 In a dynamic educational and business landscape, flexibility is
-                paramount. Educare's Medical Module scales with your business
+                paramount. educare's Medical Module scales with your business
                 growth, adapting effortlessly to changing needs. With
                 customizable features that cater to your unique requirements,
                 you can shape a health solution that aligns perfectly with your

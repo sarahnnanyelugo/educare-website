@@ -7,7 +7,6 @@ import { Prefooter } from "../../components/Prefooter/Prefooter";
 import Video from "../../assets/images/educare-video.mp4";
 
 function CustomersStories() {
-  
   return (
     <>
       <div className="col-md-12 stories-div">
@@ -20,7 +19,7 @@ function CustomersStories() {
               color="#0098DA"
               boda="#CEF0FF"
             />
-            <h1>Inspiring User-Experiences, Real Educare Customers</h1>
+            <h1>Inspiring User-Experiences, Real educare Customers</h1>
             <p>
               We work closely with our customers to understand their goals and
               help them drive meaningful results. Here’s what that looks like in
@@ -43,10 +42,10 @@ function CustomersStories() {
       </div>
       <center>
         <div className="col-md-6">
-          <h1>Watch Educare customers in action.</h1>
+          <h1>Watch educare customers in action.</h1>
           <p className="col-md-8 mt2">
             Be inspired by trailblazers transforming businesses, changing the
-            world, and shaping the future through Educare.
+            world, and shaping the future through educare.
           </p>
         </div>
         <center>

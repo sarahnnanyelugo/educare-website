@@ -11,7 +11,7 @@ function Manufacturing() {
           <h1>Manufacturing</h1>
 
           <p className="col-md-10">
-            Educare emerges as a game-changing solution tailored to meet the
+            educare emerges as a game-changing solution tailored to meet the
             unique needs of production facilities. Our comprehensive software
             suite has empowered manufacturing establishments to navigate their
             intricate operations seamlessly.
@@ -37,7 +37,7 @@ function Manufacturing() {
             industry to a whole new level where equipments are properly managed
             and maintained. We have successfully Streamlined facility
             operations, track equipment maintenance schedules, and allocate
-            resources effectively. Educare has taken charge of optimal
+            resources effectively. educare has taken charge of optimal
             utilization of all manufacturing assets and enhanced operational
             efficiency, resulting in improved productivity and reduced downtime.
           </p>

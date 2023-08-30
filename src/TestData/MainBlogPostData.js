@@ -19,7 +19,7 @@ export const MainPostOne = [
   },
   {
     title:
-      "Using Educare LMS To Keep Up With The Pace Of Growth And Student Demand",
+      "Using educare LMS To Keep Up With The Pace Of Growth And Student Demand",
 
     img: Img2,
     date: "12th June, 2021",

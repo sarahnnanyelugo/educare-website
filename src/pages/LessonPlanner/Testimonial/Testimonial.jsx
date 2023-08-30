@@ -11,7 +11,7 @@ function Testimonial() {
           <Carousel.Item>
             <div className="col-md-5 mt4">
               <p>
-                “Educare Lesson Planner has completely transformed the way I
+                “educare Lesson Planner has completely transformed the way I
                 approach teaching! The user-friendly interface and powerful
                 features allow me to design captivating lessons that truly
                 engage my students. The ability to customize content based on
@@ -26,7 +26,7 @@ function Testimonial() {
           <Carousel.Item>
             <div className="col-md-5 mt4">
               <p>
-                “As a busy educator, time management is crucial. Educare Lesson
+                “As a busy educator, time management is crucial. educare Lesson
                 Planner has been a game-changer for me. The seamless scheduling
                 feature helps me optimize my teaching hours, ensuring I make the
                 most of every minute in the classroom. It has reduced my
@@ -40,7 +40,7 @@ function Testimonial() {
           <Carousel.Item>
             <div className="col-md-5 mt4">
               <p>
-                “Since adopting Educare Lesson Planner, our school has witnessed
+                “Since adopting educare Lesson Planner, our school has witnessed
                 a significant improvement in lesson planning and execution. The
                 platform's seamless integration with our existing systems has
                 made the transition effortless. Our teachers now have more time

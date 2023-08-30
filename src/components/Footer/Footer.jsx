@@ -150,7 +150,7 @@ export const Footer = () => {
         </div>
         <div className="col-md-10 offset-md-1 credits-container flexy">
           <p className="">
-            © 2023 Educare Technology Solutions Limited | All Rights Reserved.
+            © 2023 educare Technology Solutions Limited | All Rights Reserved.
           </p>
           <ul className="list-unstyled list-inline ">
             <li className="list-inline-item">

@@ -66,7 +66,7 @@ function AboutUs() {
         <div className="col-md-6 mt6">
           <h3>Our Commitment to Continuous Improvement</h3>
           <p className="mt2">
-            At Educare, we are committed to continuous improvement and the
+            At educare, we are committed to continuous improvement and the
             journey towards excellence. Our software platform evolves to meet
             the changing needs of our clients in the education sector and
             businesses.
@@ -94,7 +94,7 @@ function AboutUs() {
         <div className="col-md-5 offset-md-1 mt8">
           <h3>Embracing Change and Innovation</h3>
           <p className="mt5">
-            Educare is driven by a commitment to embracing change and fostering
+            educare is driven by a commitment to embracing change and fostering
             innovation. We understand that the educational and business
             landscapes are constantly evolving.
           </p>

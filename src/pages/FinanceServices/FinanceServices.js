@@ -12,7 +12,7 @@ function FinanceServices() {
             <h1>Financial Services</h1>
 
             <p className="col-md-10">
-              Educare has gained the trust of financial institutions. Thousands
+              educare has gained the trust of financial institutions. Thousands
               of these establishments depend on educare ERP daily in
               streamlining their operations, enhancing efficiency and in
               delivering exceptional customer service. To Financial services
@@ -46,7 +46,7 @@ function FinanceServices() {
         <div className="col-md-4 mt">
           <h1>Effortless Calendar Management</h1>
           <p className="col-md-11">
-            Educare calendar module has successfully ensured that financial
+            educare calendar module has successfully ensured that financial
             services stay organized and never miss important financial
             deadlines. Our intuitive Calendar feature allows them to schedule
             financial planning, meetings, tax deadlines, and payment reminders.

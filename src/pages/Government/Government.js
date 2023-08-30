@@ -16,7 +16,7 @@ function Government() {
 
             <p className="col-md-10">
               In public service and governance, efficiency, transparency, and
-              precision are paramount, and Educare emerges as a transformative
+              precision are paramount, and educare emerges as a transformative
               solution tailored to meet the unique needs of government entities.
               With our versatile software suite, we have gained trust of
               numerouse governments across the various states in the country and
@@ -89,7 +89,7 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10">Efficient Calendar Management</h1>
           <p className="col-md-10">
-            The government agencies have also been empowered with Educare
+            The government agencies have also been empowered with educare
             Calendar Module which ensures organized scheduling for public
             events, meetings, and citizen engagements.
           </p>

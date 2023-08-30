@@ -47,7 +47,7 @@ function Timetable() {
             />
             <h1>Generate and Distribute Timetable with Ease</h1>
             <p>
-              Crafting the perfect timetable is an art, and Educare Timetable is
+              Crafting the perfect timetable is an art, and educare Timetable is
               your masterful assistant. With its intuitive options for period
               and activity creation, you can tailor schedules to fit your
               school's unique needs. Plus, our powerful automated generation
@@ -86,7 +86,7 @@ function Timetable() {
               <TimetableFeatures
                 icon={Calender2}
                 title="Multiple calendar views"
-                paragraph="Unlock a  new level of visual clarity with Educare's Timetable. Navigate your school's schedule effortlessly through multiple calendar views, be it daily, weekly, or monthly. The power of visualization enhances your planning, making it easier to optimize resources and ensure a seamless academic experience."
+                paragraph="Unlock a  new level of visual clarity with educare's Timetable. Navigate your school's schedule effortlessly through multiple calendar views, be it daily, weekly, or monthly. The power of visualization enhances your planning, making it easier to optimize resources and ensure a seamless academic experience."
               />
             </div>
           </div>{" "}
@@ -95,7 +95,7 @@ function Timetable() {
               <TimetableFeatures
                 icon={Customize}
                 title="Customizable schedules"
-                paragraph="With Educare's Timetable Module, take charge of your school's schedule like never before. Enjoy the freedom of creating customizable schedules that perfectly align with your unique needs and preferences. "
+                paragraph="With educare's Timetable Module, take charge of your school's schedule like never before. Enjoy the freedom of creating customizable schedules that perfectly align with your unique needs and preferences. "
               />
             </div>
           </div>
@@ -120,7 +120,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Notification}
               title="Never Miss a Moment"
-              paragraph="With Educare's Timetable Module, staying organized is effortless. Our built-in notification system keeps you informed of important events, deadlines, and schedule changes. Receive timely reminders, ensuring you and your team are always prepared and  focused."
+              paragraph="With educare's Timetable Module, staying organized is effortless. Our built-in notification system keeps you informed of important events, deadlines, and schedule changes. Receive timely reminders, ensuring you and your team are always prepared and  focused."
             />
           </div>
         </div>{" "}
@@ -129,7 +129,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Sync}
               title="Sync Across Devices!"
-              paragraph="Stay ahead of the curve with Educare's Timetable Module, offering seamless syncing across all your devices. Your schedule is just a tap away, whether you're on a desktop, tablet, or smartphone. Embrace the freedom of mobility, ensuring you never miss a beat in your daily planning."
+              paragraph="Stay ahead of the curve with educare's Timetable Module, offering seamless syncing across all your devices. Your schedule is just a tap away, whether you're on a desktop, tablet, or smartphone. Embrace the freedom of mobility, ensuring you never miss a beat in your daily planning."
             />
           </div>
         </div>
@@ -147,8 +147,8 @@ function Timetable() {
           <div className="col-md-11">
             <TimetableFeatures
               icon={Support}
-              title="Rely on Educare's Prompt Customer Support!"
-              paragraph="Your success is our priority, and that's why Educare goes the extra mile to offer top-notch customer support. Every step of the way, our dedicated team is always ready to lend a helping hand. Experience the confidence of knowing you have a reliable partner by your side."
+              title="Rely on educare's Prompt Customer Support!"
+              paragraph="Your success is our priority, and that's why educare goes the extra mile to offer top-notch customer support. Every step of the way, our dedicated team is always ready to lend a helping hand. Experience the confidence of knowing you have a reliable partner by your side."
             />
           </div>
         </div>{" "}
@@ -157,7 +157,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Conflict}
               title="Conflict-Free Efficiency"
-              paragraph="Smoothly navigate through scheduling challenges with Educare's Conflict Detection. Our intelligent module proactively identifies overlaps, clashes, and conflicts, saving you precious time and sparing you from scheduling headaches. Embrace seamless efficiency with a timetable that flows effortlessly."
+              paragraph="Smoothly navigate through scheduling challenges with educare's Conflict Detection. Our intelligent module proactively identifies overlaps, clashes, and conflicts, saving you precious time and sparing you from scheduling headaches. Embrace seamless efficiency with a timetable that flows effortlessly."
             />
           </div>
         </div>

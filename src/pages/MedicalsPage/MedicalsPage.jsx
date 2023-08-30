@@ -156,7 +156,7 @@ function MedicalsPage() {
           <div className="col-md-8">
             <h2>We’ve got the tools you need</h2>
             <p>
-              With Educare's Medical Module, you unlock a world of
+              With educare's Medical Module, you unlock a world of
               possibilities, where well-organized workflows streamline clinic
               operations, ensuring efficient health management
             </p>

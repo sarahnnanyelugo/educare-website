@@ -17,7 +17,7 @@ function Consulting() {
               Currently, Consulting Services around the world have keyed into
               the educare advantage. From seamlessly managing finances,
               generating insightful reports to fostering effective
-              collaboration, Educare has revolutionized the entire workflow.
+              collaboration, educare has revolutionized the entire workflow.
               With our intuitive interface and robust features consultants have
               been empowered to take consulting services to new heights.
             </p>
@@ -102,7 +102,7 @@ function Consulting() {
             <h1 className="col-md-10">Efficient Calendar Management</h1>
             <p className="col-md-11">
               Organizing work schedules and appointments have never had it
-              better. Educare Calendar Module has redefined consulting
+              better. educare Calendar Module has redefined consulting
               engagements paving way to proper scheduling of client meetings,
               coordinated activities, seamless communication between consultants
               and clients and accurate tracking of project timelines.

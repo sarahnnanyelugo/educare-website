@@ -16,7 +16,7 @@ function Energy() {
             <h1>Energy & Utilities</h1>
 
             <p className="col-md-10">
-              At Educare, we understand the dynamic landscape of energy and
+              At educare, we understand the dynamic landscape of energy and
               utility companies, where efficient operations are paramount. We
               take pride in the fact that educare ERP has proven to be an
               invaluable asset for such enterprises, streamlining their complex

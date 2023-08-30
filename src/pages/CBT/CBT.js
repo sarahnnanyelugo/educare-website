@@ -62,10 +62,10 @@ function CBT() {
                 color="#11A377"
               />
               <h2 className=" reco-alt">
-                Explore Educare's Computer-Based Testing Technology for Schools
+                Explore educare's Computer-Based Testing Technology for Schools
               </h2>
               <p className="col-md-9">
-                Discover the power of Educare's testing tool - effortless
+                Discover the power of educare's testing tool - effortless
                 creation of online & offline exams with advanced settings for
                 time limits, public/private access, and random question options.
                 Rest easy with robust security features while seamlessly

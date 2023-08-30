@@ -92,7 +92,7 @@ function LessonPlanner() {
           <p>
             Tailor your lesson plans, schedules, and content to match your
             unique teaching style and the specific needs of your students. With
-            Educare Lesson Planner, the vision of an inclusive and
+            educare Lesson Planner, the vision of an inclusive and
             student-centered classroom becomes a reality.
           </p>
         </div>

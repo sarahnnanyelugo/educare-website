@@ -40,7 +40,7 @@ function Logistics() {
           <h2>Manage Finances with Ease</h2>
           <p>
             Logistics and Distribution Enterprises around the world are
-            massively elevating their financial managements with Educare Finance
+            massively elevating their financial managements with educare Finance
             Module. This feature has provided them with the tools to
             effortlessly handle financial transactions, invoices, and payments
             specific to their distribution and logistics operations, thereby
@@ -50,7 +50,7 @@ function Logistics() {
           </p>
           <h2>Efficient Facility Management</h2>
           <p>
-            With Educare Facility Management Module, Logistics and Distribution
+            With educare Facility Management Module, Logistics and Distribution
             Enterprises are enabled to track, monitor, and optimize their
             inventory, warehouses, and logistics facilities. From stock levels
             and storage locations to resource allocation and equipment
@@ -98,7 +98,7 @@ function Logistics() {
         <div className="col-md-5  enhanced">
           <h1 className="col-md-9"> Concise Daily Reporting Module </h1>
           <p>
-            With Educare's Daily Reporting Module, productivity has reached new
+            With educare's Daily Reporting Module, productivity has reached new
             heights in Logistics Enterprise. This feature has empowered their
             staff to input their daily tasks with ease, ensuring accountability
             and streamlined work hours.

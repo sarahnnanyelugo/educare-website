@@ -65,9 +65,9 @@ function Careers() {
       <div className="col-md-12 reason">
         <center>
           <div className="col-md-7">
-            <h1>Why Educare?</h1>
+            <h1>Why educare?</h1>
             <p>
-              At Educare, we believe that our success is driven by the
+              At educare, we believe that our success is driven by the
               exceptional talents and dedication of our team. As a leading
               software management company serving both educational institutions
               and businesses, we are committed to creating a work environment
@@ -94,7 +94,7 @@ function Careers() {
               <img className="" src={Icon1} alt="Scholar" />
               <h3>Meaningful Impact</h3>
               <p>
-                At Educare, your work directly contributes to improving the
+                At educare, your work directly contributes to improving the
                 education sector and enabling businesses to thrive. You have the
                 opportunity to make a real difference in the lives of students,
                 educators, and professionals.

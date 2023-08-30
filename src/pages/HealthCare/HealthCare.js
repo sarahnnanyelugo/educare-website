@@ -17,7 +17,7 @@ function HealthCare() {
             <h1>Healthcare</h1>
 
             <p className="col-md-10">
-              Educare has elevated Healthcare Establishments through
+              educare has elevated Healthcare Establishments through
               comprehensive solutions. Our versatile software suite has
               empowered thousands of healthcare establishments to navigate their
               complex operations with finesse and ease.

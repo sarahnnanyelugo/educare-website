@@ -175,14 +175,14 @@ export const Home = () => {
           <div className="col-md-1">&nbsp;</div>
           <div className="col-md-10  features-container flexy">
             <div className="col-md-6 first-container">
-              <h3>educare for Business</h3>
+              <h3>Educare for Business</h3>
               <p>
                 Empower your team to work smarter, not harder, with our powerful
                 software solution that simplifies complex tasks, frees up time,
                 and drives business growth.
               </p>
               <br />
-              <Link to={"/educare-business"}>
+              <Link to={"/Educare-business"}>
                 {" "}
                 <button>Get Started</button>
               </Link>
@@ -234,13 +234,13 @@ export const Home = () => {
             <div className="col-md-1">&nbsp;</div>
             <div className="col-md-10  features-container flexy ">
               <div className="col-md-6 first-container">
-                <h3>educare for Schools</h3>
+                <h3>Educare for Schools</h3>
                 <p>
                   Revolutionize your school’s operations and student learning
                   experiences with our innovative software solution.
                 </p>
                 <br />
-                <Link to={"/educare-schools"}>
+                <Link to={"/Educare-schools"}>
                   {" "}
                   <button>Get Started</button>
                 </Link>
@@ -361,7 +361,7 @@ export const Home = () => {
         </div>
         <div className="col-md-12 products-container radiant">
           <center className="mt">
-            <h1>All educare Products</h1>
+            <h1>All Educare Products</h1>
           </center>
           <div className="col-md-10  flexy offset-md-1">
             <div className="col-md-4 first-product-column">
@@ -840,9 +840,9 @@ export const Home = () => {
         <div className="col-md-12 privacy-protection">
           <div className="col-md-6 offset-md-3">
             <center>
-              <h1>educare’s Privacy and Protection</h1>
+              <h1>Educare’s Privacy and Protection</h1>
               <p>
-                educare ensures maximum data privacy by implementing advanced
+                Educare ensures maximum data privacy by implementing advanced
                 security measures including encryption and secure communication
                 channels.
               </p>
@@ -858,7 +858,7 @@ export const Home = () => {
             <h1>Resources and Insights</h1>
             <p>
               The latest news, interviews, technologies, and resources on
-              educare.
+              Educare.
             </p>
           </center>
           <section className="col-md-3 mt7">

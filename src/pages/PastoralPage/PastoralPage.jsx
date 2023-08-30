@@ -36,7 +36,7 @@ function Pastoral(props) {
             <p>
               From behavior monitoring to impactful disciplinary measures, every
               aspect is meticulously handled, leaving no room for surprises.
-              With Educare Pastoral Module, unlock the potential to shape future
+              With educare Pastoral Module, unlock the potential to shape future
               leaders, nurture personal growth, and create an atmosphere where
               students thrive, ultimately setting the stage for a brighter and
               successful academic journey.
@@ -81,7 +81,7 @@ function Pastoral(props) {
               <Efficiency
                 title="Elevate Student Well-being"
                 icon={Setting}
-                subtitle=" Experience Streamlined Pastoral Care with Educare!"
+                subtitle=" Experience Streamlined Pastoral Care with educare!"
                 paragraph=" Embrace a transformative system that optimizes the management of student well-being. From counseling sessions to student support initiatives, everything seamlessly falls into place, empowering your team to focus on what truly matters - nurturing students' growth and emotional well-being."
               />
             </div>
@@ -90,9 +90,9 @@ function Pastoral(props) {
             <div className="col-md-10">
               <Efficiency
                 title="Empower Your Approach"
-                subtitle=" Customize Student Well-being Tracking with Educare!"
+                subtitle=" Customize Student Well-being Tracking with educare!"
                 icon={Track}
-                paragraph="Every student is unique, and so should be their well-being tracking. Educare Pastoral Module offers customizable tools that adapt to such unique vision and goals. With our pastoral Module, you hold the power to tailor student support, ensuring a holistic approach that fosters a thriving and resilient student community."
+                paragraph="Every student is unique, and so should be their well-being tracking. educare Pastoral Module offers customizable tools that adapt to such unique vision and goals. With our pastoral Module, you hold the power to tailor student support, ensuring a holistic approach that fosters a thriving and resilient student community."
               />
             </div>
           </div>{" "}
@@ -101,8 +101,8 @@ function Pastoral(props) {
               <Efficiency
                 title="Data is Power"
                 icon={Storage}
-                subtitle="Centralized Data Storage with Educare Pastoral Module!"
-                paragraph="In the quest for student well-being, data is the driving force. With Educare Pastoral Module's centralized data storage, access and analysis become effortless. Retrieve critical information about individual students and analyze trends at a macro level. Armed with this powerful information, your pastoral team can make informed decisions, identify areas of improvement, and implement targeted interventions to nurture students' emotional and academic growth."
+                subtitle="Centralized Data Storage with educare Pastoral Module!"
+                paragraph="In the quest for student well-being, data is the driving force. With educare Pastoral Module's centralized data storage, access and analysis become effortless. Retrieve critical information about individual students and analyze trends at a macro level. Armed with this powerful information, your pastoral team can make informed decisions, identify areas of improvement, and implement targeted interventions to nurture students' emotional and academic growth."
               />
             </div>
           </div>
@@ -113,9 +113,9 @@ function Pastoral(props) {
           <div className="col-md-11">
             <Efficiency
               title="Proactive Support, Empowered Success"
-              subtitle="Facilitate Interventions with Educare!"
+              subtitle="Facilitate Interventions with educare!"
               icon={Support}
-              paragraph="Waiting for problems to arise is not an option when it comes to student well-being. Educare Pastoral Module equips your school with proactive support capabilities, enabling timely and targeted interventions. Identify potential challenges early on, address them with precision, and empower students to thrive in a supportive environment. With Educare Pastoral, you become a guiding force in your students' journey to success."
+              paragraph="Waiting for problems to arise is not an option when it comes to student well-being. educare Pastoral Module equips your school with proactive support capabilities, enabling timely and targeted interventions. Identify potential challenges early on, address them with precision, and empower students to thrive in a supportive environment. With educare Pastoral, you become a guiding force in your students' journey to success."
             />
           </div>
         </div>{" "}
@@ -124,8 +124,8 @@ function Pastoral(props) {
             <Efficiency
               title="Stronger Together"
               icon={Together}
-              subtitle="Collaborative Communication with Educare Pastoral Module!"
-              paragraph="In the realm of pastoral care, communication is the key to impactful support. Educare Pastoral brings collaborative features to the forefront, fostering effective communication among your pastoral team, teachers, parents, and students. Share insights, coordinate efforts, and keep everyone involved in the loop. Together, create a united front that ensures students receive unwavering support, promoting a positive and nurturing school community."
+              subtitle="Collaborative Communication with educare Pastoral Module!"
+              paragraph="In the realm of pastoral care, communication is the key to impactful support. educare Pastoral brings collaborative features to the forefront, fostering effective communication among your pastoral team, teachers, parents, and students. Share insights, coordinate efforts, and keep everyone involved in the loop. Together, create a united front that ensures students receive unwavering support, promoting a positive and nurturing school community."
             />
           </div>
         </div>

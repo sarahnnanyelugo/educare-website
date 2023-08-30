@@ -98,7 +98,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Master Tasks </h3>
               <p>
-                Take control of your to-do list with Educare's Weekly Remarks
+                Take control of your to-do list with educare's Weekly Remarks
                 Module. Effortlessly manage tasks, set priorities, and stay
                 organized throughout the week. Empower your productivity and
                 witness unparalleled efficiency in achieving your goals.
@@ -110,7 +110,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Stress-Free Zone</h3>
               <p>
-                Bid farewell to stress with Educare's Weekly Remarks Module.
+                Bid farewell to stress with educare's Weekly Remarks Module.
                 Stay organized, prioritize tasks, and manage your time
                 effectively. Experience reduced anxiety as you navigate your
                 week with clarity and confidence.
@@ -123,7 +123,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Maximize Time</h3>
               <p>
-                Time is your most valuable asset, and Educare's Weekly Remarks
+                Time is your most valuable asset, and educare's Weekly Remarks
                 help you make the most of it. Effectively track and optimize
                 your time, ensuring every moment counts towards success.
               </p>
@@ -134,7 +134,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Ignite Your Motivation</h3>
               <p>
-                Keep the fire of motivation burning bright with Educare's Weekly
+                Keep the fire of motivation burning bright with educare's Weekly
                 Remarks. Track your achievements, set new targets, and celebrate
                 your progress. Fuel your drive for success with weekly
                 reflections on your journey.
@@ -158,7 +158,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Unleash Growth: Reflect and Evolve</h3>
               <p>
-                Embrace the power of reflection with Educare's Weekly Remarks
+                Embrace the power of reflection with educare's Weekly Remarks
                 Module. Look back on your week's accomplishments and challenges,
                 and use these insights to grow and evolve.
               </p>

@@ -34,10 +34,10 @@ function Assignment() {
           />
           <h1>
             Seamless Assignment Management: <br />
-            Experience the Educare Advantage!
+            Experience the educare Advantage!
           </h1>
           <p className="col-md-11">
-            Unlock the pathway to academic success with Educare's Assignment
+            Unlock the pathway to academic success with educare's Assignment
             Module. Our powerful platform allows subject teachers to create and
             manage assignments, while students can easily download, attempt, and
             submit their work within set deadlines. Elevate your school's
@@ -81,7 +81,7 @@ function Assignment() {
             <h2>Seamless Assignment Management</h2>
             <h6 style={{ color: "grey" }}>Embrace the Future of Learning</h6>
             <p className="col-md-8">
-              Educare's Assignment Module stands as a pillar of academic
+              educare's Assignment Module stands as a pillar of academic
               excellence, empowering teachers to create impactful assignments
               while providing students with a seamless submission experience
             </p>
@@ -160,7 +160,7 @@ function Assignment() {
               {" "}
               <h4>Uncover Integrity with Plagiarism Detection!</h4>
               <p>
-                Promote academic integrity and originality with Educare's
+                Promote academic integrity and originality with educare's
                 Plagiarism Detection. Safeguard the value of learning by
                 identifying and addressing any instances of plagiarism. Foster a
                 culture of honesty and respect, nurturing students' appreciation

@@ -50,7 +50,7 @@ function Library() {
             />
             <h1>Reading Made Easy!</h1>
             <p>
-              Educare library software seamlessly manages both digital and
+              educare library software seamlessly manages both digital and
               physical books, offering a unified catalog for easy search and
               borrowing. Users can access eBooks and physical copies through the
               platform, simplifying the borrowing process and enhancing the
@@ -170,7 +170,7 @@ function Library() {
           <div className="col try">
             <LibFeatures
               title="Resources and Services"
-              paragraph="Discover a treasure trove of knowledge at your fingertips! Educare's comprehensive Resources and Services offer a diverse range of books, digital media, research materials, and educational services. Revolutionize your learning experience and unlock academic success."
+              paragraph="Discover a treasure trove of knowledge at your fingertips! educare's comprehensive Resources and Services offer a diverse range of books, digital media, research materials, and educational services. Revolutionize your learning experience and unlock academic success."
               icon={Resources}
               subtitle="Your Gateway to Limitless Knowledge!"
             />
@@ -179,7 +179,7 @@ function Library() {
           <div className="col try">
             <LibFeatures
               title="Book Management & Tracking"
-              paragraph="Educare Library Module enhances book management with unique barcodes for both digital and physical books. These barcodes enable seamless tracking, ensuring book organization and safe keeping."
+              paragraph="educare Library Module enhances book management with unique barcodes for both digital and physical books. These barcodes enable seamless tracking, ensuring book organization and safe keeping."
               icon={User}
               subtitle="Facilitate Efficient Book Tracking!"
             />
@@ -201,7 +201,7 @@ function Library() {
           <div className="col try">
             <LibFeatures
               title="Security & Privacy"
-              paragraph="Safeguarding your data is our utmost priority. With Educare's top-tier Security & Privacy measures, trust that your school's information and students' data are fortified against any threats. Focus on shaping bright minds while we take care of the rest."
+              paragraph="Safeguarding your data is our utmost priority. With educare's top-tier Security & Privacy measures, trust that your school's information and students' data are fortified against any threats. Focus on shaping bright minds while we take care of the rest."
               icon={Security}
               subtitle="Your Data, Fortified and Protected!"
             />

@@ -27,7 +27,7 @@ const MailboxFAQ = () => {
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Email delivery status is tracked automatically in Educare. To see
+              Email delivery status is tracked automatically in educare. To see
               the status of a particular mail sent you can simply click on the
               "Sync" button beside the recipient mail and it shows the current
               status of the mail. or you can simply select all and "Sync all" to

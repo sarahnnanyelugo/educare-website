@@ -34,7 +34,7 @@ function Construction() {
               HR Management in construction establishments has taken a paradigm
               shift as they effortlessly manage their construction team,
               streamline HR processes, track performance, manage payroll using
-              Educare HRM Module.
+              educare HRM Module.
             </p>
           </div>
           <div className="col-md-7 mt6">

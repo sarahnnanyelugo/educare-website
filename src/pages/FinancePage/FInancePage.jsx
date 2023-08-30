@@ -38,7 +38,7 @@ export const FinancePage = () => {
             bg="#DED0FA"
             boda="#DED0FA"
           />
-          <h1>Simplify your Business with Educare Powerful Finance Module.</h1>
+          <h1>Simplify your Business with educare Powerful Finance Module.</h1>
           <p className="col-md-11">
             From invoicing to order management to accounting, educare Finance
             has all the tools you need to streamline all of your back office
@@ -62,7 +62,7 @@ export const FinancePage = () => {
       </center>
       <div id="features" />
       <center>
-        <h1 className="col-md-5">Key Features of Educare Finance Module</h1>
+        <h1 className="col-md-5">Key Features of educare Finance Module</h1>
       </center>
       <DashboardDisplay />
 
@@ -87,7 +87,7 @@ export const FinancePage = () => {
               <Efficiency
                 title="Smarter Business Decisions"
                 icon={Track}
-                paragraph="Educare Finance Module equips you to connect all back-office applications which automates data integration, eliminating the need for manual data linking across various sources. This integration ensures that information flows in real-time between the applications, providing you with up-to-date and accurate information. As a result, you can make better-informed and smarter business decisions."
+                paragraph="educare Finance Module equips you to connect all back-office applications which automates data integration, eliminating the need for manual data linking across various sources. This integration ensures that information flows in real-time between the applications, providing you with up-to-date and accurate information. As a result, you can make better-informed and smarter business decisions."
               />
             </div>
           </div>{" "}
@@ -108,7 +108,7 @@ export const FinancePage = () => {
               <Efficiency
                 title="Streamlined payroll accounting"
                 icon={Support}
-                paragraph="Educare  Finance Module enables you to automate salary payments through secure integrations with partner banks, distribute payslips and payroll forms online, effortlessly organize and download  payroll documents all from one place, and seamlessly  submit online, your Tax saving investment declarations ."
+                paragraph="educare  Finance Module enables you to automate salary payments through secure integrations with partner banks, distribute payslips and payroll forms online, effortlessly organize and download  payroll documents all from one place, and seamlessly  submit online, your Tax saving investment declarations ."
               />
             </div>
           </div>{" "}
@@ -118,7 +118,7 @@ export const FinancePage = () => {
                 title="Accessible Payroll data 
 "
                 icon={Together}
-                paragraph="Instant access to payroll data can make all the difference in business operations.  With Educare Finance Manager, you can download ready-to-share payroll reports that paint a complete picture about your organization’s payroll costs."
+                paragraph="Instant access to payroll data can make all the difference in business operations.  With educare Finance Manager, you can download ready-to-share payroll reports that paint a complete picture about your organization’s payroll costs."
               />
             </div>
           </div>

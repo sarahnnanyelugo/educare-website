@@ -55,7 +55,7 @@ function School() {
         </div>
       </center>
       <center className="mtt">
-        <h2> Some of Educare's Operational Tools for Schools</h2>
+        <h2> Some of educare's Operational Tools for Schools</h2>
       </center>
       <div className="col-md-10 offset-md-1 flexy govt-divs mt6">
         <div className="col-md-5 ">
@@ -76,9 +76,9 @@ function School() {
           <img className=" " src={Img2} alt="Scholar" width="100%" />
         </div>
         <div className="col-md-6 offset-md-1">
-          <h1 className="col-md-8 mt3">Competent HR Management</h1>
+          <h1 className="col-md-8 mt3">Complete HR Management</h1>
           <p className="col-md-10">
-            Educare HR Module has empowered schools to effortlessly manage
+            educare HR Module has empowered schools to effortlessly manage
             employee records, attendance, and payroll for teachers and staff.
             This has streamlined administrative processes, maintaining accurate
             records, and ensuring timely payroll management.
@@ -91,7 +91,7 @@ function School() {
             Seamless Computer-Based Testing (CBT)
           </h1>
           <p className="col-md-10">
-            Educare Computer-Based Testing (CBT) has facilitated assessments and
+            educare Computer-Based Testing (CBT) has facilitated assessments and
             examinations for schools around the world. This has simplified test
             administration, grading, and result analysis, promoting fairness and
             accuracy in evaluating student performance.

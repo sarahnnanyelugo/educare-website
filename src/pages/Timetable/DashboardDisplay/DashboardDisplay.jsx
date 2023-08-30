@@ -20,12 +20,12 @@ function DashboardDisplay() {
               {" "}
               <p>
                 {" "}
-                Time is precious, and Educare Timetable puts it at your command.
+                Time is precious, and educare Timetable puts it at your command.
                 Create and manage your school's timetable with ease, using our
                 versatile features to tailor it to perfection. With dedicated
                 dashboards, teachers and students can access their
                 individualized class schedules instantly. Embrace the magic of
-                Educare Timetable and unlock the art of time management today.
+                educare Timetable and unlock the art of time management today.
               </p>
             </div>
           </div>

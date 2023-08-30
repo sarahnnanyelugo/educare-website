@@ -33,7 +33,7 @@ function Retail() {
           <h1>Effortless Financial Management</h1>
           <p>
             Smart and progressive retail businesses are easily taking charge of
-            their retail finances using Educare Finance Module. This feature has
+            their retail finances using educare Finance Module. This feature has
             empowered them to effectively manage financial transactions, track
             sales, and keep precise inventory records to ensure ideal stock
             levels and reduce expenses.
@@ -57,7 +57,7 @@ function Retail() {
           <div className="col-md-5 offset-md-1 mt">
             <h1>Automated Requisition Processes</h1>
             <p>
-              Educare's advanced Requisition Feature has streamlined and
+              educare's advanced Requisition Feature has streamlined and
               elevated the requisition processes of retail businesses. Around
               the world, retail establisments are now abolishing manual
               paperwork and lengthy approval chains and embracing our

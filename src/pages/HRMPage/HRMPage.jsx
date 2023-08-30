@@ -38,14 +38,14 @@ export const HRMPage = () => {
             />
             <h1>
               Empower, Engage, Excel: Save Time and Increase Productivity with
-              Educare HRM.
+              educare HRM.
             </h1>
             <p className="col-md-9">
-              Step into the future of HR management with Educare HRM, the
+              Step into the future of HR management with educare HRM, the
               ultimate all-in-one solution that covers every aspect from "Hire"
               to "Retire" for your business's most crucial asset – your
               employees. Leave behind outdated, time-consuming processes and
-              embrace the power of efficiency and effectiveness with Educare
+              embrace the power of efficiency and effectiveness with educare
               .HRM.
             </p>
           </div>

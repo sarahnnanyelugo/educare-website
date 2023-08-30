@@ -45,7 +45,7 @@ function Report() {
                 alt="Scholar"
                 style={{ marginLeft: "-5px" }}
               />
-              Educare's Report Module simplifies and streamlines report card
+              educare's Report Module simplifies and streamlines report card
               management by letting you create, customize, develop, and
               distribute report cards with great ease and accuracy.
             </p>
@@ -178,7 +178,7 @@ function Report() {
       <div id="features" />
       <center>
         <h1 className="mtt  col-md-8 ">
-          Enjoy the Benefits of Educare Reports!
+          Enjoy the Benefits of educare Reports!
         </h1>
       </center>
       <ReportTable />

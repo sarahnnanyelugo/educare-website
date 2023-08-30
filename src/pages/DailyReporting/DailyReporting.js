@@ -27,7 +27,7 @@ function DailyReporting() {
             />
             <h1 className="col-md-10 ">Unlock productivity and efficiency</h1>
             <p>
-              With Educare's Daily Reporting Module, productivity reaches new
+              With educare's Daily Reporting Module, productivity reaches new
               heights. Empower your staff to input their daily tasks with ease,
               ensuring accountability and streamlined work hours. Embrace
               data-driven excellence, as each staff member's productivity
@@ -54,7 +54,7 @@ function DailyReporting() {
             <center>
               <h4>No backdating Report</h4>
               <p>
-                Educare Weekly Report upholds transparency and data integrity
+                educare Weekly Report upholds transparency and data integrity
                 within the organization. It prohibits the backdating of any
                 reports or entries, ensuring that all information reflects
                 real-time and accurate data.
@@ -78,7 +78,7 @@ function DailyReporting() {
           <div className="daily-report-feature itemm3">
             <h4>Never Miss a Beat: Stay Informed !</h4>
             <p>
-              Never miss a beat with Educare's Daily Reporting Module. Our
+              Never miss a beat with educare's Daily Reporting Module. Our
               platform sends timely notifications and reminders, ensuring staff
               members stay on track with their daily tasks.
             </p>
@@ -108,7 +108,7 @@ function DailyReporting() {
             <center>
               <h4>Forward-Moving Accountability</h4>
               <p>
-                Accountability is the cornerstone of success, and Educare's
+                Accountability is the cornerstone of success, and educare's
                 Daily Reporting Module ensures it's maintained with integrity.
                 Our platform enforces a no-backdating policy, promoting accurate
                 and honest reporting.
@@ -120,7 +120,7 @@ function DailyReporting() {
           <div className="daily-report-feature itemm5">
             <h4>Collaborate, Elevate</h4>
             <p>
-              Communication and collaboration become a breeze with Educare's
+              Communication and collaboration become a breeze with educare's
               Daily Reporting Module. Staff members can seamlessly communicate
               within the platform, sharing updates, progress, and insights.
             </p>
@@ -130,7 +130,7 @@ function DailyReporting() {
           <div className="daily-report-feature itemm6">
             <h4>Data Shielded, Trust Secured</h4>
             <p>
-              At Educare, we take data security seriously. Our Daily Reporting
+              At educare, we take data security seriously. Our Daily Reporting
               Module ensures robust data protection, safeguarding confidential
               information from unauthorized access.
             </p>

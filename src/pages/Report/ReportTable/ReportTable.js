@@ -90,7 +90,7 @@ function ReportTable() {
                   {" "}
                   <h5>Analyze Results </h5>
                   <p>
-                    With Educare powerful student analysis tools , you can
+                    With educare powerful student analysis tools , you can
                     confidently dive deep into individual student performance,
                     identifying strengths, weaknesses, and growth areas. It
                     equips teachers with valuable insights to tailor their
@@ -121,7 +121,7 @@ function ReportTable() {
                   {" "}
                   <h5>Impactful Feedback</h5>
                   <p>
-                    Educare's Report Module enables teachers to provide
+                    educare's Report Module enables teachers to provide
                     impactful feedback through Teachers' Remark. Personalized
                     comments and observations foster students' self-awareness
                     and motivate them to excel. Nurture a growth mindset with
@@ -151,7 +151,7 @@ function ReportTable() {
                   {" "}
                   <h5>Transcript Accessibility</h5>
                   <p>
-                    Educare's transcript feature lets educators create
+                    educare's transcript feature lets educators create
                     comprehensive grade transcripts that showcase students'
                     accomplishments throughout their academic journey. This
                     gives way to a holistic view of a student's academic

@@ -17,7 +17,7 @@ export const LatestBlog = [
   },
   {
     title:
-      "Using Educare LMS To Keep Up With The Pace Of Growth And Student Demand",
+      "Using educare LMS To Keep Up With The Pace Of Growth And Student Demand",
     paragraph:
       "Challenge An LMS to facilitate online learning to handle rapid school growth and changing needs Products & Solutions educ…",
     img: Img2,
@@ -44,7 +44,7 @@ export const LatestBlogIndex = [
   },
   {
     title:
-      "Using Educare LMS To Keep Up With The Pace Of Growth And Student Demand",
+      "Using educare LMS To Keep Up With The Pace Of Growth And Student Demand",
 
     img: Img5,
     blog_id: 3,

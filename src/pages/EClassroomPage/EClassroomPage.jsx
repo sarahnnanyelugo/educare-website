@@ -46,7 +46,7 @@ function EClassroomPage() {
               </h1>
               <p>
                 Transform your school into a hub of knowledge, unbound by
-                physical limitations. Educare's Learning Management System
+                physical limitations. educare's Learning Management System
                 offers a robust eClassroom module, empowering educators and
                 students to connect, collaborate, and learn in a digital realm.
               </p>
@@ -102,7 +102,7 @@ function EClassroomPage() {
               {" "}
               <h3>Empower Virtual Learning</h3>
               <p>
-                With Educare's eClassroom module, reach students beyond the
+                With educare's eClassroom module, reach students beyond the
                 classroom walls. Conduct live video classes, ensuring a dynamic
                 and engaging learning experience. Seamlessly deliver lessons,
                 foster interaction, and connect with your students, no matter
@@ -116,7 +116,7 @@ function EClassroomPage() {
               <h3>Bridge the Distance</h3>
               <p>
                 Break barriers and forge strong connections with your students
-                through Educare's eClassroom. Enjoy real-time interactions,
+                through educare's eClassroom. Enjoy real-time interactions,
                 conduct discussions, and answer questions as if you were in the
                 same room. With interactive features, the virtual classroom
                 becomes a thriving space for collaborative learning.
@@ -128,7 +128,7 @@ function EClassroomPage() {
               {" "}
               <h3>Learning, Anytime, Anywhere</h3>
               <p>
-                Flexibility meets education with Educare's eClassroom. Record
+                Flexibility meets education with educare's eClassroom. Record
                 your classes and share them with your students, allowing them to
                 revisit lessons at their convenience. Whether it's revision,
                 catching up on missed classes, or self-paced learning, recorded
@@ -146,7 +146,7 @@ function EClassroomPage() {
       </div>
       <div className="col-md-10 offset-md-1  privacy-container">
         {" "}
-        {/* <EducarePrivacy
+        {/* <educarePrivacy
           heading="Enjoy secure virtual learning with educare’s Privacy and Protection"
           paragraph="educare ensures data privacy by implementing advanced security measures, including encryption and secure communication channels. We have no access to your data, and strict policies are in place to keep your data under your control. Trust us to keep your data safe and secure"
         /> */}
@@ -205,7 +205,7 @@ function EClassroomPage() {
                 {/* “This is a very useful meeting tool, as it enhanced our learning
                 during COVID pandemic, it was an easy choice to use educare
                 eclassroom. “ */}
-                "Educare eClassroom Module is a tool that has tremendously
+                "educare eClassroom Module is a tool that has tremendously
                 improved our learning experience. It's ability to ensure steady
                 learning anytime anywhere was made more evident during the COVID
                 pandemic in 2020. I recommend educare eClassroom."

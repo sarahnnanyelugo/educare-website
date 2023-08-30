@@ -42,10 +42,11 @@ function Clubs() {
             <h1>Experience the Joy of Connection</h1>
 
             <p>
-              With Educare Club Module, your school's clubs become a hub of
+              With educare Club Module, your school's clubs become a hub of
               inspiration and growth. Embark on an exciting journey with our
-              club module, where we nurture and elevate your passion to new heights
-              through engaging events, workshops, and collaborative projects.
+              club module, where we nurture and elevate your passion to new
+              heights through engaging events, workshops, and collaborative
+              projects.
             </p>
             <center className="mt6">
               <GetStartedForm
@@ -78,7 +79,7 @@ function Clubs() {
           educare <span>Club</span> for your school
         </h1>
         <p className="col-md-3 offset-md-2">
-          Educare's Club Module unlocks a world of opportunities for students,
+          educare's Club Module unlocks a world of opportunities for students,
           providing a platform where they can create, lead, and thrive. With the
           power to establish and manage clubs, students gain invaluable
           leadership experience, fostering a sense of ownership and pride.
@@ -92,7 +93,7 @@ function Clubs() {
               <ClubFeatures
                 icon={Calender2}
                 title="Membership Management"
-                paragraph="Joining a club is not just a membership; it's a pathway to unity and belonging. Educare's Club Module, allows administrators to create and manage member profiles, capturing details such as contact information, membership status, and preferences."
+                paragraph="Joining a club is not just a membership; it's a pathway to unity and belonging. educare's Club Module, allows administrators to create and manage member profiles, capturing details such as contact information, membership status, and preferences."
               />
             </div>
           </div>{" "}

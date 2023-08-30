@@ -41,14 +41,14 @@ function WalletManager() {
           <center>
             <div className="col-md-7">
               <h1 className="col-md-12">
-                Smart Money, Smart Choices: <br /> Introducing Educare's Wallet
+                Smart Money, Smart Choices: <br /> Introducing educare's Wallet
                 Manager!
               </h1>
               <div className="flexy flexyM">
                 <img className="" src={Dot4} alt="Scholar" />
                 <p className="col-md-9 no-m" style={{ marginLeft: "80px" }}>
                   Take charge of your school finances like never before with
-                  Educare's innovative Wallet Manager. Our eWallet system
+                  educare's innovative Wallet Manager. Our eWallet system
                   eliminates cash hassles, allowing parents to set spending
                   limits for their children and make payments with ease.
                 </p>
@@ -92,7 +92,7 @@ function WalletManager() {
           className="col-md-9 reco-alt   
 "
         >
-          Beyond Cash: Experience the Future of School Transactions with Educare
+          Beyond Cash: Experience the Future of School Transactions with educare
           Wallet Manager!
         </h2>
       </center>
@@ -146,7 +146,7 @@ function WalletManager() {
           </div>
           <div className="col-md-6 offset-md-2">
             <p>
-              With Educare's Wallet Manager, parents gain unparalleled financial
+              With educare's Wallet Manager, parents gain unparalleled financial
               control and convenience. Effortlessly track every expense related
               to your child's education journey, from fees and extracurricular
               activities to lunch money and more. Stay informed, stay organized,
@@ -162,7 +162,7 @@ function WalletManager() {
           </div>
           <div className="col-md-6 offset-md-2">
             <p>
-              Embrace the power of financial aspirations with Educare's Wallet
+              Embrace the power of financial aspirations with educare's Wallet
               Manager. Set personalized financial goals for your child's
               education, whether it's saving up for future expenses, planning
               for special events, or contributing to their long-term educational
@@ -195,7 +195,7 @@ function WalletManager() {
           </div>
           <div className="col-md-6 offset-md-2">
             <p>
-              At Educare, we believe in empowering parents with data-driven
+              At educare, we believe in empowering parents with data-driven
               insights. Access detailed reports and analytics that provide a
               comprehensive view of your child's financial journey. Make
               informed decisions based on actionable data, ensuring the best
