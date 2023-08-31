@@ -76,7 +76,7 @@ export const columeTwo = [
 export const columeThree = [
   {
     title: "Students Admission",
-    text: "Enhance your institution’s pastoral care with our innovative software module.",
+    text: "Streamline admissions from inquiries to acceptance, enhancing efficiency and welcoming students with user-friendly, potent tools.",
     icon: Admission,
     url: "/admission",
   },
