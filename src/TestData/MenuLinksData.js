@@ -22,7 +22,7 @@ import Daily from "../assets/images/daily.svg";
 export const columeOne = [
   {
     title: "Finance",
-    text: "The one and only accounting and payroll solution your business will ever need.",
+    text: "A secure and reliable financial operations platform",
     icon: Finance,
     url: "/finance",
   },

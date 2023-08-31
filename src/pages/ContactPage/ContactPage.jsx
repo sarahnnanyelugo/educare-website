@@ -48,8 +48,9 @@ function ContactPage() {
             <div className="col-md-10">
               {" "}
               <h6 className="address">
-                UK: 20-23 Wenlock Road, London, England, N17GU and our
-                registered number is 14455617.
+                UK: 20-23 Wenlock Road, London, England
+                <br />
+                <a href="tel:14455617">14455617.</a>
               </h6>{" "}
               <br />
               <h6 className="address">
