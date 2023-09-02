@@ -1,105 +1,106 @@
-import React, { Component } from "react";
+import React, {Component, useState} from "react";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Step3 from "./Step3";
 import "./master-form.scss";
-class MasterForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentStep: 1,
-      email: "",
-      username: "",
-      password: "",
-    };
-  }
+import {AxiosService} from "../../core/axios-service";
+function  MasterForm (props) {
+  const [formValue, setValue] = useState({});
+  const [isSubmitting, setSubmitting] = useState(false);
+  let [currentStep, setCurrentStep] = useState(1);
 
-  handleChange = (event) => {
-    const { name, value } = event.target;
-    this.setState({
+  const handleInputChange = (e:any) =>{
+    const { name, value } = e.target;
+    formValue[name] = value;
+    setValue((prev) => ({
+      ...prev,
       [name]: value,
-    });
+    }));
   };
 
-  handleSubmit = (event) => {
-    event.preventDefault();
-    const { email, username, password } = this.state;
-    alert(`Your registration detail: \n 
-           Email: ${email} \n 
-           Username: ${username} \n
-           Password: ${password}`);
+  const handleSubmit = (e:any)=>{
+    e.preventDefault();
+    const inputValue2 = AxiosService.serialize(e.target);
+    let url = "";
+    setSubmitting(true);
+    // setErrors({});
+    AxiosService.postRequest('auth/book/contact/us', inputValue2).then(
+        function (resp:any) {
+          if (resp?.success){
+            AxiosService.notify('success', resp?.success);
+          }else{
+            AxiosService.notify('error', resp?.error);
+          }
+          setSubmitting(false);
+          e.target.reset();
+          setCurrentStep(1)
+        },
+        function (resp:any) {
+          AxiosService.notify('error', resp?.data?.message);
+          // if (resp?.data?.errors){
+          //   setErrors(resp?.data?.errors)
+          // }
+          setSubmitting(false);
+        }
+    )
   };
 
-  _next = () => {
-    let currentStep = this.state.currentStep;
+  const _next = () => {
     currentStep = currentStep >= 2 ? 3 : currentStep + 1;
-    this.setState({
-      currentStep: currentStep,
-    });
+    setCurrentStep(currentStep);
   };
 
-  _prev = () => {
-    let currentStep = this.state.currentStep;
+  const _prev = () => {
     currentStep = currentStep <= 1 ? 1 : currentStep - 1;
-    this.setState({
-      currentStep: currentStep,
-    });
+    setCurrentStep(currentStep);
   };
 
-  previousButton() {
-    let currentStep = this.state.currentStep;
+  const previousButton = () =>{
     if (currentStep !== 1) {
       return (
-        <button className="prev-btn" type="button" onClick={this._prev}>
-          <i class="icofont-rounded-left"></i>
+        <button className="prev-btn" type="button" onClick={_prev}>
+          <i class="icofont-rounded-left"/> Previous
         </button>
       );
     }
     return null;
-  }
+  };
 
-  nextButton() {
-    let currentStep = this.state.currentStep;
+  const nextButton = () => {
     if (currentStep < 3) {
       return (
         <button
           className="wizard-submit-btn col-md-12"
           type="button"
-          onClick={this._next}
-        >
+          onClick={_next}>
           Next
         </button>
       );
     }
     return null;
-  }
+  };
 
-  render() {
-    return (
-      <React.Fragment>
-        <form onSubmit={this.handleSubmit} className=" wizard-form-container">
-          {this.previousButton()}
-
-          <Step1
-            currentStep={this.state.currentStep}
-            handleChange={this.handleChange}
-            email={this.state.email}
-          />
-          <Step2
-            currentStep={this.state.currentStep}
-            handleChange={this.handleChange}
-            username={this.state.username}
-          />
-          <Step3
-            currentStep={this.state.currentStep}
-            handleChange={this.handleChange}
-            password={this.state.password}
-          />
-          {this.nextButton()}
-        </form>
-      </React.Fragment>
-    );
-  }
+  return (
+    <React.Fragment>
+      <form onSubmit={handleSubmit} className=" wizard-form-container">
+        {previousButton()}
+        <Step1
+          currentStep={currentStep}
+          formValue={formValue}
+          handleChange={handleInputChange} />
+        <Step2
+          currentStep={currentStep}
+          formValue={formValue}
+          handleChange={handleInputChange}
+        />
+        <Step3 currentStep={currentStep}
+          formValue={formValue}
+          handleChange={handleInputChange}
+        />
+        {nextButton()}
+      </form>
+    </React.Fragment>
+  );
 }
 
 export default MasterForm;

@@ -11,7 +11,6 @@ function MyVerticallyCenteredModal(props) {
       setTimeout(() => {
         element.classList.add(backdropbg);
       }, 5);
-      console.log(element);
     }
   });
   return (

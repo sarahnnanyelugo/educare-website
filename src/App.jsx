@@ -123,9 +123,12 @@ function App() {
         <Route path="careers" element={<Careers />} />
         <Route path="support" element={<Support />} />
         <Route path="about-us" element={<AboutUs />} />
-        <Route path="blog" element={<Blog />} />
-        <Route path="mini-blog" element={<MiniBlog />} />
-        <Route path="main-blog" element={<MainBlog />} />
+
+        <Route  path='blog/*'>
+          <Route path="" element={<Blog />} />
+          <Route path=":postSlug" element={<MainBlog />} />
+        </Route>
+
         <Route path="logistics" element={<Logistics />} />
         <Route path="healthcare" element={<HealthCare />} />
         <Route path="retail" element={<Retail />} />

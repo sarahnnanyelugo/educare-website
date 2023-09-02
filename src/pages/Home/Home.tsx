@@ -91,7 +91,10 @@ import Dashboard from "../../assets/images/dashicon.svg";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import PartnersSlider from "../../components/PartnersSlider/PartnersSlider";
 import SpinTwo from "./SpinTwo/SpinTwo";
+import {LatestNews} from "../../partials/widgets/latest-news";
+import {AxiosService} from "../../core/axios-service";
 export const Home = () => {
+  AxiosService.unsetBilling();
   return (
     <>
       <div className="col-md-12 modern-solutions-container flexy">
@@ -851,33 +854,8 @@ export const Home = () => {
         </div>
       </div>
       {/* <Partners /> */}
-      <div className="col-md-12  latest-news-section">
-        {" "}
-        <div className="col-md-10 offset-md-1 ">
-          <center>
-            <h1>Resources and Insights</h1>
-            <p>
-              The latest news, interviews, technologies, and resources on
-              Educare.
-            </p>
-          </center>
-          <section className="col-md-3 mt7">
-            {" "}
-            <div className="col-md-11 flexy gap-5 ">
-              {" "}
-              {LatestBlogIndex.map((data, index) => (
-                <LatestBlog data={data} />
-              ))}
-            </div>
-          </section>
-          <center>
-            {" "}
-            <Link to={"/blog"}>
-              <button className="resos-btn ">View all resources</button>
-            </Link>
-          </center>
-        </div>
-      </div>
+
+      <LatestNews />
     </>
   );
 };

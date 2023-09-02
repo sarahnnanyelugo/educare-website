@@ -2,8 +2,11 @@ import React from "react";
 import Logo from "../../assets/images/logo2.png";
 import { Link, NavLink } from "react-router-dom";
 import "./sign-up-page.scss";
-import LoginForm from "./SignUpForm/SignUpForm";
+import SignUpForm from "./SignUpForm/SignUpForm";
+import {AxiosService} from "../../core/axios-service";
+
 function SignUpPage() {
+  AxiosService.unsetBilling();
   return (
     <>
       <div className="login-container col-md-12 container-fluid">
@@ -17,16 +20,16 @@ function SignUpPage() {
             </Link>
           </div>
           <p>
-            Don't have an educare Account?{" "}
+            Already have an educare Account?{" "}
             <Link to={"/login"} className="login">
-              SIGN UP{" "}
+              LOG IN
             </Link>
           </p>
         </div>
         <div className="col-md-4 offset-md-4">
           <div className="col-md-9 form-holder">
             {" "}
-            <LoginForm />
+            <SignUpForm />
           </div>
         </div>
         <center>

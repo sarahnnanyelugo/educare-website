@@ -1,64 +1,155 @@
-import { useState } from "react";
+import React, {useEffect, useState} from "react";
 import "./form.scss";
 import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
-import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+import PhoneInput from "react-phone-number-input";
+import {AxiosService} from "../../core/axios-service";
+import {useNavigate} from "react-router";
+// import "react-phone-input-2/lib/bootstrap.css";
 
 function Form(props) {
+
   const { bg, text, body } = props;
   const [nameValue, setNameValue] = useState("");
-  const [emailValue, setEmailValue] = useState("");
   const [isChecked, setIsChecked] = useState(false);
-  const [value, setValue] = useState();
-  const handleChange = (event) => {
-    setNameValue(event.target.value);
-    console.log(nameValue);
+  const [isSubmitting, setSubmitting] = useState(false);
+  const [formValue, setValue] = useState({});
+  const [errors, setErrors] = useState({});
+  const [currency, setCurrency] = useState('');
+  const [billingDuration, setBillingDuration] = useState('');
+  const [package_id, setPackageId] = useState('');
+  const [category_id, setCategoryId] = useState('');
+  const navigate = useNavigate();
+
+  const handlePhoneChange = (event) => {
+    formValue['phoneNumber'] = event;
+    setValue((prev) => ({
+      ...prev,
+      ['phoneNumber']: event,
+    }));
   };
-  const handleEmailChange = (event) => {
-    setEmailValue(event.target.value);
-    console.log(emailValue);
+
+  const handleChecked = (e:any) => {
+    setIsChecked(!isChecked);
   };
-  const handleChecked = (event) => {
-    setIsChecked(event.target.checked);
+
+  const handleInputChange = (e:any) =>{
+    const { name, value } = e.target;
+    formValue[name] = value;
+    setValue((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
   };
+
+  const handleSubmit = (e:any)=>{
+    e.preventDefault();
+    const inputValue2 = AxiosService.serialize(e.target);
+    let url = "";
+    setSubmitting(true);
+    setErrors({});
+    AxiosService.postRequest('auth/sign-up', inputValue2).then(
+        function (resp:any) {
+          if (resp?.success){
+            AxiosService.notify('success', resp?.success);
+            window.location = process.env.REACT_APP_CPANEL_URL+'/verify?p=' + resp.verify;
+          }else{
+            AxiosService.notify('error', resp?.error);
+          }
+          setSubmitting(false);
+        },
+        function (resp:any) {
+          if (resp?.data?.errors){
+            setErrors(resp?.data?.errors)
+          }
+          AxiosService.notify('error', resp?.data?.message);
+          setSubmitting(false);
+        }
+    )
+  };
+
+  useEffect(()=>{
+    let temp = AxiosService.localStorageGet('billing_currency');
+    if (temp){
+      setCurrency(temp);
+    }
+
+    temp = AxiosService.localStorageGet('billing_duration');
+    if (temp){
+      setBillingDuration(temp);
+    }
+
+    temp = AxiosService.localStorageGet('package_id');
+    if (temp){
+      setPackageId(temp);
+    }
+    temp = AxiosService.localStorageGet('category_id');
+    if (temp){
+      setCategoryId(temp);
+    }
+  }, []);
+
   return (
     <>
-      <form className=" form-container" style={{ backgroundColor: body }}>
-        <h6 style={{ color: "black" }} className="col-md-8">
+      <form className="form-container" onSubmit={handleSubmit} style={{ backgroundColor: body }}>
+        {props.formHeading && <h6 style={{ color: "black" }} className="col-md-8">
           <strong>{props.formHeading}</strong>
-        </h6>{" "}
-        <div class="form">
+        </h6>}
+
+        {category_id && <input type='hidden' name='category_id' value={category_id}/>}
+        {currency && <input type='hidden' name='currency_code' value={currency}/>}
+        {billingDuration && <input type='hidden' name='billing_duration' value={billingDuration}/>}
+        {package_id && <input type='hidden' name='package_id' value={package_id}/>}
+
+        <div className="form">
           <input
             type="text"
             name="name"
-            autocomplete="new-password"
             required
-            value={nameValue}
-            onChange={handleChange}
+            id='name'
+            defaultValue={nameValue}
+            onChange={handleInputChange}
           />
-          <label for="text" class="label-name">
-            <span class="content-name">Organisation Name *</span>
+          <label htmlFor="name" className="label-name">
+            <span className="content-name">Full Name *</span>
           </label>
-        </div>{" "}
-        <div class="form">
+        </div>
+
+        <div className="form">
+          <input
+            type="text"
+            name="organisation_name"
+            required
+            id='organisation_name'
+            defaultValue={nameValue}
+            onChange={handleInputChange}
+          />
+          <label htmlFor="organisation_name" className="label-name">
+            <span className="content-name">Organisation Name *</span>
+          </label>
+        </div>
+
+        {" "}
+        <div className="form">
           <input
             type="email"
             name="email"
-            autocomplete="new-password"
+            id="email"
+            autoComplete="email"
             required
-            value={emailValue}
-            onChange={handleEmailChange}
+            defaultValue={formValue.email}
+            onChange={handleInputChange}
           />
-          <label for="text" class="label-name">
-            <span class="content-name">Email *</span>
+          <label htmlFor="email" className="label-name">
+            <span className="content-name">Email *</span>
           </label>
         </div>{" "}
-        <div class="form">
-          <PhoneInput
+        <div className="form">
+          <PhoneInput name="phoneNumber"
             placeholder="Phone number *"
-            value={value}
-            onChange={setValue}
+            defaultValue={formValue.phoneNumber}
+            onChange={handlePhoneChange}
           />
           {/* <label for="text" class="label-name">
             <span class="content-name">Mobile Number *</span>
@@ -66,27 +157,21 @@ function Form(props) {
         </div>{" "}
         <div style={{ marginBottom: "20px" }}>
           {" "}
-          <Password placeholder="Password" />
-          <Password placeholder="Confirm password" />
+          <Password placeholder="Password" name='password' onChange={handleInputChange} />
+          <Password placeholder="Confirm password" name='confirmpassword' onChange={handleInputChange} />
         </div>
         <CountrySelect />
-        <input
-          type="checkbox"
-          name="color"
-          checked={isChecked}
-          onChange={handleChecked}
+        <input type="checkbox" name="color" checked={isChecked} onChange={handleChecked}
           style={{
             marginTop: "40px",
           }}
         />
-        <span
-          style={{
+        <span style={{
             fontFamily: " rebondG-Medium",
             color: "black",
             fontSize: "12px",
             marginTop: "90px",
-          }}
-        >
+          }}>
           {" "}
           I agree to the{" "}
           <strong>
@@ -98,7 +183,7 @@ function Form(props) {
             <a href="#">Privacy Policy</a>.
           </strong>
         </span>
-        <button className="overviewButton" style={{ backgroundColor: bg }}>
+        <button className="overviewButton continueButton" style={{ backgroundColor: bg }}>
           {text}
         </button>
       </form>

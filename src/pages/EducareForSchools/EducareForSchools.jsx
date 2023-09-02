@@ -17,7 +17,10 @@ import Mailbox from "../../assets/images/screen.svg";
 import Facility from "../../assets/images/read-book.svg";
 import HR from "../../assets/images/pastoral.svg";
 import { Heading } from "../../components/Heading/Heading";
+import {AxiosService} from "../../core/axios-service";
 export const EducareForSchools = () => {
+  AxiosService.unsetBilling();
+  AxiosService.localStorageSet('category_id', 1);
   return (
     <>
       <div className="col-md-12 nav-two-for-schs ">

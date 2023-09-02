@@ -9,9 +9,7 @@ const FeaturesTable = (props) => {
         <table className="col-md-12 col-12">
           <thead>
             <tr>
-              {props.data.headers.map((item) => (
-                <th>{item}</th>
-              ))}{" "}
+              {props.data.headers.map((item) => (<th>{item}</th>))}
             </tr>
           </thead>
           <tbody>
@@ -57,19 +55,6 @@ const FeaturesTable = (props) => {
                     item.icon3.content
                   )}
                 </td>
-                {/* <td>
-                  {" "}
-                  {item.icon3.type === "image" ? (
-                    <img
-                      className="   logo"
-                      src={item.icon4.content}
-                      alt="Scholar"
-                      width="100%"
-                    />
-                  ) : (
-                    item.icon4.content
-                  )}
-                </td> */}
               </tr>
             ))}
           </tbody>

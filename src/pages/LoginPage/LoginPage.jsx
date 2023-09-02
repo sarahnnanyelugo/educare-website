@@ -17,9 +17,9 @@ function LoginPage() {
             </Link>
           </div>
           <p>
-            Already have an educare Account?{" "}
+            Don't have an educare Account?{" "}
             <Link to={"/sign-up"} className="login">
-              LOG IN
+              SIGN UP{" "}
             </Link>
           </p>
         </div>

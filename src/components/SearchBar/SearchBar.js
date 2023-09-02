@@ -14,10 +14,22 @@ function SearchBar({ callback, posts }) {
 
   const [state, setstate] = useState({
     query: "",
+    orderBy: "",
     list: posts,
   });
+
   // Filter posts on typing in search input
-  const handleChange = (e) => {
+  const handleChange = (e:any) =>{
+    const { name, value } = e.target;
+    setstate((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+    state[name] = value;
+    callback(state, name, value );
+  };
+
+  const handleChangeOld = (e) => {
     const results = posts.filter((post) => {
       if (e.target.value === "") return posts;
       return (
@@ -30,15 +42,16 @@ function SearchBar({ callback, posts }) {
 
     setstate({
       query: e.target.value,
+      orderBy: sortType,
       list: sortFunc(results, sortType, sortByField),
     });
   };
 
   // Sort posts depending on sort type and available results
   function sortFunc(results, sortType, sortByField) {
-    if (sortType === "ascending") {
+    if (sortType === "DESC") {
       results.sort((a, b) => (a[sortByField] < b[sortByField] ? -1 : 1));
-    } else if (sortType === "descending") {
+    } else if (sortType === "ASC") {
       results.sort((a, b) => (b[sortByField] > a[sortByField] ? 1 : -1));
     }
     return results;
@@ -49,6 +62,7 @@ function SearchBar({ callback, posts }) {
     setSortType(e);
     setstate({
       query: state.query,
+      orderBy: sortType,
       list: !result
         ? sortFunc(posts, e, sortByField)
         : sortFunc(result, e, sortByField),
@@ -62,44 +76,46 @@ function SearchBar({ callback, posts }) {
     setSortByField(e);
     setstate({
       query: state.query,
+      search: state.query,
+      orderBy: sortType,
       list: !result
         ? sortFunc(posts, sortType, e)
         : sortFunc(result, sortType, e),
     });
   }
+
+  const searchForm = (e) =>{
+    e.preventDefault();
+    callback(state);
+  };
+
   return (
     <>
-      <form action="" className="flexy col-md-12">
-        <div className="search-div col-md-3">
-          <div className="search-bar  ">
-            {" "}
-            <input
-              type="search"
-              name="search"
-              pattern=".*\S.*"
-              required
-              onChange={handleChange}
-              value={state.query}
-            />
-            <button class="search-btn" type="submit"></button>
+      <form onSubmit={searchForm} className="flexy col-md-12">
+        <div className="col-md-4">
+          <div className="search-div">
+            <div className="search-bar">
+              {" "}
+              <input
+                type="search"
+                name="query"
+                onChangeCapture={handleChange}
+                defaultValue={state.query}
+              />
+              <button className="search-btn" type="submit"/>
+            </div>
           </div>
         </div>
         <div className="col-md-6">&nbsp;</div>
         <div className="col-md-3 sort-container flexy flexyM">
           <img className="filter-arrow" src={Arrow} alt="Scholar" />{" "}
-          <select
-            defaultValue={"DEFAULT"}
-            onChange={(e) => updatePosts(e.target.value)}
-          >
-            <option value="DEFAULT" disabled>
-              None
-            </option>
-            <option value="ascending">Newest first</option>
-            <option value="descending">Oldest first</option>
+          <select defaultValue={"DESC"} name='orderBy' onChangeCapture={handleChange}>
+            <option value="DESC">Newest first</option>
+            <option value="ASC">Oldest first</option>
           </select>
         </div>
       </form>
-      <ul>{state.list.length === 0 && <h3>Empty List !!!</h3>}</ul>
+      {/*<ul>{state.list.length === 0 && <h3>Empty List !!!</h3>}</ul>*/}
     </>
   );
 }

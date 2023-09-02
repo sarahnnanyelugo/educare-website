@@ -573,10 +573,10 @@ function NavBar() {
           </ul>
 
           <div className="nav-buttons web-nav">
-            <Link to={"/sign-up"}>
+            <a href={process.env.REACT_APP_CPANEL_URL} target="_blank">
               <button className="sign-in-button">Log in</button>
-            </Link>
-            <Link to={"/login"}>
+            </a>
+            <Link to={"/sign-up"}>
               <button
                 className="get-started-button"
                 style={{ backgroundColor: "" + themeSet }}
@@ -592,7 +592,7 @@ function NavBar() {
         <div className="phone ">
           <div className="menu">
             <div className="nav-buttons web-nav">
-              <Link to={"/login"}>
+              <Link to={"/sign-up"}>
                 <button
                   className="get-started-button"
                   style={{ backgroundColor: "" + themeSet }}

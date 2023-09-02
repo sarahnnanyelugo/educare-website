@@ -15,17 +15,17 @@ export const Password = (props) => {
   };
 
   return (
-    <div className="password-input formpassword ">
+    <div className="password-input formpassword">
       <input
         type={showPassword ? "text" : "password"}
-        name="name"
-        autocomplete="new-password"
+        name={props.name}
+        autoComplete={props.autoComplete}
         required
         value={password}
         onChange={handlePasswordChange}
       />
-      <label for="text" class="label-name">
-        <span class="content-name">{props.placeholder}</span>
+      <label for="text" className="label-name">
+        <span className="content-name">{props.placeholder}</span>
       </label>
       <span onClick={toggleShowPassword}>
         {showPassword ? (

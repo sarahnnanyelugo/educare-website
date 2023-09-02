@@ -20,7 +20,10 @@ import Mailbox from "../../assets/images/edit.svg";
 import Facility from "../../assets/images/people.svg";
 import HR from "../../assets/images/people2.svg";
 import { Heading } from "../../components/Heading/Heading";
+import {AxiosService} from "../../core/axios-service";
 export const EducareForBusiness = () => {
+  AxiosService.unsetBilling();
+  AxiosService.localStorageSet('category_id', 2);
   return (
     <>
       <div className="col-md-12 nav-two-business ">
