@@ -21,9 +21,9 @@ function SignUpPage() {
           </div>
           <p>
             Already have an educare Account?{" "}
-            <Link to={"/login"} className="login">
+            <a href={process.env.REACT_APP_CPANEL_URL} className="login">
               LOG IN
-            </Link>
+            </a>
           </p>
         </div>
         <div className="col-md-4 offset-md-4">

@@ -166,7 +166,6 @@ function NavBar() {
     const currentUrl = window.location.pathname;
     if (prevUrlRef.current !== currentUrl) {
       prevUrlRef.current = currentUrl;
-      console.log(currentUrl);
       setTimeout(() => {
         switch (currentUrl) {
           case "/login":
