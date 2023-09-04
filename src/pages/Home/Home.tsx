@@ -102,7 +102,7 @@ export const Home = () => {
           <h1 className="col-md-10">Modern ERP solution designed for You!</h1>
           <p>
             Unlock Your Business’s Potential with Cutting-Edge Software
-            Solutions , whether adopting your first ERP or migrating from an
+            Solutions, whether adopting your first ERP or migrating from an
             existing one, choose a complete, modular solution that meets every
             business need.
           </p>
