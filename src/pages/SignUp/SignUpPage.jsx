@@ -6,7 +6,7 @@ import SignUpForm from "./SignUpForm/SignUpForm";
 import {AxiosService} from "../../core/axios-service";
 
 function SignUpPage() {
-  AxiosService.unsetBilling();
+  // AxiosService.unsetBilling();
   return (
     <>
       <div className="login-container col-md-12 container-fluid">

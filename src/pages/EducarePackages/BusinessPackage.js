@@ -129,7 +129,7 @@ function BusinessPackage(props) {
           </div>
           <div className={`panel ${checkActive(2, "active2")}`}>
             <div className="col-md-12 col-lg-8 flexy monthly-container2 offset-lg-2 ">
-              {category?.web_packages?.length>0 &&category.web_packages.map((web_package:any, index:number) => (<div className={"col-md-4 "+(web_package.is_recommended?"standard":"")} >
+              {category?.web_packages?.length>0 &&category.web_packages.map((web_package:any, index:number) => (<div key={'web_package_'+web_package.id} className={"col-md-4 "+(web_package.is_recommended?"standard":"")} >
                 {web_package.is_recommended==1 && <div className="offset-lg-6 offset-md-5" style={{
                   top: '-25px',
                   position: 'absolute'
@@ -159,7 +159,7 @@ function BusinessPackage(props) {
 
                   <ul className="list-unstyled">
                     {web_package.features.map((items, index) => (
-                        <li key={items.id}>
+                        <li key={'feature_'+items}>
                           <img className="" src={Tick} alt="Scholar" width="4%" />
                           {items}
                         </li>

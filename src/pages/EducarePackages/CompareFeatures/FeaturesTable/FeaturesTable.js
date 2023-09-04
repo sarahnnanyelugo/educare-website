@@ -9,12 +9,14 @@ const FeaturesTable = (props) => {
         <table className="col-md-12 col-12">
           <thead>
             <tr>
-              {props.data.headers.map((item) => (<th>{item}</th>))}
+              {props.data.headers.map((item, index) => (
+                  <th key={"feature_header_"+index}>{item}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
-            {props.data.data.map((item, index) => (
-              <tr>
+            {props.data.data.map((item) => (
+              <tr key={"feature_"+item.id}>
                 <td>{item.name}</td>
                 <td>
                   {" "}

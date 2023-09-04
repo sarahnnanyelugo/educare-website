@@ -46,27 +46,28 @@ export const CompareFeatures = (props) => {
       indexx++;
     });
     setFeatures(tempFeatures)
-  }, [props]);
+  }, [props.webPackages]);
 
   return (
-    <div className="compare-features-container">
-      {" "}
-      <Accordion defaultActiveKey="">
-        <Accordion.Item eventKey="0">
-          <Accordion.Header>
-            <p>Compare all features</p>
-          </Accordion.Header>
-          <Accordion.Body>
-            <div className="col-md-10 offset-md-1">
-              {" "}
-              <FeaturesTable
-                data={features}
-                tableTitle="Transactions"
-              />
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-      </Accordion>
-    </div>
+      <>
+      {features.data.length>0 && <div className="compare-features-container">
+        <Accordion defaultActiveKey="">
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              <p>Compare all features</p>
+            </Accordion.Header>
+            <Accordion.Body>
+              <div className="col-md-10 offset-md-1">
+                {" "}
+                <FeaturesTable
+                  data={features}
+                  tableTitle="Transactions"
+                />
+              </div>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      </div>}
+    </>
   );
 };

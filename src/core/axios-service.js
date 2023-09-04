@@ -370,6 +370,7 @@ export class AxiosService {
         this.localStorageUnSet('billing_currency');
         this.localStorageUnSet('billing_duration');
         this.localStorageUnSet('package_id');
+        this.localStorageUnSet('category_id');
     }
 
 }
