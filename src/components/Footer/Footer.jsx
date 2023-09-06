@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Logo from "../../assets/images/logo3.png";
 import LinkedIn from "../../assets/images/linkedin.svg";
 import FB from "../../assets/images/fb.svg";
+import IG from "../../assets/images/IG.svg";
 import Twitter from "../../assets/images/twitter.svg";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
@@ -143,6 +144,14 @@ export const Footer = () => {
                   target="_blank"
                 >
                   <img className="" src={FB} alt="Scholar" width="100%" />
+                </a>
+              </li>{" "}
+              <li className="list-inline-item">
+                <a
+                  href="https://instagram.com/educare_technology?igshid=MzMyNGUyNmU2YQ=="
+                  target="_blank"
+                >
+                  <img className="" src={IG} alt="Scholar" width="70%" />
                 </a>
               </li>
             </ul>

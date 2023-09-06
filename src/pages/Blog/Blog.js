@@ -81,11 +81,10 @@ function Blog({ data }) {
               </div>
               <div className="col-md-2 tags-div ">
                 <h6>Tags:</h6>
-                <center>
+                {/*              
                   {tags.map((data, index) => (
                     <a href="#">{tags}</a>
-                  ))}
-                </center>
+                  ))} */}
               </div>
             </div>
             <div className="col-md-10 offset-md-1  mt">
