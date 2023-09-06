@@ -1,17 +1,23 @@
 import React, { useState } from "react";
 import "./blog.scss";
-import { blogPostColOne } from "../../TestData";
+import { blogPostColOne, focusedBlogData } from "../../TestData";
 import MiniBlog from "./BlogPost/MiniBlog";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
 import { Link } from "react-router-dom";
 import { FilterDrop } from "../../components/Filter/FilterDrop";
 import { Heading } from "../../components/Heading/Heading";
+import FocusedBlog from "./BlogPost/FocusedBlog";
 
 function Blog() {
   const [state, setState] = useState({
     query: "",
     list: blogPostColOne,
+  });
+  const [state2, setState2] = useState({
+    query: "",
+
+    list2: focusedBlogData,
   });
   function reducer(dt) {
     setState(dt);
@@ -33,10 +39,18 @@ function Blog() {
           </div>
         </div>
       </div>
+
       <div className="col-md-10 offset-md-1 ">
         <div className="bold-heading">
           {" "}
           <h2>Schools</h2>
+        </div>
+      </div>
+      <div className="col-md-10 offset-md-1  mt">
+        <div className="row ">
+          {state2.list2.map((data, index) => (
+            <FocusedBlog data={data} />
+          ))}
         </div>
       </div>
       <div className="col-md-10 offset-md-1  mt">

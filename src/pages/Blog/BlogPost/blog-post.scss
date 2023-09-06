@@ -8,25 +8,12 @@
   p {
     color: #57585a;
   }
-  .blog-link {
-    color: #0098da;
-    margin: 20px 0;
-    font-family: rebondBook;
-    flex-grow: 1;
-    img {
-      height: 30px;
-      width: 30px;
-    }
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 .blog-imgg {
   margin-top: -150px;
 }
 .main-blog-heading {
-  font-size: 60px;
+  // font-size: 60px;
 }
 .blog-link2 {
   &:hover {
@@ -62,4 +49,25 @@
 }
 .latest-news {
   display: flex;
+}
+.focused-blog-div {
+  h5 {
+    margin-top: 20px;
+  }
+  p {
+    margin: 20px 0;
+  }
+}
+.blog-link {
+  color: #0098da;
+  margin: 20px 0;
+  font-family: rebondBook;
+  flex-grow: 1;
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
 }
