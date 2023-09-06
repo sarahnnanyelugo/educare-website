@@ -169,27 +169,22 @@ export const columeSix = [
     icon: HR,
     url: "/hrm",
   },
-  {
-    title: "Report",
-    text: "Generate detailed school reports with ease using our user-friendly report.",
-    icon: Report,
-    url: "/report",
-  },
+
   {
     title: "Calendar",
     text: "Stay organized and on schedule with our intuitive calendar platform.",
     icon: Calendar,
     url: "/calendar",
   },
-];
-
-export const columeSeven = [
   {
     title: "MailBox",
     text: "Ease communication with our powerful mailbox",
     icon: Mailbox,
     url: "/mailBox",
   },
+];
+
+export const columeSeven = [
   {
     title: "Medicals",
     text: "Streamline medical operations with our innovative software platform.",

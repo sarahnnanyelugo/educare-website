@@ -49,7 +49,7 @@ function CustomersStories() {
           </p>
         </div>
         <center>
-          <div className="youtube-container col-md-8 mt4 mb5">
+          <div className="youtube-container col-md-6 mt4 mb5">
             <video
               width="100%"
               autoplay="false"
