@@ -33,10 +33,10 @@ function Retail() {
           <h1>Effortless Financial Management</h1>
           <p>
             Smart and progressive retail businesses are easily taking charge of
-            their retail finances using educare Finance Module. This feature has
-            empowered them to effectively manage financial transactions, track
-            sales, and keep precise inventory records to ensure ideal stock
-            levels and reduce expenses.
+            their retail finances using educare Finance Platform. This feature
+            has empowered them to effectively manage financial transactions,
+            track sales, and keep precise inventory records to ensure ideal
+            stock levels and reduce expenses.
           </p>
         </div>
         <div className="col-md-5 offset-md-2">
@@ -71,10 +71,10 @@ function Retail() {
         <div className="col-md-5">
           <h1>Efficient Calendar Management</h1>
           <p>
-            With our efficient Calendar Management Module, retail business
+            With our efficient Calendar Management platform, retail business
             owners are able to stay organized and maximize productivity. It
             further enables them to schedule promotions, sales events, and staff
-            shifts effortlessly. With this module, coordinating activities,
+            shifts effortlessly. With this platform, coordinating activities,
             ensuring optimal staffing levels during peak times, and effectively
             planning marketing campaigns have become a cruise easy for
             Retailers.

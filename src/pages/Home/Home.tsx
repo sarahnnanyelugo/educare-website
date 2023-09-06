@@ -220,7 +220,7 @@ export const Home = () => {
                 <div className="col-md-6">
                   <Features
                     feature="Facility Management"
-                    detail="Optimize your workforce with our staff management module."
+                    detail="Optimize your workforce with our staff management platform."
                     icon={People}
                     url={"./facility-manager"}
                   />{" "}
@@ -259,7 +259,7 @@ export const Home = () => {
                   <div className="col-md-6 pastoral">
                     <Features
                       feature="Pastoral"
-                      detail="Enhance your institution’s pastoral care with our innovative software module"
+                      detail="Enhance your institution’s pastoral care with our innovative software platform"
                       icon={Pastoral}
                       url={"./pastoral"}
                     />{" "}
@@ -270,7 +270,7 @@ export const Home = () => {
                   <div className="col-md-6 right-features">
                     <Features
                       feature="CBT"
-                      detail="Revolutionize your testing process with our computer-based test module."
+                      detail="Revolutionize your testing process with our computer-based test platform."
                       icon={Screen}
                       url={"./cbt"}
                     />{" "}
@@ -278,7 +278,7 @@ export const Home = () => {
                   <div className="col-md-6">
                     <Features
                       feature="eClassroom"
-                      detail="Versatile software module designed to enhance virtual learning and collaboration within schools."
+                      detail="Versatile software platform designed to enhance virtual learning and collaboration within schools."
                       icon={Classroom}
                       url={"./e-classroom"}
                     />{" "}
@@ -428,7 +428,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Calendar"
-                  productDetail="Stay organized and on schedule with our intuitive calendar module."
+                  productDetail="Stay organized and on schedule with our intuitive calendar platform."
                   productIcon={Calendar}
                   url={"./calendar"}
                 />
@@ -436,7 +436,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Facility Management"
-                  productDetail="Efficiently manage your facilities with our innovative software module."
+                  productDetail="Efficiently manage your facilities with our innovative software platform."
                   productIcon={People}
                   url={"./facility-manager"}
                 />
@@ -480,7 +480,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Wallet Manager"
-                  productDetail="Take control of your finances with our intuitive wallet manager module."
+                  productDetail="Take control of your finances with our intuitive wallet manager platform."
                   productIcon={Wallet}
                   url={"./wallet-manager"}
                 />
@@ -488,7 +488,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Students Admission"
-                  productDetail="Transform your admissions process with our streamlined software module."
+                  productDetail="Transform your admissions process with our streamlined software platform."
                   productIcon={Student}
                   url={"./admission"}
                 />
@@ -581,7 +581,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="CBT"
-                  productDetail="Revolutionize your testing process with our computer-based test module."
+                  productDetail="Revolutionize your testing process with our computer-based test platform."
                   productIcon={Screen}
                   url={"./cbt"}
                 />
@@ -643,7 +643,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Medicals"
-                  productDetail="Streamline medical operations with our innovative software module"
+                  productDetail="Streamline medical operations with our innovative software platform"
                   productIcon={Medical}
                   url={"./medicals"}
                 />
@@ -651,7 +651,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Library"
-                  productDetail="Simplify your library management with our innovative software module."
+                  productDetail="Simplify your library management with our innovative software platform."
                   productIcon={Lib}
                   url={"./library"}
                 />
@@ -727,7 +727,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Timetable"
-                  productDetail="Organize schedules with ease using our intuitive timetable module."
+                  productDetail="Organize schedules with ease using our intuitive timetable platform."
                   productIcon={Timetable}
                   url={"./timetable"}
                 />
@@ -735,7 +735,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="Pastoral"
-                  productDetail="Enhance your institution’s pastoral care with our innovative software module"
+                  productDetail="Enhance your institution’s pastoral care with our innovative software platform"
                   productIcon={Pastoral}
                   url={"./pastoral"}
                 />
@@ -806,7 +806,7 @@ export const Home = () => {
               <div className="col-md-12 bt pd">
                 <EducareProducts
                   productName="eClassroom"
-                  productDetail="Empower Your School with eClassroom: A Comprehensive Software Module for Virtual Learning and Collaboration."
+                  productDetail="Empower Your School with eClassroom: A Comprehensive Software platform for Virtual Learning and Collaboration."
                   productIcon={Classroom}
                   url={"./e-classroom"}
                 />

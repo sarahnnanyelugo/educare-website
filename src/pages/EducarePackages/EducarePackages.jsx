@@ -25,8 +25,8 @@ function EducarePackages(props) {
         <center>
           {" "}
           <div className="col-md-6">
-            '<h1>Grow better with the right plan</h1>
-            <p>For what you need (when you need it)</p>
+            <h1>Grow better with the right plan</h1>
+            <p>With what you need (when you need it)</p>
           </div>
         </center>
       </div>{" "}

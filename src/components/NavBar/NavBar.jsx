@@ -240,7 +240,7 @@ function NavBar() {
                 <NavLink activeClassName="active" className="menu-title">
                   <button className="nav-links menu-title">
                     {" "}
-                    Use Cases <i class="icofont-rounded-down"></i>
+                    Industries Served<i class="icofont-rounded-down"></i>
                   </button>
                 </NavLink>
                 <div className="flexy menu-dropdown2">
@@ -630,7 +630,7 @@ function NavBar() {
                       className="list-group-item list-group-item-action m-accord menu-navs"
                       // style={{ background: themeSet2 }}
                     >
-                      Use Cases
+                      Industries Served
                     </button>
                   </Accordion.Header>
                   <Accordion.Body>

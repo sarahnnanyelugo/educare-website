@@ -84,9 +84,9 @@ function FacilityManager() {
         <div className="flexy">
           <div className="col-md-6">
             <div className="col-md-10">
-              <h4>Embrace educare's Asset Management Module!</h4>
+              <h4>Embrace educare's Asset Management platform!</h4>
               <p>
-                With educare's Facility Management Module, asset management
+                With educare's Facility Management platform, asset management
                 becomes a transformative experience for both schools and
                 businesses. Our platform provides a centralized asset database,
                 a comprehensive repository that empowers you to track and manage
@@ -95,7 +95,7 @@ function FacilityManager() {
               <h4>Elevate Facility Efficiency with Preventive Maintenance!</h4>
               <p>
                 At educare, we believe in proactive care that drives reliability
-                and excellence. Our Facility Management Module enables
+                and excellence. Our Facility Management platform enables
                 preventive maintenance, empowering you to stay ahead of
                 potential issues and minimize downtime. Embrace a culture of
                 efficiency and consistency, as you nurture assets for peak
@@ -107,7 +107,7 @@ function FacilityManager() {
               </h4>
               <p>
                 Assets have their own journey, and educare's Facility Management
-                Module ensures they thrive at every stage. Asset lifecycle
+                platform ensures they thrive at every stage. Asset lifecycle
                 management facilitates monitoring asset conditions, tracking
                 maintenance schedules, and managing repair and replacement
                 processes.
@@ -132,7 +132,7 @@ function FacilityManager() {
             <div className="col-md-10">
               <h4>Work order management</h4>
               <p>
-                educare Facility Module helps streamline the process of
+                educare Facility platform helps streamline the process of
                 creating, assigning, and tracking work orders for maintenance,
                 repairs, or service reques
               </p>
@@ -146,7 +146,7 @@ function FacilityManager() {
               </p>
               <h4>Embrace Staff Management with educare!</h4>
               <p>
-                educare Facility Management Module oversees contracts, service
+                educare Facility Management platform oversees contracts, service
                 agreements, and performance tracking to ensure efficient and
                 quality service delivery.
               </p>
@@ -169,7 +169,7 @@ function FacilityManager() {
               </p>
               <h4>Data-driven decision-making</h4>
               <p>
-                This module provides insights and analytics based on facility
+                This platform provides insights and analytics based on facility
                 data, supporting data-driven decision-making for optimizing
                 resources, reducing costs, and improving operational efficiency.
               </p>

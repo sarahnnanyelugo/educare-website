@@ -28,10 +28,10 @@ function BePartner() {
               bg="#CEF0FF"
               boda="#CEF0FF"
             />
-            <h1>Partner with educare to accelerate growth</h1>
+            <h1>Partner with educare to Grow Your Business</h1>
             <p className="col-md-10">
-              Join a global community of partners and help ambitious businesses
-              with industry-leading products and softwares.
+              Join a global community of ambitious business owners that uses
+              educare’s industry-leading operational tools.
             </p>
             {/* <GetStartedForm
               text=" Get started"

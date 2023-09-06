@@ -47,7 +47,7 @@ function EClassroomPage() {
               <p>
                 Transform your school into a hub of knowledge, unbound by
                 physical limitations. educare's Learning Management System
-                offers a robust eClassroom module, empowering educators and
+                offers a robust eClassroom platform, empowering educators and
                 students to connect, collaborate, and learn in a digital realm.
               </p>
               <Link to={"/contact-us"}>
@@ -102,7 +102,7 @@ function EClassroomPage() {
               {" "}
               <h3>Empower Virtual Learning</h3>
               <p>
-                With educare's eClassroom module, reach students beyond the
+                With educare's eClassroom platform, reach students beyond the
                 classroom walls. Conduct live video classes, ensuring a dynamic
                 and engaging learning experience. Seamlessly deliver lessons,
                 foster interaction, and connect with your students, no matter
@@ -205,7 +205,7 @@ function EClassroomPage() {
                 {/* “This is a very useful meeting tool, as it enhanced our learning
                 during COVID pandemic, it was an easy choice to use educare
                 eclassroom. “ */}
-                "educare eClassroom Module is a tool that has tremendously
+                "educare eClassroom platform is a tool that has tremendously
                 improved our learning experience. It's ability to ensure steady
                 learning anytime anywhere was made more evident during the COVID
                 pandemic in 2020. I recommend educare eClassroom."

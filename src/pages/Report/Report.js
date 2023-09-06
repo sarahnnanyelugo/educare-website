@@ -45,7 +45,7 @@ function Report() {
                 alt="Scholar"
                 style={{ marginLeft: "-5px" }}
               />
-              educare's Report Module simplifies and streamlines report card
+              educare's Report platform simplifies and streamlines report card
               management by letting you create, customize, develop, and
               distribute report cards with great ease and accuracy.
             </p>

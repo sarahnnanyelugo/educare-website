@@ -5,6 +5,7 @@ import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+import { Link } from "react-router-dom";
 function Form(props) {
   const [value, setValue] = useState();
   const { bg, text, body } = props;
@@ -103,8 +104,15 @@ function Form(props) {
           }}
         >
           {" "}
-          I agree to the <strong>Terms of Service</strong> and
-          <strong> Privacy Policy.</strong>
+          I agree to the{" "}
+          <Link to={"/terms"}>
+            {" "}
+            <strong>Terms of Service</strong>
+          </Link>{" "}
+          and
+          <Link to={"/terms"}>
+            <strong> Privacy Policy.</strong>
+          </Link>
         </span>
         <div>
           {" "}

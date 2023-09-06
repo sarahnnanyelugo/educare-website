@@ -230,7 +230,7 @@ export const businessFeatures = {
   ],
 };
 export const schoolFeatures = {
-  headers: ["", "Basic", "e-Learning", "Premium", "Enterprise"],
+  headers: ["", "Standard", "Premium", "Enterprise"],
   data: [
     {
       id: 1,

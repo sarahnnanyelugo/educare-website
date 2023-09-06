@@ -10,19 +10,22 @@ const ReadMore = ({ children }) => {
     setIsReadMore(!isReadMore);
   };
   return (
-    <p className="text">
-      {isReadMore ? text.slice(0, 150) : text}
+    <>
+      <p className="text">
+        {isReadMore ? text.slice(0, 150) : text}
+        <br />
+        <br />
+        <Link onClick={toggleReadMore} className="read-more">
+          {isReadMore ? "Read more " : " Show less"}
+        </Link>
+      </p>
       <br />
-      <br />
-      <Link onClick={toggleReadMore} className="read-more">
-        {isReadMore ? "Read more " : " Show less"}
-      </Link>
-    </p>
+    </>
   );
 };
 
 function Stories({ data }) {
-  const { schImg, schLogo, storyTitle, storyParagraph, storyLink } = data;
+  const { schImg, schLogo, storyTitle, storyParagraph, testifier } = data;
   return (
     <div className=" col ">
       {" "}
@@ -37,6 +40,7 @@ function Stories({ data }) {
           {/* <Link className="read-more" to={storyLink}>
             Read more <img src={Arrow} alt="Scholar" width="10%" />
           </Link> */}
+          <h6>{testifier}</h6>
         </div>
       </div>
     </div>

@@ -41,7 +41,7 @@ function Logistics() {
           <p>
             Logistics and Distribution Enterprises around the world are
             massively elevating their financial managements with educare Finance
-            Module. This feature has provided them with the tools to
+            platform. This feature has provided them with the tools to
             effortlessly handle financial transactions, invoices, and payments
             specific to their distribution and logistics operations, thereby
             gainning full visibility into their financial data, tracking
@@ -50,11 +50,11 @@ function Logistics() {
           </p>
           <h2>Efficient Facility Management</h2>
           <p>
-            With educare Facility Management Module, Logistics and Distribution
+            With educare Facility Management platform, Logistics and Distribution
             Enterprises are enabled to track, monitor, and optimize their
             inventory, warehouses, and logistics facilities. From stock levels
             and storage locations to resource allocation and equipment
-            maintenance, our module now offeres real-time insights, empowering
+            maintenance, our platform now offeres real-time insights, empowering
             them to make informed decisions, improve operational efficiency, and
             reduce costs.
           </p>
@@ -83,7 +83,7 @@ function Logistics() {
             </p>
             <h1 className="col-md-10">Seamless Calendar Integration</h1>
             <p>
-              Using our smart Calendar Module, Logistics Businesses no longer
+              Using our smart Calendar platform, Logistics Businesses no longer
               see scheduling as a haculean task. With this feature, they are
               able to effortlessly schedule delivery routes, shipments, and
               transportation logistics. Moreso, they are harnessing the power of
@@ -96,9 +96,9 @@ function Logistics() {
       </div>
       <center>
         <div className="col-md-5  enhanced">
-          <h1 className="col-md-9"> Concise Daily Reporting Module </h1>
+          <h1 className="col-md-9"> Concise Daily Reporting platform </h1>
           <p>
-            With educare's Daily Reporting Module, productivity has reached new
+            With educare's Daily Reporting platform, productivity has reached new
             heights in Logistics Enterprise. This feature has empowered their
             staff to input their daily tasks with ease, ensuring accountability
             and streamlined work hours.
@@ -110,7 +110,7 @@ function Logistics() {
         <div className="col-md-4 offset-md-1">
           <h2>Get started with us</h2>
           <p>
-            Experience the power of our Distributions & Logistics module and
+            Experience the power of our Distributions & Logistics platform and
             unlock the true potential of your operations.
           </p>
         </div>

@@ -38,10 +38,10 @@ function Assignment() {
           </h1>
           <p className="col-md-11">
             Unlock the pathway to academic success with educare's Assignment
-            Module. Our powerful platform allows subject teachers to create and
-            manage assignments, while students can easily download, attempt, and
-            submit their work within set deadlines. Elevate your school's
-            learning experience with efficient assignment module that drives
+            platform. Our powerful platform allows subject teachers to create
+            and manage assignments, while students can easily download, attempt,
+            and submit their work within set deadlines. Elevate your school's
+            learning experience with efficient assignment platform that drives
             results.
           </p>
           <div className="flexy flexyM">
@@ -81,7 +81,7 @@ function Assignment() {
             <h2>Seamless Assignment Management</h2>
             <h6 style={{ color: "grey" }}>Embrace the Future of Learning</h6>
             <p className="col-md-8">
-              educare's Assignment Module stands as a pillar of academic
+              educare's Assignment platform stands as a pillar of academic
               excellence, empowering teachers to create impactful assignments
               while providing students with a seamless submission experience
             </p>
@@ -102,7 +102,7 @@ function Assignment() {
               <h4>Submission Management</h4>
               <p>
                 Students or team members can submit their completed assignments
-                through the software. The module provides various submission
+                through the software. The platform provides various submission
                 options, such as file uploads or text submissions.
               </p>
             </div>
@@ -112,9 +112,9 @@ function Assignment() {
               <h4>Elevate Learning Grading and Feedback</h4>
               <p>
                 Instructors or supervisors can review and grade assignments
-                directly within the software module. They can provide feedback,
-                comments, and assessment scores, and the system automatically
-                records the grades for each submission.
+                directly within the software platform. They can provide
+                feedback, comments, and assessment scores, and the system
+                automatically records the grades for each submission.
               </p>
             </div>
           </div>
@@ -148,9 +148,9 @@ function Assignment() {
               {" "}
               <h4>Stay On Track with Deadline and Reminders!</h4>
               <p>
-                The module sends automated reminders to students or team members
-                about upcoming assignment deadlines. These reminders help
-                individuals stay on track and submit their work on time,
+                The platform sends automated reminders to students or team
+                members about upcoming assignment deadlines. These reminders
+                help individuals stay on track and submit their work on time,
                 promoting accountability and time management.
               </p>
             </div>

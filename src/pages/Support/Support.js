@@ -6,6 +6,7 @@ import SupportImg from "../../assets/images/mic.png";
 
 import "./support.scss";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
+import { Link } from "react-router-dom";
 export default function Support() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Support() {
           <Heading text="Support" bg="#CEF0FF" color="#0098DA" boda="#CEF0FF" />
           <h1>educare Support</h1>
           <p>
-            Unlock your business potential with Oracle Support, empowering you
+            Unlock your business potential with educare support, empowering you
             to thrive in any environment, be it the cloud or on-premises.
             Experience unparalleled support that enables effective planning,
             faster adoption, and seamless innovation. educare is your partner in
@@ -113,32 +114,32 @@ export default function Support() {
       <h1 className="offset-md-1 mt ">Our Support Plans:</h1>
       <div className="col-md-10 offset-md-1 flexy support-plans mt1">
         <div className="col-md-4 plans  plans1">
-          <h4>Basic Support</h4>
+          <h4>Standard Support</h4>
           <p>
             Our entry-level support plan is designed to address general
-            inquiries and basic technical assistance. With Basic Support, you
+            inquiries and basic technical assistance. With Standard Support, you
             gain access to our extensive knowledge base, self-help resources,
             and online community forums, where you can connect with other users.
             Additionally, you’ll receive limited email support during standard
             business hours.
           </p>
-          <h6>Benefits of Basic Support include:</h6>
+          <h6>Benefits of Standard Support include:</h6>
           <p>
             — Access to knowledge base, self-help resources, and community
             forums <br />— Limited email support during standard business hours
           </p>
         </div>
         <div className="col-md-4 plans plans1">
-          <h4>Standard Support</h4>
+          <h4>Premium Support</h4>
           <p>
-            For a more comprehensive support experience, our Standard Support
+            For a more comprehensive support experience, our Premium Support
             plan offers faster response times and extended support hours. Enjoy
             the benefits of email and phone support from our expert team,
             ensuring that your critical issues receive prompt attention and
             resolution. You also gain access to software updates, patches, and
             service packs to keep your software up to date.
           </p>
-          <h6>Benefits of Standard Support include:</h6>
+          <h6>Benefits of Premium Support include:</h6>
           <p>
             — Email and phone support with faster response times <br /> —
             Extended support hours <br /> — Software updates, patches, and
@@ -146,9 +147,9 @@ export default function Support() {
           </p>
         </div>
         <div className="col-md-4 plans">
-          <h4>Premium Support</h4>
+          <h4>Enterprise Support</h4>
           <p>
-            Our Premium Support plan is tailored for businesses with
+            Our Enterprise Support plan is tailored for businesses with
             mission-critical software deployments. Experience the highest level
             of support with 24/7 access to our experienced support engineers.
             Benefit from faster response times, priority handling of your
@@ -157,7 +158,7 @@ export default function Support() {
             alerts for potential issues, along with regular software updates and
             upgrades.
           </p>
-          <h6>Benefits of Premium Support include:</h6>
+          <h6>Benefits of Enterprise Support include:</h6>
           <p>
             — 24/7 access to experienced support engineers
             <br /> — Faster response times and priority handling of support
@@ -186,11 +187,13 @@ export default function Support() {
               bgbtn="#0098DA"
               backdropbg="modal-backdrop-dark"
             />
-            <button className="demo">Request for demo</button>
+            <Link to={"/contact-us"}>
+              {" "}
+              <button className="demo">Request for demo</button>
+            </Link>
           </center>
         </div>
       </div>
-      <Prefooter textb="Embrace the power of seamless CBT and unlock your true potential today!”" />
     </>
   );
 }

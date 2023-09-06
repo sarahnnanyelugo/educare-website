@@ -40,7 +40,7 @@ export const columeOne = [
   },
   {
     title: "Calendar",
-    text: "Stay organized and on schedule with our intuitive calendar module.",
+    text: "Stay organized and on schedule with our intuitive calendar platform.",
     icon: Calendar,
     url: "/calendar",
   },
@@ -49,25 +49,25 @@ export const columeOne = [
 export const columeTwo = [
   {
     title: "Pastoral",
-    text: "Enhance your institution’s pastoral care with our innovative software module.",
+    text: "Improve your institution’s pastoral care with our innovative software platform.",
     icon: Pastoral,
     url: "/pastoral",
   },
   {
     title: " CBT",
-    text: "Revolutionize your testing process with our computer-based test module.",
+    text: "Revolutionize your testing process with our computer-based test platform.",
     icon: CBT,
     url: "/cbt",
   },
   {
     title: "eClassroom",
-    text: "Versatile software module designed to enhance virtual learning and collaboration within schools.",
+    text: "Versatile software platform designed to boost virtual learning and collaboration within schools.",
     icon: Eclassroom,
     url: "/e-classroom",
   },
   {
     title: "Wallet Manager",
-    text: "Take control of your finances with our intuitive wallet manager module.",
+    text: "Take control of your finances with our intuitive wallet manager platform.",
     icon: Wallet,
     url: "/wallet-manager",
   },
@@ -76,7 +76,7 @@ export const columeTwo = [
 export const columeThree = [
   {
     title: "Students Admission",
-    text: "Streamline admissions from inquiries to acceptance, enhancing efficiency and welcoming students with user-friendly, potent tools.",
+    text: "Streamline admissions from inquiries to acceptance, strengthen efficiency and welcoming students with user-friendly, potent tools.",
     icon: Admission,
     url: "/admission",
   },
@@ -88,13 +88,13 @@ export const columeThree = [
   },
   {
     title: "Medicals",
-    text: "Streamline medical operations with our innovative software module.",
+    text: "Streamline medical operations with our innovative software platform.",
     icon: Medicals,
     url: "/medicals",
   },
   {
     title: "Timetable",
-    text: "Organize schedules with ease using our intuitive timetable module.",
+    text: "Organize schedules with ease using our intuitive timetable platform.",
     icon: Timetable,
     url: "/timetable",
   },
@@ -103,25 +103,25 @@ export const columeThree = [
 export const columeFour = [
   {
     title: "Lesson Planner",
-    text: "Streamline and simplify your lesson planning process with our lesson planner..",
+    text: "Streamline and facilitat your lesson planning process with our lesson planner..",
     icon: Lesson,
     url: "/lesson-planner",
   },
   {
     title: " Library",
-    text: "Simplify your library management with our innovative software module.",
+    text: "Streamline your library management with our innovative software platform.",
     icon: Library,
     url: "/library",
   },
   {
     title: "Facility Management",
-    text: "Optimize your workforce with our staff management module..",
+    text: "Optimize your workforce with our staff management platform..",
     icon: Facility,
     url: "/facility-manager",
   },
   {
     title: "Weekly remarks",
-    text: "Effortlessly track performance with our weekly remarks module.",
+    text: "Effortlessly track performance with our weekly remarks platform.",
     icon: Remarks,
     url: "/weekly-remarks",
   },
@@ -130,7 +130,7 @@ export const columeFour = [
 export const columeFive = [
   {
     title: "Voting System",
-    text: "Securely manage and conduct elections with our powerful voting system module.",
+    text: "Securely manage and conduct elections with our powerful voting system platform.",
     icon: Voting,
     url: "/voting-system",
   },
@@ -177,7 +177,7 @@ export const columeSix = [
   },
   {
     title: "Calendar",
-    text: "Stay organized and on schedule with our intuitive calendar module.",
+    text: "Stay organized and on schedule with our intuitive calendar platform.",
     icon: Calendar,
     url: "/calendar",
   },
@@ -186,25 +186,25 @@ export const columeSix = [
 export const columeSeven = [
   {
     title: "MailBox",
-    text: "Simplify communication with our powerful mailbox",
+    text: "Ease communication with our powerful mailbox",
     icon: Mailbox,
     url: "/mailBox",
   },
   {
     title: "Medicals",
-    text: "Streamline medical operations with our innovative software module.",
+    text: "Streamline medical operations with our innovative software platform.",
     icon: Medicals,
     url: "/medicals",
   },
   {
     title: "Facility Management",
-    text: "Optimize your workforce with our staff management module..",
+    text: "Optimize your workforce with our staff management platform..",
     icon: Facility,
     url: "/facility-manager",
   },
   {
     title: "Weekly remarks",
-    text: "Effortlessly track performance with our weekly remarks module.",
+    text: "Effortlessly track performance with our weekly remarks platform.",
     icon: Remarks,
     url: "/weekly-remarks",
   },

@@ -9,14 +9,14 @@ function FinanceServices() {
       <div className="col-md-12 fs-container ">
         <center>
           <div className="col-md-5">
-            <h1>Financial Services</h1>
+            <h1>Financial institutions</h1>
 
             <p className="col-md-10">
-              educare has gained the trust of financial institutions. Thousands
-              of these establishments depend on educare ERP daily in
-              streamlining their operations, enhancing efficiency and in
-              delivering exceptional customer service. To Financial services
-              around the world, educare is tested and trusted.
+              educare has gained the trust of financial institutions. Financial
+              establishments depend on educare ERP daily in streamlining their
+              operations, enhancing efficiency and in delivering exceptional
+              customer service. To Financial institutions around the world,
+              educare is tested and trusted.
             </p>
             <GetStartedForm
               text=" Get started"
@@ -33,10 +33,10 @@ function FinanceServices() {
         <div className="col-md-4 mt">
           <h1>Insightful Reporting and Analysis</h1>
           <p className="col-md-11">
-            With educare insightful reports module, financial services are able
-            to generate detailed financial reports, balance sheets, and income
-            statements. They leverage our advanced analytics capabilities to
-            gain valuable insights into financial performance, track key
+            With educare insightful reports platform, financial institutions are
+            able to generate detailed financial reports, balance sheets, and
+            income statements. They leverage our advanced analytics capabilities
+            to gain valuable insights into financial performance, track key
             metrics, and identify areas for improvement. Moreso, they make
             data-driven decisions and provide clients with accurate and
             meaningful financial information.
@@ -46,8 +46,8 @@ function FinanceServices() {
         <div className="col-md-4 mt">
           <h1>Effortless Calendar Management</h1>
           <p className="col-md-11">
-            educare calendar module has successfully ensured that financial
-            services stay organized and never miss important financial
+            educare calendar platform has successfully ensured that financial
+            institutions stay organized and never miss important financial
             deadlines. Our intuitive Calendar feature allows them to schedule
             financial planning, meetings, tax deadlines, and payment reminders.
             In addition, it dutifully ensures timely compliance and assist
@@ -60,11 +60,11 @@ function FinanceServices() {
           <div className="col-md-4 fin-manage">
             <h2>Efficient Financial Management</h2>
             <p className="col-md-">
-              At educare, we have empowered financial services to easily take
-              charge of their finances by offering them complete financial
+              At educare, we have empowered financial institutions to easily
+              take charge of their finances by offering them complete financial
               management tools, budgeting options, and cost tracking features
-              using our Finance module. Financial services around the world
-              trust in educare operational tools.
+              using our Finance platform. Financial institutions around the
+              world trust in educare operational tools.
             </p>
           </div>
           <div className="col-md-8">

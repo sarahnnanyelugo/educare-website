@@ -18,7 +18,7 @@ function Consulting() {
               the educare advantage. From seamlessly managing finances,
               generating insightful reports to fostering effective
               collaboration, educare has revolutionized the entire workflow.
-              With our intuitive interface and robust features consultants have
+              With our intuitive interface and robust features, consultants have
               been empowered to take consulting services to new heights.
             </p>
             <GetStartedForm
@@ -77,7 +77,7 @@ function Consulting() {
             <p className="col-md-11">
               We have equally enabled consultants to provide progress updates
               and recommendations to clients through our Weekly Remarks feature.
-              With this powerful too, Consultants can share valuable insights,
+              With this powerful tool, Consultants can share valuable insights,
               project updates, and recommendations for enhanced project
               outcomes. This has fostered strong client relationships and
               delivered exceptional consulting services with regular progress
@@ -102,7 +102,7 @@ function Consulting() {
             <h1 className="col-md-10">Efficient Calendar Management</h1>
             <p className="col-md-11">
               Organizing work schedules and appointments have never had it
-              better. educare Calendar Module has redefined consulting
+              better. educare Calendar platform has redefined consulting
               engagements paving way to proper scheduling of client meetings,
               coordinated activities, seamless communication between consultants
               and clients and accurate tracking of project timelines.
@@ -118,7 +118,7 @@ function Consulting() {
               The need to take control of your finances in your business can
               never be over emphasized. This, educare has brought forward to
               Consulting Services around the world. Our smart, intuitive and
-              user-friendly finance module has empowered Consultants to manage
+              user-friendly finance platform has empowered Consultants to manage
               financial transactions, project billing, and client invoicing
               efficiently. This has successfully streamlined financial
               processes, and ensured prompt client invoicing, empowering

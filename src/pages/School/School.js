@@ -63,7 +63,7 @@ function School() {
           <p className="col-md-10">
             From invoicing to order management to accounting, educare has
             revolutionized schools finance management experience using educare
-            Finance module. This has propelled schools to gain insight into
+            Finance Platform. This has propelled schools to gain insight into
             their financial performance and make informed decisions.
           </p>
         </div>
@@ -78,7 +78,7 @@ function School() {
         <div className="col-md-6 offset-md-1">
           <h1 className="col-md-8 mt3">Complete HR Management</h1>
           <p className="col-md-10">
-            educare HR Module has empowered schools to effortlessly manage
+            educare HR platform has empowered schools to effortlessly manage
             employee records, attendance, and payroll for teachers and staff.
             This has streamlined administrative processes, maintaining accurate
             records, and ensuring timely payroll management.
@@ -108,7 +108,7 @@ function School() {
         <div className="col-md-5   offset-md-1">
           <h1 className="col-md-10 mt3">Insightful Academic Reporting</h1>
           <p className="col-md-9">
-            With our Reports Module, schools now gain valuable insights into
+            With our Reports platform, schools now gain valuable insights into
             student performance, track progress, and communicate academic
             achievements effectively.
           </p>

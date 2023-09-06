@@ -154,20 +154,20 @@ export const Footer = () => {
           </p>
           <ul className="list-unstyled list-inline ">
             <li className="list-inline-item">
-              <Link to="" className="links">
-                Terms
+              <Link to="/terms" className="links">
+                Terms of service
               </Link>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <Link to="" className="links">
                 Privacy
               </Link>
-            </li>
-            <li className="list-inline-item">
+            </li> */}
+            {/* <li className="list-inline-item">
               <Link to="" className="links">
                 Cookies
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

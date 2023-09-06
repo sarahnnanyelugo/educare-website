@@ -45,7 +45,7 @@ function HealthCare() {
             <h2>Streamlined Medical Records</h2>
             <p>
               Say goodbye to cumbersome paperwork and endless filing. Our
-              healthcare module enables healthcare professionals to securely
+              healthcare platform enables healthcare professionals to securely
               store and access patient records with just a few clicks. From
               medical history and test results to prescriptions and treatment
               plans, all information is conveniently organized and readily
@@ -112,7 +112,7 @@ function HealthCare() {
             <h2>Medical Reporting at Your Fingertips</h2>
             <p>
               Generating detailed medical reports has never been easier. Our
-              healthcare module equips healthcare providers with robust
+              healthcare platform equips healthcare providers with robust
               reporting tools, enabling the creation of comprehensive medical
               reports, documentation, and analytics. From patient progress
               reports to referral letters, our reporting feature ensures

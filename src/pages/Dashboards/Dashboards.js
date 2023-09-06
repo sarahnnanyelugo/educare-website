@@ -143,7 +143,7 @@ function Dashboards() {
             <h3>Submission of Assignments</h3>
             <p>
               Students can submit their completed assignments through the
-              software module, ensuring timely submissions.
+              software platform, ensuring timely submissions.
             </p>
           </div>
           <div className="col-md-8">

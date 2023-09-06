@@ -116,7 +116,7 @@ function Calendar() {
 
               <h4>Calendar Views</h4>
               <p>
-                The module provides various views to display events, including
+                The platform provides various views to display events, including
                 daily, weekly, monthly, and agenda views. These views allow
                 users to easily navigate and visualize their schedules.
               </p>

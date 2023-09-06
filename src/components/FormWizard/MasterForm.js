@@ -51,7 +51,7 @@ class MasterForm extends Component {
     if (currentStep !== 1) {
       return (
         <button className="prev-btn" type="button" onClick={this._prev}>
-          <i class="icofont-rounded-left"></i>
+          <i class="icofont-rounded-left"></i>Back
         </button>
       );
     }

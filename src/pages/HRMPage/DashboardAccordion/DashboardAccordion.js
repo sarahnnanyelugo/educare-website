@@ -95,7 +95,7 @@ const DashboardAccordion = () => {
                   <br /> powerful software solution. From goal setting and
                   appraisals
                   <br /> to feedback and development plans, our Performance
-                  <br /> Management module empowers you to drive employee
+                  <br /> Management platform empowers you to drive employee
                   <br /> engagement, productivity, and growth.
                 </p>
                 <ul className="list-unstyled col-md-">

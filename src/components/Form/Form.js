@@ -4,6 +4,7 @@ import { Password } from "./Password";
 import ShowAndHidePassword from "./Password";
 import { CountrySelect } from "./CountrySelect";
 import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+import { Link } from "react-router-dom";
 
 function Form(props) {
   const { bg, text, body } = props;
@@ -88,15 +89,15 @@ function Form(props) {
           }}
         >
           {" "}
-          I agree to the{" "}
+          I agree to educare{" "}
           <strong>
-            <a href="#">Terms of Service</a>
+            <Link to={"/terms"}>Terms of Service</Link>
           </strong>{" "}
-          and
+          {/* and
           <strong>
             {" "}
-            <a href="#">Privacy Policy</a>.
-          </strong>
+            <Link to={"/terms"}>Privacy Policy</Link>.
+          </strong> */}
         </span>
         <button className="overviewButton" style={{ backgroundColor: bg }}>
           {text}

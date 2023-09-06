@@ -121,7 +121,7 @@ function ReportTable() {
                   {" "}
                   <h5>Impactful Feedback</h5>
                   <p>
-                    educare's Report Module enables teachers to provide
+                    educare's Report platform enables teachers to provide
                     impactful feedback through Teachers' Remark. Personalized
                     comments and observations foster students' self-awareness
                     and motivate them to excel. Nurture a growth mindset with

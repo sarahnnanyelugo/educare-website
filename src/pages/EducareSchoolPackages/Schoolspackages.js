@@ -16,6 +16,7 @@ import { Partners } from "../../components/Partners/Partners";
 import Axios from "axios";
 import FAQAccordionBlue from "../../components/FAQAccordionBlue/FAQAccordionBlue";
 import { Link } from "react-router-dom";
+import FAQAccordionBlueTwo from "../../components/FAQAccordionBlueTwo/FAQAccordionBlue";
 
 function SchoolsPackages(props) {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -287,8 +288,9 @@ function SchoolsPackages(props) {
               <p>
                 Our Onboarding Experts have extensive experience working with
                 numerous businesses worldwide. They are available to assist you
-                with setting up your dashboard improving your team’s workflow,
-                and ensuring your company fully adopts the platform.
+                with setting up your business dashboard, improving your team’s
+                workflow, and ensuring your company fully adopts the platform
+                successfully.
                 {/* If you
                 prefer, you can also select a partner from our directory to
                 receive guidance on implementation, training, and integration. */}
@@ -297,11 +299,16 @@ function SchoolsPackages(props) {
           </center>
         </div>
       </div>
-      <div className="col-md-10 offset-md-1 flexy faq-container">
-        <div className="col-md-3">
-          <h1>FAQs</h1>
+      <div className="col-md-12 flexy faq-container">
+        <div className="col-md-5">
+          <FAQAccordionBlueTwo />
         </div>
-        <div className="col-md-9">
+        <div className="col-md-2 mtt" style={{ textAlign: "center" }}>
+          <center>
+            <h1>FAQs</h1>
+          </center>
+        </div>
+        <div className="col-md-5">
           <FAQAccordionBlue />
         </div>
       </div>

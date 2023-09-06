@@ -43,10 +43,10 @@ export const EducareForSchools = () => {
             />
 
             <h1 className="mt3">
-              Elevate Your School’s Efficiency with educare for school modules
+              Elevate Your School’s Efficiency with educare for school platforms
             </h1>
             <p>
-              educare apps for Schools is a comprehensive software module that
+              educare apps for Schools is a comprehensive software platform that
               empowers schools with advanced tools for efficient school
               management and administration. With this, schools can streamline
               their operations, optimize administrative processes, and enhance

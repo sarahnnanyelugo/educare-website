@@ -32,7 +32,7 @@ export const allProducts = [
   {
     productTitle: "Pastoral",
     productDetail:
-      "Enhance your institution’s pastoral care with our innovative software module.",
+      "Enhance your institution’s pastoral care with our innovative software platform.",
     productIcon: Pastoral,
     border: "solid 1px #ED2F59",
     bg: "#FCDCE3",
@@ -41,7 +41,7 @@ export const allProducts = [
   {
     productTitle: "Students Admission",
     productDetail:
-      "Transform your admissions process with our streamlined software module.",
+      "Transform your admissions process with our streamlined software platform.",
     productIcon: Admission,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
@@ -68,7 +68,7 @@ export const allProducts = [
   {
     productTitle: "CBT",
     productDetail:
-      "Revolutionize your testing process with our computer-based test module.",
+      "Revolutionize your testing process with our computer-based test platform.",
     productIcon: CBT,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
@@ -85,7 +85,7 @@ export const allProducts = [
   {
     productTitle: "Library",
     productDetail:
-      "Simplify your library management with our innovative software module.",
+      "Simplify your library management with our innovative software platform.",
     productIcon: Library,
     border: "solid 1px #ED2F59",
     bg: "#FCDCE380",
@@ -103,7 +103,7 @@ export const allProducts = [
   {
     productTitle: "eClassroom",
     productDetail:
-      "Revolutionize your testing process with our computer-based test module.",
+      "Revolutionize your testing process with our computer-based test platform.",
     productIcon: Eclassroom,
     border: "solid 1px #FF0089",
     bg: "#FFD5EB80",
@@ -112,7 +112,7 @@ export const allProducts = [
   {
     productTitle: "Medicals",
     productDetail:
-      "Streamline medical operations with our innovative software module.",
+      "Streamline medical operations with our innovative software platform.",
     productIcon: Medicals,
     border: "solid 1px #0B2FF7",
     bg: "#D6DCFE80",
@@ -120,7 +120,8 @@ export const allProducts = [
   },
   {
     productTitle: "Facility Management",
-    productDetail: "Optimize your workforce with our staff management module.",
+    productDetail:
+      "Optimize your workforce with our staff management platform.",
     productIcon: Facility,
     border: "solid 1px #0B2FF7",
     bg: "#D6DCFE80",
@@ -129,7 +130,7 @@ export const allProducts = [
   {
     productTitle: "Calendar",
     productDetail:
-      "Stay organized and on schedule with our intuitive calendar module.",
+      "Stay organized and on schedule with our intuitive calendar platform.",
     productIcon: Calendar,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",
@@ -138,7 +139,7 @@ export const allProducts = [
   {
     productTitle: "Wallet Manager",
     productDetail:
-      "Take control of your finances with our intuitive wallet manager module.",
+      "Take control of your finances with our intuitive wallet manager platform.",
     productIcon: Wallet,
     border: "solid 1px #11A377",
     bg: "#CDFAEC80",
@@ -147,7 +148,7 @@ export const allProducts = [
   {
     productTitle: "Timetable",
     productDetail:
-      "Organize schedules with ease using our intuitive timetable module.",
+      "Organize schedules with ease using our intuitive timetable platform.",
     productIcon: Timetable,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
@@ -156,7 +157,7 @@ export const allProducts = [
   {
     productTitle: "Weekly remarks",
     productDetail:
-      "Effortlessly track performance with our weekly remarks module.",
+      "Effortlessly track performance with our weekly remarks platform.",
     productIcon: Remarks,
     border: "solid 1px #C32BD6",
     bg: "#F5DCF880",
@@ -165,7 +166,7 @@ export const allProducts = [
   {
     productTitle: "Voting System",
     productDetail:
-      "Securely manage and conduct elections with our powerful voting system module.",
+      "Securely manage and conduct elections with our powerful voting system platform.",
     productIcon: Voting,
     border: "solid 1px #0098DA",
     bg: "#CEF0FF80",

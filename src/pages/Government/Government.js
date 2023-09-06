@@ -16,11 +16,11 @@ function Government() {
 
             <p className="col-md-10">
               In public service and governance, efficiency, transparency, and
-              precision are paramount, and educare emerges as a transformative
-              solution tailored to meet the unique needs of government entities.
-              With our versatile software suite, we have gained trust of
-              numerouse governments across the various states in the country and
-              therefore has empowered them to navigate their multifaceted
+              precision are paramount. educare is a transformative solution
+              tailored to meet the unique needs of government entities. With our
+              versatile software suite, we have gained trust of numerous
+              government institutions across the various states in Nigeria and
+              beyond. It has empowered them to navigate their multifaceted
               responsibilities with finesse and ease.
             </p>
             <GetStartedForm
@@ -37,7 +37,7 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10">Streamlined HR Management</h1>
           <p className="col-md-10">
-            With our HRM module, government agencies now optimize staffing and
+            With our HRM platform, government agencies now optimize staffing and
             workforce management, ensuring that qualified personnel are
             strategically assigned to critical tasks that serve the public
             interest.
@@ -64,8 +64,9 @@ function Government() {
         <div className="col-md-5 ">
           <h1 className="col-md-10 mt3">No hiccups with your finances</h1>
           <p className="col-md-10">
-            Through our Finance module, governments can manage budgets, allocate
-            resources wisely, and maintain accountability to taxpayers.
+            Through our Finance platform, governments can manage budgets,
+            allocate resources efficiently, and maintain accountability to
+            taxpayers.
           </p>
         </div>
         <div className="col-md-6 offset-md-1 govt-map">
@@ -90,7 +91,7 @@ function Government() {
           <h1 className="col-md-10">Efficient Calendar Management</h1>
           <p className="col-md-10">
             The government agencies have also been empowered with educare
-            Calendar Module which ensures organized scheduling for public
+            Calendar platform which ensures organized scheduling for public
             events, meetings, and citizen engagements.
           </p>
         </div>

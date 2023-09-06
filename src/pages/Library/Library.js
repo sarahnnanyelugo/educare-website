@@ -179,7 +179,7 @@ function Library() {
           <div className="col try">
             <LibFeatures
               title="Book Management & Tracking"
-              paragraph="educare Library Module enhances book management with unique barcodes for both digital and physical books. These barcodes enable seamless tracking, ensuring book organization and safe keeping."
+              paragraph="educare Library platform enhances book management with unique barcodes for both digital and physical books. These barcodes enable seamless tracking, ensuring book organization and safe keeping."
               icon={User}
               subtitle="Facilitate Efficient Book Tracking!"
             />
@@ -215,7 +215,7 @@ function Library() {
             <h3>Pricing plans start at just ₦400/month</h3>
             <p className="paragraph">
               Select from a range of plans and supplementary features. You will
-              not be charged until you are prepared to use our Library Module.
+              not be charged until you are prepared to use our Library platform.
             </p>
           </div>
         </div>

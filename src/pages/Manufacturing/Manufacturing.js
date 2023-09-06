@@ -33,7 +33,7 @@ function Manufacturing() {
         <div className="col-md-4 manu-divs">
           <h1>Efficient Facility Management</h1>
           <p>
-            With our Facility Management Module, we have taken the production
+            With our Facility Management platform, we have taken the production
             industry to a whole new level where equipments are properly managed
             and maintained. We have successfully Streamlined facility
             operations, track equipment maintenance schedules, and allocate
@@ -50,7 +50,7 @@ function Manufacturing() {
             <p className="col-md-11">
               At educare we have handed manufacturing parastatals the ablity to
               take control of their financial processes with ease. This we
-              achieved through our Finance module equiped to handle financial
+              achieved through our Finance platform equiped to handle financial
               transactions, budgeting, and cost management.
             </p>
           </div>
@@ -71,8 +71,8 @@ function Manufacturing() {
           <div className="col-md-5 mtt">
             <h1>Streamlined Production Scheduling</h1>
             <p className="col-md-11">
-              With educare calendar module, manufacturing companies are able to
-              efficiently schedule production processes, machine maintenance,
+              With educare calendar platform, manufacturing companies are able
+              to efficiently schedule production processes, machine maintenance,
               and work shifts. With this feature, they seamlessly plan and
               manage production timelines, allocate resources, streamline
               workflows, optimize production capacity, meet customer demands,
@@ -82,7 +82,7 @@ function Manufacturing() {
           <div className="col-md-5 offset-md-2 mtt">
             <h1 className="col-md-11">Professional HR Management</h1>
             <p className="col-md-11">
-              With our HRM module, factories are able to optimize workforce
+              With our HRM platform, factories are able to optimize workforce
               management, ensuring skilled staff are allocated appropriately for
               seamless production cycles.
             </p>

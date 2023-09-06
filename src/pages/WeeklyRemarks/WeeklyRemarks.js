@@ -99,7 +99,7 @@ function WeeklyRemarks() {
               <h3>Master Tasks </h3>
               <p>
                 Take control of your to-do list with educare's Weekly Remarks
-                Module. Effortlessly manage tasks, set priorities, and stay
+                platform. Effortlessly manage tasks, set priorities, and stay
                 organized throughout the week. Empower your productivity and
                 witness unparalleled efficiency in achieving your goals.
               </p>
@@ -110,7 +110,7 @@ function WeeklyRemarks() {
             <center>
               <h3>Stress-Free Zone</h3>
               <p>
-                Bid farewell to stress with educare's Weekly Remarks Module.
+                Bid farewell to stress with educare's Weekly Remarks platform.
                 Stay organized, prioritize tasks, and manage your time
                 effectively. Experience reduced anxiety as you navigate your
                 week with clarity and confidence.
@@ -159,8 +159,8 @@ function WeeklyRemarks() {
               <h3>Unleash Growth: Reflect and Evolve</h3>
               <p>
                 Embrace the power of reflection with educare's Weekly Remarks
-                Module. Look back on your week's accomplishments and challenges,
-                and use these insights to grow and evolve.
+                platform. Look back on your week's accomplishments and
+                challenges, and use these insights to grow and evolve.
               </p>
             </center>
           </div>

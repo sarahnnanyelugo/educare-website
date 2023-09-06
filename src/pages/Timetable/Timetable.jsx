@@ -95,7 +95,7 @@ function Timetable() {
               <TimetableFeatures
                 icon={Customize}
                 title="Customizable schedules"
-                paragraph="With educare's Timetable Module, take charge of your school's schedule like never before. Enjoy the freedom of creating customizable schedules that perfectly align with your unique needs and preferences. "
+                paragraph="With educare's Timetable platform, take charge of your school's schedule like never before. Enjoy the freedom of creating customizable schedules that perfectly align with your unique needs and preferences. "
               />
             </div>
           </div>
@@ -120,7 +120,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Notification}
               title="Never Miss a Moment"
-              paragraph="With educare's Timetable Module, staying organized is effortless. Our built-in notification system keeps you informed of important events, deadlines, and schedule changes. Receive timely reminders, ensuring you and your team are always prepared and  focused."
+              paragraph="With educare's Timetable platform, staying organized is effortless. Our built-in notification system keeps you informed of important events, deadlines, and schedule changes. Receive timely reminders, ensuring you and your team are always prepared and  focused."
             />
           </div>
         </div>{" "}
@@ -129,7 +129,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Sync}
               title="Sync Across Devices!"
-              paragraph="Stay ahead of the curve with educare's Timetable Module, offering seamless syncing across all your devices. Your schedule is just a tap away, whether you're on a desktop, tablet, or smartphone. Embrace the freedom of mobility, ensuring you never miss a beat in your daily planning."
+              paragraph="Stay ahead of the curve with educare's Timetable platform, offering seamless syncing across all your devices. Your schedule is just a tap away, whether you're on a desktop, tablet, or smartphone. Embrace the freedom of mobility, ensuring you never miss a beat in your daily planning."
             />
           </div>
         </div>
@@ -157,7 +157,7 @@ function Timetable() {
             <TimetableFeatures
               icon={Conflict}
               title="Conflict-Free Efficiency"
-              paragraph="Smoothly navigate through scheduling challenges with educare's Conflict Detection. Our intelligent module proactively identifies overlaps, clashes, and conflicts, saving you precious time and sparing you from scheduling headaches. Embrace seamless efficiency with a timetable that flows effortlessly."
+              paragraph="Smoothly navigate through scheduling challenges with educare's Conflict Detection. Our intelligent platform proactively identifies overlaps, clashes, and conflicts, saving you precious time and sparing you from scheduling headaches. Embrace seamless efficiency with a timetable that flows effortlessly."
             />
           </div>
         </div>

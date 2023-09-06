@@ -73,7 +73,7 @@ function MailPage() {
       <center>
         <div className="col-md-6 mt3 ">
           <p>
-            educare's mailbox module stands as the paragon of privacy and
+            educare's mailbox platform stands as the paragon of privacy and
             security, where data ownership, encryption, and user consent reign
             supreme.
           </p>
@@ -84,7 +84,7 @@ function MailPage() {
           <div className="col-md-10">
             <ThreeItemComponent
               title="Empower Your Data Sovereignty"
-              paragraph="With educare's mailbox module, you are the true owner of your data. We believe in empowering users with complete control over their information, ensuring that your valuable data remains in your hands at all times. Embrace the freedom to access, manage, and delete your data as you see fit, making educare the guardian of your digital sovereignty."
+              paragraph="With educare's mailbox platform, you are the true owner of your data. We believe in empowering users with complete control over their information, ensuring that your valuable data remains in your hands at all times. Embrace the freedom to access, manage, and delete your data as you see fit, making educare the guardian of your digital sovereignty."
               icon={Key}
             />
           </div>
@@ -93,7 +93,7 @@ function MailPage() {
           <div className="col-md-10">
             <ThreeItemComponent
               title="Fortress of Encryption"
-              paragraph="Privacy is not just a promise; it's a guarantee with educare's mailbox module. Every communication and piece of information transmitted through our platform is fortified with state-of-the-art encryption technology. Feel confident knowing that your messages and data are protected from prying eyes, ensuring a fortress of privacy that stands unyielding against any threat."
+              paragraph="Privacy is not just a promise; it's a guarantee with educare's mailbox platform. Every communication and piece of information transmitted through our platform is fortified with state-of-the-art encryption technology. Feel confident knowing that your messages and data are protected from prying eyes, ensuring a fortress of privacy that stands unyielding against any threat."
               icon={Key}
             />
           </div>
@@ -102,7 +102,7 @@ function MailPage() {
           <div className="col-md-10">
             <ThreeItemComponent
               title="Transparency in Every Byte"
-              paragraph="At educare, we believe in transparent practices that build trust. Our mailbox module comes with crystal-clear privacy policies, leaving no room for ambiguity. You deserve to know how your data is handled, and we proudly uphold our commitment to openness, so you can use our platform with peace of mind."
+              paragraph="At educare, we believe in transparent practices that build trust. Our mailbox platform comes with crystal-clear privacy policies, leaving no room for ambiguity. You deserve to know how your data is handled, and we proudly uphold our commitment to openness, so you can use our platform with peace of mind."
               icon={Padlock}
             />
           </div>
@@ -113,7 +113,7 @@ function MailPage() {
           <div className="col-md-11">
             <ThreeItemComponent
               title="Shielded by Ironclad Security"
-              paragraph="With educare, security is not just a feature; it's the foundation of our platform. Our mailbox module operates on a secure infrastructure, equipped with robust defenses against cyber threats. From top-notch firewalls to continuous monitoring, we leave no stone unturned in safeguarding your data and ensuring uninterrupted service."
+              paragraph="With educare, security is not just a feature; it's the foundation of our platform. Our mailbox platform operates on a secure infrastructure, equipped with robust defenses against cyber threats. From top-notch firewalls to continuous monitoring, we leave no stone unturned in safeguarding your data and ensuring uninterrupted service."
               icon={Tick}
             />
           </div>
@@ -122,7 +122,7 @@ function MailPage() {
           <div className="col-md-11">
             <ThreeItemComponent
               title="Embrace the Freedom of User Control and Consent!"
-              paragraph="At educare, your choices matter. Our mailbox module puts you in the driver's seat, allowing you to control your data and communications with ease. With user-centric features, you decide who can access your information, ensuring that consent is at the heart of every interaction. Feel empowered and protected on your digital journey with educare."
+              paragraph="At educare, your choices matter. Our mailbox platform puts you in the driver's seat, allowing you to control your data and communications with ease. With user-centric features, you decide who can access your information, ensuring that consent is at the heart of every interaction. Feel empowered and protected on your digital journey with educare."
               icon={Person}
             />
           </div>

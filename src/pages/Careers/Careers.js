@@ -152,7 +152,7 @@ function Careers() {
           </div>
         </div>
       </div>
-      {/* <center>
+      <center>
         <div className="col-md-5 mt5">
           <h1>Opportunities to explore</h1>
           <img
@@ -163,8 +163,8 @@ function Careers() {
           />
         </div>
         <h1>No opportunities right now</h1>
-      </center> */}
-      <div id="roles" />
+      </center>
+      {/* <div id="roles" />
       <div className="col-md-12  ">
         <center>
           <h1>Opportunities to explore</h1>
@@ -176,20 +176,14 @@ function Careers() {
             ))}
           </section>
         </div>
-      </div>
+      </div> */}
 
       <div className="col-md-10 offset-md-1 cv-div mtt">
         <center>
           <div className="col-md-7">
             <h1>Can’t find what you’re looking for?</h1>
             <p>Send a mail to us and drop your CV</p>
-            {/* <GetStartedForm
-              text="Send a mail"
-              bg="#0098DA"
-              cls="gsmsp"
-              bgbtn="#0098DA"
-              backdropbg="modal-backdrop-dark"
-            /> */}
+
             <a
               href="mailto:educare.school@gmail.com"
               className="job-btn {

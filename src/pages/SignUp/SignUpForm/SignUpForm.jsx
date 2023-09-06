@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { FacebookButton } from "../../../components/FacebookButton/FacebookButton";
 import { Password } from "../../../components/Form/Password";
 import { GoogleButton } from "../../../components/GoogleButton/GoogleButton";
@@ -61,15 +62,15 @@ function SignUpForm(props) {
           }}
         >
           {" "}
-          I agree to the{" "}
+          I agree to educare{" "}
           <strong>
-            <a href="#">Terms of Service</a>
+            <Link to={"/terms"}>Terms of Service</Link>
           </strong>{" "}
-          and
+          {/* and
           <strong>
             {" "}
             <a href="#">Privacy Policy</a>.
-          </strong>
+          </strong> */}
         </span>
         <button className="continueButton" style={{ backgroundColor: bg }}>
           Continue

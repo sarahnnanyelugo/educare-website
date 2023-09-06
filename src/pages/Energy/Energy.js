@@ -38,7 +38,7 @@ function Energy() {
           <div className="col-md-5 ">
             <h1 className="col-md-10 mt7"> We easily manage your finances</h1>
             <p className="col-md-10">
-              The Finance module simplifies financial tracking, enabling
+              The Finance platform simplifies financial tracking, enabling
               accurate budgeting and expense management, essential in the highly
               regulated energy sector.
             </p>
@@ -57,7 +57,7 @@ function Energy() {
             We ensure Smoother facility management
           </h1>
           <p className="col-md-10">
-            Our Facility Management module aids in maintaining and optimizing
+            Our Facility Management platform aids in maintaining and optimizing
             the vast infrastructure that powers communities, ensuring smooth
             operations and minimizing downtime.
           </p>
@@ -67,7 +67,7 @@ function Energy() {
         <div className="col-md-5 mt">
           <h1 className="col-md-10 mt7">Be on time for activities</h1>
           <p className="col-md-11">
-            Our Calendar module keeps teams synchronized and organized, vital
+            Our Calendar platform keeps teams synchronized and organized, vital
             for time-sensitive tasks such as maintenance scheduling and outage
             management.
           </p>
