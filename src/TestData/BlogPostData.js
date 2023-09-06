@@ -69,3 +69,4 @@ export const blogPostColOne = [
   //   date: "2020-12-03T12:00:00",
   // },
 ];
+export const tags = ["schools", "aew", "roh", "impact"];

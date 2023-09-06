@@ -1,7 +1,7 @@
 import React from "react";
 import GetStartedForm from "../../components/GetStartedForm/GetStartedForm";
 import "./manufacturing.scss";
-import Img from "../../assets/images/manufacturing.png";
+import Img from "../../assets/images/facility-manage.png";
 
 function Manufacturing() {
   return (
@@ -89,9 +89,7 @@ function Manufacturing() {
           </div>
         </div>
       </div>
-      <center>
-        <div className="col-md-8 unknown"></div>
-      </center>
+      <center>{/* <div className="col-md-8 unknown"></div> */}</center>
       <div className="col-md-10 offset-md-1 report-get-started flexy">
         <div className="col-md-5 offset-md-1">
           <h2>Get started with us</h2>

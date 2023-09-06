@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./blog.scss";
-import { blogPostColOne, focusedBlogData } from "../../TestData";
+import { blogPostColOne, focusedBlogData, tags } from "../../TestData";
 import MiniBlog from "./BlogPost/MiniBlog";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
@@ -9,7 +9,7 @@ import { FilterDrop } from "../../components/Filter/FilterDrop";
 import { Heading } from "../../components/Heading/Heading";
 import FocusedBlog from "./BlogPost/FocusedBlog";
 
-function Blog() {
+function Blog({ data }) {
   const [activeIndex, setActiveIndex2] = useState(1);
   const handleClick2 = (index) => setActiveIndex2(index);
   const checkActive = (index, className) =>
@@ -49,7 +49,7 @@ function Blog() {
       <div className="blog-tab">
         <div className="col-md-10 offset-md-1  ">
           {" "}
-          <div className="tabs blog-options">
+          <div className="tabs ">
             <button
               className={`tab ${checkActive2(1, "active2")}`}
               onClick={() => handleClick2(1)}
@@ -74,10 +74,18 @@ function Blog() {
         </div>
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="col-md-10 offset-md-1 ">
-              <div className="bold-heading">
+            <div className="col-md-10 offset-md-1 flexy flexyM">
+              <div className="bold-heading ">
                 {" "}
                 <h2>Schools</h2>
+              </div>
+              <div className="col-md-2 tags-div ">
+                <h6>Tags:</h6>
+                <center>
+                  {tags.map((data, index) => (
+                    <a href="#">{tags}</a>
+                  ))}
+                </center>
               </div>
             </div>
             <div className="col-md-10 offset-md-1  mt">
@@ -101,8 +109,20 @@ function Blog() {
             <br />
             <br />
           </div>
-          <div className={`panel ${checkActive(2, "active2")}`}>2</div>
-          <div className={`panel ${checkActive(3, "active2")}`}>3</div>
+          <div className={`panel ${checkActive(2, "active2")}`}>
+            {" "}
+            <div className="bold-heading offset-md-1">
+              {" "}
+              <h2>Businesses</h2>
+            </div>
+          </div>
+          <div className={`panel ${checkActive(3, "active2")}`}>
+            {" "}
+            <div className="bold-heading offset-md-1">
+              {" "}
+              <h2>News & Events</h2>
+            </div>
+          </div>
         </div>
       </div>
     </>

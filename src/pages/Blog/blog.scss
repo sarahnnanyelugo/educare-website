@@ -68,6 +68,16 @@
     display: block;
   }
 }
-.blog-options {
-  // border-bottom: solid 1px red;
+.bold-heading {
+  flex-grow: 1;
+}
+.tags-div {
+  a {
+    border: solid 1px #cecfd0;
+    border-radius: 35px;
+    font-size: 8px;
+    background: #e7e7e7;
+    color: #161617;
+    padding: 4px 14px !important;
+  }
 }
