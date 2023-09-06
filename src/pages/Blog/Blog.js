@@ -47,27 +47,30 @@ function Blog() {
         </div>
       </div>
       <div className="blog-tab">
-        <div className="tabs offset-md-1">
-          <button
-            className={`tab ${checkActive2(1, "active2")}`}
-            onClick={() => handleClick2(1)}
-          >
-            Schools
-          </button>
-          <button
-            className={`tab ${checkActive2(2, "active2")}`}
-            onClick={() => handleClick2(2)}
-            style={{ marginLeft: "20px" }}
-          >
-            Businesses
-          </button>{" "}
-          <button
-            className={`tab ${checkActive2(3, "active2")}`}
-            onClick={() => handleClick2(3)}
-            style={{ marginLeft: "20px" }}
-          >
-            News & Events
-          </button>
+        <div className="col-md-10 offset-md-1  ">
+          {" "}
+          <div className="tabs blog-options">
+            <button
+              className={`tab ${checkActive2(1, "active2")}`}
+              onClick={() => handleClick2(1)}
+            >
+              Schools
+            </button>
+            <button
+              className={`tab ${checkActive2(2, "active2")}`}
+              onClick={() => handleClick2(2)}
+              style={{ marginLeft: "20px" }}
+            >
+              Businesses
+            </button>{" "}
+            <button
+              className={`tab ${checkActive2(3, "active2")}`}
+              onClick={() => handleClick2(3)}
+              style={{ marginLeft: "20px" }}
+            >
+              News & Events
+            </button>
+          </div>
         </div>
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
