@@ -6,6 +6,7 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 
 import { Link } from "react-router-dom";
 import { FilterDrop } from "../../components/Filter/FilterDrop";
+import { Heading } from "../../components/Heading/Heading";
 
 function Blog() {
   const [state, setState] = useState({
@@ -17,24 +18,27 @@ function Blog() {
   }
   return (
     <>
-      <div className="col-md-12 blog-container">
-        <center>
-          <p> Our Blog</p>
-          <h1>Resources and Insights</h1>
-          <p>
-            The latest news, interviews, technologies, and resources on educare.
-          </p>
-        </center>
-      </div>
-      <div className="flexy offset-md-1 flexyM mt9 col-md-10">
-        <div className="col-md-12 col-6">
-          <div className="col-md-12">
+      <div style={{ height: "80px" }} />
+      <div className="col-md-12  blog-container">
+        <div className="offset-md-1">
+          <Heading text=" Blog" bg="#CEF0FE" boda="#CEF0FE" color="#0098DA" />
+        </div>
+        <div className="col-md-10 offset-md-1 flexy flexyM">
+          <div className="blog-heading">
+            <h1>Latest Posts</h1>
+          </div>
+          <div className="col-md-3">
             {" "}
             <SearchBar callback={reducer} posts={blogPostColOne} />
           </div>
         </div>
       </div>
-
+      <div className="col-md-10 offset-md-1 ">
+        <div className="bold-heading">
+          {" "}
+          <h2>Schools</h2>
+        </div>
+      </div>
       <div className="col-md-10 offset-md-1  mt">
         <div className="row ">
           {state.list.map((data, index) => (

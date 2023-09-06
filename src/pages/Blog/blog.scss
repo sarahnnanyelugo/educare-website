@@ -1,9 +1,16 @@
 .blog-container {
-  padding: 150px 0;
-  background: #005b83;
-  color: #fff;
+  padding: 100px 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 1%,
+    rgba(245, 252, 254, 1) 37%
+  );
   h1 {
-    font-size: 60px;
-    margin: 40px 0;
+    // margin: 40px 0;
+    color: #000;
   }
+}
+.blog-heading {
+  flex-grow: 1;
 }

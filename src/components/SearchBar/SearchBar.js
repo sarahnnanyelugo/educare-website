@@ -70,7 +70,7 @@ function SearchBar({ callback, posts }) {
   return (
     <>
       <form action="" className="flexy col-md-12">
-        <div className="search-div col-md-3">
+        <div className="search-div col-md-12">
           <div className="search-bar  ">
             {" "}
             <input
@@ -84,7 +84,7 @@ function SearchBar({ callback, posts }) {
             <button class="search-btn" type="submit"></button>
           </div>
         </div>
-        <div className="col-md-6">&nbsp;</div>
+        {/* <div className="col-md-6">&nbsp;</div>
         <div className="col-md-3 sort-container flexy flexyM">
           <img className="filter-arrow" src={Arrow} alt="Scholar" />{" "}
           <select
@@ -97,7 +97,7 @@ function SearchBar({ callback, posts }) {
             <option value="ascending">Newest first</option>
             <option value="descending">Oldest first</option>
           </select>
-        </div>
+        </div> */}
       </form>
       <ul>{state.list.length === 0 && <h3>Empty List !!!</h3>}</ul>
     </>
