@@ -12,7 +12,7 @@ const FocusedBlog = ({ data }) => {
       <div className="col-md-12 flexy focused-blog-div">
         <div className="col-md-6">
           {" "}
-          <img className="aisa" src={data.img} alt="Scholar" width="95%" />
+          <img className="main-img" src={data.img} alt="Scholar" />
         </div>
         <div className="col-md-6">
           <div className="col-md-11">

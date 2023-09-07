@@ -1,10 +1,10 @@
 .blog-container {
-  padding: 100px 0 150px 0;
-  background: rgb(255, 255, 255);
+  padding: 100px 0;
+  background: rgb(227, 244, 251);
   background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 17%,
-    rgba(245, 252, 254, 1) 49%
+    180deg,
+    rgba(227, 244, 251, 1) 23%,
+    rgba(255, 255, 255, 1) 83%
   );
   h1 {
     // margin: 40px 0;
@@ -18,10 +18,10 @@
   .tabs {
     display: flex;
     width: 100%;
-    border-top: solid 1px #e7e7e7;
-    border-bottom: solid 1px #e7e7e7;
-    padding: 40px 3px 8px 3px;
-    margin-top: -120px;
+    border-radius: 15px;
+    border: solid 1px #e7e7e7;
+    padding: 20px 3px 20px 3px;
+    // margin-top: -120px;
     // background: #fcfeff;
     font-family: rebondG-Bold;
     @media screen and (max-width: 620px) {
@@ -39,12 +39,11 @@
   }
 
   .tab {
-    width: 10%;
-    background: transparent;
-    padding: 5px 0;
+    width: 20%;
+    background: #f3f3f3;
+    padding: 15px 0;
     border: none;
-    color: grey;
-    // border-radius: 35px !important;
+    border-radius: 15px !important;
     font-size: 16px;
     @media screen and (max-width: 620px) {
       width: 100%;
@@ -53,7 +52,8 @@
 
   button.active2 {
     font-weight: bold;
-    color: #0098da;
+    background-color: #0098da;
+    color: #fff;
   }
 
   .panel {

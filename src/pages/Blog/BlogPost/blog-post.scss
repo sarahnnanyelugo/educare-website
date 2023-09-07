@@ -1,9 +1,16 @@
 @import "../../../variables";
 @import "../../../shared-styles";
 .blog-post-container {
+  border: solid 1px #0098da;
+  border-radius: 20px;
   margin-top: 30px;
+
+  padding: 0;
+  &:hover {
+    border: solid 1px #161617;
+  }
   h5 {
-    margin: 40px 0;
+    margin: 0px 0;
   }
   p {
     color: #57585a;
@@ -51,6 +58,20 @@
   display: flex;
 }
 .focused-blog-div {
+  border: solid 1px #e7e7e7;
+  padding: 20px;
+  height: 400px;
+  box-shadow: 0 0 2px 2px #e7e7e7;
+  border-radius: 30px;
+  margin-left: 60px;
+  &:hover {
+    box-shadow: none;
+  }
+  .main-img {
+    height: 340px;
+    width: 450px;
+    margin-left: 30px;
+  }
   h5 {
     margin-top: 20px;
   }
@@ -70,4 +91,16 @@
   &:hover {
     text-decoration: underline;
   }
+}
+.blog-post-container-inner {
+  padding: 20px;
+  height: 400px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #0098da0d;
+  &:hover {
+    background: #0098da33;
+  }
+}
+.blog-post-container-inner:hover .blog-post-container {
 }

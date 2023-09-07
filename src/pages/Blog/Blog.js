@@ -33,25 +33,31 @@ function Blog({ data }) {
     <>
       <div style={{ height: "80px" }} />
       <div className="col-md-12  blog-container">
-        <div className="offset-md-1">
-          <Heading text=" Blog" bg="#CEF0FE" boda="#CEF0FE" color="#0098DA" />
-        </div>
-        <div className="col-md-10 offset-md-1 flexy flexyM">
-          <div className="blog-heading">
-            <h1>Latest Posts</h1>
-          </div>
-          <div className="col-md-3">
+        <div className="col-md-10 offset-md-1">
+          <center>
+            <Heading text=" Blog" bg="#CEF0FE" boda="#CEF0FE" color="#0098DA" />
+            <div className="blog-heading col-md-5">
+              <h1>Welcome to educare blog</h1>
+              <p>
+                Explore our extensive collection of blog articles covering
+                various facets of education. We delve into topics such as
+                effective strategies, valuable insights, advancements in
+                educational technology, and much more.
+              </p>
+            </div>
+          </center>
+          {/* <div className="col-md-3">
             {" "}
             <SearchBar callback={reducer} posts={blogPostColOne} />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="blog-tab">
-        <div className="col-md-10 offset-md-1  ">
+        <div className="col-md-8 offset-md-2  ">
           {" "}
           <div className="tabs ">
             <button
-              className={`tab ${checkActive2(1, "active2")}`}
+              className={`tab offset-md-2 ${checkActive2(1, "active2")}`}
               onClick={() => handleClick2(1)}
             >
               Schools
@@ -74,27 +80,15 @@ function Blog({ data }) {
         </div>
         <div className="panels">
           <div className={`panel ${checkActive(1, "active2")}`}>
-            <div className="col-md-10 offset-md-1 flexy flexyM">
-              <div className="bold-heading ">
-                {" "}
-                <h2>Schools</h2>
-              </div>
-              <div className="col-md-2 tags-div ">
-                <h6>Tags:</h6>
-                {/*              
-                  {tags.map((data, index) => (
-                    <a href="#">{tags}</a>
-                  ))} */}
-              </div>
-            </div>
-            <div className="col-md-10 offset-md-1  mt">
+            <div className="col-md-10  flexy flexyM"></div>
+            <div className="col-md-9 offset-md-1 ">
               <div className="row ">
                 {state2.list2.map((data, index) => (
                   <FocusedBlog data={data} />
                 ))}
               </div>
             </div>
-            <div className="col-md-10 offset-md-1  mt">
+            <div className="col-md-10 offset-md-1  mt ">
               <div className="row ">
                 {state.list.map((data, index) => (
                   <MiniBlog data={data} />
