@@ -1,8 +1,8 @@
-import Img2 from "../assets/images/little-girl.png";
-import Img1 from "../assets/images/blog-img1.png";
-import Img3 from "../assets/images/lms.png";
-import Img4 from "../assets/images/teachers-guide.png";
-import Img5 from "../assets/images/blog-dashboard2.png";
+import Img2 from "../assets/images/edu-trends.png";
+import Img1 from "../assets/images/blog-hr.png";
+import Img3 from "../assets/images/edu-trends.png";
+import Img4 from "../assets/images/comput.png";
+import Img5 from "../assets/images/edu-lms.png";
 import Img7 from "../assets/images/edu-trends.png";
 import Img6 from "../assets/images/office-view.png";
 
