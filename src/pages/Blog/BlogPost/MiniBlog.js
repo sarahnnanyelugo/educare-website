@@ -21,10 +21,10 @@ function MiniBlog({ data }) {
             <p>{data.paragraph}</p>
 
             <div className="flexy">
-              <img className="2 " src={Arrow} alt="Scholar" width="10%" />
+              <img className="bloger-img " src={data.blogerImg} alt="Scholar" />
               <div>
                 <h6>{data.blogger}</h6>
-                <p>{data.bloggerTitle}</p>
+                <p className="bloger">{data.bloggerTitle}</p>
               </div>
             </div>
             {/* <div className="flexy flexyM">
