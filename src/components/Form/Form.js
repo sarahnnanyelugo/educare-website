@@ -93,11 +93,11 @@ function Form(props) {
           <strong>
             <Link to={"/terms"}>Terms of Service</Link>
           </strong>{" "}
-          {/* and
+          and
           <strong>
             {" "}
-            <Link to={"/terms"}>Privacy Policy</Link>.
-          </strong> */}
+            <Link to={"/privacy"}>Privacy Policy</Link>.
+          </strong>
         </span>
         <button className="overviewButton" style={{ backgroundColor: bg }}>
           {text}

@@ -106,11 +106,11 @@ function LoginForm(props) {
           <strong>
             <Link to={"/terms"}>Terms of Service</Link>
           </strong>{" "}
-          {/* and
+          and
           <strong>
             {" "}
-            <a href="#">Privacy Policy</a>.
-          </strong> */}
+            <Link to={"/privacy"}>Privacy Policy</Link>.
+          </strong>
         </span>
         <button className="continueButton" style={{ backgroundColor: bg }}>
           Continue

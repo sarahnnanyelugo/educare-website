@@ -167,16 +167,11 @@ export const Footer = () => {
                 Terms of service
               </Link>
             </li>
-            {/* <li className="list-inline-item">
-              <Link to="" className="links">
-                Privacy
+            <li className="list-inline-item">
+              <Link to={"/privacy"} className="links">
+                Privacy Policy
               </Link>
-            </li> */}
-            {/* <li className="list-inline-item">
-              <Link to="" className="links">
-                Cookies
-              </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
