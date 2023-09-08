@@ -234,7 +234,7 @@ export const Home = () => {
             <div className="col-md-1">&nbsp;</div>
             <div className="col-md-10  features-container flexy ">
               <div className="col-md-6 first-container">
-                <h3>Educare for Schools</h3>
+                <h3>educare for Schools</h3>
                 <p>
                   Revolutionize your school’s operations and student learning
                   experiences with our innovative software solution.

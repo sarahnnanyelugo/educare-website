@@ -43,6 +43,9 @@ function ContactPage() {
             <h5>UK:</h5>
             <a href="tel:+447932073610">+447932073610</a>
             <br /> <br />
+            <h2>Email us:</h2>
+            <a href="mailto:support@educare.ng">support@educare.ng</a>
+            <br /> <br />
             <h4>Visit Us</h4>
             <p>Come say hello at our office</p> <br />
             <div className="col-md-10">
