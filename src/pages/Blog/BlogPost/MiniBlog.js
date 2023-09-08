@@ -11,9 +11,9 @@ function MiniBlog({ data }) {
   });
   return (
     <>
-      <div className="col-md-3">
+      <div className="col-md-3 blog-post-container-outer">
         {" "}
-        <div className="blog-post-container col-md-11 ">
+        <div className="blog-post-container ">
           <img className="" src={data.img} alt="Scholar" width="100%" />
           <div className="blog-post-container-inner">
             <p className="">{data.date}</p>
