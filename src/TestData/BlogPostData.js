@@ -13,12 +13,11 @@ export const blogPostColOne = [
     paragraph:
       "We’re excited to announce the latest feature on our educare e-portal. That is the educare Human Resources Manager (HRM) Feature. It aims to ha…",
     img: Img1,
-        blogerImg:bloger1,
-
+    blogerImg: bloger1,
+    blogger: "Henry Okafor",
     date: "2022-12-03T12:00:00",
     blog_id: 1,
     bloggerTitle: "Head of Support",
-    blogger: "Henry Okafor",
   },
   {
     title: "Top 24 Educational Trends For 2020",
@@ -29,8 +28,7 @@ export const blogPostColOne = [
     date: "2023-12-03T12:00:00",
     bloggerTitle: "Head of Support",
     blogger: "Henry Okafor",
-        blogerImg:bloger1,
-
+    blogerImg: bloger1,
   },
   {
     title:
@@ -38,7 +36,7 @@ export const blogPostColOne = [
     paragraph:
       "Start with data-driven decision making. I heard it all the time when I was an undergrad: Be a “data-driven decision maker.” No matter ho…",
     img: Img4,
-        blogerImg:bloger1,
+    blogerImg: bloger1,
 
     blog_id: 3,
     date: "2021-12-03T12:00:00",
@@ -51,7 +49,7 @@ export const blogPostColOne = [
     paragraph:
       "We’re excited to announce the latest feature on our educare e-portal. That is the educare Human Resources Manager (HRM) Feature. It aims to har…",
     img: Img5,
-    blogerImg:bloger1,
+    blogerImg: bloger1,
     blog_id: 4,
     bloggerTitle: "Head of Support",
     blogger: "Henry Okafor",
@@ -63,8 +61,7 @@ export const blogPostColOne = [
     paragraph:
       "Follow the steps below to set up questions for your exam; STEP 1: As indicated in the picture below, click on the “CBT” dropdow…",
     img: Img2,
-        blogerImg:bloger1,
-
+    blogerImg: bloger1,
 
     blog_id: 5,
     date: "2022-01-03T12:00:00",

@@ -11,20 +11,24 @@ function MiniBlog({ data }) {
   });
   return (
     <>
-      <div className="col-md-3 blog-post-container-outer">
+      <Link
+        className="col-md-3 blog-post-container-outer"
+        to="/main-blog"
+        state={{ blog_id: blogId }}
+      >
         {" "}
         <div className="blog-post-container ">
           <img className="" src={data.img} alt="Scholar" width="100%" />
           <div className="blog-post-container-inner">
             <p className="">{data.date}</p>
             <h5>{data.title}</h5>
-            <p>{data.paragraph}</p>
+            <p>{data.paragraph}...</p>
 
             <div className="flexy">
               <img className="bloger-img " src={data.blogerImg} alt="Scholar" />
               <div>
                 <h6>{data.blogger}</h6>
-                <p className="bloger">{data.bloggerTitle}</p>
+                <p className="bloger">{data.bloggerTitle} ...</p>
               </div>
             </div>
             {/* <div className="flexy flexyM">
@@ -43,24 +47,12 @@ function MiniBlog({ data }) {
               </Link>
               <p className="mt3">{data.date}</p>
             </div> {/* <div className="flexy flexyM">
-              <Link
-                to="/main-blog"
-                state={{ blog_id: blogId }}
-                className="blog-link"
-              >
-                Read post{" "}
-                <img
-                  className="col-md-12 "
-                  src={Arrow}
-                  alt="Scholar"
-                  width="10%"
-                />
-              </Link>
+              
          
             </div> */}
           </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 }

@@ -31,20 +31,25 @@ function MainBlog() {
         <Link to={"/blog"} className="offset-md-1 blog-link2">
           <img className="aisa" src={Arrow} alt="Scholar" width="1%" /> Our blog
         </Link>
-        <center>
-          <h1 className="main-blog-heading col-md-7">{data.title}</h1>
-          <p>{data.date}</p>
-        </center>
+        {/* <center>
+          
+        </center> */}
       </div>
-      <div className="blog-post-container col-md-12 ">
-        <div className="col-md-10 offset-md-1">
+      <div className=" col-md-12 ">
+        <div className="col-md-10 offset-md-1 flexy">
           {" "}
-          <img
-            className="blog-imgg"
-            src={data.img}
-            alt="Scholar"
-            width="100%"
-          />
+          <div className="col-md-7">
+            <img
+              className="blog-imgg"
+              src={data.img}
+              alt="Scholar"
+              width="100%"
+            />
+          </div>
+          <div className="col-md-5">
+            <h2 className="main-blog-heading ">{data.title}</h2>
+            <p>{data.date}</p>
+          </div>
         </div>
 
         <div className="col-md-6 offset-md-3 mt5 blog-summary">
@@ -56,7 +61,7 @@ function MainBlog() {
         <p>
           The latest news, interviews, technologies, and resources on educare.
         </p>
-        <section className="col-md-6 latest-news gap-5">
+        <section className="col-md-12 latest-news gap-5">
           {" "}
           {LatestBlog.map((data, index) => (
             <MiniBlog data={data} />

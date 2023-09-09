@@ -78,7 +78,9 @@
     margin-top: 20px;
   }
   p {
-    margin: 20px 0;
+    margin: 15px 0;
+    line-height: 20px;
+    color: #57585a;
   }
 }
 .blog-link {
@@ -107,6 +109,9 @@
 
 .blog-post-container-outer {
   padding: 0 10px;
+  &:hover {
+    color: grey;
+  }
 }
 .bloger {
   margin-top: 0px !important;

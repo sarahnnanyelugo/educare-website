@@ -45,28 +45,28 @@ function SearchBar({ callback, posts }) {
   }
 
   // Dropdown to sort posts in ascending or descending order depending on title.
-  function updatePosts(e) {
-    setSortType(e);
-    setstate({
-      query: state.query,
-      list: !result
-        ? sortFunc(posts, e, sortByField)
-        : sortFunc(result, e, sortByField),
-    });
-  }
+  // function updatePosts(e) {
+  //   setSortType(e);
+  //   setstate({
+  //     query: state.query,
+  //     list: !result
+  //       ? sortFunc(posts, e, sortByField)
+  //       : sortFunc(result, e, sortByField),
+  //   });
+  // }
   useEffect(() => {
     callback(state);
   }, [state]);
 
-  function sortBy(e) {
-    setSortByField(e);
-    setstate({
-      query: state.query,
-      list: !result
-        ? sortFunc(posts, sortType, e)
-        : sortFunc(result, sortType, e),
-    });
-  }
+  // function sortBy(e) {
+  //   setSortByField(e);
+  //   setstate({
+  //     query: state.query,
+  //     list: !result
+  //       ? sortFunc(posts, sortType, e)
+  //       : sortFunc(result, sortType, e),
+  //   });
+  // }
   return (
     <>
       <form action="" className="flexy col-md-12">
@@ -84,20 +84,6 @@ function SearchBar({ callback, posts }) {
             <button class="search-btn" type="submit"></button>
           </div>
         </div>
-        {/* <div className="col-md-6">&nbsp;</div>
-        <div className="col-md-3 sort-container flexy flexyM">
-          <img className="filter-arrow" src={Arrow} alt="Scholar" />{" "}
-          <select
-            defaultValue={"DEFAULT"}
-            onChange={(e) => updatePosts(e.target.value)}
-          >
-            <option value="DEFAULT" disabled>
-              None
-            </option>
-            <option value="ascending">Newest first</option>
-            <option value="descending">Oldest first</option>
-          </select>
-        </div> */}
       </form>
       <ul>{state.list.length === 0 && <h3>Empty List !!!</h3>}</ul>
     </>

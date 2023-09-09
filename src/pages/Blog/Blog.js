@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { FilterDrop } from "../../components/Filter/FilterDrop";
 import { Heading } from "../../components/Heading/Heading";
 import FocusedBlog from "./BlogPost/FocusedBlog";
+import FIlter from "./Filter/FIlter";
 
 function Blog({ data }) {
   const [activeIndex, setActiveIndex2] = useState(1);
@@ -88,7 +89,17 @@ function Blog({ data }) {
                 ))}
               </div>
             </div>
-            <div className="col-md-10 offset-md-1  mt ">
+            <div className="flexy col-md-10 offset-md-1 mt">
+              <div className="col-md-5 flexy flexyM">
+                <h5>Filtered by:</h5>
+                <FIlter callback={reducer} posts={blogPostColOne} />
+              </div>
+              <div className="col-md-3 offset-md-4">
+                {" "}
+                <SearchBar callback={reducer} posts={blogPostColOne} />
+              </div>
+            </div>
+            <div className="col-md-10 offset-md-1  mt3 ">
               <div className="row ">
                 {state.list.map((data, index) => (
                   <MiniBlog data={data} />

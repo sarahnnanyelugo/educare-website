@@ -29,6 +29,17 @@ const FocusedBlog = ({ data }) => {
               Read post{" "}
               <img className=" " src={Arrow} alt="Scholar" width="10%" />
             </Link>
+            <div className="flexy">
+              <img className="bloger-img " src={data.blogerImg} alt="Scholar" />
+              <div>
+                <h6>{data.blogger}</h6>
+                <p className="bloger">{data.bloggerTitle}</p>
+              </div>
+            </div>
+            <h6>Tags:</h6>
+            {/* {data.map((data, index) => (
+              <a>{data.tags}</a>
+            ))} */}
           </div>
         </div>
       </div>
