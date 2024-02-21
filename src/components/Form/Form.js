@@ -61,9 +61,6 @@ function Form(props) {
             value={value}
             onChange={setValue}
           />
-          {/* <label for="text" class="label-name">
-            <span class="content-name">Mobile Number *</span>
-          </label> */}
         </div>{" "}
         <div style={{ marginBottom: "20px" }}>
           {" "}

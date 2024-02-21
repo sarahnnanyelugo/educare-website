@@ -12,7 +12,6 @@ function MainBlog() {
   const location = useLocation();
   useEffect(() => {
     setId(location.state.blog_id);
-    // console.log(id, location);
   }, []);
 
   useEffect(() => {
@@ -39,12 +38,12 @@ function MainBlog() {
         <div className="col-md-10 offset-md-1 flexy">
           {" "}
           <div className="col-md-7">
-            <img
+            {/* <img
               className="blog-imgg"
               src={data.img}
               alt="Scholar"
               width="100%"
-            />
+            /> */}
           </div>
           <div className="col-md-5">
             <h2 className="main-blog-heading ">{data.title}</h2>
