@@ -21,6 +21,7 @@ import Img21 from "../assets/images/staff/charlse.png";
 import Img22 from "../assets/images/staff/taiye.png";
 import Img23 from "../assets/images/staff/yemi.png";
 import Img24 from "../assets/images/staff/chidiebere.png";
+import Img26 from "../assets/images/staff/ali.png";
 export const team = [
   {
     name: "Alex Onyia",
@@ -285,14 +286,14 @@ export const team = [
     twitter: "",
   },
   {
-    id: 25,
-    name: "Alice Yusuf",
+    id: 26,
+    name: "Allison Lena",
     title: "Office Assistant",
     twitter: "",
     linkedin: "",
-    img: Img24,
+    img: Img26,
     cat_id: 4,
-    linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    linkedin: "",
+    twitter: "",
   },
 ];
