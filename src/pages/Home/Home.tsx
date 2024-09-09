@@ -48,7 +48,6 @@ import Lib from "../../assets/images/lib.svg";
 import Remarks from "../../assets/images/remark.svg";
 import Lesson from "../../assets/images/lesson.svg";
 import Voting from "../../assets/images/voting.svg";
-// import Eclassroom from "../../assets/images/read-book.svg";
 import Points from "../../assets/images/meeting-points.svg";
 import Hostel from "../../assets/images/yellow-chart.svg";
 import Exeact from "../../assets/images/logout.svg";
@@ -69,7 +68,6 @@ import Prin2 from "../../assets/images/prin2.png";
 import Prin3 from "../../assets/images/prin3.png";
 import Prin4 from "../../assets/images/prin4.png";
 import Prin5 from "../../assets/images/prin5.png";
-
 import Invoicing from "../../assets/images/invoice.svg";
 import Budgeting from "../../assets/images/budgeting.svg";
 import Reporting from "../../assets/images/report.svg";

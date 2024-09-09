@@ -57,6 +57,7 @@ import DailyReporting from "./pages/DailyReporting/DailyReporting";
 import Dashboards from "./pages/Dashboards/Dashboards";
 import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
+import { Team } from "./pages/Team/Team";
 // import MiniBlog from "./pages/Blog/MiniBlog";
 
 function App() {
@@ -147,6 +148,7 @@ function App() {
         <Route path="dashboards" element={<Dashboards />} />
         <Route path="terms" element={<Terms />} />
         <Route path="Privacy" element={<Privacy />} />
+        <Route path="team" element={<Team />} />
       </Routes>
       <Footer />
       {/* <div

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CountrySelect } from "../../pages/ContactPage/Form/CountrySelect";
-import PhoneInput from "react-phone-number-input"; // import "react-phone-input-2/lib/bootstrap.css";
+import PhoneInput from "react-phone-number-input";
+// import "react-phone-input-2/lib/bootstrap.css";
 
 function Step3(props) {
   const [nameValue, setNameValue] = useState("");

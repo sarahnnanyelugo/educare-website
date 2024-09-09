@@ -8,3 +8,4 @@ export * from "./ProductsData";
 export * from "./JobsData";
 export * from "./CustomersStoriesData";
 export * from "./FocusedBlogData";
+export * from "./team";

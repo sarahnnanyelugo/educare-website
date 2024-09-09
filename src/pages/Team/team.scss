@@ -1,0 +1,52 @@
+@import "../../variables";
+@import "../../shared-styles";
+
+.team-page {
+  height: 600px;
+  padding-top: 250px;
+  background: #f5fcff;
+  margin-bottom: 100px;
+  h1 {
+    color: black !important;
+  }
+  button {
+    color: $blue;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 35px;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .join {
+    color: #fff;
+    background: $blue;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 35px;
+  }
+  .call {
+    color: #000;
+    background: #fff;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 35px;
+  }
+}
+.staff-info {
+  height: fit-content;
+  .dp {
+    width: 100%;
+    margin-top: 20px;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}

@@ -64,13 +64,7 @@ function Form(props) {
             onChange={setValue}
             placeholder="Mobile number"
           />
-          {/* <input
-            type="tel"
-            name="number"
-            required
-            value={emailValue}
-            onChange={handleEmailChange}
-          /> */}
+         
           <label for="text" class="label-name">
             {/* <p class="content-name">Mobile number*</p> */}
           </label>

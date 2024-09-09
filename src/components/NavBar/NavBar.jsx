@@ -565,6 +565,21 @@ function NavBar() {
                         />{" "}
                         Contact Us
                       </NavLink>
+                    </li>{" "}
+                    <li>
+                      <NavLink
+                        to={"/team"}
+                        className="menu-links list-group-item list-group-item-action"
+                        type="button"
+                      >
+                        <img
+                          className="   logo"
+                          src={Img10}
+                          alt="Scholar"
+                          style={{ marginRight: "10px" }}
+                        />{" "}
+                        Team
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -1033,6 +1048,26 @@ function NavBar() {
                           About Us
                         </NavLink>
                       </li>
+                      <li>
+                        <NavLink
+                          to={"/team"}
+                          className="menu-links list-group-item list-group-item-action"
+                          type="button"
+                          onClick={() => {
+                            document
+                              .querySelector(".phone")
+                              .classList.toggle("active3");
+                          }}
+                        >
+                          <img
+                            className="   logo"
+                            src={Img7}
+                            alt="Scholar"
+                            style={{ marginRight: "10px" }}
+                          />{" "}
+                          Team
+                        </NavLink>
+                      </li>{" "}
                       <li>
                         <NavLink
                           to={"/contact-us"}
