@@ -2,7 +2,7 @@ import Img1 from "../assets/images/staff/alex.jpg";
 import Img2 from "../assets/images/staff/henry.jpg";
 import Img3 from "../assets/images/staff/james.png";
 import Img4 from "../assets/images/staff/ifeco.png";
-import Img5 from "../assets/images/staff/botex.jpeg";
+import Img5 from "../assets/images/staff/botex2.png";
 import Img7 from "../assets/images/staff/pat.png";
 import Img8 from "../assets/images/staff/chidiebere.png";
 import Img9 from "../assets/images/staff/uju.png";
@@ -72,7 +72,7 @@ export const team = [
     cat_id: 1,
     linkedin:
       "https://www.linkedin.com/in/botex-nwaokenneyah-7728aba9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    twitter: "x.com/@sartorialmcee",
+    twitter: "https://x.com/@sartorialmcee",
   },
   {
     id: 6,
@@ -135,8 +135,8 @@ export const team = [
     linkedin: "",
     img: Img11,
     cat_id: 2,
-    linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    linkedin: "https://www.linkedin.com/in/sarah-ukoha-16a04b147/",
+    twitter: "https://x.com/ukoha_sarah",
   },
   {
     id: 12,
