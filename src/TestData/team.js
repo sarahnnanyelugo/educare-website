@@ -3,8 +3,9 @@ import Img2 from "../assets/images/staff/henry.jpg";
 import Img3 from "../assets/images/staff/james.png";
 import Img4 from "../assets/images/staff/ifeco.png";
 import Img5 from "../assets/images/staff/botex2.png";
+import Img6 from "../assets/images/staff/val.jpg";
 import Img7 from "../assets/images/staff/pat.png";
-import Img8 from "../assets/images/staff/chidiebere.png";
+import Img8 from "../assets/images/staff/eze.png";
 import Img9 from "../assets/images/staff/uju.png";
 import Img10 from "../assets/images/staff/peter.png";
 import Img11 from "../assets/images/staff/sarahh.png";
@@ -41,7 +42,7 @@ export const team = [
     img: Img2,
     cat_id: 1,
     linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    twitter: "https://x.com/@iamuju_ibeh",
   },
   {
     name: "James Nnanyelugo",
@@ -81,10 +82,10 @@ export const team = [
     title: "Executive Officer; Sales",
     twitter: "",
     linkedin: "",
-    img: Img5,
+    img: Img6,
     cat_id: 1,
     linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    twitter: "https://x.com/@iamuju_ibeh",
   },
   {
     id: 7,
@@ -102,7 +103,7 @@ export const team = [
     name: "Chidiebere Eze",
     title: "Software Developer",
     twitter: "",
-    linkedin: "",
+    linkedin: "https://linkedin.com/in/ezepaul",
     img: Img8,
     cat_id: 2,
   },
@@ -114,7 +115,7 @@ export const team = [
     linkedin: "",
     img: Img9,
     linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    twitter: "https://x.com/@iamuju_ibeh",
     cat_id: 3,
   },
   {
@@ -126,7 +127,7 @@ export const team = [
     img: Img10,
     cat_id: 2,
     linkedin: "https://www.linkedin.com/in/peterolugbenga/",
-    twitter: "https://www.linkedin.com/in/peterolugbenga/",
+    twitter: "https://x.com/ux_finesse",
   },
   {
     id: 11,
@@ -170,7 +171,7 @@ export const team = [
     img: Img14,
     cat_id: 3,
     linkedin: "",
-    twitter: "x.com/@onoh1234",
+    twitter: "https://x.com/@onoh1234",
   },
   {
     id: 15,
@@ -192,7 +193,7 @@ export const team = [
     img: Img16,
     cat_id: 2,
     linkedin: "https://www.linkedin.com/in/christianonoh/",
-    twitter: "x.com/@onohchristian",
+    twitter: "https://x.com/@onohchristian",
   },
 
   {
@@ -203,8 +204,8 @@ export const team = [
     linkedin: "",
     img: Img17,
     cat_id: 2,
-    linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    linkedin: "https://www.linkedin.com/in/udeh-praisegod-16b8171b6",
+    twitter: "https://x.com/@pee_gee2k",
   },
   {
     id: 18,
@@ -228,7 +229,7 @@ export const team = [
     cat_id: 3,
     linkedin:
       "https://www.linkedin.com/in/gideon-okoro-0293a4118?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    twitter: "x.com/@officialgideonO",
+    twitter: "https://x.com/@officialgideonO",
   },
   {
     id: 20,
@@ -250,7 +251,7 @@ export const team = [
     img: Img21,
     cat_id: 3,
     linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    twitter: "https://x.com/@iamuju_ibeh",
   },
   {
     id: 22,
@@ -261,7 +262,7 @@ export const team = [
     img: Img22,
     cat_id: 4,
     linkedin: "",
-    twitter: "@taiyephisical",
+    twitter: "https://x.com/@taiyephisical",
   },
   {
     id: 23,

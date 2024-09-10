@@ -32,8 +32,11 @@ export const Team = () => {
           </div>
         </center>
       </div>
-      <h2 className=" offset-md-1 col-md-10 " style={{ color: "grey" }}>
-        MANAGEMENT TEAM
+      <h2
+        className=" offset-md-1 col-md-10 staff-heading"
+        style={{ color: "grey" }}
+      >
+        MA<span>NAGE</span>MENT TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -43,8 +46,12 @@ export const Team = () => {
       </div>{" "}
       <br />
       <br />
-      <h2 className=" offset-md-1 col-md-10 " style={{ color: "grey" }}>
-        TECH TEAM
+      <br />
+      <h2
+        className=" offset-md-1 col-md-10   staff-heading"
+        style={{ color: "grey" }}
+      >
+        T<span>ECH </span>TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -54,8 +61,12 @@ export const Team = () => {
       </div>{" "}
       <br />
       <br />
-      <h2 className=" offset-md-1 col-md-10 " style={{ color: "grey" }}>
-        SUPPORT TEAM
+      <br />
+      <h2
+        className=" offset-md-1 col-md-10  staff-heading"
+        style={{ color: "grey" }}
+      >
+        SU<span>PPOR</span>T TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -65,8 +76,12 @@ export const Team = () => {
       </div>
       <br />
       <br />
-      <h2 className=" offset-md-1 col-md-10 " style={{ color: "grey" }}>
-        OFFICE ASSISTANTS
+      <br />
+      <h2
+        className=" offset-md-1 col-md-10  staff-heading"
+        style={{ color: "grey" }}
+      >
+        OF<span>FICE</span> ASSISTANTS
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -74,6 +89,8 @@ export const Team = () => {
           <Staff key={index} data={data} />
         ))}
       </div>
+      <br />
+      <br />
     </div>
   );
 };

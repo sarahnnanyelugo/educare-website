@@ -2,10 +2,10 @@
 @import "../../shared-styles";
 
 .team-page {
-  height: 600px;
-  padding-top: 250px;
+  height: 550px;
+  padding-top: 200px;
   background: #f5fcff;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   h1 {
     color: black !important;
   }
@@ -48,5 +48,10 @@
   h4 {
     margin-top: 15px;
     margin-bottom: 0px;
+  }
+}
+.staff-heading {
+  span {
+    border-bottom: solid 3px #2f99da;
   }
 }
