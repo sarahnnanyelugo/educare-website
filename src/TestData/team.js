@@ -78,7 +78,7 @@ export const team = [
   },
   {
     id: 6,
-    name: "Valantine Chukwu",
+    name: "Valentine Chukwu",
     title: "Executive Officer; Sales",
     twitter: "",
     linkedin: "",
@@ -89,7 +89,7 @@ export const team = [
   },
   {
     id: 7,
-    name: "Patrcikmary Igwe",
+    name: "Patrickmary Igwe",
     title: "Human Resource Manager",
     twitter: "",
     linkedin: "",
@@ -100,7 +100,7 @@ export const team = [
   },
   {
     id: 8,
-    name: "Chidiebere Eze",
+    name: "Chidiebere Ezeh",
     title: "Software Developer",
     twitter: "",
     linkedin: "https://linkedin.com/in/ezepaul",
@@ -198,7 +198,7 @@ export const team = [
 
   {
     id: 17,
-    name: "Prisegod Udeh",
+    name: "Praisegod Udeh",
     title: "Software Developer",
     twitter: "",
     linkedin: "",

@@ -36,7 +36,7 @@ export const Team = () => {
         className=" offset-md-1 col-md-10 staff-heading"
         style={{ color: "grey" }}
       >
-        MA<span>NAGE</span>MENT TEAM
+        <span>MANA</span>GEMENT TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -51,7 +51,7 @@ export const Team = () => {
         className=" offset-md-1 col-md-10   staff-heading"
         style={{ color: "grey" }}
       >
-        T<span>ECH </span>TEAM
+        <span>TECH </span>TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -66,7 +66,7 @@ export const Team = () => {
         className=" offset-md-1 col-md-10  staff-heading"
         style={{ color: "grey" }}
       >
-        SU<span>PPOR</span>T TEAM
+        <span>SUPP</span>ORT TEAM
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
@@ -81,7 +81,7 @@ export const Team = () => {
         className=" offset-md-1 col-md-10  staff-heading"
         style={{ color: "grey" }}
       >
-        OF<span>FICE</span> ASSISTANTS
+        <span>OFFI</span>CE ASSISTANTS
       </h2>
       <div className="col-md-10 offset-md-1 row row-cols-1 row-cols-lg-4 g-2 g-lg-4">
         {" "}
