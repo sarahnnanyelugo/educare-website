@@ -145,7 +145,7 @@ function PartnersSlider() {
           </div>
         </div>{" "}
         <div class="slider ">
-          <div className="slide-track3 partners-immgs">
+          <div className="slide-track2 partners-immgs">
             {" "}
             <img className=" slide" src={Abj} alt="Scholar" />
             <img className="slide" src={Broad} alt="Scholar" />{" "}
