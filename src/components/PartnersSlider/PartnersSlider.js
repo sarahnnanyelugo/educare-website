@@ -30,6 +30,22 @@ import Noble from "../../assets/images/noble.png";
 import Graceland from "../../assets/images/graceland.png";
 import MD from "../../assets/images/md.png";
 import Mont from "../../assets/images/mis.png";
+import Abj from "../../assets/images/add-abj.png";
+import Broad from "../../assets/images/add-broadoaks.png";
+import Teenee from "../../assets/images/add-teenee.png";
+import Bloombreed from "../../assets/images/add-bloombreed.png";
+import Ebarcs from "../../assets/images/add-e-barc.png";
+import Waterman from "../../assets/images/add-day-waterman.jpeg";
+import Banana from "../../assets/images/add-banana.png";
+import Glisten from "../../assets/images/add-glisten.jpeg";
+import Lagos from "../../assets/images/add-lagos-prep.jpeg";
+import Roberto from "../../assets/images/add-roberto.jpeg";
+import Fairview from "../../assets/images/add-fairview.png";
+import Fariah from "../../assets/images/add-fariah.jpeg";
+import Lariken from "../../assets/images/add-lariken.jpeg";
+import Taidob from "../../assets/images/add-taidob.jpeg";
+import Upsilon from "../../assets/images/add-upsillon.png";
+// import Lariken from "../../assets/images/add-lariken.jpeg";
 function PartnersSlider() {
   return (
     <div>
@@ -126,6 +142,61 @@ function PartnersSlider() {
             <img className="graceland slide " src={Graceland} alt="Scholar" />{" "}
             <img className="md slide" src={MD} alt="Scholar" />
             <img className="mis slide" src={MIS} alt="Scholar" />{" "}
+          </div>
+        </div>{" "}
+        <div class="slider ">
+          <div className="slide-track3 partners-immgs">
+            {" "}
+            <img className=" slide" src={Abj} alt="Scholar" />
+            <img className="slide" src={Broad} alt="Scholar" />{" "}
+            <img className=" slide" src={Teenee} alt="Scholar" />{" "}
+            <img className="slide" src={Bloombreed} alt="Scholar" />{" "}
+            <img className=" slide" src={Ebarcs} alt="Scholar" />{" "}
+            <img className=" slide" src={Waterman} alt="Scholar" />{" "}
+            <img className="slide " src={Banana} alt="Scholar" />{" "}
+            <img className=" slide" src={Glisten} alt="Scholar" />{" "}
+            <img className=" slide" src={Abj} alt="Scholar" />
+            <img className=" slide" src={Broad} alt="Scholar" />{" "}
+            <img className=" slide" src={Teenee} alt="Scholar" />{" "}
+            <img className="slide" src={Bloombreed} alt="Scholar" />{" "}
+            <img className=" slide" src={Ebarcs} alt="Scholar" />{" "}
+            <img className=" slide" src={Waterman} alt="Scholar" />{" "}
+            <img className="slide " src={Banana} alt="Scholar" />{" "}
+            <img className="slide" src={Glisten} alt="Scholar" />{" "}
+            <img className=" slide" src={Abj} alt="Scholar" />
+            <img className=" slide" src={Broad} alt="Scholar" />{" "}
+            <img className=" slide" src={Teenee} alt="Scholar" />{" "}
+            <img className="slide" src={Bloombreed} alt="Scholar" />{" "}
+            <img className=" slide" src={Ebarcs} alt="Scholar" />{" "}
+            <img className=" slide" src={Waterman} alt="Scholar" />{" "}
+            <img className="slide " src={Banana} alt="Scholar" />{" "}
+            <img className="slide" src={Glisten} alt="Scholar" />
+          </div>
+        </div>{" "}
+        <div class="slider ">
+          <div className="slide-track3 partners-immgs">
+            {" "}
+            <img className=" slide" src={Lagos} alt="Scholar" />{" "}
+            <img className="slide" src={Roberto} alt="Scholar" />
+            <img className=" slide" src={Fairview} alt="Scholar" />{" "}
+            <img className=" slide" src={Fariah} alt="Scholar" />{" "}
+            <img className=" slide" src={Lariken} alt="Scholar" />{" "}
+            <img className=" slide" src={Taidob} alt="Scholar" />{" "}
+            <img className=" slide" src={Upsilon} alt="Scholar" />{" "}
+            <img className=" slide" src={Lagos} alt="Scholar" />{" "}
+            <img className=" slide" src={Roberto} alt="Scholar" />
+            <img className=" slide" src={Fairview} alt="Scholar" />{" "}
+            <img className=" slide" src={Fariah} alt="Scholar" />{" "}
+            <img className=" slide" src={Lariken} alt="Scholar" />{" "}
+            <img className=" slide" src={Taidob} alt="Scholar" />{" "}
+            <img className=" slide" src={Upsilon} alt="Scholar" />{" "}
+            <img className=" slide" src={Lagos} alt="Scholar" />{" "}
+            <img className=" slide" src={Roberto} alt="Scholar" />
+            <img className=" slide" src={Fairview} alt="Scholar" />{" "}
+            <img className=" slide" src={Fariah} alt="Scholar" />{" "}
+            <img className=" slide" src={Lariken} alt="Scholar" />{" "}
+            <img className=" slide" src={Taidob} alt="Scholar" />{" "}
+            <img className=" slide" src={Upsilon} alt="Scholar" />{" "}
           </div>
         </div>
       </div>
