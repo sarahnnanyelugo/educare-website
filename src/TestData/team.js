@@ -1,5 +1,5 @@
 import Img1 from "../assets/images/staff/alex.jpg";
-import Img2 from "../assets/images/staff/henry.jpg";
+import Img2 from "../assets/images/staff/hen.jpeg";
 import Img3 from "../assets/images/staff/james.png";
 import Img4 from "../assets/images/staff/ifeco.png";
 import Img5 from "../assets/images/staff/botex2.png";
@@ -8,7 +8,7 @@ import Img7 from "../assets/images/staff/pat.png";
 import Img8 from "../assets/images/staff/eze.png";
 import Img9 from "../assets/images/staff/uju.png";
 import Img10 from "../assets/images/staff/peter.png";
-import Img11 from "../assets/images/staff/sarahh.png";
+import Img11 from "../assets/images/staff/sera.png";
 import Img12 from "../assets/images/staff/ifeanyii.png";
 import Img13 from "../assets/images/staff/bose.png";
 import Img14 from "../assets/images/staff/ebuka.jpeg";
@@ -32,7 +32,7 @@ export const team = [
     img: Img1,
     cat_id: 1,
     linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "x.com/@iamuju_ibeh",
+    twitter: "",
   },
   {
     name: "Chibuzor Okafor",
@@ -41,8 +41,8 @@ export const team = [
     linkedin: "",
     img: Img2,
     cat_id: 1,
-    linkedin: "https://www.linkedin.com/in/obiajuibeh-maureen-uju-bb2a8b16b/",
-    twitter: "https://x.com/@iamuju_ibeh",
+    linkedin: "https://www.linkedin.com/in/henry-okafor-4542b375/",
+    twitter: "/team",
   },
   {
     name: "James Nnanyelugo",
